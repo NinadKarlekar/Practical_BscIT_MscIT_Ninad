@@ -9,7 +9,7 @@ PSIT1P1 Research In Computing
 
 | Sr.No. | Name |
 | --- | --- |
-| [Prac1A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%201/) <br> [Prac1B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%2022306A1012%20Excel.docx)| A.	Write a program for obtaining descriptive statistics of data. |
+| [Prac1A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%201/) <br> [Prac1A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%2022306A1012%20Excel.docx)| A.	Write a program for obtaining descriptive statistics of data. |
 | [Prac1B(From_CSV)](/MscIT/Semester%201/Research_In_Computing/Practical%201/Practical%201/)<br>  [Prac1B(From_Excel)](/MscIT/Semester%201/Research_In_Computing/Practical%201/) | B.	Import data from different data sources (from Excel, csv, mysql, sql server, oracle to R/Python/Excel) |
 | [Prac3A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%203/)  |A.	Perform testing of hypothesis using one sample t-test. |
 | [Prac3B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%203/) <br> [Prac3B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%2022306A1012%20Excel.docx)|B.	Write a program for t-test comparing two means for independent samples. |
