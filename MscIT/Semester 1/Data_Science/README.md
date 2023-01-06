@@ -1,7 +1,7 @@
 # Data Science Practicals
 
-M. Sc (Information Technology)
-PSIT1P1 Data Science
+M. Sc (Information Technology) <br>
+PSIT1P2 Data Science 2022-2023
 
 
 
