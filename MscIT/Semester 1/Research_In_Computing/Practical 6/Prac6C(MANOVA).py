@@ -11,4 +11,3 @@ PetalLengthCm + PetalWidthCm ~ Species', data=df)
 print('~~~~~~~~ MANOVA Test Result ~~~~~~~~')
 print(maov.mv_test())
 
-print("\nNinad Karlekar 22306A1012")

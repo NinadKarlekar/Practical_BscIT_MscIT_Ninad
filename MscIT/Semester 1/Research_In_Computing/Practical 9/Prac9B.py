@@ -46,6 +46,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-print("\nNinad Karlekar 22306A1012")
+
 print("Practical 9-B")
 

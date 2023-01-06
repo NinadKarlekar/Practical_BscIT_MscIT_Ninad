@@ -11,6 +11,6 @@ y = 100 - x + np.random.normal(0, 5, 1000)
 np.corrcoef(x, y)
 plt.scatter(x, y)
 plt.show()
-print("\nNinad Karlekar 22306A1012")
+
 print("Practical 8-B")
 

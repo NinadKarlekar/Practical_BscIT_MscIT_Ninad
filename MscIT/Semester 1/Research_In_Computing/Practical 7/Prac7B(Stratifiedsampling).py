@@ -24,6 +24,3 @@ print(corr['median_house_value'].sort_values(ascending=False))
 sns.distplot(housing.median_income)
 plt.show()
 
-
-print("\nNinad Karlekar 22306A1012")
-

@@ -25,4 +25,3 @@ if chi_squared_stat >= crit:
     print("H0 is Accepted ")
 else:
     print("H0 is Rejected ")
-print("\nNinad Karlekar 22306A1012")

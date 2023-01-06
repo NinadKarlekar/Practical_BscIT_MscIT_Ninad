@@ -14,5 +14,4 @@ if pval < 0.05:
     print("reject null hypothesis")
 else:
     print("accept null hypothesis")
-print("\nNinad Karlekar 22306A1012")
 

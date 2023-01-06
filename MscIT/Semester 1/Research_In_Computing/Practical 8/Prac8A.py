@@ -12,4 +12,4 @@ np.corrcoef(x, y)
 matplotlib.style.use('ggplot')
 plt.scatter(x, y)
 plt.show()
-print("\nNinad Karlekar 22306A1012")
+

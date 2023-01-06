@@ -14,4 +14,4 @@ if pval < 0.05:  # alpha value is 0.05
 else:
     print("we are accepting null hypothesis")
 
-print("\nNinad Karlekar 22306A1012")
+

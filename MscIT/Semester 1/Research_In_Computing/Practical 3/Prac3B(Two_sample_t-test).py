@@ -20,4 +20,4 @@ if t > p:
     print("Mean of two distribution are differnt and significant")
 else:
     print("Mean of two distribution are same and not significant")
-print("\nNinad Karlekar 22306A1012")
+
