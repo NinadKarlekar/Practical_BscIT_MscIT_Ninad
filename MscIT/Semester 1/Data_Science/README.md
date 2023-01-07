@@ -44,6 +44,7 @@ PSIT1P2 Data Science 2022-2023
 - Drop the columns where all element is missing values.
 
 ```python
+#C:\VKHCG\01-Vermeulen\02-Assess\Assess-Good-Bad-01.py
 ################### Assess-Good-Bad-01.py########################
 # -*- coding: utf-8 -*-
 ################################################################
@@ -114,6 +115,7 @@ print('################################')
 - Drop the columns where any of the element is missing.
 
 ```python
+#C:\VKHCG\01-Vermeulen\02-Assess\Assess-Good-Bad-02.py
 import sys
 import os
 import pandas as pd
@@ -180,6 +182,7 @@ print('################################')
 - Keep only the rows that contain a maximum of two missing values.
 
 ```python
+#C:\VKHCG\01-Vermeulen\02-Assess\Assess-Good-Bad-03.py
 import sys
 import os
 import pandas as pd
@@ -248,6 +251,7 @@ print('################################')
 - Create a network routing diagram from the given data on the routers. (Assess- Company, Customer and Node)
 
 ```python
+#C:\VKHCG\01-Vermeulen\02-Assess\Assess-Network-Routing-Company.py
 import sys
 import os
 import pandas as pd
@@ -779,6 +783,7 @@ plt.show()
 - c. Averaging of data
 
 ```python
+# C:\VKHCG\05-DS\4000-UL\0200-DU\DU-Mean.py
 import pandas as pd
 ################################################################
 InputFileName='IP_DATA_CORE.csv'
@@ -806,6 +811,7 @@ print(MeanData)
 - d. Outlier Detection
 
 ```python
+# C:\VKHCG\05-DS\4000-UL\0200-DU\DU-Outliers.py
 import pandas as pd
 ################################################################
 print('4D. Outlier Detection')
@@ -849,57 +855,90 @@ print(OutliersNot)
 - e. Audit – Logging
 
 ```python
+# C:\VKHCG\77-Yoke\Yoke_Logging.py
 import sys
 import os
 import logging
 import uuid
 import shutil
 import time
-print("4E. Logging")
-Base='C:/Spyder Practials' 
-sCompanies=['01-Vermeulen','02-Krennwallner','03-Hillman','04-Clark']
-sLayers=['01-Retrieve','02-Assess','03-Process','04-Transform','05-Organise','06-Report']
-sLevels=['debug','info','warning','error']
+
+############################################################
+if sys.platform == "linux":
+    Base = os.path.expanduser("~") + "/VKHCG"
+else:
+    Base = "C:/VKHCG"
+############################################################
+sCompanies = ["01-Vermeulen", "02-Krennwallner", "03-Hillman", "04-Clark"]
+sLayers = [
+    "01-Retrieve",
+    "02-Assess",
+    "03-Process",
+    "04-Transform",
+    "05-Organise",
+    "06-Report",
+]
+sLevels = ["debug", "info", "warning", "error"]
+
 for sCompany in sCompanies:
-    sFileDir=Base + '/' + sCompany 
+    sFileDir = Base + "/" + sCompany
     if not os.path.exists(sFileDir):
         os.makedirs(sFileDir)
     for sLayer in sLayers:
-        log = logging.getLogger()  
-        for hdlr in log.handlers[:]:  
+        log = logging.getLogger()  # root logger
+        for hdlr in log.handlers[:]:  # remove all old handlers
             log.removeHandler(hdlr)
-        ############################################################  
-        sFileDir=Base + '/' + sCompany + '/' + sLayer + '/Logging'
+        ############################################################
+        sFileDir = Base + "/" + sCompany + "/" + sLayer + "/Logging"
         if os.path.exists(sFileDir):
             shutil.rmtree(sFileDir)
         time.sleep(2)
         if not os.path.exists(sFileDir):
             os.makedirs(sFileDir)
-        skey=str(uuid.uuid4())       
-        sLogFile=Base + '/' + sCompany + '/' + sLayer + '/Logging/Logging_'+skey+'.log'
-        print('Set up:',sLogFile)
-        logging.basicConfig(level=logging.DEBUG,format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',datefmt='%m-%d %H:%M', filename=sLogFile, filemode='w')
+        skey = str(uuid.uuid4())
+        sLogFile = (
+            Base + "/" + sCompany + "/" + sLayer + "/Logging/Logging_" + skey + ".log"
+        )
+        print("Set up:", sLogFile)
+        # set up logging to file - see previous section for more details
+        logging.basicConfig(
+            level=logging.DEBUG,
+            format="%(asctime)s %(name)-12s %(levelname)-8s %(message)s",
+            datefmt="%m-%d %H:%M",
+            filename=sLogFile,
+            filemode="w",
+        )
+        # define a Handler which writes INFO messages or higher to the sys.stderr
         console = logging.StreamHandler()
         console.setLevel(logging.INFO)
-        formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
+        # set a format which is simpler for console use
+        formatter = logging.Formatter("%(name)-12s: %(levelname)-8s %(message)s")
+        # tell the handler to use this format
         console.setFormatter(formatter)
-        logging.getLogger('').addHandler(console)        
-        logging.info('Practical Data Science is fun!.')
+        # add the handler to the root logger
+        logging.getLogger("").addHandler(console)
+
+        # Now, we can log to the root logger, or any other logger. First the root...
+        logging.info("Practical Data Science is fun!.")
+
         for sLevel in sLevels:
-            sApp='Apllication-'+ sCompany + '-' + sLayer + '-' + sLevel
+            sApp = "Apllication-" + sCompany + "-" + sLayer + "-" + sLevel
             logger = logging.getLogger(sApp)
-            
-            if sLevel == 'debug': 
-                logger.debug('Practical Data Science logged a debugging message.')
-            
-            if sLevel == 'info': 
-                logger.info('Practical Data Science logged information message.')
-            
-            if sLevel == 'warning': 
-                logger.warning('Practical Data Science logged a warning message.')
-            
-            if sLevel == 'error': 
-                logger.error('Practical Data Science logged an error message.')
+
+            if sLevel == "debug":
+                logger.debug("Practical Data Science logged a debugging message.")
+
+            if sLevel == "info":
+                logger.info("Practical Data Science logged information message.")
+
+            if sLevel == "warning":
+                logger.warning("Practical Data Science logged a warning message.")
+
+            if sLevel == "error":
+                logger.error("Practical Data Science logged an error message.")
+
+############################################################
+
 
 ```
 
@@ -913,6 +952,7 @@ for sCompany in sCompanies:
 ```python
 ################################################################
 # -*- coding: utf-8 -*-
+### C:\ VKHCG\01-Vermeulen\01-Retrieve\Retrive_IP_DATA_ALL.py###
 ################################################################
 import sys
 import os
@@ -963,6 +1003,7 @@ print('### Done!! ############################################')
 - b. Data Pattern
 
 ```r
+
 # R language
 # R studio
 print('5B. Data Pattern')
@@ -998,7 +1039,8 @@ View(pattern_country)
 
 ```python
 ################################################################
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*
+# C:\VKHCG\01-Vermeulen\01-Retrieve\Retrieve-IP_DATA_ALL.py
 ################################################################
 print("5C. Loading IP_DATA_ALL")
 import sys
@@ -1051,6 +1093,7 @@ print('### Done!! ############################################')
 
 1. <b>Horizontal style</b>
 ```python
+# C:\VKHCG\01-Vermeulen\05-Organise\ Organize-Horizontal.py
 import sys
 import os
 import pandas as pd
@@ -1121,6 +1164,7 @@ print("################################")
 
 2. <b>Vertical style</b>
 ```python
+# C:\VKHCG\01-Vermeulen\05-Organise\ Organize-Vertical.py
 import sys
 import os
 import pandas as pd
@@ -1175,7 +1219,9 @@ print('################################')
 ```
 
 3. <b>Island style</b>
+
 ```python
+# C:\VKHCG\01-Vermeulen\05-Organise\Organize-Island.py
 import sys
 import os
 import pandas as pd
@@ -1235,7 +1281,9 @@ print('################################')
 ```
 
 4. <b>Secure Vault style</b>
+
 ```python
+# C:\VKHCG\01-Vermeulen\05-Organise\Organize-Secure-Vault.py
 import sys
 import os
 import pandas as pd
@@ -1311,6 +1359,7 @@ print('################################')
 
 ```python
 
+# C:\VKHCG\01-Vermeulen\04-Transform\Transform-Sun-Models.py
 import sys
 import os
 from datetime import datetime
