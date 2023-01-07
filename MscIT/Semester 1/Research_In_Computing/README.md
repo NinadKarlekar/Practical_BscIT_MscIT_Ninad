@@ -15,17 +15,17 @@ PSIT1P1 Research In Computing
 | [Prac3B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%203/) <br> [Prac3B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.docx)|B.	Write a program for t-test comparing two means for independent samples. | [prac3b](#prac3b) |
 | [Prac3C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%203/) |C.	Perform testing of hypothesis using paired t-test. | [prac3c](#prac3c) |
 | [Prac4A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.docx) |A.	Perform testing of hypothesis using chi-squared goodness-of-fit test. |
-| [Prac4B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%204/)<br> [Prac4B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.docx) |B.	Perform testing of hypothesis using chi-squared Test of Independence. | [prac4a](#prac4a) |
-| [Prac5A(PythonMain)](/MscIT/Semester%201/Research_In_Computing/Practical%205/) |A.	Perform testing of hypothesis using Z-test. | [prac3c](#prac3c) |
-| [Prac5B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%205/) |B.	Two-Sample Z test | [prac3c](#prac3c) |
+| [Prac4B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%204/)<br> [Prac4B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.docx) |B.	Perform testing of hypothesis using chi-squared Test of Independence. | [prac4b](#prac4b) |
+| [Prac5A(PythonMain)](/MscIT/Semester%201/Research_In_Computing/Practical%205/) |A.	Perform testing of hypothesis using Z-test. | [prac5a](#prac5a) |
+| [Prac5B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%205/) |B.	Two-Sample Z test | [prac5b](#prac5b) |
 | [Prac6A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.docx) |A.	Perform testing of hypothesis using one-way ANOVA |
 | [Prac6B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.docx) |B.	Perform testing of hypothesis using two-way ANOVA. |
-| [Prac6C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%206/) |C.	Perform testing of hypothesis using multivariate ANOVA (MANOVA) |
+| [Prac6C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%206/) |C.	Perform testing of hypothesis using multivariate ANOVA (MANOVA) | [prac6c](#prac6c) |
 | [Prac7A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.docx)|A.	Perform the Random sampling for the given data and analyse it. |
-| [Prac7B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%207/) |B.	Perform the Stratified sampling for the given data and analyse it |
-| [Prac8A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/) <br> [Prac8B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/) <br> [Prac8C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/)|Compute different types of correlation. <br> A.	Positive Correlation: <br> B.	Negative Correlation: <br> C.	No/Weak Correlation:|
-| [Prac9A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%209/) |A.	Write a program to Perform linear regression for prediction. |
-| [Prac9B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%209/) |B.	Perform polynomial regression for prediction. |
+| [Prac7B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%207/) |B.	Perform the Stratified sampling for the given data and analyse it | [prac7b](#prac7b) |
+| [Prac8A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/) <br> [Prac8B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/) <br> [Prac8C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/)|Compute different types of correlation. <br> A.	Positive Correlation: <br> B.	Negative Correlation: <br> C.	No/Weak Correlation:| [prac8a](#prac8a) <br> [prac8b](#prac8b) <br> [prac8c](#prac8c) |
+| [Prac9A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%209/) |A.	Write a program to Perform linear regression for prediction. | [prac9a](#prac9a) |
+| [Prac9B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%209/) |B.	Perform polynomial regression for prediction. | [prac9b](#prac9b) |
 
 *********
 
