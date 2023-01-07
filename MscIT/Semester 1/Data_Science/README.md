@@ -25,7 +25,7 @@ PSIT1P2 Data Science 2022-2023
 | [Prac5B](/MscIT/Semester%201/Data_Science/Practical%205/)| B.	Data Pattern | [Prac5B](#prac5b) |
 | [Prac5C](/MscIT/Semester%201/Data_Science/Practical%205/)| C.	Loading IP_DATA_ALL | [Prac5C](#prac5c) |
 | [Prac6](/MscIT/Semester%201/Data_Science/Practical%206/)| Organizing Data <br>(Organize- Horizontal style, Vertical style, Island style and Secure Vault style) | [Prac6](#prac6) |
-| [Prac7](/MscIT/Semester%201/Data_Science/Practical%207/)| Data Visualization with Power BI | |
+| Prac7| Data Visualization with Power BI | |
 | [Prac8A](/MscIT/Semester%201/Data_Science/Practical%208/)| 8. Transforming Data <br> A.	Building data warehouse | [Prac8A](#prac8a) |
 | [Prac8B](/MscIT/Semester%201/Data_Science/Practical%208/)| B.	Simple Linear Regression | [Prac8B](#prac8b) |
 | [Prac9A](/MscIT/Semester%201/Data_Science/Practical%209/)| 9. Generating Reports <br> A.	Vermeulen PLC | [Prac9A](#prac9a) |
