@@ -1,7 +1,6 @@
 # 3B. Write a program to implement of delta rule.
 
 print("b) Aim: - Write a program to implement delta rule")
-print("Ninad Karlekar 22306A1012")
 import numpy as np
 import time
 

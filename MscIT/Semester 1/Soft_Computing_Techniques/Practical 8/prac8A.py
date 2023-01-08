@@ -3,8 +3,8 @@
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
-s1 = "My name is Ninad"
-s2 = "I am Ninad"
+s1 = "My name is ABC"
+s2 = "I am ABC"
 print("FuzzyWuzzy Ratio:", fuzz.ratio(s1, s2))
 print("FuzzyWuzzy PartialRatio: ", fuzz.partial_ratio(s1, s2))
 print("FuzzyWuzzy TokenSortRatio: ", fuzz.token_sort_ratio(s1, s2))

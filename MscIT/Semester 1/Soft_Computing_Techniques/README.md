@@ -9,22 +9,22 @@ PSIT1P4 Soft Computing Techniques
 
 | Sr.No. | Name | Copy |
 | --- | --- | --- |
-| [Prac1A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/) <br> [Prac1A-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/)| 1A-i. Design a **simple linear neural network** model. <br> 1A-ii. Calculate the **output** of **neural net** for given data. | [Prac1A-i]() <br>  [Prac1A-ii]() | |
-| [Prac1B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/) | 1B. Calculate the output of neural net using both **binary** and **bipolar sigmoidal** function.| [Prac1B]() |
-| [Prac2A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%202/) | 2A. Generate **AND/NOT** function using **McCulloch- Pitts** neural net.| [Prac2A]() |
-| [Prac2B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%202/) | 2B. Generate **XOR** function using **McCulloch-Pitts** neural net.| [Prac2B]() |
-| [Prac3A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%203/) | 3A. Write a program to implement **Hebb’s rule**.| [Prac3A]() |
-| [Prac3B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%203/) | 3B. Write a program to implement of **delta rule**. | [Prac3B]() |
-| [Prac4A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%204/) | 4A. Write a program for **Back Propagation Algorithm**.| [Prac4A]() |
-| [Prac4B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%204/) | 4B. Write a program for **error Backpropagation algorithm**. | [Prac4B]() |
-| [Prac5A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%205/) | 5A. Write a program for **hopfield network**.| [Prac5A]() |
-| [Prac5B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%205/) | 5B. Write a program for **radial basis function**. | [Prac5B]() |
-| [Prac6A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%206/) | 6A. **Kohonen self organizing map**.| [Prac6A]() |
-| [Prac6B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%206/) | 6B. **Hopfield network**. | [Prac6B]() |
-| [Prac7A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7A-i. Implement membership and identity operators - **in** <br> 7A-ii. Implement membership and identity operators- **not in**.| [Prac7A-i]() <br> [Prac7A-ii]() |
-| [Prac7B-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7B-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7B-i. Implement membership and identity operators- **is**. <br> 7B-ii. Implement membership and identity operators- **is not**. | [Prac7B-i]() <br> [Prac7B-ii]() |
-| [Prac8A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%208/) | 8A. Find **ratios** using **fuzzy logic**.| [Prac8A]() |
-| [Prac8B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%208/) | 8B. Solve **tipping** problem using **fuzzy logic**. | [Prac8B]() |
+| [Prac1A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/) <br> [Prac1A-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/)| 1A-i. Design a **simple linear neural network** model. <br> 1A-ii. Calculate the **output** of **neural net** for given data. | [Prac1A-i](#prac1a-i) <br>  [Prac1A-ii](#prac1a-ii) | |
+| [Prac1B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/) | 1B. Calculate the output of neural net using both **binary** and **bipolar sigmoidal** function.| [Prac1B](#prac1b) |
+| [Prac2A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%202/) | 2A. Generate **AND/NOT** function using **McCulloch- Pitts** neural net.| [Prac2A](#prac2a) |
+| [Prac2B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%202/) | 2B. Generate **XOR** function using **McCulloch-Pitts** neural net.| [Prac2B](#prac2b) |
+| [Prac3A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%203/) | 3A. Write a program to implement **Hebb’s rule**.| [Prac3A](#prac3a) |
+| [Prac3B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%203/) | 3B. Write a program to implement of **delta rule**. | [Prac3B](#prac3b) |
+| [Prac4A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%204/) | 4A. Write a program for **Back Propagation Algorithm**.| [Prac4A](#prac4a) |
+| [Prac4B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%204/) | 4B. Write a program for **error Backpropagation algorithm**. | [Prac4B](#prac4b) |
+| [Prac5A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%205/) | 5A. Write a program for **hopfield network**.| [Prac5A](#prac5a) |
+| [Prac5B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%205/) | 5B. Write a program for **radial basis function**. | [Prac5B](#prac5b) |
+| [Prac6A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%206/) | 6A. **Kohonen self organizing map**.| [Prac6A](#prac6a) |
+| [Prac6B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%206/) | 6B. **Hopfield network**. | [Prac6B](#prac6b) |
+| [Prac7A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7A-i. Implement membership and identity operators - **in** <br> 7A-ii. Implement membership and identity operators- **not in**.| [Prac7A-i](#prac7a-i) <br> [Prac7A-ii](#prac7a-ii) |
+| [Prac7B-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7B-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7B-i. Implement membership and identity operators- **is**. <br> 7B-ii. Implement membership and identity operators- **is not**. | [Prac7B-i](#prac7b-i) <br> [Prac7B-ii](#prac7b-ii) |
+| [Prac8A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%208/) | 8A. Find **ratios** using **fuzzy logic**.| [Prac8A](#prac8a) |
+| [Prac8B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%208/) | 8B. Solve **tipping** problem using **fuzzy logic**. | [Prac8B](#prac8b) |
 
 *************************
 ***********************
@@ -691,8 +691,8 @@ for i in details:
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
-s1 = "My name is Ninad"
-s2 = "I am Ninad"
+s1 = "My name is ABC"
+s2 = "I am ABC"
 print("FuzzyWuzzy Ratio:", fuzz.ratio(s1, s2))
 print("FuzzyWuzzy PartialRatio: ", fuzz.partial_ratio(s1, s2))
 print("FuzzyWuzzy TokenSortRatio: ", fuzz.token_sort_ratio(s1, s2))
