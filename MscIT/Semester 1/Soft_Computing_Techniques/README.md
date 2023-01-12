@@ -122,7 +122,7 @@ print("ANDNOT function using McCulloch-pitts\n")
 x1inputs = [1, 1, 0, 0]
 x2inputs = [1, 0, 1, 0]
 
-print("Considering all weights as excitatory")
+print("Considering one weight as excitatory and other as inhibitory")
 w1 = [1, 1, 1, 1]
 w2 = [-1, -1, -1, -1]
 
