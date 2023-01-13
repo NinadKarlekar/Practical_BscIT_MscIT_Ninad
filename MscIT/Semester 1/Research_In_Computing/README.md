@@ -103,8 +103,7 @@ CurrencyData.rename(columns={'Country or territory': 'Country', 'ISO-4217':
 'CurrencyCode'}, inplace=True)
 CurrencyData.dropna(subset=['Currency'],inplace=True)
 CurrencyData['Country'] = CurrencyData['Country'].map(lambda x: x.strip())
-CurrencyData['Currency'] = CurrencyData['Currency'].map(lambda x:
-x.strip())
+CurrencyData['Currency'] = CurrencyData['Currency'].map(lambda x: x.strip())
 CurrencyData['CurrencyCode'] = CurrencyData['CurrencyCode'].map(lambda x:
 x.strip())
 print(CurrencyData)
