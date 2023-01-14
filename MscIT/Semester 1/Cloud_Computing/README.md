@@ -102,7 +102,7 @@ public class Tcpclientprime {
 
 ## Prac1B
 
-1B. A client server TCP based chatting application.
+1B. A client server TCP based chatting application. <br>
 **( ChatServer, ChatClient )**
 1. ***ChatServer***
 ```java
@@ -187,7 +187,7 @@ public class ChatClient {
 
 ## Prac1C
 
-1C. A client server TCP based File Transfer application.
+1C. A client server TCP based File Transfer application. <br>
 **( tcpserverprime, tcpclientprime )**
 * Create ***.txt*** file named as **hello** -> write content -> at end of last line type ***EOF*** as last line.
 
@@ -305,7 +305,7 @@ public class Tcpfileclient {
 
 ## Prac2A
 
-2A. A client server based program using UDP to find if the number entered is even or odd.
+2A. A client server based program using UDP to find if the number entered is even or odd. <br>
 **( UDPServerEO, UDPClientEO )**
 1. ***UDPServerEO***
 ```java
@@ -385,7 +385,7 @@ public class UDPClientEO {
 
 ## Prac2B
 
-2B. A client server based program using UDP to find the factorial of the entered number.
+2B. A client server based program using UDP to find the factorial of the entered number. <br>
 **( UDPserverFACT, UDPclientFACT )**
 1. ***UDPserverFACT***
 ```java
@@ -473,7 +473,7 @@ public class UDPclientFACT {
 
 ## Prac3A
 
-3A. A program to implement simple calculator operations like addition, subtraction, multiplication and division using RPC.
+3A. A program to implement simple calculator operations like addition, subtraction, multiplication and division using RPC. <br>
 **( RPCServer, RPCClient )**
 1. ***RPCServer***
 ```java
@@ -599,7 +599,7 @@ public class RPCClient {
 
 ## Prac3B
 
-3B. A program that finds the square, square root, cube and cube root of the entered number using RPC.
+3B. A program that finds the square, square root, cube and cube root of the entered number using RPC. <br>
 **( tcpserverprime, tcpclientprime )**
 1. ***tcpserverprime***
 ```java
