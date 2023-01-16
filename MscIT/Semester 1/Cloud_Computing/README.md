@@ -280,29 +280,6 @@ public class Tcpfileclient {
 ![MSCIT_CCprac1C_client](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac1C_client.png)
 ***********
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Prac2A
 
 2A. A client server based program using UDP to find if the number entered is even or odd. <br>
@@ -600,18 +577,243 @@ public class RPCClient {
 ## Prac3B
 
 3B. A program that finds the square, square root, cube and cube root of the entered number using RPC. <br>
-**( tcpserverprime, tcpclientprime )**
-1. ***tcpserverprime***
-```java
+**( RPCNumOperationServer, RPCNumOperationClient )**
+1. ***RPCNumOperationServer***
 
+```java
+package rpcnumoperationserver;
+
+import java.util.*;
+import java.net.*;
+import java.io.*;
+
+public class RPCNumOperationServer {
+
+    DatagramSocket ds;
+    DatagramPacket dp;
+    String str, methodName, result;
+    int val;
+
+    RPCNumOperationServer() {
+        try {
+            ds = new DatagramSocket(1200);
+            byte b[] = new byte[4096];
+            while (true) {
+                dp = new DatagramPacket(b, b.length);
+                ds.receive(dp);
+                str = new String(dp.getData(), 0, dp.getLength());
+                if (str.equalsIgnoreCase("q")) {
+                    System.exit(1);
+                } else {
+                    StringTokenizer st = new StringTokenizer(str, " ");
+                    int i = 0;
+                    while (st.hasMoreTokens()) {
+                        String token = st.nextToken();
+                        methodName = token;
+                        val = Integer.parseInt(st.nextToken());
+                    }
+                }
+                System.out.println(str);
+                InetAddress ia = InetAddress.getLocalHost();
+                if (methodName.equalsIgnoreCase("square")) {
+                    result = "" + square(val);
+                } else if (methodName.equalsIgnoreCase("squareroot")) {
+                    result = "" + squareroot(val);
+                } else if (methodName.equalsIgnoreCase("cube")) {
+                    result = "" + cube(val);
+                } else if (methodName.equalsIgnoreCase("cuberoot")) {
+                    result = "" + cuberoot(val);
+                }
+                byte b1[] = result.getBytes();
+                DatagramSocket ds1 = new DatagramSocket();
+                DatagramPacket dp1 = new DatagramPacket(b1, b1.length, InetAddress.getLocalHost(), 1300);
+                System.out.println("result : " + result + "\n");
+                ds1.send(dp1);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public double square(int a) throws Exception {
+        double ans;
+        ans = a * a;
+        return ans;
+    }
+
+    public double squareroot(int a) throws Exception {
+        double ans;
+        ans = Math.sqrt(a);
+        return ans;
+    }
+
+    public double cube(int a) throws Exception {
+        double ans;
+        ans = a * a * a;
+        return ans;
+    }
+
+    public double cuberoot(int a) throws Exception {
+        double ans;
+        ans = Math.cbrt(a);
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        new RPCNumOperationServer();
+    }
+}
 ```
 
-1. ***tcpserverprime***
+2. ***RPCNumOperationClient***
 ```java
+package rpcnumoperationclient;
 
+import java.util.*;
+import java.net.*;
+import java.io.*;
+
+public class RPCNumOperationClient {
+
+    RPCNumOperationClient() {
+        try {
+            InetAddress ia = InetAddress.getLocalHost();
+            DatagramSocket ds = new DatagramSocket();
+            DatagramSocket ds1 = new DatagramSocket(1300);
+            System.out.println("\nClient\n");
+            System.out.println("1. Square = square\n2. Square root = squareroot\n3. Cube = cube\n4. Cube root = cuberoot");
+            System.out.println("Enter method & number\n");
+            while (true) {
+                BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+                String str = br.readLine();
+                byte b[] = str.getBytes();
+                DatagramPacket dp = new DatagramPacket(b, b.length, ia, 1200);
+                ds.send(dp);
+                dp = new DatagramPacket(b, b.length);
+                ds1.receive(dp);
+                String s = new String(dp.getData(), 0, dp.getLength());
+                System.out.println("\nResult = " + s + "\n");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    public static void main(String[] args) {
+        new RPCNumOperationClient();
+    }
+}
 ```
 
 - **OUTPUT**
 
+![MSCIT_CCprac3B](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac3B.png)
+***********
+## Prac4
+
+4 . Implement Multicast Socket. <br>
+**( BroadcastServer, BroadcastClient )**
+1. ***BroadcastServer***
+
+```java
+package broadcastserver;
+
+import java.net.*;
+import java.io.*;
+import java.util.*;
+
+public class BroadcastServer {
+
+    public static final int PORT = 1234;
+
+    public static void main(String args[]) throws Exception {
+        MulticastSocket socket;
+        DatagramPacket packet;
+        InetAddress address;
+        // set the multicast address to your local subnet
+        address = InetAddress.getByName("239.1.2.9");
+        socket = new MulticastSocket();
+        // join a Multicast group and send the group
+        socket.joinGroup(address);
+        byte[] data = null;
+        for (;;) {
+            Thread.sleep(10000);
+            System.out.println("Sending ");
+            String str = ("This is Ninad Calling....");
+            data = str.getBytes();
+            packet = new DatagramPacket(data, str.length(), address, PORT);
+
+            socket.send(packet);
+        }
+    }
+}
+```
+
+2. ***BroadcastClient***
+```java
+package broadcastclient;
+
+import java.net.*;
+import java.io.*;
+
+public class BroadcastClient {
+    public static final int PORT = 1234;
+    public static void main(String args[]) throws Exception {
+        MulticastSocket socket;
+        DatagramPacket packet;
+        InetAddress address;
+        // set the mulitcast address to your local subnet
+        address = InetAddress.getByName("239.1.2.9");
+        socket = new MulticastSocket(PORT);
+        //join a Multicast group and wait for a
+        socket.joinGroup(address);
+        byte[] data = new byte[100];
+        packet = new DatagramPacket(data, data.length);
+        for (;;) {
+        // receive the packets
+            socket.receive(packet);
+            String str = new String(packet.getData());
+            System.out.println(" Message received from " + packet.getAddress() + " Message is : " + str);
+        }
+    }
+}
+```
+
+- **OUTPUT**
+
+![MSCIT_CCprac4](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac4.png)
+
+***********
+
+## Prac5A
+
+5A . A RMI based application program to display current date and time. OR Aim: Write a program to show the object communication to transfer system date using RMI. <br>
+**( RPCNumOperationServer, BroadcastClient )**
+1. ***RPCNumOperationServer***
+
+```java
+
+```
+
+2. ***BroadcastClient***
+```java
+
+```
+
+3. ***BroadcastClient***
+```java
+
+```
+
+- **Steps**
+    1. Create a java project -> Java application -> Name= serverdate 
+    2. Then create 3 Files in same package as
+        1. ***ServerDate*** class
+        2. ***ClientDate*** class
+        3. ***InterDate*** interface
+    3. After writing code **Right click** and **run** first **ServerDate** and then **ClientDate**
+
+- **OUTPUT**
+
+![MSCIT_CCprac5A](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac5A.png)
 
 ***********
