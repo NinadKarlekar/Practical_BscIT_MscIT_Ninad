@@ -9,8 +9,16 @@ PSIT1P4 Cloud Computing
 
 | Sr.No. | Name | Copy |
 | --- | --- | --- |
-| [Prac1A](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1A. Design . | [Prac1A]() |
-| [Prac1B](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1B. Calculate | [Prac1B](#prac1b) |
+| [Prac1A](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1A. A client server based program using ***TCP*** to find if the number entered is ***prime***. | [Prac1A](#prac1a) |
+| [Prac1B](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1B. A client server ***TCP*** based **chatting application** | [Prac1B](#prac1b) |
+| [Prac1c](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1C. A client server ***TCP*** based ***File Transfer*** application. | [Prac1B](#prac1c) |
+| [Prac2A](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 2A. A client server based program using ***UDP*** to find if the number entered is ***even or odd***. | [Prac2A](#prac2a) |
+| [Prac2B](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 2B. A client server based program using ***UDP*** to find the ***factorial*** of the entered number. | [Prac2B](#prac2b) |
+| [Prac3A](/MscIT/Semester%201/Cloud_Computing/Practical%203/) | 3A. A program to implement ***simple calculator*** operations like ***addition, subtraction, multiplication and division*** using ***RPC***. | [Prac3A](#prac3a) |
+| [Prac3B](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 3B. A program that finds the ***square, square root, cube and cube root*** of the entered number using ***RPC***. | [Prac3B](#prac3b) |
+| [Prac4](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 4. Implement ***Multicast*** Socket. | [Prac4](#prac4) |
+| [Prac5A](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 5A. A ***RMI*** based application program to display ***current date and time***. ***OR*** Aim: Write a program to show the object communication to transfer system date using ***RMI***. | [Prac5A](#prac5a) |
+
 
 *************************
 ***********************
@@ -787,20 +795,72 @@ public class BroadcastClient {
 ## Prac5A
 
 5A . A RMI based application program to display current date and time. OR Aim: Write a program to show the object communication to transfer system date using RMI. <br>
-**( RPCNumOperationServer, BroadcastClient )**
-1. ***RPCNumOperationServer***
+**( ServerDate, ClientDate, InterDate )**
+1. ***ServerDate***
 
 ```java
+package serverdate;
+import java.rmi.*;
+import java.rmi.server.*;
+import java.rmi.registry.*;
+import java.util.*;
+public class ServerDate extends UnicastRemoteObject implements InterDate{
+   public ServerDate() throws RemoteException{
+            
+    }
+    public static void main(String[] args) {
+         try{
+            Registry reg = LocateRegistry.createRegistry(1234);
+            ServerDate s1 = new ServerDate();
+            reg.rebind("PP", s1);
+            System.out.println("Object registered....");
+        }
+        catch(RemoteException e){
+            System.out.println("Exception:"+e);
+        }
+    }
+    
+    public String display() throws RemoteException
+    {
+        String str = "";
+        Date d=new Date();
+        str=d.toString();
+        return str;
+    }
+}
+```
+
+2. ***ClientDate***
+```java
+package serverdate;
+
+import java.rmi.*;
+import java.rmi.registry.*;
+
+public class ClientDate {
+
+    public static void main(String[] args) {
+        try {
+            Registry reg = LocateRegistry.getRegistry("localhost", 1234);
+            String s1;
+            InterDate h1 = (InterDate) reg.lookup("PP");
+            s1 = h1.display();
+            System.out.println(s1);
+        } catch (NotBoundException | RemoteException e) {
+            System.out.println("Exception" + e);
+        }
+    }
+}
 
 ```
 
-2. ***BroadcastClient***
+3. ***InterDate***
 ```java
-
-```
-
-3. ***BroadcastClient***
-```java
+package serverdate;
+import java.rmi.*;
+public interface InterDate extends Remote {
+    public String display() throws RemoteException;
+}
 
 ```
 
