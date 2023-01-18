@@ -7,9 +7,9 @@ Practical of B.Sc. IT and M.Sc. IT
 ## Msc IT
 
 ### [Semester 1](#semester-1-1)
-### Semester 2
-### Semester 3
-### Semester 4
+### [Semester 2](#semester-2-1)
+### [Semester 3](#semester-3-1)
+### [Semester 4](#semester-4-1)
 
 ---------------------
 -----------------------
@@ -21,4 +21,18 @@ Practical of B.Sc. IT and M.Sc. IT
 #### [Cloud Computing](/MscIT/Semester%201/Cloud_Computing/)
 #### [Soft Computing techniques](/MscIT/Semester%201/Soft_Computing_Techniques/)
 
+*************
 
+### **Semester 2**
+
+******************
+
+### **Semester 3**
+
+*****************
+
+### **Semester 4**
+
+
+***********************
+*********************
