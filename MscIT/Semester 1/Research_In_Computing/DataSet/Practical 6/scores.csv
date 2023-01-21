@@ -1,0 +1,436 @@
+School ID,School Name,Borough,Building Code,Street Address,City,State,Zip Code,Latitude,Longitude,Phone Number,Start Time,End Time,Student Enrollment,Percent White,Percent Black,Percent Hispanic,Percent Asian,Average Score (SAT Math),Average Score (SAT Reading),Average Score (SAT Writing),Percent Tested
+02M260,Clinton School Writers and Artists,Manhattan,M933,425 West 33rd Street,Manhattan,NY,10001,40.75321,-73.99786,212-695-9114,,,,,,,,,,,
+06M211,Inwood Early College for Health and Information Technologies,Manhattan,M052,650 Academy Street,Manhattan,NY,10002,40.86605,-73.92486,718-935-3660  ,8:30 AM,3:00 PM,87,3.40%,21.80%,67.80%,4.60%,,,,
+01M539,"New Explorations into Science, Technology and Math High School",Manhattan,M022,111 Columbia Street,Manhattan,NY,10002,40.71873,-73.97943,212-677-5190,8:15 AM,4:00 PM,1735,28.60%,13.30%,18.00%,38.50%,657,601,601,91.00%
+02M294,Essex Street Academy,Manhattan,M445,350 Grand Street,Manhattan,NY,10002,40.71687,-73.98953,212-475-4773,8:00 AM,2:45 PM,358,11.70%,38.50%,41.30%,5.90%,395,411,387,78.90%
+02M308,Lower Manhattan Arts Academy,Manhattan,M445,350 Grand Street,Manhattan,NY,10002,40.71687,-73.98953,212-505-0143,8:30 AM,3:00 PM,383,3.10%,28.20%,56.90%,8.60%,418,428,415,65.10%
+02M545,High School for Dual Language and Asian Studies,Manhattan,M445,350 Grand Street,Manhattan,NY,10002,40.71687,-73.98953,212-475-4097,8:00 AM,3:35 PM,416,1.70%,3.10%,5.50%,88.90%,613,453,463,95.90%
+01M292,Henry Street School for International Studies,Manhattan,M056,220 Henry Street,Manhattan,NY,10002,40.71376,-73.98526,212-406-9411,8:30 AM,3:30 PM,255,3.90%,24.40%,56.60%,13.20%,410,406,381,59.70%
+01M696,Bard High School Early College,Manhattan,M097,525 East Houston Street,Manhattan,NY,10002,40.71896,-73.97607,212-995-8479,9:00 AM,3:50 PM,545,45.30%,17.20%,18.70%,17.10%,634,641,639,70.80%
+02M305,Urban Assembly Academy of Government and Law,Manhattan,M445,350 Grand Street,Manhattan,NY,10002,40.71687,-73.98953,212-505-0745,8:32 AM,3:45 PM,329,2.70%,41.90%,49.20%,5.80%,389,395,381,80.80%
+01M509,Marta Valle High School,Manhattan,M025,145 Stanton Street,Manhattan,NY,10002,40.72057,-73.98567,212-473-8152,8:00 AM,3:30 PM,363,2.50%,39.90%,51.20%,5.80%,438,413,394,35.60%
+01M448,University Neighborhood High School,Manhattan,M446,200 Monroe Street,Manhattan,NY,10002,40.71233,-73.9848,212-962-4341,8:15 AM,3:15 PM,304,3.30%,25.00%,41.10%,29.90%,437,355,352,69.90%
+02M543,New Design High School,Manhattan,M445,350 Grand Street,Manhattan,NY,10002,40.71687,-73.98953,212-475-4148,8:40 AM,2:56 PM,441,3.90%,30.80%,56.90%,5.90%,381,396,372,73.70%
+02M298,Pace High School,Manhattan,M131,100 Hester Street,Manhattan,NY,10002,40.71641,-73.99268,212-334-4663,9:00 AM,3:15 PM,423,1.90%,28.10%,45.40%,13.70%,430,435,427,87.80%
+02M420,High School for Health Professions and Human Services,Manhattan,M475,345 East 15th Street,Manhattan,NY,10003,40.73249,-73.98305,212-780-9175,9:00 AM,3:45 PM,1664,7.30%,18.90%,50.90%,22.40%,452,445,430,86.90%
+02M399,High School for Language and Diplomacy,Manhattan,M460,40 Irving Place,Manhattan,NY,10003,40.73552,-73.9876,212-253-2480,8:00 AM,3:30 PM,437,5.70%,20.40%,40.30%,31.10%,446,433,411,70.20%
+02M546,Academy for Software Engineering,Manhattan,M460,40 Irving Place,Manhattan,NY,10003,40.73552,-73.9876,212-253-3299,8:45 AM,3:36 PM,344,9.00%,28.80%,45.90%,11.00%,,,,
+02M533,Union Square Academy for Health Sciences,Manhattan,M460,40 Irving Place,Manhattan,NY,10003,40.73552,-73.9876,212-253-3110,8:00 AM,3:49 PM,319,4.70%,20.10%,56.70%,16.00%,,,,
+02M438,International High School at Union Square,Manhattan,M460,40 Irving Place,Manhattan,NY,10003,40.73552,-73.9876,212-533-2560,8:45 AM,3:05 PM,353,9.90%,14.20%,45.30%,30.60%,403,330,316,53.20%
+02M407,Institute for Collaborative Education,Manhattan,M475,345 East 15th Street,Manhattan,NY,10003,40.73249,-73.98305,212-475-7972,8:00 AM,3:00 PM,482,56.50%,14.10%,14.90%,5.80%,501,550,541,78.60%
+02M374,Gramercy Arts High School,Manhattan,M460,40 Irving Place,Manhattan,NY,10003,40.73552,-73.9876,212-253-7076,8:15 AM,3:30 PM,530,5.80%,42.50%,44.20%,3.60%,446,459,455,79.60%
+02M551,Urban Assembly New York Harbor School,Manhattan,M877,550 Wheeler Avenue,Manhattan,NY,10004,40.69079,-74.01976,212-458-0800,8:15 AM,4:00 PM,447,18.80%,23.70%,51.70%,2.90%,446,453,428,78.80%
+02M580,Richard R. Green High School of Teaching,Manhattan,M282,26 Broadway,Manhattan,NY,10004,40.70523,-74.01332,646-826-8174,8:30 AM,3:20 PM,566,2.70%,31.10%,58.80%,6.20%,411,415,409,60.00%
+02M418,Millennium High School,Manhattan,M824,75 Broad Street,Manhattan,NY,10004,40.70492,-74.01151,212-825-9008,8:30 AM,3:00 PM,659,32.80%,7.60%,18.20%,38.40%,577,560,567,94.00%
+02M316,Urban Assembly School of Business for Young Women,Manhattan,M282,26 Broadway,Manhattan,NY,10004,40.70523,-74.01332,212-668-0169,8:35 AM,3:30 PM,405,2.20%,52.80%,39.30%,3.50%,418,420,417,75.00%
+02M489,High School of Economics and Finance,Manhattan,M833,100 Trinity Place,Manhattan,NY,10006,40.70922,-74.01203,212-346-0708,8:30 AM,3:30 PM,796,7.20%,22.90%,47.10%,21.70%,469,442,447,66.80%
+02M425,Leadership and Public Service High School,Manhattan,M894,90 Trinity Place,Manhattan,NY,10006,40.70915,-74.01208,212-346-0007,8:30 AM,2:45 PM,699,4.40%,27.90%,61.90%,3.90%,390,396,392,54.90%
+01M450,East Side Community School,Manhattan,M060,420 East 12th Street,Manhattan,NY,10009,40.72978,-73.98304,212-460-8467,8:30 AM,3:30 PM,666,8.30%,22.10%,57.90%,9.40%,454,428,445,85.20%
+02M411,Baruch College Campus High School,Manhattan,M874,55 East 25th Street,Manhattan,NY,10010,40.74405,-73.99148,212-683-7440,8:20 AM,2:50 PM,451,22.80%,6.20%,14.90%,54.80%,592,526,531,94.30%
+02M047,47 American Sign Language and English Secondary School,Manhattan,M047,223 East 23rd Street,Manhattan,NY,10010,40.7386,-73.98251,917-326-6668,8:45 AM,3:45 PM,169,5.30%,28.40%,64.50%,1.20%,,,,48.30%
+02M413,School of the Future High School,Manhattan,M660,127 East 22nd Street,Manhattan,NY,10010,40.73895,-73.98541,212-475-8086,8:35 AM,3:10 PM,713,35.90%,11.70%,30.40%,14.40%,534,533,522,89.90%
+02M439,Manhattan Village Academy,Manhattan,M873,43 West 22nd Street,Manhattan,NY,10010,40.74149,-73.99145,212-242-8752,8:00 AM,3:20 PM,415,7.20%,9.60%,67.20%,7.20%,522,479,510,98.80%
+02M422,Quest to Learn,Manhattan,M440,351 West 18th Street,Manhattan,NY,10011,40.74289,-74.00213,212-488-3645,9:00 AM,3:50 PM,564,24.20%,21.90%,41.50%,8.70%,,,,
+02M412,NYC Lab School for Collaborative Studies,Manhattan,M070,333 West 17th Street,Manhattan,NY,10011,40.7421,-74.00207,212-691-6119,8:00 AM,2:50 PM,587,46.00%,6.00%,15.50%,27.60%,595,550,555,79.80%
+02M534,Harvest Collegiate High School,Manhattan,M883,34 West 14th Street,Manhattan,NY,10011,40.73676,-73.99551,212-242-3384,8:20 AM,3:17 PM,333,16.80%,22.20%,52.30%,6.90%,,,,
+02M437,Hudson High School of Learning Technologies,Manhattan,M440,351 West 18th Street,Manhattan,NY,10011,40.74289,-74.00213,212-488-3330,8:45 AM,3:30 PM,483,3.30%,29.20%,59.40%,6.40%,378,407,388,71.80%
+02M392,Manhattan Business Academy,Manhattan,M440,351 West 18th Street,Manhattan,NY,10011,40.74289,-74.00213,212-647-1983,8:30 AM,3:15 PM,438,3.90%,28.10%,62.10%,3.40%,410,407,399,69.70%
+02M605,Humanities Preparatory Academy,Manhattan,M440,351 West 18th Street,Manhattan,NY,10011,40.74289,-74.00213,212-929-4433,9:00 AM,3:15 PM,,,,,,,,,
+02M419,Landmark High School,Manhattan,M440,351 West 18th Street,Manhattan,NY,10011,40.74289,-74.00213,212-647-7410,8:45 AM,3:20 PM,355,1.70%,24.20%,68.50%,3.70%,386,386,386,30.60%
+02M600,High School of Fashion Industries,Manhattan,M600,225 West 24th Street,Manhattan,NY,10011,40.74511,-73.99591,212-255-1235,8:00 AM,3:45 PM,1770,3.80%,36.30%,53.80%,5.00%,433,442,427,80.60%
+02M414,NYC Museum School,Manhattan,M070,333 West 17th Street,Manhattan,NY,10011,40.7421,-74.00207,212-675-6206,8:15 AM,2:45 PM,471,12.10%,12.70%,39.70%,34.20%,560,530,522,90.00%
+02M615,Chelsea Career and Technical Education High School,Manhattan,M615,131 Avenue of the Americas,Manhattan,NY,10013,40.72435,-74.00476,212-925-1080,8:30 AM,4:00 PM,439,3.20%,28.90%,57.40%,8.20%,439,418,400,80.40%
+02M376,NYC iSchool,Manhattan,M615,131 Avenue of the Americas,Manhattan,NY,10013,40.72435,-74.00476,917-237-7300,9:00 AM,4:00 PM,442,28.70%,19.90%,39.80%,8.60%,518,515,503,96.00%
+02M432,Murray Hill Academy,Manhattan,M620,111 East 33rd Street,Manhattan,NY,10016,40.74611,-73.98101,212-696-0195,8:00 AM,2:58 PM,,,,,,,,,
+02M427,Manhattan Academy for Arts and Language,Manhattan,M620,111 East 33rd Street,Manhattan,NY,10016,40.74611,-73.98101,212-576-0502,9:00 AM,3:40 PM,334,1.50%,4.80%,91.30%,2.40%,350,334,321,46.10%
+02M500,Unity Center for Urban Technologies,Manhattan,M620,111 East 33rd Street,Manhattan,NY,10016,40.74611,-73.98101,212-576-0530,8:15 AM,4:00 PM,284,4.90%,27.50%,58.80%,6.00%,375,385,387,62.80%
+02M393,Business of Sports School,Manhattan,M625,439 West 49th Street,Manhattan,NY,10019,40.76336,-73.99051,212-246-2183,8:50 AM,3:30 PM,449,1.60%,35.40%,59.50%,2.20%,395,386,371,67.50%
+02M303,Facing History School,Manhattan,M535,525 West 50th Street,Manhattan,NY,10019,40.76503,-73.99252,212-757-2680,8:35 AM,3:00 PM,406,2.20%,27.30%,67.50%,1.70%,366,356,371,57.30%
+02M296,High School of Hospitality Management,Manhattan,M535,525 West 50th Street,Manhattan,NY,10019,40.76503,-73.99252,212-586-1819,9:00 AM,3:45 PM,424,1.70%,21.00%,71.20%,5.00%,451,433,424,56.20%
+02M300,Urban Assembly School of Design and Construction,Manhattan,M535,525 West 50th Street,Manhattan,NY,10019,40.76503,-73.99252,212-586-0981,8:00 AM,3:15 PM,414,3.40%,29.50%,59.20%,6.00%,445,417,403,60.60%
+02M135,Urban Assembly School for Emergency Management,Manhattan,M625,439 West 49th Street,Manhattan,NY,10019,40.76336,-73.99051,212-245-4670,8:41 AM,3:31 PM,193,2.60%,28.50%,62.20%,5.70%,,,,
+02M400,High School for Environmental Studies,Manhattan,M834,444 West 56th Street,Manhattan,NY,10019,40.76776,-73.98751,212-262-8113,8:15 AM,3:00 PM,1301,6.60%,14.70%,62.90%,15.10%,469,454,444,74.00%
+02M630,Art and Design High School,Manhattan,M488,231-249 East 56th Street,Manhattan,NY,10019,40.7654,-73.98177,212-752-4340,8:30 AM,4:00 PM,1476,10.80%,24.10%,54.70%,8.50%,455,475,458,70.10%
+02M542,Manhattan Bridges High School,Manhattan,M535,525 West 50th Street,Manhattan,NY,10019,40.76503,-73.99252,212-757-5274,8:00 AM,3:45 PM,529,0.00%,0.00%,100.00%,0.00%,409,360,347,84.40%
+02M507,Urban Assembly Gateway School for Technology,Manhattan,M625,439 West 49th Street,Manhattan,NY,10019,40.76336,-73.99051,212-246-1041,8:00 AM,3:30 PM,472,5.70%,30.30%,53.80%,7.80%,445,432,415,78.40%
+02M288,Food and Finance High School,Manhattan,M535,525 West 50th Street,Manhattan,NY,10019,40.76503,-73.99252,212-586-2943,7:40 AM,2:30 PM,427,3.00%,39.60%,52.20%,4.70%,428,435,421,52.00%
+02M416,Eleanor Roosevelt High School,Manhattan,M855,411 East 76th Street,Manhattan,NY,10021,40.77012,-73.95338,212-772-1220,8:30 AM,3:30 PM,541,61.40%,4.40%,10.90%,20.10%,641,617,631,86.00%
+03M299,"High School for Arts, Imagination, and Inquiry",Manhattan,M490,122 Amsterdam Avenue,Manhattan,NY,10023,40.7743,-73.98482,212-799-4064,8:45 AM,3:26 PM,447,0.90%,38.50%,58.80%,0.40%,375,389,380,58.80%
+03M307,Urban Assembly School for Media Studies,Manhattan,M490,122 Amsterdam Avenue,Manhattan,NY,10023,40.7743,-73.98482,212-501-1110,9:00 AM,3:15 PM,412,1.70%,36.40%,57.80%,1.90%,392,419,396,49.50%
+03M479,Beacon High School,Manhattan,M837,227-243 West 61st Street,Manhattan,NY,10023,40.77216,-73.9878,212-245-2807,8:00 AM,3:00 PM,1285,51.80%,13.70%,23.80%,8.90%,583,586,595,82.80%
+03M485,Fiorello H. LaGuardia High School of Music and Art and Performing Arts,Manhattan,M485,100 Amsterdam Avenue,Manhattan,NY,10023,40.77367,-73.98527,212-496-0700,8:00 AM,4:00 PM,2635,45.30%,11.30%,19.40%,19.40%,592,592,597,88.50%
+03M494,High School of Arts and Technology,Manhattan,M490,122 Amsterdam Avenue,Manhattan,NY,10023,40.7743,-73.98482,212-501-1198,8:00 AM,2:45 PM,594,2.90%,32.50%,59.30%,3.90%,421,428,406,44.40%
+03M541,Manhattan / Hunter Science High School,Manhattan,M490,122 Amsterdam Avenue,Manhattan,NY,10023,40.7743,-73.98482,212-501-1235,8:00 AM,2:30 PM,451,13.10%,16.40%,37.90%,25.90%,581,531,535,97.20%
+03M859,Special Music School,Manhattan,M490,122 Amsterdam Avenue,Manhattan,NY,10023,40.7743,-73.98482,212-501-3318,8:00 AM,2:30 PM,231,29.30%,21.70%,15.20%,18.50%,,,,
+03M492,"High School for Law, Advocacy, and Community Justice",Manhattan,M490,122 Amsterdam Avenue,Manhattan,NY,10023,40.7743,-73.98482,212-501-1201,8:00 AM,2:45 PM,510,2.20%,42.00%,52.70%,2.40%,415,417,402,60.50%
+03M402,Urban Assembly School for Green Careers,Manhattan,M470,145 West 84th Street,Manhattan,NY,10024,40.78574,-73.97442,212-787-1189,8:30 AM,3:30 PM,353,2.80%,23.20%,72.00%,1.10%,393,371,378,60.00%
+03M417,Frank McCourt High School,Manhattan,M470,145 West 84th Street,Manhattan,NY,10024,40.78574,-73.97442,212-362-2015,8:40 AM,3:00 PM,387,31.80%,15.80%,40.10%,8.80%,489,491,500,89.10%
+03M403,Global Learning Collaborative,Manhattan,M470,145 West 84th Street,Manhattan,NY,10024,40.78574,-73.97442,212-877-1103,8:30 AM,3:30 PM,496,5.40%,25.00%,66.30%,2.40%,406,407,413,59.40%
+03M415,Wadleigh Secondary School for the Performing and Visual Arts,Manhattan,M088,215 West 114th Street,Manhattan,NY,10026,40.80217,-73.95401,212-749-5800,8:00 AM,3:45 PM,445,1.00%,52.00%,44.20%,1.80%,381,401,392,52.60%
+03M860,Frederick Douglass Academy II Secondary School,Manhattan,M088,215 West 114th Street,Manhattan,NY,10026,40.80217,-73.95401,212-865-9260,8:00 AM,3:00 PM,411,1.90%,67.80%,26.30%,2.20%,390,384,373,63.80%
+05M362,Columbia Secondary School,Manhattan,M125,425 West 123rd Street,Manhattan,NY,10027,40.81092,-73.95693,212-666-1278,8:00 AM,4:00 PM,659,14.80%,22.00%,48.10%,13.70%,583,561,546,88.20%
+05M367,Academy for Social Action (College Board),Manhattan,M043,509 West 129th Street,Manhattan,NY,10027,40.81523,-73.9552,212-234-3102,8:35 AM,3:45 PM,234,2.80%,46.50%,49.30%,0.50%,357,349,365,54.00%
+05M369,Urban Assembly School for the Performing Arts,Manhattan,M043,509 West 129th Street,Manhattan,NY,10027,40.81523,-73.9552,212-234-4631,8:15 AM,3:15 PM,358,1.40%,52.20%,43.00%,0.80%,379,399,388,76.70%
+04M680,Heritage School,Manhattan,M107,1680 Lexington Avenue,Manhattan,NY,10029,40.79188,-73.94659,212-828-2858,8:30 AM,3:39 PM,322,1.90%,32.30%,63.70%,1.20%,385,380,370,56.80%
+04M555,Central Park East High School,Manhattan,M013,1573 Madison Avenue,Manhattan,NY,10029,40.79368,-73.94942,212-860-5929,8:30 AM,3:20 PM,466,3.90%,24.50%,63.30%,7.30%,483,468,439,97.90%
+04M495,Park East High School,Manhattan,M495,230 East 105th Street,Manhattan,NY,10029,40.79056,-73.94445,212-831-1517,8:45 AM,3:15 PM,413,1.70%,27.60%,63.70%,4.80%,429,433,435,89.60%
+04M610,Young Women's Leadership School,Manhattan,M895,105 East 106th Street,Manhattan,NY,10029,40.79271,-73.9473,212-289-7593,8:45 AM,3:15 PM,480,3.40%,27.90%,57.40%,8.90%,478,465,472,100.00%
+04M435,Manhattan Center for Science and Mathematics,Manhattan,M435,260 Pleasant Avenue,Manhattan,NY,10029,40.79374,-73.93408,212-876-4639,8:15 AM,2:40 PM,1603,4.20%,20.90%,54.10%,19.20%,556,505,495,87.60%
+04M372,Esperanza Preparatory Academy,Manhattan,M117,240 East 109th Street,Manhattan,NY,10029,40.79307,-73.94236,212-722-6507,8:00 AM,3:00 PM,507,2.10%,13.10%,83.10%,1.30%,,,,
+05M304,Mott Hall High School,Manhattan,M136,6 Edgecombe Avenue,Manhattan,NY,10030,40.81736,-73.94771,212-694-6020,8:00 AM,3:30 PM,428,0.70%,38.30%,59.10%,0.90%,416,445,440,36.90%
+05M670,Thurgood Marshall Academy for Learning and Social Change,Manhattan,M970,200-214 West 135th Street,Manhattan,NY,10030,40.81536,-73.9439,212-283-8055,8:30 AM,3:00 PM,561,0.80%,77.60%,19.60%,1.30%,402,394,400,84.70%
+05M692,"High School for Mathematics, Science, and Engineering at City College",Manhattan,M812,240 Convent Avenue,Manhattan,NY,10031,40.82112,-73.94885,212-281-6490,8:00 AM,3:35 PM,470,26.80%,9.60%,21.70%,38.50%,683,610,596,92.60%
+06M540,A. Philip Randolph Campus High School,Manhattan,M540,443 West 135th Street,Manhattan,NY,10031,40.81832,-73.95061,212-926-0113,8:00 AM,2:20 PM,1354,1.70%,32.00%,59.70%,4.90%,459,453,447,74.00%
+06M552,Gregorio Luperon High School for Science and Mathematics,Manhattan,M876,501 West 165th Street,Manhattan,NY,10032,40.83803,-73.93837,212-928-1202,8:00 AM,3:30 PM,504,0.00%,0.00%,100.00%,0.00%,383,355,352,71.00%
+06M346,Community Health Academy of the Heights,Manhattan,M814,504 West 158th Street,Manhattan,NY,10032,40.83356,-73.9418,212-342-6600,8:15 AM,3:00 PM,629,2.70%,4.90%,91.80%,0.00%,387,389,385,55.30%
+06M348,Washington Heights Expeditionary Learning School,Manhattan,M143,511 West 182nd Street,Manhattan,NY,10033,40.84888,-73.93081,212-781-0524,8:00 AM,3:00 PM,705,0.50%,3.80%,94.80%,0.30%,443,423,434,87.00%
+06M423,High School for Excellence and Innovation,Manhattan,M052,650 Academy Street,Manhattan,NY,10034,40.86605,-73.92486,212-569-1022,8:45 AM,3:30 PM,,,,,,,,,
+05M157,Urban Assembly School for Global Commerce,Manhattan,M501,2005 Madison Avenue,Manhattan,NY,10035,40.80734,-73.93943,212-831-5201,8:10 AM,3:15 PM,164,1.20%,43.90%,49.40%,2.40%,,,,
+04M409,Coalition School for Social Change,Manhattan,M045,2351 1st Avenue,Manhattan,NY,10035,40.79887,-73.93337,212-831-5153,8:45 AM,3:30 PM,283,3.50%,41.00%,50.20%,4.20%,344,368,367,40.50%
+02M531,Repertory Company High School for Theatre Arts,Manhattan,M896,123 West 43rd Street,Manhattan,NY,10036,40.75594,-73.98457,212-382-1875,8:15 AM,3:30 PM,246,8.50%,37.40%,50.40%,1.60%,425,451,458,89.50%
+02M408,Professional Performing Arts High School,Manhattan,M017,328 West 48th Street,Manhattan,NY,10036,40.76143,-73.98802,212-247-8652,8:15 AM,3:30 PM,536,42.90%,26.20%,22.30%,2.50%,496,520,516,72.20%
+02M529,Jacqueline Kennedy Onassis High School,Manhattan,M486,120 West 46th Street,Manhattan,NY,10036,40.75776,-73.98319,212-391-0041,8:00 AM,3:00 PM,676,3.60%,21.30%,70.10%,4.00%,418,422,415,53.80%
+02M280,Manhattan Early College School for Advertising,Manhattan,M520,411 Pearl Street,Manhattan,NY,10038,40.71068,-74.00081,718-935-3477  ,8:30 AM,3:45 PM,97,15.50%,32.00%,43.30%,7.20%,,,,
+02M520,Murry Bergtraum High School for Business Careers,Manhattan,M520,411 Pearl Street,Manhattan,NY,10038,40.71068,-74.00081,212-964-9610,8:00 AM,3:00 PM,971,3.00%,46.10%,40.70%,8.90%,418,415,398,44.30%
+02M282,Urban Assembly Maker Academy,Manhattan,M520,411 Pearl Street,Manhattan,NY,10038,40.70934,-74.0053,718-935-3442,9:00 AM,3:45 PM,103,9.70%,24.30%,45.60%,10.70%,,,,
+02M139,Stephen T. Mather Building Arts and Craftsmanship High School,Manhattan,M520,411 Pearl Street,Manhattan,NY,10038,40.71068,-74.00081,212-225-0998,9:10 AM,3:30 PM,193,8.80%,24.90%,61.10%,3.60%,,,,
+05M499,Frederick Douglass Academy,Manhattan,M010,2581 7th Avenue,Manhattan,NY,10039,40.82431,-73.93698,212-491-4107,8:00 AM,3:00 PM,1428,1.40%,70.40%,23.20%,1.70%,463,452,450,65.10%
+06M463,High School for Media and Communications,Manhattan,M465,549 Audubon Avenue,Manhattan,NY,10040,40.85594,-73.92703,212-927-1841,8:00 AM,3:45 PM,479,1.30%,13.80%,82.50%,1.90%,378,381,383,33.00%
+06M462,College Academy,Manhattan,M465,549 Audubon Avenue,Manhattan,NY,10040,40.85594,-73.92703,212-927-1841,8:00 AM,3:45 PM,491,0.60%,9.00%,89.20%,0.20%,367,377,363,41.90%
+06M467,High School for Law and Public Service,Manhattan,M465,549 Audubon Avenue,Manhattan,NY,10040,40.85594,-73.92703,212-342-6130,8:00 AM,3:45 PM,671,1.60%,16.80%,80.80%,0.40%,401,394,381,44.10%
+06M293,City College Academy of the Arts,Manhattan,M218,4600 Broadway,Manhattan,NY,10040,40.86111,-73.93045,212-567-3164,8:15 AM,4:00 PM,587,1.20%,3.80%,94.10%,0.90%,495,445,450,95.30%
+06M468,High School for Health Careers and Sciences,Manhattan,M465,549 Audubon Avenue,Manhattan,NY,10040,40.85594,-73.92703,212-927-1841,8:00 AM,3:45 PM,605,1.50%,15.90%,79.80%,1.30%,374,385,389,56.20%
+02M459,Manhattan International High School,Manhattan,M480,317 East 67th Street,Manhattan,NY,10065,40.76545,-73.96021,212-517-6728,8:45 AM,3:05 PM,343,12.20%,16.60%,41.10%,29.40%,438,358,382,58.60%
+02M519,Talent Unlimited High School,Manhattan,M480,317 East 67th Street,Manhattan,NY,10065,40.76545,-73.96021,212-737-1530,8:10 AM,3:20 PM,506,20.40%,33.40%,39.90%,4.90%,485,498,496,89.30%
+02M449,Vanguard High School,Manhattan,M480,317 East 67th Street,Manhattan,NY,10065,40.76545,-73.96021,212-517-5175,8:00 AM,3:00 PM,486,4.70%,27.40%,57.00%,7.60%,431,409,396,63.80%
+02M655,Life Sciences Secondary School,Manhattan,M645,320 East 96th Street,Manhattan,NY,10128,40.78364,-73.94574,212-348-1694,8:00 AM,3:00 PM,697,3.20%,28.30%,62.20%,4.30%,435,440,425,63.00%
+02M475,Stuyvesant High School,Manhattan,M477,345 Chambers Street,Manhattan,NY,10282,40.71775,-74.01405,212-312-4800,8:00 AM,3:30 PM,3296,20.40%,0.80%,2.60%,73.40%,754,697,693,97.40%
+31R600,Ralph R. McKee Career and Technical Education High School,Staten Island,R600,290 St Marks Place,Staten Island,NY,10301,40.64274,-74.07871,718-420-2600,8:00 AM,3:00 PM,624,19.70%,30.80%,42.50%,4.80%,420,429,409,38.00%
+31R080,Michael J. Petrides School,Staten Island,R880,715 Ocean Terrace,Staten Island,NY,10301,40.60745,-74.10148,718-815-0186,8:00 AM,2:20 PM,1327,49.80%,22.30%,20.20%,6.90%,483,473,470,79.20%
+31R450,Curtis High School,Staten Island,R450,105 Hamilton Avenue,Staten Island,NY,10301,40.64474,-74.08134,718-390-1800,9:00 AM,3:30 PM,2499,17.70%,38.40%,36.00%,7.10%,453,458,444,64.20%
+31R445,Port Richmond High School,Staten Island,R445,85 St Josephs Avenue,Staten Island,NY,10302,40.63384,-74.14211,718-420-2100,8:00 AM,2:45 PM,1628,21.70%,27.90%,42.80%,7.00%,432,427,425,44.60%
+31R605,Staten Island Technical High School,Staten Island,R440,485 Clawson Street,Staten Island,NY,10306,40.56791,-74.11536,718-667-3222,7:45 AM,2:30 PM,1247,52.20%,1.00%,5.20%,41.10%,711,660,670,99.70%
+31R440,New Dorp High School,Staten Island,R435,465 New Dorp Lane,Staten Island,NY,10306,40.56918,-74.1073,718-667-8686,8:05 AM,3:10 PM,2791,51.80%,12.10%,27.80%,7.50%,454,446,444,63.70%
+31R455,Tottenville High School,Staten Island,R455,100 Luten Avenue,Staten Island,NY,10312,40.52823,-74.19215,718-668-8800,8:00 AM,2:45 PM,3982,79.90%,1.80%,11.80%,5.10%,494,476,476,78.90%
+31R460,Susan E. Wagner High School,Staten Island,R460,1200 Manor Road,Staten Island,NY,10314,40.59865,-74.1231,718-698-4200,8:16 AM,3:00 PM,3363,47.70%,10.90%,27.00%,13.40%,496,490,487,66.30%
+31R064,Gaynor McCown Expeditionary Learning School,Staten Island,R043,100 Essex Drive,Staten Island,NY,10314,40.58202,-74.15785,718-370-6950,8:00 AM,2:20 PM,479,61.60%,13.80%,19.00%,3.30%,442,458,454,55.80%
+31R047,CSI High School for International Studies,Staten Island,R043,100 Essex Drive,Staten Island,NY,10314,40.58202,-74.15785,718-370-6900,7:30 AM,3:50 PM,520,55.60%,8.80%,19.80%,11.20%,477,468,464,83.50%
+07X522,Bronx Design and Construction Academy,Bronx,X600,333 East 151st Street,Bronx,NY,10451,40.81825,-73.91974,718-402-7690,8:00 AM,3:30 PM,563,3.40%,24.00%,70.50%,1.40%,,,,0.80%
+07X547,New Explorers High School,Bronx,X790,730 Concourse Village West,Bronx,NY,10451,40.82278,-73.92352,718-292-4150,8:30 AM,3:30 PM,475,0.40%,31.40%,67.60%,0.40%,390,398,376,30.40%
+09X505,"Bronx School for Law, Government, and Justice",Bronx,X460,244 East 163rd Street,Bronx,NY,10451,40.82759,-73.91867,718-410-3430,8:15 AM,3:00 PM,778,1.00%,23.10%,72.00%,2.20%,403,409,415,63.80%
+07X548,Urban Assembly School for Careers in Sports,Bronx,X790,730 Concourse Village West,Bronx,NY,10451,40.82278,-73.92352,718-292-7110,8:25 AM,3:18 PM,587,1.40%,28.60%,69.50%,0.20%,402,405,395,55.50%
+07X527,Bronx Leadership Academy II High School,Bronx,X790,730 Concourse Village West,Bronx,NY,10451,40.82278,-73.92352,718-292-7171,8:30 AM,3:15 PM,495,0.80%,32.30%,63.40%,2.20%,384,355,361,61.30%
+07X551,Urban Assembly Bronx Academy of Letters,Bronx,X183,339 Morris Avenue,Bronx,NY,10451,40.81336,-73.92554,718-401-4891,8:00 AM,3:50 PM,591,1.50%,30.40%,66.90%,0.90%,398,400,405,57.80%
+07X670,Health Opportunities High School,Bronx,X884,350 Gerard Avenue,Bronx,NY,10451,40.81608,-73.93032,718-401-1826,8:15 AM,3:35 PM,554,1.80%,36.10%,57.90%,3.10%,374,386,382,57.90%
+07X427,Community School for Social Justice,Bronx,X884,350 Gerard Avenue,Bronx,NY,10451,40.81608,-73.93032,718-402-8481,8:30 AM,3:00 PM,324,1.20%,29.60%,67.30%,1.50%,380,382,362,38.40%
+07X600,Alfred E. Smith Career and Technical Education High School,Bronx,X600,333 East 151st Street,Bronx,NY,10451,40.81825,-73.91974,718-993-5000,8:50 AM,3:00 PM,375,0.80%,29.10%,68.30%,1.10%,390,373,371,29.80%
+09X327,Comprehensive Model School Project,Bronx,X240,1501 Jerome Avenue,Bronx,NY,10452,40.84241,-73.91616,718-294-8111,8:00 AM,4:00 PM,628,0.60%,23.30%,76.00%,0.00%,,,,
+09X365,Academy for Language and Technology,Bronx,X082,1700 Macombs Road,Bronx,NY,10453,40.8491,-73.91609,718-731-0219,8:00 AM,4:00 PM,322,0.00%,0.30%,99.70%,0.00%,371,334,348,78.90%
+07X223,Laboratory School of Finance and Technology,Bronx,X149,360 East 145th Street,Bronx,NY,10454,40.81401,-73.92084,718-585-8202,7:50 AM,3:00 PM,502,0.90%,20.60%,78.50%,0.00%,,,,
+07X221,South Bronx Preparatory (College Board),Bronx,X149,360 East 145th Street,Bronx,NY,10454,40.81401,-73.92084,718-292-2211,8:00 AM,3:00 PM,654,1.40%,25.20%,70.30%,1.70%,419,414,394,76.90%
+07X334,International Community High School,Bronx,X139,345 Brook Avenue,Bronx,NY,10454,40.81004,-73.91781,718-665-4128,9:00 AM,4:00 PM,463,1.30%,14.00%,76.70%,6.50%,345,338,312,58.20%
+07X520,Foreign Language Academy of Global Studies,Bronx,X155,470 Jackson Avenue,Bronx,NY,10455,40.81114,-73.90979,718-585-4024,7:30 AM,3:00 PM,145,1.40%,26.90%,67.60%,2.80%,,,,32.60%
+07X500,Hostos-Lincoln Academy of Science,Bronx,X162,600 St Anns Avenue,Bronx,NY,10455,40.81496,-73.91252,718-402-5640,8:00 AM,2:30 PM,544,1.50%,22.50%,69.90%,3.80%,463,451,435,80.00%
+07X259,"HERO High (Health, Education, and Research Occupations High School)",Bronx,X655,455 Southern Boulevard,Bronx,NY,10455,40.81041,-73.9068,718-585-8013,8:30 AM,3:30 PM,231,1.70%,35.50%,58.90%,2.20%,,,,
+07X495,University Heights Secondary School,Bronx,X470,701 St Anns Avenue,Bronx,NY,10455,40.81817,-73.91109,718-292-0578,8:45 AM,3:00 PM,486,1.60%,30.00%,64.60%,3.10%,420,446,424,87.80%
+07X473,Mott Haven Village Preparatory High School,Bronx,X470,701 St Anns Avenue,Bronx,NY,10455,40.81817,-73.91109,718-402-0571,8:30 AM,3:00 PM,364,0.50%,25.30%,73.60%,0.30%,377,373,369,44.90%
+09X543,High School for Violin and Dance,Bronx,X400,1110 Boston Road,Bronx,NY,10456,40.8276,-73.90448,718-842-0687,8:00 AM,3:00 PM,384,0.30%,34.10%,64.60%,0.50%,363,401,396,31.30%
+09X403,Bronx International High School,Bronx,X400,1110 Boston Road,Bronx,NY,10456,40.8276,-73.90448,718-620-1053,9:00 AM,3:45 PM,409,1.70%,20.00%,74.10%,3.40%,355,330,320,59.10%
+08X559,School for Tourism and Hospitality,Bronx,X650,900 Tinton Avenue,Bronx,NY,10456,40.82189,-73.90344,718-401-4214,8:30 AM,2:45 PM,240,0.00%,35.40%,60.40%,1.30%,,,,
+12X479,Bronx Career and College Preparatory High School,Bronx,X158,800 Home Street,Bronx,NY,10456,40.82776,-73.90039,718-542-4011,8:00 AM,2:15 PM,333,0.60%,40.50%,56.80%,0.90%,370,379,381,40.70%
+09X260,Bronx Center for Science and Mathematics,Bronx,X002,1363 Fulton Avenue,Bronx,NY,10456,40.83374,-73.90245,718-992-7089,7:30 AM,3:25 PM,457,1.50%,25.40%,65.90%,6.30%,513,468,485,73.90%
+09X324,Bronx Early College Academy for Teaching and Learning,Bronx,X166,250 East 164th Street,Bronx,NY,10456,40.82871,-73.91776,718-681-8287,8:30 AM,3:15 PM,503,0.40%,28.70%,67.40%,3.60%,424,413,409,93.30%
+09X250,Eximius College Preparatory Academy (College Board),Bronx,X002,1363 Fulton Avenue,Bronx,NY,10456,40.83374,-73.90245,718-992-7154,8:00 AM,3:22 PM,449,0.70%,45.20%,52.10%,1.10%,400,391,397,78.20%
+12X267,Bronx Latin,Bronx,X158,800 Home Street,Bronx,NY,10456,40.82776,-73.90039,718-991-6349,8:30 AM,3:15 PM,546,0.00%,21.20%,77.10%,1.70%,394,381,363,81.00%
+09X404,School for Excellence,Bronx,X400,1110 Boston Road,Bronx,NY,10456,40.8276,-73.90448,718-860-1385,8:15 AM,2:45 PM,421,1.00%,26.60%,70.80%,0.70%,377,385,383,38.40%
+09X297,Morris Academy for Collaborative Studies,Bronx,X400,1110 Boston Road,Bronx,NY,10456,40.8276,-73.90448,718-542-3700,8:15 AM,3:30 PM,471,0.40%,26.30%,72.00%,0.80%,407,389,386,44.80%
+09X517,Frederick Douglass Academy III Secondary School,Bronx,X148,3630 Third Avenue,Bronx,NY,10456,40.83417,-73.90403,718-538-9726,8:30 AM,4:00 PM,427,2.30%,50.40%,45.40%,0.70%,387,386,386,50.50%
+09X564,Claremont International High School,Bronx,X410,240 East 172nd Street,Bronx,NY,10457,40.84037,-73.91084,718-410-4001,8:40 AM,3:17 PM,257,1.20%,20.60%,72.80%,4.70%,,,,
+09X241,Urban Assembly School for Applied Math and Science,Bronx,X970,1595 Bathgate Avenue,Bronx,NY,10457,40.83933,-73.90131,718-466-7800,8:30 AM,3:30 PM,619,1.10%,33.00%,64.10%,1.40%,445,418,422,87.80%
+09X227,Bronx Collegiate Academy,Bronx,X410,240 East 172nd Street,Bronx,NY,10457,40.84037,-73.91084,718-410-4077,8:30 AM,3:30 PM,382,0.30%,28.50%,69.10%,1.00%,395,401,382,45.50%
+09X252,Mott Hall Bronx High School,Bronx,X970,1595 Bathgate Avenue,Bronx,NY,10457,40.83933,-73.90131,718-466-6800,8:30 AM,3:15 PM,402,1.20%,20.10%,75.60%,1.20%,417,399,398,46.20%
+09X276,Leadership Institute,Bronx,X004,1701 Fulton Avenue,Bronx,NY,10457,40.84127,-73.89798,718-299-7490,8:30 AM,3:15 PM,207,1.90%,34.30%,63.30%,0.00%,,,,23.50%
+09X350,New Directions Secondary School,Bronx,X410,240 East 172nd Street,Bronx,NY,10457,40.84037,-73.91084,718-410-4242,,,,,,,,,,,
+09X525,Bronx Leadership Academy High School,Bronx,X876,1710 Webster Avenue,Bronx,NY,10457,40.84358,-73.90322,718-299-4274,8:00 AM,3:44 PM,686,0.60%,35.70%,61.70%,0.40%,375,372,374,49.10%
+09X263,Validus Preparatory Academy: An Expeditionary Learning School,Bronx,X970,1595 Bathgate Avenue,Bronx,NY,10457,40.83933,-73.90131,718-466-4000,8:15 AM,3:15 PM,375,0.80%,26.90%,70.70%,1.60%,382,375,384,59.20%
+09X413,Bronx High School for Medical Science,Bronx,X410,240 East 172nd Street,Bronx,NY,10457,40.84037,-73.91084,718-410-4040,7:45 AM,3:15 PM,472,0.70%,36.70%,53.40%,7.10%,431,421,426,83.90%
+09X231,Eagle Academy for Young Men,Bronx,X465,4143 Third Avenue,Bronx,NY,10457,40.84519,-73.89698,718-466-8000,8:30 AM,4:00 PM,608,0.50%,60.70%,36.00%,0.30%,398,410,397,65.70%
+09X412,Bronx High School of Business,Bronx,X410,240 East 172nd Street,Bronx,NY,10457,40.84037,-73.91084,718-410-4060,7:45 AM,3:15 PM,339,1.20%,33.30%,63.10%,1.50%,365,360,346,33.30%
+09X329,DreamYard Preparatory School,Bronx,X410,240 East 172nd Street,Bronx,NY,10457,40.84037,-73.91084,718-410-4242,8:40 AM,3:15 PM,336,1.20%,33.60%,60.70%,1.50%,385,385,388,51.10%
+10X225,Theatre Arts Production Company School,Bronx,X137,2225 Webster Avenue,Bronx,NY,10457,40.85465,-73.89665,718-584-0832,8:30 AM,3:30 PM,632,0.70%,29.20%,66.60%,1.20%,402,421,410,77.70%
+10X243,West Bronx Academy for the Future,Bronx,X435,500 East Fordham Road,Bronx,NY,10458,40.86001,-73.88823,718-563-7139,8:30 AM,3:15 PM,599,3.00%,21.10%,72.00%,2.70%,404,383,378,57.30%
+10X524,Crotona International High School,Bronx,X660,2474 Crotona Avenue,Bronx,NY,10458,40.85592,-73.88258,718-561-8701,8:30 AM,4:15 PM,336,1.80%,10.40%,85.70%,1.80%,,,,0.00%
+10X439,Bronx High School for Law and Community Service,Bronx,X435,500 East Fordham Road,Bronx,NY,10458,40.86001,-73.88823,718-733-5274,8:15 AM,4:00 PM,398,1.80%,24.40%,70.90%,1.30%,401,402,386,64.80%
+10X264,Bronx Academy for Software Engineering (BASE),Bronx,X660,2474 Crotona Avenue,Bronx,NY,10458,40.85592,-73.88258,718-733-6024,8:30 AM,3:30 PM,226,2.70%,28.80%,60.60%,7.50%,,,,
+10X434,Belmont Preparatory High School,Bronx,X435,500 East Fordham Road,Bronx,NY,10458,40.86001,-73.88823,718-733-4559,8:15 AM,3:45 PM,416,1.90%,30.00%,65.60%,2.20%,413,408,402,55.30%
+10X437,Fordham High School for the Arts,Bronx,X435,500 East Fordham Road,Bronx,NY,10458,40.86001,-73.88823,718-733-4656,8:00 AM,3:45 PM,401,2.50%,30.90%,65.10%,1.00%,398,404,412,56.20%
+10X565,High School for Energy and Technology,Bronx,X660,2474 Crotona Avenue,Bronx,NY,10458,40.85592,-73.88258,718-733-3080,8:00 AM,3:45 PM,311,1.00%,26.70%,70.10%,1.30%,,,,
+10X374,Knowledge and Power Preparatory Academy International High School (KAPPA),Bronx,X435,500 East Fordham Road,Bronx,NY,10458,40.86001,-73.88823,718-933-1247,7:30 AM,4:00 PM,487,2.10%,32.20%,61.40%,2.50%,408,417,404,66.70%
+10X438,Fordham Leadership Academy for Business and Technology,Bronx,X435,500 East Fordham Road,Bronx,NY,10458,40.86001,-73.88823,718-733-5024,8:00 AM,4:00 PM,438,2.70%,27.60%,67.80%,1.80%,355,373,368,44.30%
+12X248,Metropolitan High School,Bronx,X099,1180 Rev JA Polite Avenue,Bronx,NY,10459,40.82523,-73.89395,718-991-4634,8:00 AM,4:00 PM,326,0.30%,21.50%,74.80%,0.90%,387,388,386,65.90%
+08X332,Holcombe L. Rucker School of Community Research,Bronx,X039,965 Longwood Avenue,Bronx,NY,10459,40.81744,-73.89805,718-860-1053,8:15 AM,3:15 PM,236,0.40%,43.20%,54.70%,0.40%,376,372,369,59.00%
+08X530,Banana Kelly High School,Bronx,X039,965 Longwood Avenue,Bronx,NY,10459,40.81744,-73.89805,718-860-1242,8:45 AM,3:05 PM,325,1.20%,37.20%,60.60%,0.00%,378,391,378,25.70%
+08X269,Bronx Studio School for Writers and Artists,Bronx,X392,928 Simpson Street,Bronx,NY,10459,40.82062,-73.89307,718-893-5158,8:20 AM,3:20 PM,565,0.60%,20.30%,76.90%,1.20%,417,412,403,71.60%
+12X278,Peace and Diversity Academy,Bronx,X099,1180 Rev JA Polite Avenue,Bronx,NY,10459,40.82523,-73.89395,718-991-1855,8:45 AM,3:15 PM,170,1.80%,44.10%,52.40%,0.60%,366,362,365,27.10%
+12X271,East Bronx Academy for the Future,Bronx,X973,1716 Southern Boulevard,Bronx,NY,10460,40.83695,-73.88796,718-861-8641,8:30 AM,3:00 PM,618,0.50%,25.40%,71.00%,3.00%,418,406,408,41.10%
+12X511,Bronx Envision Academy,Bronx,X098,1619 Boston Road,Bronx,NY,10460,40.83594,-73.89047,718-589-1590,8:25 AM,3:15 PM,355,2.00%,34.40%,60.30%,2.00%,364,385,366,76.50%
+12X682,Fannie Lou Hamer Freedom High School,Bronx,X878,1021 Jennings Street,Bronx,NY,10460,40.83081,-73.88602,718-861-0521,8:45 AM,2:45 PM,470,0.20%,28.50%,70.40%,0.40%,345,347,339,75.00%
+12X251,Explorations Academy,Bronx,X098,1619 Boston Road,Bronx,NY,10460,40.83594,-73.89047,718-893-6173,8:00 AM,3:30 PM,358,2.00%,27.10%,69.80%,0.80%,377,372,365,43.00%
+12X372,Urban Assembly School for Wildlife Conservation,Bronx,X067,2024 Mohegan Avenue,Bronx,NY,10460,40.84404,-73.88469,718-991-2695,8:40 AM,3:00 PM,571,2.20%,25.30%,69.40%,2.20%,393,397,379,71.10%
+12X684,Wings Academy,Bronx,X879,1122 East 180th Street,Bronx,NY,10460,40.84181,-73.87542,718-597-1751,8:00 AM,3:00 PM,501,1.20%,58.50%,37.90%,0.80%,379,372,373,49.20%
+08X348,Schuylerville Preparatory High School,Bronx,X405,3000 East Tremont Avenue,Bronx,NY,10461,40.84051,-73.83812,718-904-4200,8:00 AM,3:40 PM,177,6.20%,22.00%,66.70%,4.00%,,,,
+08X293,Renaissance High School for Musical Theater and Technology,Bronx,X405,3000 East Tremont Avenue,Bronx,NY,10461,40.84051,-73.83812,718-430-6390,8:15 AM,3:00 PM,444,7.20%,27.90%,61.00%,3.20%,390,411,393,52.30%
+08X558,Westchester Square Academy,Bronx,X405,3000 East Tremont Avenue,Bronx,NY,10461,40.84051,-73.83812,718-904-5050,8:15 AM,3:20 PM,396,8.80%,26.80%,56.60%,4.50%,,,,
+08X320,Pelham Lab High School,Bronx,X405,3000 East Tremont Avenue,Bronx,NY,10461,40.84051,-73.83812,718-904-5090,8:00 AM,4:00 PM,211,5.20%,33.20%,52.60%,7.60%,,,,
+08X405,Herbert H. Lehman High School,Bronx,X405,3000 East Tremont Avenue,Bronx,NY,10461,40.84051,-73.83812,718-904-4200,8:15 AM,3:45 PM,1535,10.60%,23.60%,54.90%,9.20%,426,419,407,28.90%
+08X349,Bronx River High School,Bronx,X405,3000 East Tremont Avenue,Bronx,NY,10461,40.84051,-73.83812,718-904-4210,8:14 AM,3:36 PM,204,2.50%,29.90%,60.80%,2.90%,,,,
+11X418,Bronx High School for the Visual Arts,Bronx,X839,2040 Antin Place,Bronx,NY,10462,40.85143,-73.86502,718-319-5160,8:15 AM,2:45 PM,483,6.80%,27.30%,61.50%,3.70%,408,428,404,32.50%
+10X368,In-Tech Academy,Bronx,X368,2975 Tibbett Avenue,Bronx,NY,10463,40.88005,-73.90921,718-432-4300,8:30 AM,3:30 PM,1022,3.40%,10.80%,82.80%,2.80%,426,419,404,85.90%
+10X284,Bronx School of Law and Finance,Bronx,X475,99 Terrace View Avenue,Bronx,NY,10463,40.87705,-73.91234,718-561-0113,8:00 AM,2:45 PM,426,2.60%,30.30%,64.80%,2.10%,384,394,366,48.30%
+10X213,Bronx Engineering and Technology Academy,Bronx,X475,99 Terrace View Avenue,Bronx,NY,10463,40.87705,-73.91234,718-563-6678,8:15 AM,4:30 PM,417,1.40%,34.30%,55.90%,6.70%,394,406,391,59.60%
+10X546,Bronx Theatre High School,Bronx,X475,99 Terrace View Avenue,Bronx,NY,10463,40.87705,-73.91234,718-329-2902,8:40 AM,4:00 PM,428,1.60%,30.10%,67.10%,0.50%,382,384,390,66.70%
+10X477,Marble Hill High School for International Studies,Bronx,X475,99 Terrace View Avenue,Bronx,NY,10463,40.87705,-73.91234,718-561-0973,8:30 AM,4:40 PM,449,5.10%,24.50%,61.00%,8.90%,451,417,423,92.90%
+10X237,"Marie Curie School for Medicine, Nursing, and Health Professions",Bronx,X143,120 West 231st Street,Bronx,NY,10463,40.87598,-73.90123,718-432-6491,8:00 AM,2:45 PM,583,3.30%,35.70%,56.90%,2.70%,423,420,425,68.60%
+10X141,Riverdale/Kingsbridge Academy,Bronx,X141,660 West 237th Street,Bronx,NY,10463,40.88837,-73.91409,718-796-8516,8:20 AM,2:40 PM,1381,23.70%,12.30%,55.70%,7.70%,496,485,476,69.40%
+11X513,New World High School,Bronx,X362,921 East 228th Street,Bronx,NY,10466,40.88792,-73.85287,718-696-3800,8:00 AM,3:00 PM,408,7.60%,9.30%,66.20%,13.70%,407,363,358,93.00%
+11X514,Bronxwood Preparatory Academy,Bronx,X362,921 East 228th Street,Bronx,NY,10466,40.88792,-73.85287,718-696-3820,8:00 AM,3:00 PM,423,3.80%,61.90%,28.80%,3.30%,392,408,392,43.30%
+11X270,Academy for Scholarship and Entrepreneurship (College Board),Bronx,X362,921 East 228th Street,Bronx,NY,10466,40.88792,-73.85287,718-696-3840,8:00 AM,2:56 PM,371,1.10%,63.60%,30.50%,3.20%,392,408,400,63.40%
+11X544,High School for Contemporary Arts,Bronx,X425,800 East Gun Hill Road,Bronx,NY,10467,40.87575,-73.86139,718-944-5610,8:00 AM,2:45 PM,493,1.00%,38.10%,59.20%,0.80%,367,381,361,41.00%
+11X545,Bronx Aerospace High School,Bronx,X425,800 East Gun Hill Road,Bronx,NY,10467,40.87575,-73.86139,718-696-6010,9:00 AM,5:00 PM,431,2.10%,29.20%,64.50%,2.30%,403,410,393,50.50%
+11X290,Bronx Academy of Health Careers,Bronx,X425,800 East Gun Hill Road,Bronx,NY,10467,40.87575,-73.86139,718-696-3340,8:25 AM,3:15 PM,465,1.90%,44.70%,47.30%,4.70%,386,380,391,59.40%
+11X275,High School of Computers and Technology,Bronx,X425,800 East Gun Hill Road,Bronx,NY,10467,40.87575,-73.86139,718-696-3930,8:00 AM,3:00 PM,567,1.20%,34.40%,58.00%,4.90%,396,399,377,65.60%
+11X265,Bronx Lab School,Bronx,X425,800 East Gun Hill Road,Bronx,NY,10467,40.87575,-73.86139,718-696-3700,8:45 AM,5:00 PM,471,1.50%,39.90%,54.40%,3.60%,407,416,401,77.40%
+11X253,Bronx High School for Writing and Communication Arts,Bronx,X425,800 East Gun Hill Road,Bronx,NY,10467,40.87575,-73.86139,718-944-5660,8:00 AM,3:00 PM,389,1.30%,45.00%,49.10%,3.30%,380,437,425,38.10%
+10X433,High School for Teaching and the Professions,Bronx,X430,2780 Reservoir Avenue,Bronx,NY,10468,40.87038,-73.89816,718-329-7380,8:45 AM,3:45 PM,486,2.70%,20.40%,74.50%,1.90%,372,361,369,46.50%
+10X445,Bronx High School of Science,Bronx,X445,75 West 205th Street,Bronx,NY,10468,40.87706,-73.88978,718-817-7700,8:00 AM,3:45 PM,3015,22.10%,2.60%,5.50%,62.80%,714,660,667,97.00%
+10X268,Kingsbridge International High School,Bronx,X430,2780 Reservoir Avenue,Bronx,NY,10468,40.87038,-73.89816,718-329-8580,7:45 AM,2:45 PM,461,2.00%,5.20%,85.90%,6.50%,366,311,310,50.70%
+10X549,Discovery High School,Bronx,X430,2780 Reservoir Avenue,Bronx,NY,10468,40.87038,-73.89816,718-733-3872,8:45 AM,3:45 PM,530,2.30%,17.40%,77.20%,2.50%,432,396,395,39.90%
+10X353,World View High School,Bronx,X440,100 West Mosholu Parkway South,Bronx,NY,10468,40.88008,-73.8859,718-601-0391,9:00 AM,4:00 PM,173,1.20%,27.70%,68.80%,1.20%,,,,
+10X442,Celia Cruz Bronx High School of Music,Bronx,X430,2780 Reservoir Avenue,Bronx,NY,10468,40.87038,-73.89816,718-329-8550,8:00 AM,3:45 PM,430,1.20%,25.30%,70.00%,1.40%,417,434,425,75.60%
+10X696,High School of American Studies at Lehman College,Bronx,X905,2925 Goulden Avenue,Bronx,NY,10468,40.87126,-73.89752,718-329-2144,8:00 AM,3:00 PM,376,50.80%,4.00%,15.20%,23.10%,669,672,672,91.80%
+10X440,DeWitt Clinton High School,Bronx,X440,100 West Mosholu Parkway South,Bronx,NY,10468,40.88008,-73.8859,718-543-1000,8:00 AM,2:46 PM,2109,3.60%,31.60%,54.50%,8.60%,445,436,433,31.80%
+10X342,International School for Liberal Arts,Bronx,X430,2780 Reservoir Avenue,Bronx,NY,10468,40.87038,-73.89816,718-329-8570,8:00 AM,3:45 PM,561,0.50%,0.00%,99.50%,0.00%,390,387,379,19.20%
+10X351,Bronx Collaborative High School,Bronx,X440,100 West Mosholu Parkway South,Bronx,NY,10468,40.88008,-73.8859,718-543-1023,9:00 AM,4:00 PM,223,4.90%,29.60%,62.30%,1.30%,,,,
+11X299,Astor Collegiate Academy,Bronx,X415,925 Astor Avenue,Bronx,NY,10469,40.8597,-73.86074,718-944-3418,7:35 AM,3:55 PM,476,10.50%,33.40%,47.90%,6.50%,422,417,409,57.90%
+11X542,Pelham Preparatory Academy,Bronx,X415,925 Astor Avenue,Bronx,NY,10469,40.8597,-73.86074,718-944-3601,8:15 AM,3:45 PM,489,6.50%,35.60%,48.90%,5.50%,420,433,425,77.00%
+11X509,High School of Language and Innovation,Bronx,X415,925 Astor Avenue,Bronx,NY,10469,40.8597,-73.86074,718-944-3625,8:25 AM,3:15 PM,354,11.00%,11.90%,57.60%,16.70%,356,340,320,72.70%
+11X288,Collegiate Institute for Math and Science,Bronx,X415,925 Astor Avenue,Bronx,NY,10469,40.8597,-73.86074,718-944-3635,8:15 AM,4:15 PM,687,9.50%,33.80%,43.50%,11.60%,488,461,458,79.80%
+11X508,Bronxdale High School,Bronx,X415,925 Astor Avenue,Bronx,NY,10469,40.8597,-73.86074,718-944-3655,8:25 AM,3:55 PM,427,9.40%,28.80%,57.10%,3.00%,418,432,436,72.50%
+12X388,Pan American International High School at Monroe,Bronx,X420,1300 Boynton Avenue,Bronx,NY,10472,40.83137,-73.87882,718-991-7238,8:30 AM,5:30 PM,428,0.00%,0.00%,100.00%,0.00%,317,315,292,65.60%
+12X478,Cinema School,Bronx,X423,1551 East 172nd Street,Bronx,NY,10472,40.83136,-73.87834,718-620-2560,8:30 AM,3:45 PM,338,4.10%,21.90%,69.80%,3.80%,430,449,448,88.30%
+12X692,Monroe Academy for Visual Arts and Design,Bronx,X420,1300 Boynton Avenue,Bronx,NY,10472,40.83137,-73.87882,718-860-8160,8:30 AM,3:00 PM,445,0.90%,18.00%,78.40%,1.10%,361,354,351,46.80%
+12X242,Mott Hall V,Bronx,X423,1551 East 172nd Street,Bronx,NY,10472,40.83136,-73.87834,718-620-8160,8:00 AM,3:30 PM,669,1.70%,22.20%,70.60%,4.20%,430,422,414,77.50%
+12X521,Metropolitan Soundview High School,Bronx,X420,1300 Boynton Avenue,Bronx,NY,10472,40.83137,-73.87882,718-860-8240,8:30 AM,3:40 PM,416,1.70%,26.20%,67.30%,2.60%,444,428,422,52.00%
+12X550,High School of World Cultures,Bronx,X420,1300 Boynton Avenue,Bronx,NY,10472,40.83137,-73.87882,718-860-8120,8:00 AM,4:00 PM,410,1.20%,8.30%,80.20%,8.00%,356,359,347,38.20%
+08X312,Millennium Art Academy,Bronx,X450,1980 Lafayette Avenue,Bronx,NY,10473,40.8223,-73.85596,718-824-0978,8:00 AM,3:00 PM,487,1.80%,30.00%,65.10%,2.30%,396,413,395,39.20%
+08X452,Bronx Guild,Bronx,X450,1980 Lafayette Avenue,Bronx,NY,10473,40.8223,-73.85596,718-597-1587,8:30 AM,3:00 PM,326,1.20%,32.20%,61.70%,4.00%,365,393,357,41.30%
+08X367,"Archimedes Academy for Math, Science, and Technology Applications",Bronx,X174,456 White Plains Road,Bronx,NY,10473,40.81492,-73.85657,718-617-5046,8:25 AM,3:15 PM,637,2.20%,30.90%,60.60%,5.50%,418,430,403,51.20%
+08X432,Bronx Bridges High School,Bronx,X450,1980 Lafayette Avenue,Bronx,NY,10473,40.8223,-73.85596,718-829-2984,8:00 AM,3:45 PM,333,1.80%,6.60%,82.90%,7.80%,,,,1.20%
+08X305,Pablo Neruda Academy,Bronx,X450,1980 Lafayette Avenue,Bronx,NY,10473,40.8223,-73.85596,718-824-1682,8:00 AM,3:50 PM,315,1.30%,26.00%,67.60%,4.40%,394,384,383,44.20%
+08X282,Women's Academy of Excellence,Bronx,X174,456 White Plains Road,Bronx,NY,10473,40.81492,-73.85657,718-542-0740,8:30 AM,2:45 PM,345,2.60%,50.10%,41.20%,3.50%,386,390,389,45.20%
+08X561,Bronx Compass High School,Bronx,X450,1980 Lafayette Avenue,Bronx,NY,10473,40.8223,-73.85596,718-828-1206,8:30 AM,3:15 PM,332,0.90%,34.60%,60.20%,2.40%,,,,
+08X519,Felisa Rincon de Gautier Institute for Law and Public Policy,Bronx,X972,1440 Story Avenue,Bronx,NY,10473,40.82117,-73.88114,718-860-5110,8:00 AM,2:19 PM,307,2.90%,25.40%,67.80%,2.00%,389,408,413,31.30%
+08X376,Antonia Pantoja Preparatory Academy (College Board),Bronx,X450,1980 Lafayette Avenue,Bronx,NY,10473,40.8223,-73.85596,718-824-3152,8:00 AM,2:45 PM,450,1.30%,26.20%,65.40%,6.30%,435,415,423,44.90%
+11X249,Bronx Health Sciences High School,Bronx,X455,750 Baychester Avenue,Bronx,NY,10475,40.87413,-73.8338,718-862-4406,7:15 AM,3:00 PM,374,2.70%,51.90%,34.50%,7.50%,407,421,427,87.10%
+11X455,Harry S. Truman High School,Bronx,X455,750 Baychester Avenue,Bronx,NY,10475,40.87413,-73.8338,718-904-5400,8:00 AM,3:00 PM,2058,2.20%,51.60%,42.70%,2.40%,400,401,391,41.50%
+24Q600,Queens Vocational and Technical High School,Queens,Q600,37-02 47th Avenue,Long Island City,NY,11101,40.74219,-73.92824,718-937-3010,8:00 AM,4:30 PM,1553,7.30%,5.80%,74.60%,12.10%,467,436,432,53.40%
+24Q267,High School of Applied Communication,Queens,Q735,30-20 Thomson Avenue,Long Island City,NY,11101,40.74509,-73.93681,718-389-3163,8:30 AM,3:30 PM,421,13.50%,12.60%,54.40%,15.90%,435,437,441,70.90%
+24Q520,Middle College High School at LaGuardia Community College,Queens,Q520,45-35 Van Dam Street,Long Island City,NY,11101,40.74415,-73.93363,718-392-3330,8:00 AM,1:55 PM,514,7.00%,4.70%,79.60%,8.40%,377,389,377,48.70%
+30Q301,Academy for Careers in Television and Film,Queens,Q404,1-50 51st Avenue,Long Island City,NY,11101,40.74114,-73.94969,718-609-3330,9:00 AM,3:30 PM,515,20.80%,15.90%,54.20%,5.80%,444,458,444,95.00%
+24Q610,Aviation Career and Technical Education High School,Queens,Q610,45-30 36th Street,Long Island City,NY,11101,40.74359,-73.92908,718-361-2032,8:00 AM,4:30 PM,2168,11.00%,6.30%,49.00%,30.90%,511,464,456,78.60%
+30Q575,Academy of American Studies,Queens,Q451,28-04 41st Avenue,Long Island City,NY,11101,40.7513,-73.93742,718-361-8786,9:50 AM,4:15 PM,874,28.30%,7.30%,34.30%,29.30%,495,482,479,84.80%
+30Q555,Newcomers High School,Queens,Q450,28-01 41st Avenue,Long Island City,NY,11101,40.75138,-73.93745,718-937-6005,8:00 AM,3:00 PM,993,6.20%,2.40%,54.60%,36.70%,490,374,381,47.10%
+24Q299,Bard High School Early College Queens,Queens,Q735,30-20 Thomson Avenue,Long Island City,NY,11101,40.74509,-73.93681,718-361-3133,9:00 AM,3:20 PM,623,34.50%,11.40%,17.00%,34.20%,631,598,610,94.10%
+24Q530,International High School at LaGuardia Community College,Queens,Q520,45-35 Van Dam Street,Long Island City,NY,11101,40.74415,-73.93363,718-392-3433,8:00 AM,3:30 PM,509,13.00%,2.60%,45.00%,39.30%,425,367,365,71.70%
+30Q502,Information Technology High School,Queens,Q725,21-16 44th Road,Long Island City,NY,11101,40.74792,-73.94657,718-937-4270,7:15 AM,2:05 PM,970,9.40%,14.90%,56.30%,18.20%,443,420,411,58.80%
+24Q560,Robert F. Wagner Jr. Secondary School for Arts and Technology,Queens,Q891,47-07 30th Place,Long Island City,NY,11101,40.74226,-73.93688,718-472-5671,8:00 AM,3:00 PM,610,10.90%,4.90%,64.30%,19.20%,478,445,445,71.10%
+24Q264,Academy of Finance and Enterprise,Queens,Q735,30-20 Thomson Avenue,Long Island City,NY,11101,40.74509,-73.93681,718-389-3623,8:15 AM,3:15 PM,478,15.30%,7.10%,51.90%,22.00%,489,456,459,92.70%
+30Q286,Young Women's Leadership School in Astoria,Queens,Q739,23-15 Newtown Avenue,Astoria,NY,11102,40.77125,-73.9246,718-267-2839,8:00 AM,3:20 PM,572,19.60%,4.70%,38.00%,37.70%,483,464,477,100.00%
+30Q445,William Cullen Bryant High School,Queens,Q445,48-10 31st Avenue,Astoria,NY,11103,40.75812,-73.91033,718-721-5404,8:45 AM,3:30 PM,2496,16.10%,5.60%,48.70%,28.40%,466,424,426,56.90%
+30Q450,Long Island City High School,Queens,Q452,14-30 Broadway,Astoria,NY,11106,40.76576,-73.93273,718-545-7095,8:29 AM,3:50 PM,2123,9.00%,13.50%,60.20%,15.70%,430,423,412,51.60%
+30Q501,Frank Sinatra School of the Arts High School,Queens,Q570,35-12 35th Avenue,Astoria,NY,11106,40.75653,-73.92514,718-361-9920,7:45 AM,3:15 PM,808,38.70%,13.60%,33.40%,10.50%,536,543,543,89.50%
+30Q258,Energy Tech High School,Queens,Q204,36-41 28th Street,Astoria,NY,11106,40.7571,-73.93262,718-472-0536,8:45 AM,3:35 PM,227,15.90%,11.50%,42.70%,23.30%,,,,
+30Q580,Baccalaureate School for Global Education,Queens,Q798,34-12 36th Avenue,Astoria,NY,11106,40.75517,-73.92682,718-361-5275,8:00 AM,3:00 PM,478,34.50%,2.50%,21.20%,39.60%,633,620,628,98.50%
+13K419,"Science Skills Center High School for Science, Technology, and the Creative Arts",Brooklyn,K805,49 Flatbush Avenue Extension,Brooklyn,NY,11201,40.69717,-73.98496,718-243-9413,8:07 AM,3:40 PM,528,2.10%,70.50%,18.40%,6.80%,399,397,386,65.90%
+13K439,Brooklyn International High School,Brooklyn,K805,49 Flatbush Avenue Extension,Brooklyn,NY,11201,40.69717,-73.98496,718-643-9315,9:15 AM,3:30 PM,345,13.90%,17.70%,26.70%,41.70%,432,334,333,92.70%
+15K423,Brooklyn Frontiers High School,Brooklyn,K520,112 Schermerhorn Street,Brooklyn,NY,11201,40.6902,-73.98927,718-722-4727,8:20 AM,3:09 PM,,,,,,,,,
+15K497,School for International Studies,Brooklyn,K293,284 Baltic Street,Brooklyn,NY,11201,40.68545,-73.99349,718-330-9390,8:30 AM,3:15 PM,466,9.90%,47.90%,36.30%,4.20%,417,406,394,65.10%
+15K429,Brooklyn School for Global Studies,Brooklyn,K293,284 Baltic Street,Brooklyn,NY,11201,40.68545,-73.99349,718-694-9741,8:45 AM,3:10 PM,250,6.60%,54.80%,35.50%,2.40%,393,381,402,61.80%
+13K674,"City Polytechnic High School of Engineering, Architecture, and Technology",Brooklyn,K580,105 Johnson Street,Brooklyn,NY,11201,40.69494,-73.98604,718-875-1473,8:40 AM,4:07 PM,458,3.50%,69.70%,19.70%,6.60%,503,477,427,18.50%
+13K527,Urban Assembly Institute of Math and Science for Young Women,Brooklyn,K313,283 Adams Street,Brooklyn,NY,11201,40.69462,-73.98862,718-260-2300,8:30 AM,3:20 PM,470,4.90%,73.60%,14.80%,3.50%,397,415,407,82.40%
+13K483,Urban Assembly School for Law and Justice,Brooklyn,K313,283 Adams Street,Brooklyn,NY,11201,40.69462,-73.98862,718-858-1160,8:40 AM,3:40 PM,448,0.90%,71.40%,21.90%,2.00%,446,443,430,87.60%
+15K519,Cobble Hill School of American Studies,Brooklyn,K804,347 Baltic Street,Brooklyn,NY,11201,40.68458,-73.99109,718-403-9544,8:00 AM,3:00 PM,596,4.40%,63.80%,25.00%,4.50%,416,420,402,55.30%
+13K605,George Westinghouse Career and Technical Education High School,Brooklyn,K580,105 Johnson Street,Brooklyn,NY,11201,40.69494,-73.98604,718-625-6130,8:30 AM,3:30 PM,634,2.10%,74.40%,19.70%,2.50%,394,422,400,45.30%
+13K350,Urban Assembly High School of Music and Art,Brooklyn,K805,49 Flatbush Avenue Extension,Brooklyn,NY,11201,40.69717,-73.98496,718-858-0249,8:30 AM,4:00 PM,387,0.50%,77.50%,20.70%,0.50%,372,372,361,55.10%
+18K629,Cultural Academy for the Arts and Sciences,Brooklyn,K415,5800 Tilden Avenue,Brooklyn,NY,11203,40.64866,-73.9219,718-968-6630,8:00 AM,3:00 PM,353,0.60%,90.40%,8.50%,0.60%,382,395,384,57.30%
+17K745,Brooklyn Institute for Liberal Arts,Brooklyn,K470,600 Kingston Avenue,Brooklyn,NY,11203,40.65952,-73.94255,718-221-1097,8:00 AM,3:00 PM,253,0.40%,94.10%,3.20%,1.60%,,,,
+18K569,Kurt Hahn Expeditionary Learning School,Brooklyn,K415,5800 Tilden Avenue,Brooklyn,NY,11203,40.64866,-73.9219,718-629-1204,8:30 AM,3:30 PM,341,0.30%,91.20%,6.70%,1.20%,378,394,388,72.60%
+17K531,School for Human Rights,Brooklyn,K470,600 Kingston Avenue,Brooklyn,NY,11203,40.65952,-73.94255,718-771-4793,8:00 AM,3:00 PM,424,1.00%,90.70%,6.50%,1.40%,398,411,400,60.80%
+18K563,It Takes a Village Academy,Brooklyn,K415,5800 Tilden Avenue,Brooklyn,NY,11203,40.64866,-73.9219,718-629-2307,8:15 AM,4:15 PM,566,1.10%,90.30%,5.70%,0.50%,364,374,361,62.20%
+17K546,High School for Public Service: Heroes of Tomorrow,Brooklyn,K470,600 Kingston Avenue,Brooklyn,NY,11203,40.65952,-73.94255,718-756-5325,8:30 AM,3:15 PM,454,1.10%,75.80%,17.40%,5.30%,468,454,464,95.40%
+18K589,Arts and Media Preparatory Academy,Brooklyn,K232,905 Winthrop Street,Brooklyn,NY,11203,40.65846,-73.92903,718-773-3908,8:50 AM,3:40 PM,279,1.40%,82.80%,12.50%,1.10%,370,383,374,64.20%
+17K533,School for Democracy and Leadership,Brooklyn,K470,600 Kingston Avenue,Brooklyn,NY,11203,40.65952,-73.94255,718-771-4865,8:00 AM,2:50 PM,319,2.30%,87.60%,7.40%,0.80%,386,385,390,53.50%
+20K609,Urban Assembly School for Criminal Justice,Brooklyn,K223,4200 16th Avenue,Brooklyn,NY,11204,40.63491,-73.98152,718-438-3893,8:45 AM,3:45 PM,496,15.00%,17.50%,20.40%,46.50%,428,413,417,83.60%
+20K505,Franklin Delano Roosevelt High School,Brooklyn,K505,5800 20th Avenue,Brooklyn,NY,11204,40.62026,-73.98201,718-621-8800,9:30 AM,4:15 PM,3220,18.60%,11.50%,29.30%,40.10%,504,411,407,54.00%
+13K412,"Brooklyn Community High School of Communication, Arts, and Media",Brooklyn,K117,300 Willoughby Avenue,Brooklyn,NY,11205,40.69258,-73.95887,718-230-5748,8:30 AM,3:20 PM,404,0.70%,78.50%,17.80%,1.20%,358,386,380,51.70%
+13K265,Dr. Susan S. McKinney Secondary School of the Arts,Brooklyn,K265,101 Park Avenue,Brooklyn,NY,11205,40.69634,-73.97577,718-834-6760,8:00 AM,3:15 PM,421,0.70%,73.00%,22.80%,0.70%,332,346,350,55.10%
+13K670,Benjamin Banneker Academy,Brooklyn,K914,71-77 Clinton Avenue,Brooklyn,NY,11205,40.69566,-73.96929,718-797-3702,8:00 AM,3:00 PM,916,0.50%,86.40%,8.60%,3.40%,479,484,472,85.50%
+14K071,Juan Morel Campos Secondary School,Brooklyn,K071,215 Heyward Street,Brooklyn,NY,11206,40.70358,-73.95324,718-302-7900,8:00 AM,2:15 PM,692,2.50%,13.60%,82.70%,0.30%,366,356,353,56.30%
+14K449,Brooklyn Latin School,Brooklyn,K049,223 Graham Avenue,Brooklyn,NY,11206,40.7099,-73.94366,718-366-0154,8:00 AM,2:30 PM,676,13.50%,19.40%,14.50%,36.10%,625,588,591,97.50%
+14K322,Foundations Academy,Brooklyn,K033,70 Tompkins Avenue,Brooklyn,NY,11206,40.69706,-73.94668,718-302-5092,8:30 AM,3:30 PM,113,0.00%,67.30%,29.20%,1.80%,,,,18.90%
+14K614,Young Women's Leadership School of Brooklyn,Brooklyn,K147,325 Bushwick Avenue,Brooklyn,NY,11206,40.7056,-73.93948,718-387-5641,7:30 AM,2:45 PM,380,0.80%,63.80%,28.30%,3.30%,,,,0.00%
+14K454,Green School: An Academy for Environmental Careers,Brooklyn,K049,223 Graham Avenue,Brooklyn,NY,11206,40.7099,-73.94366,718-599-1207,8:00 AM,3:30 PM,276,1.40%,38.00%,59.10%,0.70%,384,398,399,41.10%
+14K586,Lyons Community School,Brooklyn,K049,223 Graham Avenue,Brooklyn,NY,11206,40.7099,-73.94366,718-782-0918,8:40 AM,3:30 PM,520,2.40%,39.80%,55.80%,1.80%,374,376,357,56.30%
+19K510,World Academy for Total Community Health High School,Brooklyn,K435,400 Pennsylvania Avenue,Brooklyn,NY,11207,40.66755,-73.8948,718-922-0650,8:05 AM,2:20 PM,284,1.40%,75.70%,19.00%,2.50%,380,389,384,40.90%
+19K502,FDNY High School for Fire and Life Safety,Brooklyn,K435,400 Pennsylvania Avenue,Brooklyn,NY,11207,40.66755,-73.8948,718-922-0389,8:00 AM,3:00 PM,324,1.90%,71.60%,24.40%,1.20%,365,369,357,47.70%
+19K660,W. H. Maxwell Career and Technical Education High School,Brooklyn,K660,145 Pennsylvania Avenue,Brooklyn,NY,11207,40.67422,-73.89645,718-345-9100,8:00 AM,3:07 PM,506,0.60%,69.60%,28.10%,1.00%,326,333,350,38.50%
+19K504,High School for Civil Rights,Brooklyn,K435,400 Pennsylvania Avenue,Brooklyn,NY,11207,40.66755,-73.8948,718-922-6289,8:00 AM,3:15 PM,319,1.90%,74.00%,22.90%,0.30%,391,373,376,26.40%
+19K507,Performing Arts and Technology High School,Brooklyn,K435,400 Pennsylvania Avenue,Brooklyn,NY,11207,40.66755,-73.8948,718-922-0762,8:05 AM,3:00 PM,406,0.50%,80.80%,18.20%,0.20%,375,393,394,39.80%
+19K409,East New York Family Academy,Brooklyn,K819,2057 Linden Boulevard,Brooklyn,NY,11207,40.66064,-73.88634,718-927-0012,8:00 AM,3:00 PM,479,0.40%,67.60%,29.50%,2.20%,464,451,421,66.70%
+19K639,Brooklyn Lab School,Brooklyn,K420,999 Jamaica Avenue,Brooklyn,NY,11208,40.69114,-73.86843,718-235-3592,8:22 AM,3:11 PM,334,0.90%,35.60%,56.90%,5.40%,383,376,370,46.80%
+19K583,Multicultural High School,Brooklyn,K420,999 Jamaica Avenue,Brooklyn,NY,11208,40.69114,-73.86843,718-827-2796,8:15 AM,3:15 PM,229,0.40%,0.00%,99.60%,0.00%,319,323,284,28.60%
+19K683,"School for Classics: An Academy of Thinkers, Writers, and Performers",Brooklyn,K218,370 Fountain Avenue,Brooklyn,NY,11208,40.67068,-73.87422,718-277-1069,8:00 AM,3:00 PM,308,4.20%,60.70%,26.00%,7.80%,387,391,383,52.80%
+19K764,Urban Assembly School for Collaborative Healthcare,Brooklyn,K420,999 Jamaica Avenue,Brooklyn,NY,11208,40.69114,-73.86843,347-470-2511,8:15 AM,3:15 PM,62,4.80%,40.30%,32.30%,11.30%,,,,
+19K422,Spring Creek Community School,Brooklyn,K422,1065 Elton Street,Brooklyn,NY,11208,40.65752,-73.87478,718-688-7200,,,,,,,,,,,
+19K615,Transit Tech Career and Technical Education High School,Brooklyn,K615,1 Wells Street,Brooklyn,NY,11208,40.67823,-73.87597,718-647-5204,8:30 AM,2:45 PM,1093,1.30%,63.60%,27.20%,6.10%,387,387,384,37.20%
+19K659,Cypress Hills Collegiate Preparatory School,Brooklyn,K420,999 Jamaica Avenue,Brooklyn,NY,11208,40.69114,-73.86843,718-647-1672,8:10 AM,3:00 PM,330,3.30%,19.70%,71.20%,4.50%,365,370,362,53.80%
+19K404,Academy for Young Writers,Brooklyn,K422,1065 Elton Street,Brooklyn,NY,11208,40.65752,-73.87478,718-688-7230,9:05 AM,3:30 PM,547,1.20%,73.10%,21.90%,1.50%,382,413,391,81.20%
+19K618,Academy of Innovative Technology,Brooklyn,K420,999 Jamaica Avenue,Brooklyn,NY,11208,40.69114,-73.86843,718-827-2469,7:45 AM,2:30 PM,413,1.20%,45.50%,45.50%,5.30%,395,376,359,57.40%
+20K490,Fort Hamilton High School,Brooklyn,K490,8301 Shore Road,Brooklyn,NY,11209,40.62791,-74.03995,718-748-1537,9:00 AM,3:45 PM,4372,34.10%,4.50%,29.20%,30.10%,513,456,451,68.70%
+22K405,Midwood High School,Brooklyn,K405,2839 Bedford Avenue,Brooklyn,NY,11210,40.63334,-73.95292,718-724-8500,8:45 AM,3:30 PM,3787,23.30%,29.80%,12.50%,33.70%,550,514,516,85.70%
+14K474,PROGRESS High School for Professional Careers,Brooklyn,K450,850 Grand Street,Brooklyn,NY,11211,40.71196,-73.94043,718-387-0228,8:00 AM,2:45 PM,1098,0.80%,35.10%,62.60%,1.00%,380,377,384,44.90%
+14K478,"High School for Enterprise, Business, and Technology",Brooklyn,K450,850 Grand Street,Brooklyn,NY,11211,40.71196,-73.94043,718-387-2800,7:45 AM,3:45 PM,1001,2.50%,36.10%,56.90%,4.00%,463,446,425,54.50%
+14K488,Brooklyn Preparatory High School,Brooklyn,K650,257 North 6th Street,Brooklyn,NY,11211,40.71504,-73.95465,718-486-2550,8:20 AM,3:10 PM,494,2.00%,54.70%,40.30%,2.40%,391,406,391,74.50%
+14K685,El Puente Academy for Peace and Justice,Brooklyn,K778,250 Hooper Street,Brooklyn,NY,11211,40.70577,-73.95573,718-387-1125,9:00 AM,3:30 PM,245,1.20%,11.80%,85.30%,0.00%,344,380,379,62.50%
+14K477,School for Legal Studies,Brooklyn,K450,850 Grand Street,Brooklyn,NY,11211,40.71196,-73.94043,718-387-2800,8:00 AM,3:30 PM,598,1.30%,45.80%,50.00%,1.00%,393,390,394,34.80%
+14K561,Williamsburg Preparatory School,Brooklyn,K650,257 North 6th Street,Brooklyn,NY,11211,40.71504,-73.95465,718-302-2306,8:15 AM,3:15 PM,682,10.00%,16.40%,69.60%,2.60%,443,440,430,87.80%
+14K558,Williamsburg High School for Architecture and Design,Brooklyn,K650,257 North 6th Street,Brooklyn,NY,11211,40.71504,-73.95465,718-388-1260,8:15 AM,3:15 PM,595,4.20%,31.60%,60.00%,2.40%,415,424,407,60.10%
+23K514,Frederick Douglass Academy VII High School,Brooklyn,K175,226 Bristol Street,Brooklyn,NY,11212,40.66581,-73.9117,718-485-3789,9:07 AM,3:27 PM,319,0.30%,88.10%,11.30%,0.00%,400,407,394,65.40%
+23K697,Teachers Preparatory High School,Brooklyn,K175,226 Bristol Street,Brooklyn,NY,11212,40.66581,-73.9117,718-498-2605,8:20 AM,2:40 PM,390,0.60%,83.00%,15.70%,0.30%,394,399,412,56.60%
+17K122,Pathways in Technology Early College High School,Brooklyn,K625,150 Albany Avenue,Brooklyn,NY,11213,40.6754,-73.93888,718-221-1593,8:15 AM,4:30 PM,438,0.70%,85.60%,9.10%,3.00%,446,442,410,69.40%
+17K751,Academy for Health Careers,Brooklyn,K625,150 Albany Avenue,Brooklyn,NY,11213,40.6754,-73.93888,718-773-0128,8:30 AM,2:45 PM,373,0.80%,85.50%,8.80%,1.60%,406,405,396,48.10%
+16K455,Boys and Girls High School,Brooklyn,K455,1700 Fulton Street,Brooklyn,NY,11213,40.67943,-73.93243,718-467-1700,8:15 AM,3:15 PM,648,1.70%,87.20%,8.60%,0.90%,399,392,394,35.60%
+16K765,Nelson Mandela School for Social Justice,Brooklyn,K455,1700 Fulton Street,Brooklyn,NY,11213,40.67943,-73.93243,718-935-3604,8:30 AM,4:00 PM,124,2.40%,86.30%,10.50%,0.00%,,,,
+21K348,High School of Sports Management,Brooklyn,K400,2630 Benson Avenue,Brooklyn,NY,11214,40.59359,-73.98473,718-333-7650,7:45 AM,3:45 PM,290,5.50%,72.40%,16.90%,3.80%,367,374,361,56.20%
+21K690,Brooklyn Studio Secondary School,Brooklyn,K721,8310 21st Avenue,Brooklyn,NY,11214,40.60488,-73.99442,718-266-5032,8:00 AM,2:30 PM,901,53.30%,5.10%,25.00%,16.20%,458,434,434,67.80%
+21K337,International High School at Lafayette,Brooklyn,K400,2630 Benson Avenue,Brooklyn,NY,11214,40.59359,-73.98473,718-333-7860,9:15 AM,4:00 PM,358,25.70%,8.70%,24.00%,41.10%,424,343,337,84.30%
+21K572,Expeditionary Learning School for Community Leaders,Brooklyn,K400,2630 Benson Avenue,Brooklyn,NY,11214,40.59359,-73.98473,718-333-7700,8:25 AM,3:15 PM,271,23.20%,17.30%,42.10%,15.50%,420,396,396,75.00%
+20K445,New Utrecht High School,Brooklyn,K445,1601 80th Street,Brooklyn,NY,11214,40.61342,-74.00365,718-232-2500,8:00 AM,3:00 PM,3480,27.60%,4.00%,29.00%,38.60%,488,422,417,63.20%
+21K559,Life Academy High School for Film and Music,Brooklyn,K400,2630 Benson Avenue,Brooklyn,NY,11214,40.59359,-73.98473,718-333-7750,8:15 AM,3:00 PM,271,13.70%,51.70%,26.60%,7.40%,369,379,378,70.20%
+21K468,Kingsborough Early College School,Brooklyn,K400,2630 Benson Avenue,Brooklyn,NY,11214,40.59359,-73.98473,718-333-7850,8:00 AM,2:20 PM,564,42.50%,25.70%,24.30%,6.60%,474,462,449,65.80%
+15K463,Secondary School for Journalism,Brooklyn,K460,237 7th Avenue,Brooklyn,NY,11215,40.6696,-73.97926,718-832-4201,8:25 AM,3:12 PM,285,6.30%,46.70%,37.50%,7.40%,408,435,415,58.80%
+15K684,Millennium Brooklyn High School,Brooklyn,K460,237 7th Avenue,Brooklyn,NY,11215,40.6696,-73.97926,718-832-4333,8:00 AM,2:30 PM,566,31.10%,26.00%,27.20%,9.50%,553,551,539,79.60%
+15K464,Park Slope Collegiate,Brooklyn,K460,237 7th Avenue,Brooklyn,NY,11215,40.6696,-73.97926,718-832-4300,8:15 AM,3:15 PM,423,3.60%,46.40%,36.50%,7.90%,405,377,395,59.60%
+15K462,Secondary School for Law,Brooklyn,K460,237 7th Avenue,Brooklyn,NY,11215,40.6696,-73.97926,718-832-4250,8:25 AM,3:12 PM,351,3.40%,66.40%,25.90%,2.00%,420,424,414,74.70%
+13K595,Bedford Academy High School,Brooklyn,K994,1119 Bedford Avenue,Brooklyn,NY,11216,40.68538,-73.95427,718-398-3061,8:00 AM,4:15 PM,364,0.80%,84.60%,7.70%,3.00%,505,464,456,96.20%
+15K592,Khalil Gibran International Academy,Brooklyn,K806,362 Schermerhorn Street,Brooklyn,NY,11217,40.68674,-73.98023,718-237-2502,8:00 AM,3:00 PM,174,27.60%,48.30%,6.30%,15.50%,,,,
+15K656,Brooklyn High School of the Arts,Brooklyn,K655,345 Dean Street,Brooklyn,NY,11217,40.68365,-73.98047,718-855-2412,8:15 AM,3:00 PM,870,2.00%,70.30%,22.50%,1.70%,439,441,436,80.60%
+13K430,Brooklyn Technical High School,Brooklyn,K430,29 Ft Greene Place,Brooklyn,NY,11217,40.68811,-73.97675,718-804-6400,8:45 AM,3:15 PM,5447,20.50%,7.70%,7.60%,60.50%,682,608,606,95.50%
+22K555,Brooklyn College Academy,Brooklyn,K917,350 Coney Island Avenue,Brooklyn,NY,11218,40.6492,-73.97169,718-853-6184,8:00 AM,3:00 PM,605,4.60%,72.20%,9.10%,7.90%,502,495,493,98.10%
+20K485,High School of Telecommunication Arts and Technology,Brooklyn,K485,350 67th Street,Brooklyn,NY,11220,40.63725,-74.02382,718-759-3400,8:00 AM,3:00 PM,1329,16.30%,7.70%,56.70%,18.00%,475,440,445,81.60%
+32K545,EBC High School for Public Service in Bushwick,Brooklyn,K913,1155 Dekalb Avenue,Brooklyn,NY,11221,40.69448,-73.92915,718-452-3440,8:00 AM,3:45 PM,514,0.20%,8.00%,90.70%,0.40%,389,374,378,50.00%
+16K498,Brooklyn High School for Law and Technology,Brooklyn,K987,1396 Broadway,Brooklyn,NY,11221,40.68893,-73.92108,718-919-1256,8:00 AM,3:00 PM,596,1.20%,71.10%,23.80%,2.50%,395,401,383,62.70%
+16K688,Brooklyn Academy of Global Finance,Brooklyn,K057,125 Stuyvesant Avenue,Brooklyn,NY,11221,40.69154,-73.93373,718-574-3126,8:15 AM,3:12 PM,152,2.00%,71.70%,20.40%,5.90%,395,382,391,45.90%
+16K393,Frederick Douglass Academy IV Secondary School,Brooklyn,K026,1014 Lafayette Avenue,Brooklyn,NY,11221,40.69213,-73.9315,718-574-2820,8:00 AM,2:20 PM,92,1.10%,82.60%,14.10%,1.10%,,,,42.90%
+32K556,Bushwick Leaders High School for Academic Excellence,Brooklyn,K865,797 Bushwick Avenue,Brooklyn,NY,11221,40.695,-73.92799,718-919-4212,8:15 AM,4:45 PM,317,0.30%,16.70%,81.40%,0.90%,393,368,382,46.80%
+14K610,Automotive High School,Brooklyn,K610,50 Bedford Avenue,Brooklyn,NY,11222,40.72264,-73.95258,718-218-9301,8:45 AM,3:50 PM,383,2.90%,55.90%,38.10%,1.60%,367,381,328,31.60%
+14K632,Frances Perkins Academy,Brooklyn,K610,50 Bedford Avenue,Brooklyn,NY,11222,40.72264,-73.95258,718-388-7721,8:00 AM,3:00 PM,142,2.10%,62.70%,32.40%,0.70%,399,413,400,46.30%
+21K540,John Dewey High School,Brooklyn,K540,50 Avenue X,Brooklyn,NY,11223,40.58924,-73.98175,718-373-6400,8:13 AM,3:05 PM,2006,13.70%,28.60%,20.70%,35.80%,512,418,396,62.70%
+21K344,Rachel Carson High School for Coastal Studies,Brooklyn,K303,521 West Avenue,Brooklyn,NY,11224,40.58212,-73.97289,718-265-0329,8:00 AM,3:15 PM,560,43.60%,22.50%,22.30%,10.20%,436,430,421,68.40%
+17K548,Brooklyn School for Music and Theatre,Brooklyn,K440,883 Classon Avenue,Brooklyn,NY,11225,40.6703,-73.96165,718-230-6250,8:10 AM,3:00 PM,386,0.80%,82.60%,15.80%,0.80%,382,393,377,72.20%
+17K547,Brooklyn Academy of Science and the Environment,Brooklyn,K440,883 Classon Avenue,Brooklyn,NY,11225,40.6703,-73.96165,718-230-6363,8:30 AM,4:15 PM,453,1.30%,80.10%,12.60%,5.30%,419,411,416,58.50%
+17K590,Medgar Evers College Preparatory School,Brooklyn,K590,1186 Carroll Street,Brooklyn,NY,11225,40.66716,-73.95086,718-703-5400,7:15 AM,3:15 PM,1271,0.60%,90.90%,3.30%,2.90%,525,500,481,89.00%
+17K600,Clara Barton High School,Brooklyn,K600,901 Classon Avenue,Brooklyn,NY,11225,40.67027,-73.96165,718-636-4900,8:15 AM,3:30 PM,1499,0.90%,89.50%,5.70%,1.80%,408,424,407,55.00%
+17K524,International High School at Prospect Heights,Brooklyn,K440,883 Classon Avenue,Brooklyn,NY,11225,40.6703,-73.96165,718-230-6333,8:30 AM,3:15 PM,414,13.30%,29.00%,38.90%,18.40%,344,302,300,81.70%
+17K528,High School for Global Citizenship,Brooklyn,K440,883 Classon Avenue,Brooklyn,NY,11225,40.6703,-73.96165,718-230-6300,8:00 AM,3:00 PM,246,2.80%,82.10%,13.00%,1.60%,377,386,375,61.90%
+17K543,"Science, Technology, and Research Early College High School at Erasmus",Brooklyn,K465,911 Flatbush Avenue,Brooklyn,NY,11226,40.64944,-73.95843,718-564-2540,8:00 AM,2:45 PM,516,0.90%,87.10%,6.40%,4.00%,496,491,484,91.50%
+17K382,Academy for College Preparation and Career Exploration (College Board),Brooklyn,K465,911 Flatbush Avenue,Brooklyn,NY,11226,40.64944,-73.95843,718-564-2566,8:00 AM,3:30 PM,505,0.80%,84.60%,12.30%,1.70%,386,397,393,57.30%
+17K537,High School for Youth and Community Development at Erasmus,Brooklyn,K465,911 Flatbush Avenue,Brooklyn,NY,11226,40.64944,-73.95843,718-564-2470,8:00 AM,3:00 PM,384,2.10%,85.40%,8.90%,2.30%,360,382,359,63.20%
+17K539,High School for Service and Learning at Erasmus,Brooklyn,K465,911 Flatbush Avenue,Brooklyn,NY,11226,40.64944,-73.95843,718-564-2551,8:00 AM,3:40 PM,445,2.00%,82.50%,10.60%,2.70%,377,382,356,45.50%
+17K408,Academy of Hospitality and Tourism,Brooklyn,K465,911 Flatbush Avenue,Brooklyn,NY,11226,40.64944,-73.95843,718-564-2580,8:00 AM,2:45 PM,285,1.10%,84.60%,10.20%,3.50%,374,385,375,62.00%
+22K425,James Madison High School,Brooklyn,K425,3787 Bedford Avenue,Brooklyn,NY,11229,40.60976,-73.94845,718-758-7200,8:10 AM,2:48 PM,3088,44.30%,17.40%,16.70%,21.20%,492,450,444,69.00%
+21K525,Edward R. Murrow High School,Brooklyn,K525,1600 Avenue L,Brooklyn,NY,11230,40.6205,-73.95923,718-258-9283,8:05 AM,2:45 PM,3968,26.70%,22.60%,21.70%,26.60%,500,479,472,75.20%
+15K448,Brooklyn Secondary School for Collaborative Studies,Brooklyn,K142,610 Henry Street,Brooklyn,NY,11231,40.67986,-74.00148,718-923-4700,8:30 AM,2:50 PM,685,9.30%,38.50%,45.30%,5.80%,401,411,404,84.10%
+15K667,Sunset Park High School,Brooklyn,K564,153 35th Street,Brooklyn,NY,11232,40.65595,-74.0055,718-840-1900,8:45 AM,3:30 PM,1333,6.80%,8.50%,77.30%,7.30%,398,380,381,61.60%
+23K493,Brooklyn Collegiate (College Board),Brooklyn,K055,2021 Bergen Street,Brooklyn,NY,11233,40.67414,-73.91349,718-922-1145,8:30 AM,2:45 PM,353,0.30%,87.50%,9.60%,1.40%,394,395,399,64.40%
+16K594,Gotham Professional Arts Academy,Brooklyn,K040,265 Ralph Avenue,Brooklyn,NY,11233,40.68046,-73.9222,718-455-0746,8:45 AM,3:15 PM,226,1.30%,81.90%,14.60%,0.90%,377,396,386,50.70%
+23K644,Eagle Academy for Young Men II,Brooklyn,K271,1137 Herkimer Street,Brooklyn,NY,11233,40.67783,-73.91582,718-495-0863,8:45 AM,3:00 PM,576,1.90%,85.30%,11.90%,0.00%,,,,0.00%
+22K535,Leon M. Goldstein High School for the Sciences,Brooklyn,K535,1830 Shore Boulevard,Brooklyn,NY,11235,40.58085,-73.93609,718-368-8500,8:15 AM,2:30 PM,1081,59.10%,10.20%,10.60%,18.70%,563,534,543,94.00%
+21K410,Abraham Lincoln High School,Brooklyn,K410,2800 Ocean Parkway,Brooklyn,NY,11235,40.58231,-73.96747,718-333-7400,7:28 AM,3:10 PM,2341,20.10%,39.80%,23.70%,15.10%,441,422,422,54.90%
+22K611,Origins High School,Brooklyn,K495,3000 Avenue X,Brooklyn,NY,11235,40.59419,-73.93684,718-891-0037,8:45 AM,4:00 PM,213,22.50%,42.30%,21.60%,12.70%,,,,
+21K620,William E. Grady Career and Technical Education High School,Brooklyn,K620,25 Brighton 4th Road,Brooklyn,NY,11235,40.58255,-73.96372,718-332-5000,8:00 AM,3:30 PM,613,6.40%,68.70%,18.10%,5.40%,416,423,387,31.40%
+18K642,Urban Action Academy,Brooklyn,K500,1600 Rockaway Parkway,Brooklyn,NY,11236,40.64184,-73.89869,718-290-8720,8:10 AM,3:20 PM,309,4.20%,79.00%,12.30%,2.90%,362,396,393,44.90%
+18K566,Brooklyn Generation School,Brooklyn,K515,6565 Flatlands Avenue,Brooklyn,NY,11236,40.63263,-73.9178,718-968-4200,8:30 AM,3:20 PM,286,1.40%,85.00%,8.70%,1.70%,392,406,403,50.00%
+18K633,High School for Medical Professions,Brooklyn,K500,1600 Rockaway Parkway,Brooklyn,NY,11236,40.64184,-73.89869,718-290-8700,8:00 AM,3:00 PM,432,0.20%,81.90%,13.20%,2.80%,404,427,424,60.20%
+18K617,High School for Innovation in Advertising and Media,Brooklyn,K500,1600 Rockaway Parkway,Brooklyn,NY,11236,40.64184,-73.89869,718-290-8760,8:00 AM,3:15 PM,303,2.60%,85.80%,9.60%,1.30%,390,410,397,59.10%
+18K576,Victory Collegiate High School,Brooklyn,K515,6565 Flatlands Avenue,Brooklyn,NY,11236,40.63263,-73.9178,718-968-1530,8:30 AM,3:30 PM,331,1.20%,88.80%,6.30%,0.90%,386,408,402,72.70%
+18K567,Brooklyn Theatre Arts High School,Brooklyn,K515,6565 Flatlands Avenue,Brooklyn,NY,11236,40.63263,-73.9178,718-968-1072,8:30 AM,3:23 PM,395,1.80%,82.00%,13.20%,0.50%,379,393,373,69.10%
+18K637,Academy for Conservation and the Environment,Brooklyn,K515,6565 Flatlands Avenue,Brooklyn,NY,11236,40.63263,-73.9178,718-968-4101,8:33 AM,3:19 PM,308,1.30%,86.00%,9.70%,1.60%,381,397,390,50.80%
+32K554,All City Leadership Secondary School,Brooklyn,K554,321 Palmetto Street,Brooklyn,NY,11237,40.69741,-73.91315,718-246-6500,7:45 AM,2:30 PM,358,1.70%,14.60%,77.00%,6.20%,467,446,448,85.00%
+32K168,Brooklyn School for Math and Research,Brooklyn,K480,400 Irving Avenue,Brooklyn,NY,11237,40.69696,-73.91082,718-381-7100,8:15 AM,3:45 PM,247,4.50%,53.80%,38.10%,2.40%,,,,0.00%
+32K549,Bushwick School for Social Justice,Brooklyn,K480,400 Irving Avenue,Brooklyn,NY,11237,40.69696,-73.91082,718-381-7100,8:15 AM,3:00 PM,405,2.50%,20.50%,76.00%,0.50%,365,357,357,50.00%
+32K403,Academy for Environmental Leadership,Brooklyn,K480,400 Irving Avenue,Brooklyn,NY,11237,40.69696,-73.91082,718-381-7100,8:00 AM,3:00 PM,340,1.50%,19.40%,77.10%,1.80%,365,366,348,71.30%
+32K552,Academy of Urban Planning,Brooklyn,K480,400 Irving Avenue,Brooklyn,NY,11237,40.69696,-73.91082,718-381-7100,8:15 AM,3:45 PM,279,0.70%,23.30%,73.80%,0.70%,392,374,379,41.90%
+13K499,ACORN Community High School,Brooklyn,K909,561 Grand Avenue,Brooklyn,NY,11238,40.67851,-73.96207,718-789-2258,8:15 AM,3:15 PM,504,1.60%,83.50%,12.90%,1.00%,379,395,385,61.30%
+25Q460,Flushing High School,Queens,Q460,35-01 Union Street,Flushing,NY,11354,40.76524,-73.82786,718-888-7500,8:51 AM,3:37 PM,2186,3.70%,23.70%,51.10%,20.30%,444,407,405,46.10%
+25Q241,Queens High School for Language Studies,Queens,Q460,35-01 Union Street,Flushing,NY,11354,40.76524,-73.82786,718-888-7530,8:00 AM,3:37 PM,205,2.40%,10.20%,23.90%,61.00%,,,,
+25Q240,Veritas Academy,Queens,Q460,35-01 Union Street,Flushing,NY,11354,40.76524,-73.82786,718-888-7520,7:50 AM,2:40 PM,275,12.70%,13.80%,52.40%,20.00%,,,,
+25Q281,East-West School of International Studies,Queens,Q237,46-21 Colden Street,Flushing,NY,11355,40.7493,-73.82181,718-353-0009,7:50 AM,3:00 PM,666,5.30%,14.90%,18.30%,60.70%,521,457,451,89.40%
+25Q263,Flushing International High School,Queens,Q189,144-80 Barclay Avenue,Flushing,NY,11355,40.76041,-73.81838,718-463-2348,8:40 AM,3:30 PM,437,2.50%,2.50%,38.40%,55.60%,481,323,323,67.70%
+25Q285,World Journalism Preparatory (College Board),Queens,Q025,34-65 192nd Street,Flushing,NY,11358,40.76512,-73.79006,718-461-2219,8:00 AM,3:00 PM,610,50.30%,9.10%,22.70%,15.80%,484,491,487,89.20%
+26Q495,Bayside High School,Queens,Q405,32-24 Corporal Kennedy Street,Bayside,NY,11361,40.77187,-73.78039,718-229-7600,8:00 AM,3:30 PM,3336,18.10%,13.00%,27.90%,40.30%,523,479,485,76.70%
+26Q415,Benjamin N. Cardozo High School,Queens,Q415,57-00 223rd Street,Oakland Gardens,NY,11364,40.75239,-73.75608,718-279-6500,9:00 AM,4:00 PM,3505,14.90%,20.30%,19.40%,44.10%,563,505,510,75.60%
+26Q430,Francis Lewis High School,Queens,Q430,58-20 Utopia Parkway,Fresh Meadows,NY,11365,40.74056,-73.79285,718-281-8200,8:30 AM,3:15 PM,4172,14.90%,7.40%,23.10%,53.90%,562,483,485,80.70%
+25Q252,Queens School of Inquiry,Queens,Q168,158-40 76th Road,Fresh Meadows,NY,11366,40.72452,-73.80943,718-380-6929,8:38 AM,2:57 PM,557,19.20%,19.50%,21.80%,36.20%,516,493,486,88.20%
+25Q670,Robert F. Kennedy Community High School,Queens,Q707,75-40 Parsons Boulevard,Fresh Meadows,NY,11366,40.7256,-73.81072,718-969-5510,8:00 AM,2:30 PM,701,18.30%,13.00%,35.50%,31.20%,460,426,423,67.30%
+25Q425,John Bowne High School,Queens,Q425,63-25 Main Street,Flushing,NY,11367,40.7387,-73.82479,718-263-1919,9:08 AM,3:47 PM,3667,4.50%,18.40%,46.00%,29.40%,467,422,425,62.10%
+25Q525,Townsend Harris High School,Queens,Q515,149-11 Melbourne Avenue,Flushing,NY,11367,40.73441,-73.82142,718-575-5580,8:20 AM,3:00 PM,1132,21.90%,6.30%,11.60%,58.60%,680,640,661,97.10%
+24Q550,High School for Arts and Business,Queens,Q456,105-25 Horace Harding Expressway,Corona,NY,11368,40.73742,-73.85331,718-271-8383,8:45 AM,4:00 PM,870,4.10%,7.80%,77.20%,10.20%,413,405,393,76.70%
+24Q293,Civic Leadership Academy,Queens,Q744,45-10 94th Street,Elmhurst,NY,11373,40.7433,-73.87057,718-271-1487,8:30 AM,3:30 PM,479,5.60%,7.90%,71.80%,9.80%,435,424,418,68.90%
+24Q585,Maspeth High School,Queens,Q585,54-40 74th Street,Elmhurst,NY,11373,40.72954,-73.88739,718-803-7100,8:15 AM,3:05 PM,973,35.80%,2.00%,44.60%,17.50%,476,471,480,90.00%
+24Q296,Pan American International High School,Queens,Q744,45-10 94th Street,Elmhurst,NY,11373,40.7433,-73.87057,718-271-3602,8:30 AM,3:15 PM,378,0.00%,0.00%,99.70%,0.30%,340,320,318,31.90%
+24Q236,International High School for Health Sciences,Queens,Q455,48-01 90th Street,Elmhurst,NY,11373,40.74121,-73.87473,718-595-8600,8:30 AM,3:30 PM,159,8.80%,5.70%,63.50%,21.40%,,,,
+24Q455,Newtown High School,Queens,Q455,48-01 90th Street,Elmhurst,NY,11373,40.74121,-73.87473,718-595-8400,8:00 AM,3:30 PM,1921,4.30%,8.30%,61.40%,24.00%,434,401,389,39.10%
+28Q440,Forest Hills High School,Queens,Q440,67-01 110th Street,Forest Hills,NY,11375,40.72943,-73.84563,718-268-3137,,,3840,30.00%,9.60%,33.80%,24.60%,517,485,483,72.80%
+28Q167,Metropolitan Expeditionary Learning School,Queens,Q686,91-30 Metropolitan Avenue,Forest Hills,NY,11375,40.71044,-73.85063,718-286-3500,8:30 AM,3:20 PM,722,27.40%,16.50%,37.30%,14.00%,,,,
+28Q686,Queens Metropolitan High School,Queens,Q686,91-30 Metropolitan Avenue,Forest Hills,NY,11375,40.71044,-73.85063,718-286-3600,8:00 AM,2:50 PM,1035,35.70%,4.20%,46.90%,11.00%,460,448,449,76.40%
+24Q485,Grover Cleveland High School,Queens,Q485,21-27 Himrod Street,Ridgewood,NY,11385,40.71122,-73.90865,718-381-9600,8:30 AM,3:15 PM,1828,18.90%,4.50%,65.70%,9.70%,452,422,416,38.90%
+29Q313,Benjamin Franklin High School for Finance and Information Technology,Queens,Q490,207-01 116th Avenue,Cambria Heights,NY,11411,40.69781,-73.74586,718-935-3645,8:30 AM,4:00 PM,113,1.80%,70.80%,12.40%,12.40%,,,,
+29Q498,Humanities and Arts Magnet High School,Queens,Q490,207-01 116th Avenue,Cambria Heights,NY,11411,40.69554,-73.73492,718-978-2135,8:00 AM,2:45 PM,525,1.10%,81.00%,11.80%,5.50%,384,409,401,60.20%
+29Q243,Institute for Health Professions at Cambria Heights,Queens,Q490,207-01 116th Avenue,Cambria Heights,NY,11411,40.69554,-73.73492,718-723-7301,8:35 AM,3:32 PM,199,1.00%,73.90%,12.60%,9.00%,,,,
+29Q492,"Mathematics, Science Research, and Technology Magnet High School",Queens,Q490,207-01 116th Avenue,Cambria Heights,NY,11411,40.69554,-73.73492,718-978-1837,8:00 AM,2:25 PM,433,1.60%,72.30%,11.80%,9.90%,380,418,388,54.90%
+29Q259,Pathways College Preparatory School (College Board),Queens,Q192,109-89 204th Street,Saint Albans,NY,11412,40.70639,-73.75353,718-454-4957,8:00 AM,3:07 PM,599,1.30%,89.70%,5.70%,2.80%,405,427,409,72.40%
+29Q265,Excelsior Preparatory High School,Queens,Q420,143-10 Springfield Boulevard,Springfield Gardens,NY,11413,40.66823,-73.75684,718-525-6507,8:10 AM,3:07 PM,491,1.20%,82.70%,9.20%,3.70%,384,407,400,70.10%
+29Q283,Preparatory Academy for Writers (College Board),Queens,Q420,143-10 Springfield Boulevard,Springfield Gardens,NY,11413,40.66823,-73.75684,718-949-8405,8:00 AM,3:05 PM,552,2.40%,81.00%,8.40%,4.20%,398,410,393,69.50%
+29Q248,Queens Preparatory Academy,Queens,Q420,143-10 Springfield Boulevard,Springfield Gardens,NY,11413,40.66823,-73.75684,718-712-2304,8:10 AM,2:57 PM,492,1.00%,80.70%,9.10%,4.30%,423,422,403,83.70%
+29Q272,George Washington Carver High School for the Sciences,Queens,Q420,143-10 Springfield Boulevard,Springfield Gardens,NY,11413,40.66823,-73.75684,718-525-6439,8:00 AM,3:15 PM,509,1.80%,75.60%,11.40%,9.40%,439,428,419,63.50%
+27Q650,"High School for Construction Trades, Engineering, and Architecture",Queens,Q650,94-06 104th Street,Ozone Park,NY,11416,40.6894,-73.84064,718-846-6280,8:10 AM,2:34 PM,959,12.30%,10.70%,35.60%,35.50%,489,457,451,78.90%
+27Q480,John Adams High School,Queens,Q480,101-01 Rockaway Boulevard,Ozone Park,NY,11417,40.67983,-73.83832,718-322-0500,8:00 AM,3:30 PM,2634,2.90%,23.90%,37.90%,31.00%,418,401,395,38.40%
+27Q308,Robert H. Goddard High School of Communication Arts and Technology,Queens,Q202,138-30 Lafayette Street,Ozone Park,NY,11417,40.67177,-73.84498,718-848-8357,7:25 AM,2:15 PM,602,17.60%,7.30%,41.70%,29.40%,426,435,424,85.10%
+27Q475,Richmond Hill High School,Queens,Q475,89-30 114th Street,Richmond Hill,NY,11418,40.69565,-73.83358,718-846-3335,8:00 AM,3:00 PM,2175,5.40%,13.60%,48.20%,31.40%,413,406,399,37.90%
+27Q334,Epic High School North,Queens,Q636,94-25 117th Street,South Richmond Hill,NY,11419,40.69288,-73.82931,718-935-3597,9:00 AM,4:00 PM,93,5.40%,21.50%,37.60%,19.40%,,,,
+27Q314,Epic High School South,Queens,Q226,121-10 Rockaway Boulevard,Queens,NY,11420,40.67574,-73.81697,718-935-3643  ,9:00 AM,4:00 PM,87,6.90%,32.20%,26.40%,26.40%,,,,
+29Q326,Cambria Heights Academy,Queens,Q799,188-04 91st Avenue,Hollis,NY,11423,40.71182,-73.77119,718-776-2815,9:00 AM,4:00 PM,372,2.20%,79.00%,9.10%,6.70%,418,424,411,58.50%
+26Q566,"Queens High School of Teaching, Liberal Arts, and the Sciences",Queens,Q566,74-20 Commonwealth Boulevard,Bellerose,NY,11426,40.7449,-73.72691,718-736-7100,8:30 AM,3:30 PM,1120,8.40%,48.10%,17.50%,24.80%,453,434,439,72.40%
+26Q315,Business Technology Early College High School,Queens,Q435,230-17 Hillside Avenue,Queens Village,NY,11427,40.73282,-73.73965,718-935-3651,8:30 AM,4:00 PM,112,8.00%,32.10%,28.60%,22.30%,,,,
+26Q435,Martin Van Buren High School,Queens,Q435,230-17 Hillside Avenue,Queens Village,NY,11427,40.73282,-73.73965,718-776-4728,7:45 AM,3:14 PM,1742,3.60%,52.70%,13.00%,27.00%,397,396,391,40.00%
+28Q680,Queens Gateway to Health Sciences Secondary School,Queens,Q695,160-20 Goethals Avenue,Jamaica,NY,11432,40.71881,-73.8065,718-969-3155,8:00 AM,2:30 PM,779,2.90%,38.20%,14.20%,43.30%,524,511,514,92.50%
+28Q350,Jamaica Gateway to the Sciences,Queens,Q470,167-01 Gothic Drive,Jamaica,NY,11432,40.71358,-73.79652,718-480-2689,8:15 AM,3:00 PM,516,2.30%,42.60%,10.90%,40.70%,487,460,463,78.60%
+28Q328,High School for Community Leadership,Queens,Q470,167-01 Gothic Drive,Jamaica,NY,11432,40.71358,-73.79652,718-558-9801,9:00 AM,3:45 PM,418,4.50%,42.30%,26.60%,22.70%,415,392,386,72.30%
+28Q896,Young Women's Leadership School in Queens,Queens,Q680,150-91 87th Road,Jamaica,NY,11432,40.70821,-73.80408,718-725-0402,8:00 AM,2:57 PM,557,1.90%,47.50%,19.70%,26.90%,415,420,433,90.40%
+28Q310,Queens Collegiate (College Board),Queens,Q470,167-01 Gothic Drive,Jamaica,NY,11432,40.71358,-73.79652,718-658-4016,8:15 AM,3:00 PM,661,4.10%,53.40%,16.10%,24.80%,455,439,441,74.80%
+28Q505,Hillcrest High School,Queens,Q505,160-05 Highland Avenue,Jamaica,NY,11432,40.70876,-73.80213,718-658-5407,8:00 AM,3:30 PM,3286,3.80%,30.30%,28.80%,34.50%,448,432,426,51.80%
+28Q620,Thomas A. Edison Career and Technical Education High School,Queens,Q620,165-65 84th Avenue,Jamaica,NY,11432,40.71588,-73.79882,718-297-6580,8:00 AM,3:30 PM,2098,4.20%,20.90%,22.40%,49.00%,514,473,470,80.00%
+28Q325,Hillside Arts and Letters Academy,Queens,Q470,167-01 Gothic Drive,Jamaica,NY,11432,40.71358,-73.79652,718-658-1249,8:15 AM,3:00 PM,464,3.00%,37.70%,24.40%,27.80%,409,399,404,62.60%
+28Q284,York Early College Academy,Queens,Q008,108-35 167th Street,Jamaica,NY,11433,40.69694,-73.78698,718-262-8547,8:00 AM,3:00 PM,611,1.20%,58.00%,10.30%,28.70%,496,481,473,92.90%
+28Q687,Queens High School for the Sciences at York College,Queens,Q774,94-50 159th Street,Jamaica,NY,11433,40.701,-73.79815,718-657-3181,8:00 AM,3:18 PM,426,6.10%,7.00%,10.60%,75.40%,701,621,625,97.90%
+28Q690,High School for Law Enforcement and Public Safety,Queens,Q690,116-25 Guy R Brewer Boulevard,Jamaica,NY,11434,40.68618,-73.78408,718-977-4800,8:00 AM,3:00 PM,604,1.80%,66.40%,18.90%,10.40%,410,431,409,56.60%
+29Q327,Eagle Academy for Young Men III,Queens,Q633,171-10 Linden Boulevard,Jamaica,NY,11434,40.69167,-73.77903,718-480-2600,8:45 AM,4:45 PM,428,1.80%,86.30%,5.40%,0.60%,,,,
+27Q400,August Martin High School,Queens,Q400,156-10 Baisley Boulevard,Jamaica,NY,11434,40.67553,-73.78343,718-528-2920,8:00 AM,3:30 PM,679,1.50%,75.40%,13.00%,7.50%,366,372,364,26.30%
+27Q260,Frederick Douglass Academy VI High School,Queens,Q465,8-21 Bay 25th Street,Far Rockaway,NY,11691,40.60199,-73.76283,718-471-2154,7:45 AM,2:05 PM,409,0.70%,59.70%,37.90%,1.50%,410,418,407,30.10%
+27Q309,Academy of Medical Technology (College Board),Queens,Q465,8-21 Bay 25th Street,Far Rockaway,NY,11691,40.60199,-73.76283,718-471-3571,8:00 AM,3:15 PM,637,2.70%,50.10%,37.70%,6.60%,422,424,415,67.60%
+27Q302,"Queens High School for Information, Research, and Technology",Queens,Q465,8-21 Bay 25th Street,Far Rockaway,NY,11691,40.60199,-73.76283,718-868-2978,7:45 AM,4:10 PM,381,2.10%,49.10%,43.60%,4.20%,372,362,352,44.60%
+27Q324,Rockaway Park High School for Environmental Sustainability,Queens,Q410,100-00 Beach Channel Drive,Rockaway Park,NY,11694,40.58601,-73.82309,718-734-3280,8:45 AM,3:30 PM,368,14.70%,46.70%,30.20%,3.50%,357,381,376,38.50%
+27Q262,Channel View School for Research,Queens,Q410,100-00 Beach Channel Drive,Rockaway Park,NY,11694,40.58601,-73.82309,718-634-1970,8:15 AM,3:04 PM,683,10.70%,53.20%,29.10%,6.00%,427,430,423,76.60%
+27Q351,Rockaway Collegiate High School,Queens,Q410,100-00 Beach Channel Drive,Rockaway Park,NY,11694,40.58601,-73.82309,718-734-3290,8:30 AM,4:20 PM,397,3.80%,52.60%,33.50%,5.00%,399,403,405,46.50%
+27Q323,Scholars' Academy,Queens,Q180,320 Beach 104th Street,Rockaway Park,NY,11694,40.58413,-73.82568,718-474-6918,8:45 AM,3:00 PM,1302,34.70%,22.70%,19.60%,21.40%,588,560,568,99.20%
