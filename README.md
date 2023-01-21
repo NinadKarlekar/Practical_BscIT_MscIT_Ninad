@@ -16,7 +16,7 @@ Practical of B.Sc. IT and M.Sc. IT
 
 ### **Semester 1**
 
-#### [Research in Computing](/MscIT/Semester%201/Research_In_Computing/README.md)
+#### [Research in Computing](/MscIT/Semester%201/Research_In_Computing/)
 #### [Data Science](/MscIT/Semester%201/Data_Science/)
 #### [Cloud Computing](/MscIT/Semester%201/Cloud_Computing/)
 #### [Soft Computing techniques](/MscIT/Semester%201/Soft_Computing_Techniques/)
