@@ -196,7 +196,7 @@ public class ChatClient {
 ## Prac1C
 
 1C. A client server TCP based File Transfer application. <br>
-**( tcpserverprime, tcpclientprime )**
+**( Tcpfileserver, Tcpfileclient )**
 * Create ***.txt*** file named as **hello** -> write content -> at end of last line type ***EOF*** as last line.
 
 1. ***Tcpfileserver***
