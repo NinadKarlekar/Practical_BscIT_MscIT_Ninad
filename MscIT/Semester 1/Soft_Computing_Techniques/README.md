@@ -21,7 +21,7 @@ PSIT1P4 Soft Computing Techniques
 | [Prac5B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%205/) | 5B. Write a program for **radial basis function**. | [Prac5B](#prac5b) |
 | [Prac6A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%206/) | 6A. **Kohonen self organizing map**.| [Prac6A](#prac6a) |
 | [Prac6B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%206/) | 6B. **Hopfield network**. | [Prac6B](#prac6b) |
-| [Prac7A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7A-i. Implement membership and identity operators - **in** <br> 7A-ii. Implement membership and identity operators- **not in**.| [Prac7A-i](#prac7a-i) <br> [Prac7A-ii](#prac7a-ii) |
+| [Prac7A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7A-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7A-i. Implement membership and identity operators - **in** <br> 7A-ii. Implement membership and identity operators- **not in**.| [Prac7A-i](#prac7a-i) <br> [Prac7A-ii](#prac7a-ii) |
 | [Prac7B-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7B-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7B-i. Implement membership and identity operators- **is**. <br> 7B-ii. Implement membership and identity operators- **is not**. | [Prac7B-i](#prac7b-i) <br> [Prac7B-ii](#prac7b-ii) |
 | [Prac8A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%208/) | 8A. Find **ratios** using **fuzzy logic**.| [Prac8A](#prac8a) |
 | [Prac8B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%208/) | 8B. Solve **tipping** problem using **fuzzy logic**. | [Prac8B](#prac8b) |
