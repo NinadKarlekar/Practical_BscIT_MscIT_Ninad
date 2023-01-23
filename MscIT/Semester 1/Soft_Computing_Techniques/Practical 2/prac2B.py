@@ -17,7 +17,7 @@ for i in range(0, 4):
 
 # Z2
 print("Calculating z2 = x1w12 + x2w22")
-print("Considering one weights as excitatory and other as inhibitory")
+print("Considering one weights as inhibitory and other as excitatory")
 w12 = [-1, -1, -1, -1]
 w22 = [1, 1, 1, 1]
 

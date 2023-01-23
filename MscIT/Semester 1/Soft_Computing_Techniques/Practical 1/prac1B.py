@@ -18,4 +18,4 @@ binary_sigmoidal = 1 / (1 + (math.e ** (-yin)))
 print("Binary Sigmoidal = ", round(binary_sigmoidal, 3))
 
 bipolar_sigmoidal = (2 / (1 + (math.e ** (-yin)))) - 1
-print("Bipolar Sigmoidal = ", round(binary_sigmoidal, 3))
+print("Bipolar Sigmoidal = ", round(bipolar_sigmoidal, 3))

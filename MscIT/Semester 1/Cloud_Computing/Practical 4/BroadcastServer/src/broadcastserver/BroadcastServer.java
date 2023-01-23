@@ -21,7 +21,7 @@ public class BroadcastServer {
         for (;;) {
             Thread.sleep(10000);
             System.out.println("Sending ");
-            String str = ("This is Ninad Calling....");
+            String str = ("This is ABC Calling....");
             data = str.getBytes();
             packet = new DatagramPacket(data, str.length(), address, PORT);
 
