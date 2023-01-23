@@ -5,7 +5,7 @@ yin = 0
 for i in range(n):
     x = float(input("Enter x :"))
     w = float(input("Enter weight w: "))
-yin = yin + x * w
+    yin = yin + x * w
 
 print("Output ", yin)
 
