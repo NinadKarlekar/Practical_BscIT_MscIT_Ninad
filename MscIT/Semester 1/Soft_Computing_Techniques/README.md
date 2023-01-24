@@ -54,6 +54,10 @@ else:
 print("Output", output)
 ```
 
+
+- **OUTPUT**
+
+
 **************
 
 ## Prac1A-ii
@@ -82,6 +86,9 @@ else:
 print("Output: ", output)
 ```
 
+- **OUTPUT**
+
+
 **************
 
 ## Prac1B
@@ -108,6 +115,9 @@ print("Binary Sigmoidal = ", round(binary_sigmoidal, 3))
 bipolar_sigmoidal = (2 / (1 + (math.e ** (-yin)))) - 1
 print("Bipolar Sigmoidal = ", round(bipolar_sigmoidal, 3))
 ```
+
+- **OUTPUT**
+
 
 **************
 
@@ -147,6 +157,9 @@ print("x1 ", "x2", "Y")
 for i in range(0, 4):
     print(x1inputs[i], " ", x2inputs[i], " ", Y[i])
 ```
+
+- **OUTPUT**
+
 
 **************
 
@@ -220,6 +233,9 @@ for i in range(0, 4):
 print("END")
 ```
 
+- **OUTPUT**
+
+
 **************
 
 ## Prac3A
@@ -259,6 +275,9 @@ b = b + y[1]
 print("New wt=", wtnew)
 print("Bias value= ", b)
 ```
+
+- **OUTPUT**
+
 
 **************
 
@@ -305,6 +324,9 @@ print("Actual", actual)
 print("Desired ", desired)
 ```
 
+- **OUTPUT**
+
+
 **************
 
 ## Prac4A
@@ -344,6 +366,9 @@ op = obj.forward(X)
 print("actual output\n" + str(op))
 print("expected output\n" + str(Y))
 ```
+
+- **OUTPUT**
+
 
 **************
 
@@ -404,6 +429,9 @@ for i in range(2000):
     obj.train(X, Y)
 ```
 
+- **OUTPUT**
+
+
 **************
 
 ## Prac5A
@@ -443,6 +471,9 @@ print("final State : ", final_state)
 print("is_stable : ", is_stable)
 ```
 
+- **OUTPUT**
+
+
 **************
 
 ## Prac5B
@@ -470,6 +501,9 @@ for (i in 1:N) {
     points(x.coord, lapply(x.coord - D[i, ], rbf.gauss(gamma)), type = "l", col = i)
 }
 ```
+
+- **OUTPUT**
+
 
 **************
 
@@ -528,6 +562,9 @@ som.train_random(colors, 500, verbose=True)
 plt.imshow(abs(som.get_weights()), interpolation="none")
 ```
 
+- **OUTPUT**
+
+
 **************
 
 ## Prac6B
@@ -580,6 +617,9 @@ plot_tools.plot_state_sequence_and_overlap(
 )
 ```
 
+- **OUTPUT**
+
+
 **************
 
 ## Prac7A-i
@@ -609,6 +649,9 @@ else:
     print("The Lists do Not overlap")
 ```
 
+- **OUTPUT**
+
+
 **************
 
 ## Prac7A-ii
@@ -629,6 +672,9 @@ if a not in list1:
 else:
     print("The list contains", a)
 ```
+
+- **OUTPUT**
+
 
 **************
 
@@ -654,6 +700,9 @@ for i in details:
     print()
 ```
 
+- **OUTPUT**
+
+
 **************
 
 ## Prac7B-ii
@@ -678,6 +727,9 @@ for i in details:
     print("Not String = ", type(i) is not str)
     print()
 ```
+
+- **OUTPUT**
+
 
 **************
 
@@ -706,6 +758,9 @@ print("List of ratios: ")
 print(process.extract(query, choices), "\n")
 print("Best among the above list: ", process.extractOne(query, choices))
 ```
+
+- **OUTPUT**
+
 
 **************
 
@@ -753,5 +808,8 @@ tipping.compute()
 print (tipping.output['tip'])
 tip.view(sim=tipping)
 ```
+
+- **OUTPUT**
+
 
 **************
