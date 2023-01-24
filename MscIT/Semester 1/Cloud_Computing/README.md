@@ -189,8 +189,9 @@ public class ChatClient {
 
 - **OUTPUT**
 
-![MSCIT_CCprac1B_server](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac1B_server.png)
-![MSCIT_CCprac1B_client](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac1B_client.png)
+![MSCIT_CCprac1B_server](https://user-images.githubusercontent.com/88243315/214313471-7da8d9fd-36ef-43ab-b32a-6c6d80017a7f.png)
+![MSCIT_CCprac1B_client](https://user-images.githubusercontent.com/88243315/214313974-0fd1e0bb-d695-4e1e-bc1d-50abf6d48dea.png)
+
 ***********
 
 ## Prac1C
@@ -284,8 +285,11 @@ public class Tcpfileclient {
 
 - **OUTPUT**
 
-![MSCIT_CCprac1C_server](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac1C_server.png)
-![MSCIT_CCprac1C_client](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac1C_client.png)
+    
+![MSCIT_CCprac1C_server](https://user-images.githubusercontent.com/88243315/214314061-6edecd85-7298-4ee7-8aba-397391e1e741.png)
+![MSCIT_CCprac1C_client](https://user-images.githubusercontent.com/88243315/214314171-9820cfb7-8e90-477b-aa0c-2c23d720b782.png)
+
+
 ***********
 
 ## Prac2A
@@ -364,7 +368,7 @@ public class UDPClientEO {
 
 - **OUTPUT**
 
-![MSCIT_CCprac2A](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac2A.png)
+![MSCIT_CCprac2A](https://user-images.githubusercontent.com/88243315/214314351-35286d6a-ae0b-4083-9c1b-f00d2fb3b171.png)
 
 ***********
 
@@ -453,7 +457,8 @@ public class UDPclientFACT {
 
 - **OUTPUT**
 
-![MSCIT_CCprac2B](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac2B.png)
+![MSCIT_CCprac2B](https://user-images.githubusercontent.com/88243315/214314473-146d13c6-7b1d-44e8-94ee-a36305869d52.png)
+
 ***********
 
 ## Prac3A
@@ -578,7 +583,7 @@ public class RPCClient {
 
 - **OUTPUT**
 
-![MSCIT_CCprac3A](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac3A.png)
+![MSCIT_CCprac3A](https://user-images.githubusercontent.com/88243315/214314613-d8c42adb-dee3-4dda-b061-2c07e7e28749.png)
 
 ***********
 
@@ -714,7 +719,8 @@ public class RPCNumOperationClient {
 
 - **OUTPUT**
 
-![MSCIT_CCprac3B](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac3B.png)
+![MSCIT_CCprac3B](https://user-images.githubusercontent.com/88243315/214314734-8c23601d-27f7-4638-9e1c-c173a1c0aef2.png)
+
 ***********
 ## Prac4
 
@@ -788,7 +794,7 @@ public class BroadcastClient {
 
 - **OUTPUT**
 
-![MSCIT_CCprac4](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac4.png)
+![MSCIT_CCprac4](https://user-images.githubusercontent.com/88243315/214314819-cabcb6c3-efd3-4420-b00f-0653d85d8321.png)
 
 ***********
 
@@ -874,6 +880,6 @@ public interface InterDate extends Remote {
 
 - **OUTPUT**
 
-![MSCIT_CCprac5A](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac5A.png)
+![MSCIT_CCprac5A](https://user-images.githubusercontent.com/88243315/214314873-c2c614a7-f108-4a1c-9205-e410ed5f1ab3.png)
 
 ***********
