@@ -512,7 +512,9 @@ print("Practical 9-B")
 
 ```
 
+******************************************
 
+### [Go To Top](#research-in-computing-practicals)
 
 
 

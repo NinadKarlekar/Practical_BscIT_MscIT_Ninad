@@ -36,3 +36,5 @@ Practical of B.Sc. IT and M.Sc. IT
 
 ***********************
 *********************
+
+### [Go To Top](#practical_bscit_mscit_ninad)
