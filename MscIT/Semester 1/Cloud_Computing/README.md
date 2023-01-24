@@ -104,7 +104,7 @@ public class Tcpclientprime {
 
 - **OUTPUT**
 
-![CCprac1A](../ImagesScreenshotMscITSem1/CC/MSCIT_CCprac1A.png)
+![MSCIT_CCprac1A](https://user-images.githubusercontent.com/88243315/214291416-e9c99092-1654-4ff8-8e38-e17da4854103.png)
 
 **************
 
