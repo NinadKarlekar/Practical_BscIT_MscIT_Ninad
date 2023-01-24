@@ -57,6 +57,7 @@ print("Output", output)
 
 - **OUTPUT**
 
+![MSCIT_SCTprac1A_i](https://user-images.githubusercontent.com/88243315/214325496-08105a22-1075-4a39-a6f4-be2b798383ff.png)
 
 **************
 
@@ -88,6 +89,8 @@ print("Output: ", output)
 
 - **OUTPUT**
 
+![MSCIT_SCTprac1A_ii](https://user-images.githubusercontent.com/88243315/214325547-5ef312ca-e921-4d3d-bca6-7a0ea7c75c8b.png)
+
 
 **************
 
@@ -117,6 +120,8 @@ print("Bipolar Sigmoidal = ", round(bipolar_sigmoidal, 3))
 ```
 
 - **OUTPUT**
+
+![MSCIT_SCTprac1B](https://user-images.githubusercontent.com/88243315/214325646-6198411a-92e0-4b9b-b872-0c726aab4d70.png)
 
 
 **************
@@ -159,6 +164,8 @@ for i in range(0, 4):
 ```
 
 - **OUTPUT**
+
+![MSCIT_SCTprac2A](https://user-images.githubusercontent.com/88243315/214325726-694e87a0-0e4f-400b-b3e7-8e938f02fde4.png)
 
 
 **************
@@ -235,6 +242,8 @@ print("END")
 
 - **OUTPUT**
 
+![MSCIT_SCTprac2B_1](https://user-images.githubusercontent.com/88243315/214325793-d019d473-1c80-4137-8f93-8942ee4c1862.png)
+![MSCIT_SCTprac2B_2](https://user-images.githubusercontent.com/88243315/214325817-f98d9061-35d5-4992-90d1-ee4cf1ef9e62.png)
 
 **************
 
@@ -277,6 +286,8 @@ print("Bias value= ", b)
 ```
 
 - **OUTPUT**
+
+![MSCIT_SCTprac3A](https://user-images.githubusercontent.com/88243315/214325868-bd8ecc82-e9b5-4fb0-b656-02ab598ddd51.png)
 
 
 **************
@@ -326,6 +337,8 @@ print("Desired ", desired)
 
 - **OUTPUT**
 
+![MSCIT_SCTprac3B](https://user-images.githubusercontent.com/88243315/214325901-ab9a583d-8a30-4c1f-88cc-87c518d82ae1.png)
+
 
 **************
 
@@ -368,6 +381,8 @@ print("expected output\n" + str(Y))
 ```
 
 - **OUTPUT**
+
+![MSCIT_SCTprac4A](https://user-images.githubusercontent.com/88243315/214325923-f97b2929-2643-45d7-a51e-233641340f72.png)
 
 
 **************
@@ -431,6 +446,7 @@ for i in range(2000):
 
 - **OUTPUT**
 
+![MSCIT_SCTprac4B](https://user-images.githubusercontent.com/88243315/214325970-230fed11-1c68-437b-bbf0-cb9997e5ab91.png)
 
 **************
 
@@ -473,6 +489,7 @@ print("is_stable : ", is_stable)
 
 - **OUTPUT**
 
+![MSCIT_SCTprac5A](https://user-images.githubusercontent.com/88243315/214326007-6459b4c4-d845-4473-862e-924ccca64be0.png)
 
 **************
 
@@ -504,6 +521,8 @@ for (i in 1:N) {
 
 - **OUTPUT**
 
+![MSCIT_SCTprac5B_1](https://user-images.githubusercontent.com/88243315/214326057-51a64f3b-6a6b-4865-ae65-7b6d131840d5.png)
+![MSCIT_SCTprac5B_2](https://user-images.githubusercontent.com/88243315/214326086-e373338f-5887-4f0d-86ee-bc01da5f1b10.png)
 
 **************
 
@@ -564,6 +583,7 @@ plt.imshow(abs(som.get_weights()), interpolation="none")
 
 - **OUTPUT**
 
+![MSCIT_SCTprac6A](https://user-images.githubusercontent.com/88243315/214326134-670a3db6-06e4-4b5a-82fc-c716889c7c4e.png)
 
 **************
 
@@ -619,6 +639,8 @@ plot_tools.plot_state_sequence_and_overlap(
 
 - **OUTPUT**
 
+![MSCIT_SCTprac6B_1](https://user-images.githubusercontent.com/88243315/214326203-475d9c82-2eda-4413-bc58-1ef005a004f2.png)
+![MSCIT_SCTprac6B_2](https://user-images.githubusercontent.com/88243315/214326230-06f81d01-480d-4d8b-8295-a2dbc8a0ab98.png)
 
 **************
 
@@ -651,6 +673,8 @@ else:
 
 - **OUTPUT**
 
+![MSCIT_SCTprac7A_i](https://user-images.githubusercontent.com/88243315/214326287-d24dd785-6f54-4be1-b009-b5f1e92eeed8.png)
+
 
 **************
 
@@ -675,6 +699,7 @@ else:
 
 - **OUTPUT**
 
+![MSCIT_SCTprac7A_ii](https://user-images.githubusercontent.com/88243315/214326329-776f1261-9f0e-450c-b7a7-2b185767c1b0.png)
 
 **************
 
@@ -702,6 +727,7 @@ for i in details:
 
 - **OUTPUT**
 
+![MSCIT_SCTprac7B_i](https://user-images.githubusercontent.com/88243315/214326419-5f74dcd3-eaee-4408-9616-7e74694f6ad2.png)
 
 **************
 
@@ -730,6 +756,7 @@ for i in details:
 
 - **OUTPUT**
 
+![MSCIT_SCTprac7B_ii](https://user-images.githubusercontent.com/88243315/214326463-e7c6ded8-eb23-4a2b-94f9-185fa41d682f.png)
 
 **************
 
@@ -760,6 +787,8 @@ print("Best among the above list: ", process.extractOne(query, choices))
 ```
 
 - **OUTPUT**
+
+![MSCIT_SCTprac8A](https://user-images.githubusercontent.com/88243315/214326514-e6e281ae-1660-4216-958c-36720c3f803d.png)
 
 
 **************
@@ -810,6 +839,12 @@ tip.view(sim=tipping)
 ```
 
 - **OUTPUT**
+
+![MSCIT_SCTprac8B_1](https://user-images.githubusercontent.com/88243315/214326567-4ae3e324-0e7c-4704-8c65-f1e5592aac25.png)
+![MSCIT_SCTprac8B_2](https://user-images.githubusercontent.com/88243315/214326597-4bb472cb-4495-48e3-a36a-ca9b37c23774.png)
+![MSCIT_SCTprac8B_3](https://user-images.githubusercontent.com/88243315/214326618-160d3535-1664-481a-8513-624327dc634f.png)
+![MSCIT_SCTprac8B_4](https://user-images.githubusercontent.com/88243315/214326629-0c1ea3dc-db2e-4647-9914-9e60dbe0e32f.png)
+![MSCIT_SCTprac8B_5](https://user-images.githubusercontent.com/88243315/214326647-6b5eb8e7-64ab-4d30-93ec-6d902e99f3d3.png)
 
 
 **************
