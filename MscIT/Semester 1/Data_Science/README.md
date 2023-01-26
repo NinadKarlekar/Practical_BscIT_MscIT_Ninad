@@ -179,9 +179,14 @@ print('### Done!! #####################')
 print('################################')
 ```
 
-- **OUTPUT**
 
+<details>
+<summary>OUTPUT</summary>
+ 
+![MSCIT_DSprac1A_ii_1](https://user-images.githubusercontent.com/88243315/214919178-24635c5e-0090-416b-845d-d15bf8b2d4d1.png)
 
+ 
+</details>
 
 *******************
 
