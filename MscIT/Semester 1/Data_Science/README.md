@@ -254,6 +254,8 @@ print('################################')
 
 <details>
 <summary>OUTPUT</summary>
+![MSCIT_DSprac1A_iii_1](https://user-images.githubusercontent.com/88243315/214916010-1958ffeb-3f2f-456d-9f9a-7eec672a6a15.png)
+![MSCIT_DSprac1A_iii_2](https://user-images.githubusercontent.com/88243315/214916076-c710409d-534b-4258-9c0f-8a668cadb42a.png)
 
 </details>
 
