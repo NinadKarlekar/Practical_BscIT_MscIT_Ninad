@@ -108,7 +108,12 @@ print('### Done!! #####################')
 print('################################')
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -179,7 +184,12 @@ print('### Done!! #####################')
 print('################################')
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -254,6 +264,7 @@ print('################################')
 
 <details>
 <summary>OUTPUT</summary>
+
 
 
 </details>
@@ -377,7 +388,12 @@ CompanyNetworkData.to_csv(sFileName, index = False, encoding="latin-1")
 print('### Done!! #####################')
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -418,7 +434,12 @@ OutputData.to_csv(sOutputFileName, index = False)
 print('CSV to HORUS - Done')
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -463,7 +484,12 @@ print('JSON to HORUS - Done')
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -512,7 +538,12 @@ print('Picture to HORUS - Done')
 print('=====================================================')
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -614,7 +645,12 @@ OutputData.to_csv(sOutputFileName, index=False)
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -656,7 +692,12 @@ for c in range(count):
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -734,7 +775,12 @@ print('=====================================================')
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -781,7 +827,12 @@ print('Good Data : ',gooddata)
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -823,7 +874,12 @@ plt.show()
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -855,7 +911,12 @@ MeanData=AllData.groupby(['Country', 'Place_Name'])['Latitude'].mean()
 print(MeanData)
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -903,7 +964,12 @@ print(OutliersNot)
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1001,7 +1067,12 @@ for sCompany in sCompanies:
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1059,7 +1130,12 @@ print('### Done!! ############################################')
 ################################################################
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1098,7 +1174,12 @@ for (r in seq(nrow(pattern_country))){
 View(pattern_country)
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1156,7 +1237,12 @@ print('### Done!! ############################################')
 ################################################################
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1236,7 +1322,12 @@ print("################################")
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1297,7 +1388,12 @@ print('Horizontal Data Set (Columns):', PersonFrame2.shape[1])
 print('################################')
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1363,7 +1459,12 @@ print('Horizontal Data Set (Columns):', PersonFrame2.shape[1])
 print('################################')
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1437,7 +1538,12 @@ print(PersonFrame2.head())
 print('################################')
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1584,7 +1690,12 @@ sTable.dtypes
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1717,7 +1828,12 @@ plt.plot()
 
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1818,7 +1934,12 @@ print('################################')
 ################################################################
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -1911,7 +2032,12 @@ print('### Done!! ############################################')
 ################################################################
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -2057,7 +2183,12 @@ print("### Done!! ############################################")
 #################################################################
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -2162,7 +2293,12 @@ print("### Done!! ############################################")
 ################################################################
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
@@ -2299,7 +2435,12 @@ print('### Done!! ############################################')
 ################################################################
 ```
 
-- **OUTPUT**
+<details>
+<summary>OUTPUT</summary>
+
+
+
+</details>
 
 
 
