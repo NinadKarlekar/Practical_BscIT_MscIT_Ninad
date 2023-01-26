@@ -179,14 +179,9 @@ print('### Done!! #####################')
 print('################################')
 ```
 
+- **OUTPUT**
 
-<details>
-<summary>OUTPUT</summary>
- 
-![MSCIT_DSprac1A_ii_1](https://user-images.githubusercontent.com/88243315/214919178-24635c5e-0090-416b-845d-d15bf8b2d4d1.png)
 
- 
-</details>
 
 *******************
 
@@ -259,10 +254,8 @@ print('################################')
 
 <details>
 <summary>OUTPUT</summary>
- 
-![MSCIT_DSprac1A_iii_1](https://user-images.githubusercontent.com/88243315/214918432-47a5eb62-3a5e-4444-8fd9-f03d3ffbad2c.jpg)
-![MSCIT_DSprac1A_iii_2](https://user-images.githubusercontent.com/88243315/214918790-b4fd9b4a-445e-4c14-8166-34b7625449a4.jpg)
- 
+
+
 </details>
 
 
