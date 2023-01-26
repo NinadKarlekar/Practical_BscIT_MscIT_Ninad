@@ -2237,6 +2237,8 @@ print("### Done!! ############################################")
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac10A_1](https://user-images.githubusercontent.com/88243315/214925589-125581b8-de37-47cf-94f9-2e62c3d38d2b.png)
+![MSCIT_DSprac10A_2](https://user-images.githubusercontent.com/88243315/214925591-17a231df-a725-4c5a-b030-5c2eade97fab.png)
 
 
 </details>
@@ -2347,6 +2349,8 @@ print("### Done!! ############################################")
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac10B_1](https://user-images.githubusercontent.com/88243315/214925643-720ace1a-8bea-4bfb-b90d-873e7c129d9b.png)
+![MSCIT_DSprac10B_2](https://user-images.githubusercontent.com/88243315/214925648-85604555-ed3b-4d21-9edd-4c1fa8bca15e.png)
 
 
 </details>
@@ -2489,6 +2493,8 @@ print('### Done!! ############################################')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac10C_1](https://user-images.githubusercontent.com/88243315/214925677-418e2e03-dbfe-479e-83be-7ed93b273925.png)
+![MSCIT_DSprac10C_2](https://user-images.githubusercontent.com/88243315/214925680-f884e3fd-2fde-4e13-b0e8-de3e45598c27.png)
 
 
 </details>
