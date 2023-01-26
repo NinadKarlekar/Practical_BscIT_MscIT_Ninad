@@ -111,6 +111,9 @@ print('################################')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac1A_i_1](https://user-images.githubusercontent.com/88243315/214920498-5814f3f0-5a3c-441f-bf01-093595f56692.png)
+![MSCIT_DSprac1A_i_2](https://user-images.githubusercontent.com/88243315/214920518-f2d7e09f-02c5-4d25-9e40-530a80f0c71e.png)
+![MSCIT_DSprac1A_i_3](https://user-images.githubusercontent.com/88243315/214920523-70d5247f-d626-44fb-8d0a-acdb0d39cb15.png)
 
 
 </details>
@@ -188,6 +191,9 @@ print('################################')
 <summary>OUTPUT</summary>
 
 
+![MSCIT_DSprac1A_ii_1](https://user-images.githubusercontent.com/88243315/214920671-e692d7ed-fa06-4f2e-9375-ce70e8784364.png)
+![MSCIT_DSprac1A_ii_2](https://user-images.githubusercontent.com/88243315/214920675-4015a6f0-3804-4082-8be3-11063320e0f5.png)
+![MSCIT_DSprac1A_ii_3](https://user-images.githubusercontent.com/88243315/214920661-18dddeb9-f97e-4551-96f9-62971231aa11.png)
 
 </details>
 
@@ -265,6 +271,8 @@ print('################################')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac1A_iii_1](https://user-images.githubusercontent.com/88243315/214920744-a5603df2-9845-4508-adea-ecbcffb46941.png)
+![MSCIT_DSprac1A_iii_2](https://user-images.githubusercontent.com/88243315/214920751-ae90d126-d39c-47b1-a381-e0be174ba8aa.png)
 
 
 </details>
@@ -391,6 +399,8 @@ print('### Done!! #####################')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac1B_1](https://user-images.githubusercontent.com/88243315/214920786-abe2d38d-696e-4625-9d98-0d4a95b3b94b.png)
+![MSCIT_DSprac1B_2](https://user-images.githubusercontent.com/88243315/214920794-d5e5a7f4-87bf-46ea-8fd7-dd1a6693f08f.png)
 
 
 </details>
@@ -437,6 +447,7 @@ print('CSV to HORUS - Done')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac2A](https://user-images.githubusercontent.com/88243315/214920854-c7ae5dab-d77d-422e-b1e3-fdfd674b9d4d.png)
 
 
 </details>
@@ -487,6 +498,7 @@ print('JSON to HORUS - Done')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac2B](https://user-images.githubusercontent.com/88243315/214920896-5fbb62e5-4c60-48d5-be2d-3088811de82d.png)
 
 
 </details>
@@ -541,6 +553,7 @@ print('=====================================================')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac3C](https://user-images.githubusercontent.com/88243315/214920920-092b6a16-6e5b-4846-8abc-ec4808213eb9.png)
 
 
 </details>
@@ -648,6 +661,12 @@ OutputData.to_csv(sOutputFileName, index=False)
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac3D_i_1](https://user-images.githubusercontent.com/88243315/214921006-2a9b622a-7b14-487c-9f68-5a131ecb64d7.png)
+![MSCIT_DSprac3D_i_2](https://user-images.githubusercontent.com/88243315/214920988-899e1591-71ff-41a4-baab-937566d5d8e0.png)
+![MSCIT_DSprac3D_i_3](https://user-images.githubusercontent.com/88243315/214920993-985c40c2-95e3-4262-8093-051d001f4304.png)
+![MSCIT_DSprac3D_i_4](https://user-images.githubusercontent.com/88243315/214920997-558c8dc9-7b4a-44fb-8bc0-554118be9403.png)
+![MSCIT_DSprac3D_i_5](https://user-images.githubusercontent.com/88243315/214921000-f8a17cce-409c-46f5-8c99-70c57c9426f9.png)
+![MSCIT_DSprac3D_i_6](https://user-images.githubusercontent.com/88243315/214921005-679df249-f3b2-4abc-b519-f9c3f8723ce4.png)
 
 
 </details>
@@ -694,6 +713,8 @@ for c in range(count):
 
 <details>
 <summary>OUTPUT</summary>
+ 
+![MSCIT_DSprac3D_ii](https://user-images.githubusercontent.com/88243315/214921120-be524e9f-95ba-4b3b-8838-989c190362e2.png)
 
 
 
@@ -777,6 +798,9 @@ print('=====================================================')
 
 <details>
 <summary>OUTPUT</summary>
+ 
+![MSCIT_DSprac3E_1](https://user-images.githubusercontent.com/88243315/214921160-b10b68ee-d16c-4d24-b35d-f7c50663abec.png)
+![MSCIT_DSprac3E_2](https://user-images.githubusercontent.com/88243315/214921170-d6aad93a-75a5-4a92-b6fd-c865aa6bd4c7.png)
 
 
 
@@ -830,6 +854,7 @@ print('Good Data : ',gooddata)
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac4A](https://user-images.githubusercontent.com/88243315/214921209-fce94209-29d5-4873-a670-63bf76c48026.png)
 
 
 </details>
@@ -877,6 +902,7 @@ plt.show()
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac4B](https://user-images.githubusercontent.com/88243315/214921237-84945314-d24d-44f8-9ece-f03f4e540a0b.png)
 
 
 </details>
@@ -914,6 +940,7 @@ print(MeanData)
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac4C](https://user-images.githubusercontent.com/88243315/214921262-6cc7894e-5e9e-4019-9877-560a791c8507.png)
 
 
 </details>
@@ -967,6 +994,9 @@ print(OutliersNot)
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac4D_1](https://user-images.githubusercontent.com/88243315/214921325-fc61c30c-4c0f-4adc-92e8-23af775c0acb.png)
+![MSCIT_DSprac4D_2](https://user-images.githubusercontent.com/88243315/214921329-ff6e0856-bdc0-44a1-9a5a-f74ab67b5878.png)
+![MSCIT_DSprac4D_3](https://user-images.githubusercontent.com/88243315/214921333-7b6a6b06-3aaf-45ad-9b8b-95bdff6681ce.png)
 
 
 </details>
@@ -1070,6 +1100,7 @@ for sCompany in sCompanies:
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac4E](https://user-images.githubusercontent.com/88243315/214921381-6e9df32d-01cf-49bc-98ce-8a4684dcae85.png)
 
 
 </details>
@@ -1134,6 +1165,7 @@ print('### Done!! ############################################')
 <summary>OUTPUT</summary>
 
 
+![MSCIT_DSprac5A](https://user-images.githubusercontent.com/88243315/214921410-c895f188-b397-497e-add0-72f10f516148.png)
 
 </details>
 
@@ -1177,6 +1209,8 @@ View(pattern_country)
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac5B_1](https://user-images.githubusercontent.com/88243315/214921455-87f83f94-fd85-4979-9ec6-eb56ca27a248.png)
+![MSCIT_DSprac5B_2](https://user-images.githubusercontent.com/88243315/214921461-32cb0a17-6c2d-4692-a05a-f458438304ea.png)
 
 
 </details>
@@ -1240,6 +1274,7 @@ print('### Done!! ############################################')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac5C](https://user-images.githubusercontent.com/88243315/214921500-0d277f5f-7b0d-4614-adb8-d4ba8c47dff6.png)
 
 
 </details>
@@ -1325,6 +1360,7 @@ print("################################")
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac6A](https://user-images.githubusercontent.com/88243315/214921531-d1d9c98c-4a2e-4230-ab94-643acf973b5f.png)
 
 
 </details>
@@ -1391,6 +1427,7 @@ print('################################')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac6B](https://user-images.githubusercontent.com/88243315/214921563-436302b6-cc1e-4144-9044-179f41493206.png)
 
 
 </details>
@@ -1462,6 +1499,7 @@ print('################################')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac6C](https://user-images.githubusercontent.com/88243315/214921583-89dbefba-dad5-4848-ab74-005238fba026.png)
 
 
 </details>
@@ -1541,6 +1579,7 @@ print('################################')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac6D](https://user-images.githubusercontent.com/88243315/214921616-6b66d8a2-0de0-4722-8163-339b13065b90.png)
 
 
 </details>
@@ -1693,6 +1732,9 @@ sTable.dtypes
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac8A_1](https://user-images.githubusercontent.com/88243315/214921650-f3773910-b563-4d40-b38a-546fc2a62f71.png)
+![MSCIT_DSprac8A_2](https://user-images.githubusercontent.com/88243315/214921651-12c10ab3-aabc-4a5a-9857-54ae31ed0896.png)
+![MSCIT_DSprac8A_3](https://user-images.githubusercontent.com/88243315/214921654-defcf9bc-25f9-4109-a4d7-99baeb3cea7d.png)
 
 
 </details>
@@ -1831,6 +1873,9 @@ plt.plot()
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac8B_1](https://user-images.githubusercontent.com/88243315/214922161-8d67fc1b-6f7e-4cb8-92b0-5efced707cc9.png)
+![MSCIT_DSprac8B_2](https://user-images.githubusercontent.com/88243315/214922168-d08fcaa8-7280-4999-8f2b-f58af163d980.png)
+![MSCIT_DSprac8B_3](https://user-images.githubusercontent.com/88243315/214922170-767744b9-9059-49e7-8a55-1c80409a20db.png)
 
 
 </details>
@@ -1937,6 +1982,8 @@ print('################################')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac9A_2](https://user-images.githubusercontent.com/88243315/214922203-2b7b26b0-7516-4fde-9e00-1fe5213652cc.png)
+![MSCIT_DSprac9A_1](https://user-images.githubusercontent.com/88243315/214922208-3843e6a0-b44d-4250-bdc7-7db049f0353b.png)
 
 
 </details>
@@ -2035,6 +2082,9 @@ print('### Done!! ############################################')
 <details>
 <summary>OUTPUT</summary>
 
+![MSCIT_DSprac9B_1](https://user-images.githubusercontent.com/88243315/214922256-f7d83b92-5216-4c01-a536-e6a3c6db6e4d.png)
+![MSCIT_DSprac9B_2](https://user-images.githubusercontent.com/88243315/214922289-8a47f84c-37f2-40c4-992d-734fb801839a.png)
+![MSCIT_DSprac9B_3](https://user-images.githubusercontent.com/88243315/214922295-cc100216-a260-4969-853c-23d85a9b078b.png)
 
 
 </details>
