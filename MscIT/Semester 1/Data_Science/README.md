@@ -254,9 +254,10 @@ print('################################')
 
 <details>
 <summary>OUTPUT</summary>
-![MSCIT_DSprac1A_iii_1](https://user-images.githubusercontent.com/88243315/214916010-1958ffeb-3f2f-456d-9f9a-7eec672a6a15.png)
-![MSCIT_DSprac1A_iii_2](https://user-images.githubusercontent.com/88243315/214916076-c710409d-534b-4258-9c0f-8a668cadb42a.png)
-
+ 
+![MSCIT_DSprac1A_iii_1](https://user-images.githubusercontent.com/88243315/214918432-47a5eb62-3a5e-4444-8fd9-f03d3ffbad2c.jpg)
+![MSCIT_DSprac1A_iii_2](https://user-images.githubusercontent.com/88243315/214918790-b4fd9b4a-445e-4c14-8166-34b7625449a4.jpg)
+ 
 </details>
 
 
