@@ -65,10 +65,10 @@ for Longitude in range(-180, 180, 10):
             ("Latitude", [Latitude]),
         ]
         if t == 1:
-            LocationFrame = pd.DataFrame.from_dict(LocationLine)
+            LocationFrame = pd.DataFrame.from_dict(dict(LocationLine))
         else:
-            LocationRow = pd.DataFrame.from_dict(LocationLine)
-            LocationFrame = LocationFrame.append(LocationRow)
+            LocationRow = pd.DataFrame.from_dict(dict(LocationLine))
+            LocationFrame = pd.concat([LocationFrame, LocationRow])
 
 ################################################################
 LocationHubIndex = LocationFrame.set_index(["IDNumber"], inplace=False)

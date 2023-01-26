@@ -62,10 +62,10 @@ for i in date_list:
         ("DateTimeKey", [sDateTimeKey]),
     ]
     if t == 1:
-        TimeFrame = pd.DataFrame.from_dict(TimeLine)
+        TimeFrame = pd.DataFrame.from_dict(dict(TimeLine))
     else:
-        TimeRow = pd.DataFrame.from_dict(TimeLine)
-        TimeFrame = TimeFrame.append(TimeRow)
+        TimeRow = pd.DataFrame.from_dict(dict(TimeLine))
+        TimeFrame = pd.concat([TimeFrame, TimeRow])
 ################################################################
 TimeHub = TimeFrame[["IDNumber", "ZoneBaseKey", "DateTimeKey", "DateTimeValue"]]
 TimeHubIndex = TimeHub.set_index(["IDNumber"], inplace=False)
@@ -103,11 +103,11 @@ for zone in active_timezones:
             ("Zone", [zone]),
             ("DateTimeValue", [sZoneDateTime]),
         ]
-        if t == 1:
-            TimeZoneFrame = pd.DataFrame.from_dict(TimeZoneLine)
+        if t==1:
+            TimeFrame = pd.DataFrame.from_dict(dict(TimeLine)) 
         else:
-            TimeZoneRow = pd.DataFrame.from_dict(TimeZoneLine)
-            TimeZoneFrame = TimeZoneFrame.append(TimeZoneRow)
+            TimeRow = pd.DataFrame.from_dict(dict(TimeLine))
+            TimeFrame = pd.concat([TimeFrame, TimeRow])
 
     TimeZoneFrameIndex = TimeZoneFrame.set_index(["IDZoneNumber"], inplace=False)
     sZone = zone.replace("/", "-").replace(" ", "")
