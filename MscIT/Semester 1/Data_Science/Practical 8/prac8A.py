@@ -70,7 +70,7 @@ for i in range(mt):
             ("TimeZone", [str(BirthZone)]),
         ]
         if t == 1:
-            TimeFrame = pd.DataFrame.from_dict(TimeLine)
+            TimeFrame = pd.DataFrame.from_dict(dict(TimeLine))
         else:
             TimeRow = pd.DataFrame.from_dict(dict(TimeLine))
             TimeFrame = pd.concat([TimeFrame, TimeRow])
@@ -137,4 +137,3 @@ print("\n#################################")
 DimPersonIndex.to_sql(sTable, conn1, if_exists="replace")
 DimPersonIndex.to_sql(sTable, conn3, if_exists="replace")
 ###############################################################
-
