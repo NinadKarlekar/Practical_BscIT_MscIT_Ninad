@@ -108,6 +108,10 @@ print('### Done!! #####################')
 print('################################')
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac1A-ii
@@ -174,6 +178,10 @@ print('################################')
 print('### Done!! #####################')
 print('################################')
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -243,6 +251,10 @@ print('### Done!! #####################')
 print('################################')
 ################################################################
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -362,6 +374,10 @@ CompanyNetworkData.to_csv(sFileName, index = False, encoding="latin-1")
 print('### Done!! #####################')
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac2A
@@ -398,6 +414,10 @@ sOutputFileName =r"F:\MSC IT\Practical\DS\Prac2\HORUSCountry_Code.csv"
 OutputData.to_csv(sOutputFileName, index = False)
 print('CSV to HORUS - Done')
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -439,6 +459,10 @@ print('JSON to HORUS - Done')
 # Utility done ===============================================
 
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -484,6 +508,10 @@ print('=====================================================')
 print('Picture to HORUS - Done') 
 print('=====================================================')
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -583,6 +611,10 @@ OutputData.to_csv(sOutputFileName, index=False)
 
 ```
 
+- **OUTPUT**
+
+
+
 - d2. Conversion from Video to HORUS
 
 ```python
@@ -620,6 +652,10 @@ for c in range(count):
     # Utility done ===============================================
 
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -695,6 +731,10 @@ print('=====================================================')
 
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac4A
@@ -738,6 +778,10 @@ print('Good Data : ',gooddata)
 
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac4B
@@ -776,6 +820,10 @@ plt.show()
 
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac4C
@@ -803,6 +851,10 @@ print(AllData)
 MeanData=AllData.groupby(['Country', 'Place_Name'])['Latitude'].mean()
 print(MeanData)
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -847,6 +899,10 @@ OutliersNot=AllData[(AllData.Latitude>=LowerBound) & (AllData.Latitude<=UpperBou
 print(OutliersNot)
 
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -942,6 +998,10 @@ for sCompany in sCompanies:
 
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac5A
@@ -996,6 +1056,10 @@ print('### Done!! ############################################')
 ################################################################
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac5B
@@ -1030,6 +1094,10 @@ for (r in seq(nrow(pattern_country))){
 };
 View(pattern_country)
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -1084,6 +1152,10 @@ IP_DATA_ALL_with_ID.to_csv(sFileName2, index = True, encoding="latin-1")
 print('### Done!! ############################################')
 ################################################################
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -1161,6 +1233,10 @@ print("################################")
 
 ```
 
+- **OUTPUT**
+
+
+
 
 2. <b>Vertical style</b>
 ```python
@@ -1217,6 +1293,10 @@ print('Horizontal Data Set (Rows):', PersonFrame2.shape[0])
 print('Horizontal Data Set (Columns):', PersonFrame2.shape[1])
 print('################################')
 ```
+
+- **OUTPUT**
+
+
 
 3. <b>Island style</b>
 
@@ -1279,6 +1359,10 @@ print('Horizontal Data Set (Rows):', PersonFrame2.shape[0])
 print('Horizontal Data Set (Columns):', PersonFrame2.shape[1])
 print('################################')
 ```
+
+- **OUTPUT**
+
+
 
 4. <b>Secure Vault style</b>
 
@@ -1349,6 +1433,10 @@ print('Only Sam Data')
 print(PersonFrame2.head())
 print('################################')
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -1493,6 +1581,10 @@ DimPersonIndex.to_sql(sTable, conn3, if_exists="replace")
 
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac8B
@@ -1622,6 +1714,10 @@ plt.plot()
 
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac9A
@@ -1719,6 +1815,10 @@ print('################################')
 ################################################################
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac9B
@@ -1807,6 +1907,10 @@ webbrowser.open('file://' + os.path.realpath(sFileNameHtml))
 print('### Done!! ############################################')
 ################################################################
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -1950,6 +2054,10 @@ print("### Done!! ############################################")
 #################################################################
 ```
 
+- **OUTPUT**
+
+
+
 *******************
 
 ## prac10B
@@ -2050,6 +2158,10 @@ print("################")
 print("### Done!! ############################################")
 ################################################################
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
@@ -2183,6 +2295,10 @@ for sShare in range(nShares):
 print('### Done!! ############################################')
 ################################################################
 ```
+
+- **OUTPUT**
+
+
 
 *******************
 
