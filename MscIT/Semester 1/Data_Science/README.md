@@ -1449,7 +1449,7 @@ print('################################')
 
 ```python
 
-# C:\VKHCG\01-Vermeulen\04-Transform\Transform-Sun-Models.py
+
 import sys
 import os
 from datetime import datetime
@@ -1519,8 +1519,8 @@ for i in range(mt):
         if t==1:
             TimeFrame = pd.DataFrame.from_dict(TimeLine) 
         else:
-            TimeRow = pd.DataFrame.from_dict(TimeLine) 
-            TimeFrame=TimeFrame.append(TimeRow)
+            TimeRow = pd.DataFrame.from_dict(dict(TimeLine))
+            TimeFrame = pd.concat([TimeFrame, TimeRow])
 ################################################################
 DimTime=TimeFrame
 DimTimeIndex=DimTime.set_index(['TimeID'],inplace=False)
@@ -1564,10 +1564,10 @@ for i in range(mt):
                   ('Zone', [str('UTC')]),
                   ('BirthDate', [BirthDateKey])] 
     if t==1:
-        PersonFrame = pd.DataFrame.from_dict(PersonLine) 
+        PersonFrame = pd.DataFrame.from_dict(dict(PersonLine)) 
     else:
-        PersonRow = pd.DataFrame.from_dict(PersonLine) 
-        PersonFrame = PersonFrame.append(PersonRow)
+        PersonRow = pd.DataFrame.from_dict(dict(PersonLine)) 
+        PersonFrame = pd.concat([PersonFrame, PersonRow])
 ################################################################
 DimPerson=PersonFrame
 print(DimPerson)
