@@ -235,6 +235,20 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 <details>
 <summary>Steps(Google Form) & OUTPUT</summary>
 
+![excelRic2A_1](https://user-images.githubusercontent.com/88243315/215127285-2a7269e5-7b1c-4610-9052-399078ee9525.png)
+![excelRic2A_2](https://user-images.githubusercontent.com/88243315/215127293-df56527b-3a89-486f-8b5c-a6bcce49c5de.png)
+![excelRic2A_3](https://user-images.githubusercontent.com/88243315/215127298-e21802ac-a28a-46a8-8e87-c268c57c9f76.png)
+![excelRic2A_4](https://user-images.githubusercontent.com/88243315/215127299-757cb23e-1a9f-4ca2-beb2-019a70cf26b9.png)
+![excelRic2A_5](https://user-images.githubusercontent.com/88243315/215127304-2d143479-3785-4e05-9508-c6e879d654e9.png)
+![excelRic2A_6](https://user-images.githubusercontent.com/88243315/215127308-70e1a9fe-292f-4bcb-8e8f-380385026c7f.png)
+![excelRic2A_7](https://user-images.githubusercontent.com/88243315/215127312-5cde3920-bd0b-4d99-a0d3-e03c92f9c259.png)
+![excelRic2A_8](https://user-images.githubusercontent.com/88243315/215127314-7ad19ba4-0e23-455a-af25-d5fb7e3a4752.png)
+![excelRic2A_9](https://user-images.githubusercontent.com/88243315/215127316-71baf463-7e71-4572-8d77-3d925940547e.png)
+![excelRic2A_10](https://user-images.githubusercontent.com/88243315/215127319-5c741c5a-af55-47c4-848c-6ede48850c9b.png)
+![excelRic2A_11](https://user-images.githubusercontent.com/88243315/215127326-d484819d-d5f7-447d-a6c8-ad3ace39abb0.png)
+![excelRic2A_12](https://user-images.githubusercontent.com/88243315/215127332-1c05f369-d682-4305-b5aa-a976a9e4fb82.png)
+![excelRic2A_13](https://user-images.githubusercontent.com/88243315/215127337-ca430615-0b8f-4656-9ccb-c13356e517a8.png)
+![excelRic2A_14](https://user-images.githubusercontent.com/88243315/215127340-e048df9a-4448-42d2-a2ca-4af7424b38b0.png)
 
 
 </details>
@@ -249,11 +263,46 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 <summary>Steps(Excel) & OUTPUT</summary>
 
 1. Open ***World_population 2010*** excel file.
+    
 2. Find the sum of **Male** and **Female** Column.
+    
+    ![excelRic2B_1](https://user-images.githubusercontent.com/88243315/215127464-d183b7aa-d266-4376-baa4-780d640be14a.png)
+
 3. Create and find **total** of **Male** and **Female** coloumn <br> ***`(=B4+C4)`***
+    
+    ![excelRic2B_2](https://user-images.githubusercontent.com/88243315/215127505-fc9978a7-a305-4588-baed-ba871bfe8248.png)
+    
 4. Find **Sum** of all Total column values.
+    
+    ![excelRic2B_3](https://user-images.githubusercontent.com/88243315/215127590-22827bae-b1a8-4532-8871-9c7e207cad7e.png)
+
 5. Find **Percentage of Male** <br> ***`(= -1*100*male column value/ sum of all total values)`*** <br> ***`(=-1*100*B4/$D$22)`***.
+    
+    ![excelRic2B_4](https://user-images.githubusercontent.com/88243315/215127669-62fd9b61-f44e-4fe1-bcc8-2efec70b352d.png)
+
 6. Find Percentage of Male <br> ***`(= 100*Female column value/ sum of all total values)`*** <br> ***`(100*C4/$D$22)`***.
+
+7. Find sum of both male% and female%
+
+8. Select Male% and Female% -> insert -> clustered Bar
+    
+    ![excelRic2B_5](https://user-images.githubusercontent.com/88243315/215128215-4f0cc6d9-a817-495b-b76a-7d304f0ed537.png)
+    ![excelRic2B_6](https://user-images.githubusercontent.com/88243315/215128221-ddb916fa-4083-40d9-af47-340ea6090764.png)
+
+
+9. Put the tip of your mouse arrow on the Y-axis (vertical axis) so it says “Category Axis”, right click and chose Format Axis
+    
+    ![excelRic2B_7](https://user-images.githubusercontent.com/88243315/215128360-ee351c34-53f6-46bb-831c-c9cef6c84fbf.png)
+    
+10. Choose Axis options tab and set the major and minor tick mark type to None, Axis labels to Low, and click OK
+
+11. Click on any of the bars in your pyramid, click right and select “format data series”. Set the Overlap to 100 and Gap Width to 0. Click OK.
+
+- OUTPUT    
+    
+    ![excelRic2B_8](https://user-images.githubusercontent.com/88243315/215128427-1eb1943f-596c-4145-b175-dc06b5e229a3.png)
+
+    
 
 </details>
 
@@ -339,14 +388,35 @@ else:
 <summary>Steps(Excel) & OUTPUT</summary>
 
 1. Open Excel file.
+    
 2. Find the **average(mean)** of both **Experimental** and **comparison** columns.
+    
+    ![excelRic3B_1](https://user-images.githubusercontent.com/88243315/215128743-1dea356e-8306-48db-96c7-88fb754f71e6.png)
+
 3. Find the **Standard deviation** of both **Experimental** and **comparison** columns.
+    
+    ![excelRic3B_2](https://user-images.githubusercontent.com/88243315/215128848-dea98dbd-17f8-47d6-9482-9a489210bc67.png)
+
 4. Go to **Data analysis** -> Select **t-test: Paired Two Sample for Means** -> **OK**.
+    
+    ![excelRic3B_3](https://user-images.githubusercontent.com/88243315/215128875-6e004742-b894-4440-bcba-9497bfda9740.png)
+
 5. For Variable 1 range(Experimental)= `A1 to A21` <br> For Variable 2 range(Comparison)= `B1 to B21` <br> For Output Range= `D5 to F17`
+    
+    ![excelRic3B_4](https://user-images.githubusercontent.com/88243315/215129028-d8291b5f-f70e-4e36-b241-d8d17f2b1fce.png)
+
 6. Write 2 Hypothesis <br> H0 - Difference in gain score is not likely the result of experiment. <br> H1 - Difference in gain score is likely the result of experimental treatment and not the result of change variation.
 7. To calculate the T-Test square value go to cell E20 and type <br>
 `=(A22-B22)/SQRT((A23*A23)/COUNT(A2:A21)+(B23*B23)/COUNT(A2:A21))` <br> Formula `=(Mean A-Mean B)/SQRT((STDEV A*STDEV B)/COUNT(of A) + (STDEV*STDEV)/COUNT(of A))`
+    
+    ![excelRic3B_5](https://user-images.githubusercontent.com/88243315/215129090-2d162c20-93d4-4ed0-95cc-8e3b496c4479.png)
+
 8. Now go to cell E21 and type <br> ***`=IF(E20<E12,"H0 is Accepted", "H0 is Rejected and H1 is Accepted")`***
+
+- OUTPUT
+
+![excelRic3B_6](https://user-images.githubusercontent.com/88243315/215129194-668aa89e-9a19-4237-b98d-8691bff9d58e.png)
+
 
 </details>
 
@@ -404,9 +474,25 @@ stats.ttest_rel(df['bp_before'], df['bp_after'])
 <summary>Steps(Excel) & OUTPUT</summary>
 
 1. Find total of both columns.
+    
+    ![excelRic4A_1](https://user-images.githubusercontent.com/88243315/215129391-d7dbc899-8d65-4bba-b3c1-18db26da5a42.png)
+    ![excelRic4A_2](https://user-images.githubusercontent.com/88243315/215129386-493b6f1b-dc35-4682-9965-a8ebabe53689.png)
+
 2. Enter the Formula.
+    
+    ![excelRic4A_3](https://user-images.githubusercontent.com/88243315/215129549-096e52a5-8b3b-4af7-a2b7-fd7d395fef98.png)
+    ![excelRic4A_4](https://user-images.githubusercontent.com/88243315/215129553-5b22f72b-ff85-49dd-80e7-75598ee53cac.png)
+    
 3. Find the sum of all
+    
+    ![excelRic4A_5](https://user-images.githubusercontent.com/88243315/215129715-16ede277-264b-48c3-9c94-d239a041b722.png)
+    ![excelRic4A_6](https://user-images.githubusercontent.com/88243315/215129719-46899601-356d-4b83-8426-100b78487d1d.png)
+
 4. At cell D8 type <br> ***`=IF(D5>D7, "H0 Accepted","H0 Rejected")`***.
+
+- OUTPUT
+    
+    ![excelRic4A_7](https://user-images.githubusercontent.com/88243315/215129830-239bacf7-98b3-47bd-ba14-56d0e6c08b8a.png)    
 
 </details>
 
@@ -422,12 +508,17 @@ stats.ttest_rel(df['bp_before'], df['bp_after'])
 <summary>Steps(Excel) & OUTPUT</summary>
 
 1. Find the total for all columns and rows.
+    
+    ![excelRic4B_1](https://user-images.githubusercontent.com/88243315/215129972-f5dc9e33-e737-4c4c-9801-8ac3ffeb2b65.png)
+
 2. To calculate the expected value Ei <br> 
 Go to Cell N9 and type ***`=N8/2`*** <br>
 Go to Cell O9 and type ***`=O8/2`***  <br> 
 Go to Cell P9 and type ***`=P8/2`***  <br> 
 Go to Cell Q9 and type ***`=Q8/2`***  <br> 
 Go to Cell R9 and type ***`=R8/2`***
+
+    ![excelRic4B_2](https://user-images.githubusercontent.com/88243315/215130007-af19e1ff-f170-478a-871a-0515c1c599c4.png)
 
 3. Go to cell T6 and type <br>
 ***`=SUM((N6-$N$9)^2/$N$9,(O6-$O$9)^2/$O$9,(P6-$P$9)^2/$P$9,(Q6-Q$9)^2/$Q$9, (R6-$R$9)^2/$R$9)`*** <br>
@@ -438,6 +529,11 @@ Go to cell T7 and type
 ***`=CHIINV(0.05,4)`***
 
 5. Go to cell O13 and type <br> ***`=IF(T8>=T11," H0 is Accepted", "H0 is Rejected")`***
+
+- OUTPUT
+    
+    ![excelRic4B_3](https://user-images.githubusercontent.com/88243315/215130174-e2f2232c-9763-42cd-89a3-f0c56e029cf8.png)
+
 
 </details>
 
@@ -567,8 +663,17 @@ else:
 
 1. Open ***scores.csv*** file
 2. Go to **Data analysis** -> **Anova single factor** -> **ok**
+    
+    ![excelRic6A_1](https://user-images.githubusercontent.com/88243315/215130351-8ee23bd8-08e2-45a1-8d57-e089f324dbd7.png)
+
 3. Select input range as all values from `[Average Score (SAT Math), Average Score (SAT Reading), Average Score (SAT Writing)]` columns
-4. OUTPUT
+    
+    ![excelRic6A_2](https://user-images.githubusercontent.com/88243315/215130413-6cd7e338-f0ed-4d72-92fa-39bef09165c3.png)
+    
+- OUTPUT
+    
+    ![excelRic6A_3](https://user-images.githubusercontent.com/88243315/215130459-64cce15f-a2db-4e89-935b-0a114a0d8870.png)
+
 
 </details>
 
@@ -585,8 +690,18 @@ else:
 
 1. Open ***`ToothGrowth.csv`*** file
 2. Go to **Data analysis** -> **Anova two factor with replication** -> **ok**.
+    
+    ![excelRic6B_1](https://user-images.githubusercontent.com/88243315/215130710-d57079f8-229b-4cbb-a4ba-fbfcfdf089a3.png)
+
 3. Select all cell in input range , <br> **Rows per sample=30** <br> **Alpha=0.05**
+    
+    ![excelRic6B_2](https://user-images.githubusercontent.com/88243315/215130762-68f85a22-631c-4c62-9663-f7ba1b063a86.png)
+
 - OUTPUT
+    
+    ![excelRic6B_3](https://user-images.githubusercontent.com/88243315/215130797-a325dd8e-6922-4c2c-9150-0e07f306e2e0.png)
+
+    
 
 </details>
 
@@ -636,9 +751,13 @@ print(maov.mv_test())
 1. Open existing excel sheet with population data. <br> Sample Sheet looks as given below: <br> Set **Cell O1 = Male** and **Cell O2 = Female**
 2. To generate a random sample for male students from given population go to Cell O1 and type <br> ***`=INDEX(E$2:E$62,RANK(B2,B$2:B$62))`*** <br> Drag the formula to the desired no of cell to select random sample.
 3. Now, to generate a random sample for female students go to cell P1 and type <br> ***`=INDEX(K$2:K$40,RANK(H2,H$2:H$40))`*** <br> Drag the formula to the desired no of cell to select random sample.
+    
+    ![excelRic7A_1](https://user-images.githubusercontent.com/88243315/215130974-db0f76f5-c544-4bdd-ba2c-cc224e60530e.png)
+
+    
 - OUTPUT
-
-
+    
+    ![excelRic7A_2](https://user-images.githubusercontent.com/88243315/215131023-c6ac72af-4adf-4b3c-9edf-a7aa7ca6f201.png)
 
 </details>
 
@@ -930,11 +1049,32 @@ print("Practical 9-B")
 <summary>Steps(Excel) & OUTPUT</summary>
 
 1. Insert the data as follows
+    
+    ![excelRic9B_1](https://user-images.githubusercontent.com/88243315/215131224-6d9cc01d-23cf-491b-945c-e39a64d58a13.png)
+
 2. Go to Data -> Data Analysis -> Regression
+    
+    ![excelRic9B_2](https://user-images.githubusercontent.com/88243315/215131300-ee99b41a-0e82-4312-8b90-7e3d921f7dbd.png)
+
 3. Enter the **input** range and **output** range
+    
+    ![excelRic9B_3](https://user-images.githubusercontent.com/88243315/215131333-0c87e048-7886-487f-8923-d51b97bf1828.png)
+
 4. Click on OK
+    
+    ![excelRic9B_4](https://user-images.githubusercontent.com/88243315/215131411-85e713e4-79cd-4960-bcdd-27d33637c7e7.png)
+    
 5. Select the ***PREDICTED QUANTITY SOLD*** and ***RESIDUALS*** column and paste on above table
+    
+    ![excelRic9B_5](https://user-images.githubusercontent.com/88243315/215131544-0f9931ba-7b86-4055-a662-1cecf79678ec.png)
+    ![excelRic9B_6](https://user-images.githubusercontent.com/88243315/215131548-0f98639d-c535-4d23-8cf5-dec77486bf66.png)
+
 - OUTPUT:
+    
+    ![excelRic9B_7](https://user-images.githubusercontent.com/88243315/215131629-158c011d-6973-47d0-a4ea-d97c78d504ce.png)
+    ![excelRic9B_8](https://user-images.githubusercontent.com/88243315/215131639-c949af37-7af3-45af-bae9-fab050f276ba.png)
+    ![excelRic9B_9](https://user-images.githubusercontent.com/88243315/215131642-76141230-823f-404d-834b-8ccab420c0bb.png)
+
 
 
 Result:
