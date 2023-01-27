@@ -61,6 +61,24 @@ print (df.std())
 
 </details>
 
+*****************************
+
+
+## Prac1A(Excel)
+- Practical 1A(Excel). Write a program for obtaining descriptive statistics of data.
+
+<details>
+<summary>Steps(Excel)</summary>
+
+1. Open Excel file.
+2. Go to File -> Options -> Add-ins -> Click on **Analysis Toolpack** -> click on **Go**
+3. Tick mark **Analysis toolpack** -> click on **OK** -> The Data Analysis option will be added in Data tab
+4. Now click on Data analysis -> Descriptive Statistiscs -> click on OK
+5. Click on input range -> select **Age** column in input column -> and select any blank column in output range -> Tick Mark on **Summery statistics**, **confidence level for mean(95%)**, **kth Largest(1)**, **kth smallest(1)**. -> click on Ok
+- **Output:**
+
+</details>
+
 *****************
 
 ## Prac1B-1
