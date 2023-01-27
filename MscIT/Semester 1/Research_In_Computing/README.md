@@ -51,6 +51,13 @@ print (df.std())
 
 ```
 
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
 ******
 
 ## Prac1B-1
@@ -82,6 +89,13 @@ print('Rows :',TestData.shape[0])
 print('Columns :',TestData.shape[1])
 print('### Done!! ############################################')
 ```
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
 
 ******
 
@@ -110,6 +124,14 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 ```
 
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
+
 ******
 
 ## Prac3A
@@ -132,6 +154,14 @@ else:
     print("we are accepting null hypothesis")
 
 ```
+
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
 
 ******
 
@@ -163,6 +193,14 @@ else:
 
 ```
 
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
+
 ******
 
 ## Prac3C
@@ -193,6 +231,14 @@ plt.savefig('blood pressure difference qq plot.png')
 stats.shapiro(df['bp_difference'])
 stats.ttest_rel(df['bp_before'], df['bp_after'])
 ```
+
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
 
 ******
 
@@ -229,6 +275,14 @@ else:
 
 ```
 
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
+
 ******
 
 ## Prac5A
@@ -251,6 +305,14 @@ else:
     print("accept null hypothesis")
 
 ```
+
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
 
 ******
 
@@ -277,6 +339,14 @@ else:
 
 ```
 
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
+
 ******
 
 ## Prac6C
@@ -296,6 +366,14 @@ print('~~~~~~~~ MANOVA Test Result ~~~~~~~~')
 print(maov.mv_test())
 
 ```
+
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
 
 ******
 
@@ -333,6 +411,14 @@ plt.show()
 
 ```
 
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
+
 ******
 
 ## Prac8A
@@ -356,6 +442,15 @@ plt.scatter(x, y)
 plt.show()
 
 ```
+
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
+
 ******
 
 ## Prac8B
@@ -377,6 +472,15 @@ plt.show()
 print("Practical 8-B")
 
 ```
+
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
+
 ******
 
 ## Prac8C
@@ -395,6 +499,15 @@ plt.scatter(x, y)
 plt.show()
 print("Practical 8-C")
 ```
+
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
+
 ******
 
 ## Prac9A
@@ -454,6 +567,14 @@ plt.show()
 print("Practical 9-A")
 ```
 
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
+
 ******
 
 ## Prac9B
@@ -511,6 +632,14 @@ if __name__ == "__main__":
 print("Practical 9-B")
 
 ```
+
+<details>
+<summary>OUTPUT</summary>
+
+
+
+
+</details>
 
 ******************************************
 
