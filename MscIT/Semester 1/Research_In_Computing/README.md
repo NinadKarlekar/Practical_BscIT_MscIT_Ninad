@@ -1077,7 +1077,7 @@ print("Practical 9-B")
 
 
 
-Result:
+- Result:
 R square equals **0.962**, which is a very good fit. 6% of the variation in Qunatity Sold is explained by the independent variables Price and Advertising. The closer to 1, the better the regression line (read on) fits the data. <br>
 Significance **F is 0.001464128** which is **less than 0.05** (good fit).
 
