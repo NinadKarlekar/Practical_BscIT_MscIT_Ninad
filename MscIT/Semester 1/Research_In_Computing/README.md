@@ -491,6 +491,8 @@ stats.ttest_rel(df['bp_before'], df['bp_after'])
     ![excelRic4A_5](https://user-images.githubusercontent.com/88243315/215129715-16ede277-264b-48c3-9c94-d239a041b722.png)
     ![excelRic4A_6](https://user-images.githubusercontent.com/88243315/215129719-46899601-356d-4b83-8426-100b78487d1d.png)
 
+4. At cell D7 type <br> ***`=CHIINV(0.05,2)`***
+
 4. At cell D8 type <br> ***`=IF(D5>D7, "H0 Accepted","H0 Rejected")`***.
 
 - OUTPUT
