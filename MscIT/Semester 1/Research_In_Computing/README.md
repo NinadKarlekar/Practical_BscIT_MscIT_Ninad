@@ -68,7 +68,7 @@ print (df.std())
 - Practical 1A(Excel). Write a program for obtaining descriptive statistics of data.
 
 <details>
-<summary>Steps(Excel)</summary>
+<summary>Steps(Excel) & OUTPUT</summary>
 
 1. Open Excel file.
 
