@@ -73,21 +73,26 @@ print (df.std())
 1. Open Excel file.
 
 2. Go to File -> Options -> Add-ins -> Click on **Analysis Toolpack** -> click on **Go**
-![excelRic1A_1](https://user-images.githubusercontent.com/88243315/215110912-4c25d982-d180-4cf4-aed1-9e6584e3dbf9.png)
+    
+    ![excelRic1A_1](https://user-images.githubusercontent.com/88243315/215110912-4c25d982-d180-4cf4-aed1-9e6584e3dbf9.png)
 
 
 3. Tick mark **Analysis toolpack** -> click on **OK** -> The Data Analysis option will be added in Data tab
-![excelRic1A_2](https://user-images.githubusercontent.com/88243315/215111614-9fa32936-56b4-4527-bd45-7258dd535030.png)
+    
+    ![excelRic1A_2](https://user-images.githubusercontent.com/88243315/215111614-9fa32936-56b4-4527-bd45-7258dd535030.png)
 
 4. Now click on Data analysis -> Descriptive Statistiscs -> click on OK
-![excelRic1A_3](https://user-images.githubusercontent.com/88243315/215111695-2e2dcc25-1d5b-43ba-8b6b-da0f2c917aae.png)
+    
+    ![excelRic1A_3](https://user-images.githubusercontent.com/88243315/215111695-2e2dcc25-1d5b-43ba-8b6b-da0f2c917aae.png)
 
 5. Click on input range -> select **Age** column in input column -> and select any blank column in output range -> Tick Mark on **Summery statistics**, **confidence level for mean(95%)**, **kth Largest(1)**, **kth smallest(1)**. -> click on Ok
-![excelRic1A_4](https://user-images.githubusercontent.com/88243315/215111721-8cdc29dc-e9cc-416f-8b5c-48d1a263447d.png)
+    
+    ![excelRic1A_4](https://user-images.githubusercontent.com/88243315/215111721-8cdc29dc-e9cc-416f-8b5c-48d1a263447d.png)
 
 
-- **Output:**
-![excelRic1A_5](https://user-images.githubusercontent.com/88243315/215111762-7bad73fe-cf76-4fac-b45e-2bd3706e480f.png)
+- **Output:**    
+    
+    ![excelRic1A_5](https://user-images.githubusercontent.com/88243315/215111762-7bad73fe-cf76-4fac-b45e-2bd3706e480f.png)
 
 
 </details>
