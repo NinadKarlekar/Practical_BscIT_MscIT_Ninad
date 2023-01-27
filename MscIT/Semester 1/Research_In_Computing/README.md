@@ -58,6 +58,7 @@ print (df.std())
 
 
 </details>
+
 *****************
 
 ## Prac1B-1
