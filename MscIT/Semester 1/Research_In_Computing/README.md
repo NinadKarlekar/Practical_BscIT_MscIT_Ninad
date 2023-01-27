@@ -94,7 +94,6 @@ print (df.std())
     
     ![excelRic1A_5](https://user-images.githubusercontent.com/88243315/215111762-7bad73fe-cf76-4fac-b45e-2bd3706e480f.png)
 
-
 </details>
 
 *****************
@@ -139,6 +138,23 @@ print('### Done!! ############################################')
 
 *****************
 
+## Prac1B-1(CSV)
+
+- To Import data from ***csv*** file.
+
+<details>
+<summary>Steps(Excel) & OUTPUT</summary>
+
+1. In **Data tab**, Click on **Get Data**.
+2. Select From **file** -> Select From **Text/CSV**
+3. Select the **csv** file and Click on **Import**
+4. Preview window will open -> click on **Load**
+5. The File will be Imported and will be shown.
+
+</details>
+
+*****************
+
 ## Prac1B-2
 - Import data from different data sources (from Excel, csv, mysql, sql server, oracle to R/Python/Excel)
 - From Excel
@@ -168,6 +184,19 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 <summary>OUTPUT</summary>
 
 ![prac1b2(excel)](https://user-images.githubusercontent.com/88243315/215099613-90b5f84d-0aeb-4e46-9603-962643a0b8bd.png)
+
+
+
+</details>
+
+*****************
+
+## Prac1B-1(Excel)
+
+- To Import data from ***Excel*** file.
+
+<details>
+<summary>Steps(Excel) & OUTPUT</summary>
 
 
 
