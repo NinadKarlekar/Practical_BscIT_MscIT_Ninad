@@ -228,6 +228,37 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 ****************************************
 
+## Prac2A(Google Form)
+
+- Design a survey form for a given case study, collect the **primary data** and **analyse it**.
+
+<details>
+<summary>Steps(Google Form) & OUTPUT</summary>
+
+
+
+</details>
+
+*******************************
+
+## Prac2B(Excel)
+
+- Perform analysis of given secondary data.
+
+<details>
+<summary>Steps(Excel) & OUTPUT</summary>
+
+1. Open ***World_population 2010*** excel file.
+2. Find the sum of **Male** and **Female** Column.
+3. Create and find **total** of **Male** and **Female** coloumn <br> ***`(=B4+C4)`***
+4. Find **Sum** of all Total column values.
+5. Find **Percentage of Male** <br> ***`(= -1*100*male column value/ sum of all total values)`*** <br> ***`(=-1*100*B4/$D$22)`***.
+6. Find Percentage of Male <br> ***`(= 100*Female column value/ sum of all total values)`*** <br> ***`(100*C4/$D$22)`***.
+
+</details>
+
+****************************************
+
 ## Prac3A
 - Perform testing of hypothesis using one sample t-test
 ```python
@@ -299,6 +330,28 @@ else:
 
 *****************
 
+
+## Prac3B(Excel)
+
+- Write a program for t-test comparing two means for independent samples.
+
+<details>
+<summary>Steps(Excel) & OUTPUT</summary>
+
+1. Open Excel file.
+2. Find the **average(mean)** of both **Experimental** and **comparison** columns.
+3. Find the **Standard deviation** of both **Experimental** and **comparison** columns.
+4. Go to **Data analysis** -> Select **t-test: Paired Two Sample for Means** -> **OK**.
+5. For Variable 1 range(Experimental)= `A1 to A21` <br> For Variable 2 range(Comparison)= `B1 to B21` <br> For Output Range= `D5 to F17`
+6. Write 2 Hypothesis <br> H0 - Difference in gain score is not likely the result of experiment. <br> H1 - Difference in gain score is likely the result of experimental treatment and not the result of change variation.
+7. To calculate the T-Test square value go to cell E20 and type <br>
+`=(A22-B22)/SQRT((A23*A23)/COUNT(A2:A21)+(B23*B23)/COUNT(A2:A21))` <br> Formula `=(Mean A-Mean B)/SQRT((STDEV A*STDEV B)/COUNT(of A) + (STDEV*STDEV)/COUNT(of A))`
+8. Now go to cell E21 and type <br> ***`=IF(E20<E12,"H0 is Accepted", "H0 is Rejected and H1 is Accepted")`***
+
+</details>
+
+****************************************
+
 ## Prac3C
 - Perform testing of hypothesis using paired t-test.
 ```python
@@ -338,6 +391,57 @@ stats.ttest_rel(df['bp_before'], df['bp_after'])
 
 
 </details>
+
+
+*****************
+
+
+## Prac4A(Excel)
+
+- Perform testing of hypothesis using chi-squared goodness-of-fit test.
+
+<details>
+<summary>Steps(Excel) & OUTPUT</summary>
+
+1. Find total of both columns.
+2. Enter the Formula.
+3. Find the sum of all
+4. At cell D8 type <br> ***`=IF(D5>D7, "H0 Accepted","H0 Rejected")`***.
+
+</details>
+
+
+*****************
+
+
+## Prac4B(Excel)
+
+- Perform testing of hypothesis using chi-squared test of independence.
+
+<details>
+<summary>Steps(Excel) & OUTPUT</summary>
+
+1. Find the total for all columns and rows.
+2. To calculate the expected value Ei <br> 
+Go to Cell N9 and type ***`=N8/2`*** <br>
+Go to Cell O9 and type ***`=O8/2`***  <br> 
+Go to Cell P9 and type ***`=P8/2`***  <br> 
+Go to Cell Q9 and type ***`=Q8/2`***  <br> 
+Go to Cell R9 and type ***`=R8/2`***
+
+3. Go to cell T6 and type <br>
+***`=SUM((N6-$N$9)^2/$N$9,(O6-$O$9)^2/$O$9,(P6-$P$9)^2/$P$9,(Q6-Q$9)^2/$Q$9, (R6-$R$9)^2/$R$9)`*** <br>
+Go to cell T7 and type
+***`=SUM((N7-$N$9)^2/$N$9,(O7-$O$9)^2/$O$9,(P7-$P$9)^2/$P$9,(Q7-Q$9)^2/$Q$9, (R7-$R$9)^2/$R$9)`***
+
+4. To get the table value go to cell T11 and type <br>
+***`=CHIINV(0.05,4)`***
+
+5. Go to cell O13 and type <br> ***`=IF(T8>=T11," H0 is Accepted", "H0 is Rejected")`***
+
+</details>
+
+
 
 *****************
 
@@ -450,6 +554,44 @@ else:
 
 </details>
 
+
+*****************
+
+
+## Prac6A(Excel)
+
+- Perform testing of hypothesis using one-way ANOVA
+
+<details>
+<summary>Steps(Excel) & OUTPUT</summary>
+
+1. Open ***scores.csv*** file
+2. Go to **Data analysis** -> **Anova single factor** -> **ok**
+3. Select input range as all values from `[Average Score (SAT Math), Average Score (SAT Reading), Average Score (SAT Writing)]` columns
+4. OUTPUT
+
+</details>
+
+
+*****************
+
+
+## Prac6B(Excel)
+
+- Perform testing of hypothesis using two-way ANOVA.
+
+<details>
+<summary>Steps(Excel) & OUTPUT</summary>
+
+1. Open ***`ToothGrowth.csv`*** file
+2. Go to **Data analysis** -> **Anova two factor with replication** -> **ok**.
+3. Select all cell in input range , <br> **Rows per sample=30** <br> **Alpha=0.05**
+- OUTPUT
+
+</details>
+
+
+
 *****************
 
 ## Prac6C
@@ -479,6 +621,27 @@ print(maov.mv_test())
 
 
 </details>
+
+
+*****************
+
+
+## Prac7A(Excel)
+
+- Perform the Random sampling for the given data and analyse it.
+
+<details>
+<summary>Steps(Excel) & OUTPUT</summary>
+
+1. Open existing excel sheet with population data. <br> Sample Sheet looks as given below: <br> Set **Cell O1 = Male** and **Cell O2 = Female**
+2. To generate a random sample for male students from given population go to Cell O1 and type <br> ***`=INDEX(E$2:E$62,RANK(B2,B$2:B$62))`*** <br> Drag the formula to the desired no of cell to select random sample.
+3. Now, to generate a random sample for female students go to cell P1 and type <br> ***`=INDEX(K$2:K$40,RANK(H2,H$2:H$40))`*** <br> Drag the formula to the desired no of cell to select random sample.
+- OUTPUT
+
+
+
+</details>
+
 
 *****************
 
@@ -754,6 +917,32 @@ print("Practical 9-B")
 
 
 </details>
+
+
+*****************
+
+
+## Prac9B(Excel)
+
+- Perform polynomial regression for prediction.
+
+<details>
+<summary>Steps(Excel) & OUTPUT</summary>
+
+1. Insert the data as follows
+2. Go to Data -> Data Analysis -> Regression
+3. Enter the **input** range and **output** range
+4. Click on OK
+5. Select the ***PREDICTED QUANTITY SOLD*** and ***RESIDUALS*** column and paste on above table
+- OUTPUT:
+
+
+Result:
+R square equals **0.962**, which is a very good fit. 6% of the variation in Qunatity Sold is explained by the independent variables Price and Advertising. The closer to 1, the better the regression line (read on) fits the data. <br>
+Significance **F is 0.001464128** which is **less than 0.05** (good fit).
+
+</details>
+
 
 *****************************************************
 
