@@ -146,10 +146,21 @@ print('### Done!! ############################################')
 <summary>Steps(Excel) & OUTPUT</summary>
 
 1. In **Data tab**, Click on **Get Data**.
+    
 2. Select From **file** -> Select From **Text/CSV**
+    
+    ![excelRic1B_1](https://user-images.githubusercontent.com/88243315/215115182-a6c09c03-a0e4-4e2f-b611-e5ffb9dbe572.png)
+    
 3. Select the **csv** file and Click on **Import**
 4. Preview window will open -> click on **Load**
+    
+    ![excelRic1B_2](https://user-images.githubusercontent.com/88243315/215115250-8e23b3f3-1c4e-455e-9d73-aac5bbedeb24.png)
+
+    
 5. The File will be Imported and will be shown.
+    
+    ![excelRic1B_3](https://user-images.githubusercontent.com/88243315/215115300-b169e2b1-af1f-4244-88e8-015d3a433253.png)
+
 
 </details>
 
@@ -191,13 +202,26 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 *****************
 
-## Prac1B-1(Excel)
+## Prac1B-2(Excel)
 
 - To Import data from ***Excel*** file.
 
 <details>
 <summary>Steps(Excel) & OUTPUT</summary>
 
+1. In Data tab, Click on Get Data
+2. Select From file -> Select From Excel Workbook.
+    
+    ![excelRic1B(excel)_1](https://user-images.githubusercontent.com/88243315/215115720-da806203-b6b9-4198-8b36-29703a0b5cf3.png)
+    
+3. Select the Excel worksheet to import -> click on OK
+4. Navigator Window will open -> Select the sheets you want to import -> Click on Load
+    
+    ![excelRic1B(excel)_2](https://user-images.githubusercontent.com/88243315/215116037-75972361-2f1e-4703-bdd1-c8784fe2afdb.png)
+    
+5. Data will be imported from the selected file and will be displayed
+    
+    ![excelRic1B(excel)_3](https://user-images.githubusercontent.com/88243315/215116067-b1940acf-322c-4a18-87a2-771dea89304a.png)
 
 
 </details>
