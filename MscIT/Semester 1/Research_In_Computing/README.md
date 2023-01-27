@@ -27,7 +27,7 @@ PSIT1P1 Research In Computing
 | [Prac9A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%209/) |A.	Write a program to Perform linear regression for prediction. | [prac9a](#prac9a) |
 | [Prac9B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%209/) |B.	Perform polynomial regression for prediction. | [prac9b](#prac9b) |
 
-*********
+********************
 
 ## Prac1A
 - Practical 1A: Write a python program on descriptive statistics analysis.
@@ -58,7 +58,7 @@ print (df.std())
 
 
 </details>
-******
+*****************
 
 ## Prac1B-1
 - Import data from different data sources (from Excel, csv, mysql, sql server, oracle to R/Python/Excel)
@@ -97,7 +97,7 @@ print('### Done!! ############################################')
 
 </details>
 
-******
+*****************
 
 ## Prac1B-2
 - Import data from different data sources (from Excel, csv, mysql, sql server, oracle to R/Python/Excel)
@@ -132,7 +132,7 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 </details>
 
-******
+****************************************
 
 ## Prac3A
 - Perform testing of hypothesis using one sample t-test
@@ -163,7 +163,7 @@ else:
 
 </details>
 
-******
+*****************
 
 ## Prac3B
 - Perform testing of hypothesis using two sample t-test
@@ -201,7 +201,7 @@ else:
 
 </details>
 
-******
+*****************
 
 ## Prac3C
 - Perform testing of hypothesis using paired t-test.
@@ -240,7 +240,7 @@ stats.ttest_rel(df['bp_before'], df['bp_after'])
 
 </details>
 
-******
+*****************
 
 ## Prac4B
 - Perform testing of hypothesis using chi-squared
@@ -283,7 +283,7 @@ else:
 
 </details>
 
-******
+*****************
 
 ## Prac5A
 - Perform testing of hypothesis using Z-test.
@@ -314,7 +314,7 @@ else:
 
 </details>
 
-******
+*****************
 
 ## Prac5B
 - Two-Sample Z test
@@ -347,7 +347,7 @@ else:
 
 </details>
 
-******
+*****************
 
 ## Prac6C
 - Perform testing of hypothesis using multivariate ANOVA (MANOVA)
@@ -375,7 +375,7 @@ print(maov.mv_test())
 
 </details>
 
-******
+*****************
 
 ## Prac7B
 - Perform the Stratified sampling for the given data and analyse it.
@@ -419,7 +419,7 @@ plt.show()
 
 </details>
 
-******
+*****************
 
 ## Prac8A
 - 8.Write a program for computing different correlation
@@ -451,7 +451,7 @@ plt.show()
 
 </details>
 
-******
+*****************
 
 ## Prac8B
 - B.	Negative Correlation:
@@ -481,7 +481,7 @@ print("Practical 8-B")
 
 </details>
 
-******
+*****************
 
 ## Prac8C
 - 8C.	No/Weak Correlation:
@@ -508,7 +508,7 @@ print("Practical 8-C")
 
 </details>
 
-******
+*****************
 
 ## Prac9A
 - 9A.	Write a program to Perform linear regression for prediction.
@@ -575,7 +575,7 @@ print("Practical 9-A")
 
 </details>
 
-******
+*****************
 
 ## Prac9B
 - 9B Perform polynomial regression for prediction.
@@ -641,7 +641,7 @@ print("Practical 9-B")
 
 </details>
 
-******************************************
+*****************************************************
 
 ### [Go To Top](#research-in-computing-practicals)
 
