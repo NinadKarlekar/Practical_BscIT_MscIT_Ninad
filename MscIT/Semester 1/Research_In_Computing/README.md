@@ -54,6 +54,8 @@ print (df.std())
 <details>
 <summary>OUTPUT</summary>
 
+![prac1a-1](https://user-images.githubusercontent.com/88243315/215099498-565f6481-3a28-41a8-be95-cca67adb0882.jpg)
+![prac1a-2](https://user-images.githubusercontent.com/88243315/215099509-e678d086-30a0-40db-9275-f84d23c30d4c.jpg)
 
 
 
@@ -93,6 +95,7 @@ print('### Done!! ############################################')
 <details>
 <summary>OUTPUT</summary>
 
+![prac1b1(csv)](https://user-images.githubusercontent.com/88243315/215099595-25d9a68b-f40a-49c9-8ba7-2a2882400f3c.png)
 
 
 
@@ -128,6 +131,7 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 <details>
 <summary>OUTPUT</summary>
 
+![prac1b2(excel)](https://user-images.githubusercontent.com/88243315/215099613-90b5f84d-0aeb-4e46-9603-962643a0b8bd.png)
 
 
 
@@ -159,6 +163,7 @@ else:
 <details>
 <summary>OUTPUT</summary>
 
+![prac3A(one_sample_T_test)](https://user-images.githubusercontent.com/88243315/215099682-e887aac3-22df-4c27-9a73-59376a1c5e1f.png)
 
 
 
@@ -198,6 +203,7 @@ else:
 <summary>OUTPUT</summary>
 
 
+![prac3B(Two_sample_T_test)](https://user-images.githubusercontent.com/88243315/215099719-ea758aa1-8ff1-40c6-ad0f-64410c977e22.png)
 
 
 </details>
@@ -236,6 +242,9 @@ stats.ttest_rel(df['bp_before'], df['bp_after'])
 <details>
 <summary>OUTPUT</summary>
 
+![prac3C-1(paired_T_test)](https://user-images.githubusercontent.com/88243315/215099755-e32f66e5-da0f-4d8d-b34d-5f6d426910d8.png)
+![prac3C-2(paired_T_test)](https://user-images.githubusercontent.com/88243315/215099758-8488d8d8-21ed-4fe3-9cb4-1e10ba23106a.png)
+![prac3C-3(paired_T_test)](https://user-images.githubusercontent.com/88243315/215099753-aded7051-a3f0-4086-a056-8ac3053a159c.png)
 
 
 
@@ -280,6 +289,8 @@ else:
 <summary>OUTPUT</summary>
 
 
+![prac4B-1(python)](https://user-images.githubusercontent.com/88243315/215099824-8110db3c-1ad4-43fb-8c5d-4078814b9ffc.png)
+![prac4B-2(python)](https://user-images.githubusercontent.com/88243315/215099827-3c0c7a4c-7e52-471d-8ae3-a18688de60ef.png)
 
 
 </details>
@@ -310,6 +321,7 @@ else:
 <details>
 <summary>OUTPUT</summary>
 
+![prac5A(Main)](https://user-images.githubusercontent.com/88243315/215099895-ce8e92b3-7b06-4c89-b6a7-3601a67bf12b.png)
 
 
 
@@ -343,6 +355,7 @@ else:
 <details>
 <summary>OUTPUT</summary>
 
+![prac5B(TwoSampleZtest)](https://user-images.githubusercontent.com/88243315/215099910-b75535c0-953b-4fa9-9f6b-8d7e91843026.png)
 
 
 
@@ -372,6 +385,8 @@ print(maov.mv_test())
 <summary>OUTPUT</summary>
 
 
+![prac6C-1](https://user-images.githubusercontent.com/88243315/215099955-0943ad3e-f648-4510-801b-cbcf03d0188e.png)
+![prac6C-2](https://user-images.githubusercontent.com/88243315/215099957-5016732f-97f2-42fe-b4d6-99ceac1e0caf.png)
 
 
 </details>
@@ -415,6 +430,10 @@ plt.show()
 <details>
 <summary>OUTPUT</summary>
 
+![prac7B-1](https://user-images.githubusercontent.com/88243315/215100006-3d0ee092-6d16-491d-810a-5f582727c5b1.png)
+![prac7B-2](https://user-images.githubusercontent.com/88243315/215100008-76f351ca-d006-4493-aa9c-0dc551534b63.png)
+![prac7B-3](https://user-images.githubusercontent.com/88243315/215099997-fbb9df4a-65fc-4ef8-a8d3-a4fc55a2e98e.png)
+![prac7B-4](https://user-images.githubusercontent.com/88243315/215100003-52b87ca3-ac60-4b24-9c5b-31b05f9ba819.png)
 
 
 
@@ -448,6 +467,7 @@ plt.show()
 <summary>OUTPUT</summary>
 
 
+![prac8A](https://user-images.githubusercontent.com/88243315/215100077-3e1ce39e-bfd8-4c3a-b889-694753300232.png)
 
 
 </details>
@@ -478,6 +498,7 @@ print("Practical 8-B")
 <summary>OUTPUT</summary>
 
 
+![prac8B](https://user-images.githubusercontent.com/88243315/215100111-34ab23cd-0567-435d-a60c-712f2f2ddf6c.png)
 
 
 </details>
@@ -504,6 +525,7 @@ print("Practical 8-C")
 <details>
 <summary>OUTPUT</summary>
 
+![prac8C](https://user-images.githubusercontent.com/88243315/215100139-653fd856-e11f-4717-9355-cc63455b6f38.png)
 
 
 
@@ -571,6 +593,7 @@ print("Practical 9-A")
 <details>
 <summary>OUTPUT</summary>
 
+![prac9A](https://user-images.githubusercontent.com/88243315/215100163-83c9befc-5c03-402f-bd97-bf7aed0b253c.png)
 
 
 
@@ -638,6 +661,7 @@ print("Practical 9-B")
 <summary>OUTPUT</summary>
 
 
+![prac9B](https://user-images.githubusercontent.com/88243315/215100182-4f02be37-63aa-4098-876c-790ee44087bc.png)
 
 
 </details>
