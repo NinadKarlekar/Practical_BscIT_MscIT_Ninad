@@ -6,7 +6,11 @@ Practical of B.Sc. IT and M.Sc. IT
 ![issues-closed](https://img.shields.io/github/issues-closed/NinadKarlekar/Practical_BscIT_MscIT_Ninad)
 [![HitCount](http://hits.dwyl.com/NinadKarlekar/Practical_BscIT_MscIT_Ninad.svg)](http://hits.dwyl.com/NinadKarlekar/Practical_BscIT_MscIT_Ninad)
 
-
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![RSTUDIO](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white)
+![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
+![NetBeans](https://img.shields.io/badge/apache%20netbeans-1B6AC6?style=for-the-badge&logo=apache%20netbeans%20IDE&logoColor=white)
+![Spyder](https://img.shields.io/badge/Spyder%20Ide-FF0000?style=for-the-badge&logo=spyder%20ide&logoColor=white)
 
 ## Index
 
