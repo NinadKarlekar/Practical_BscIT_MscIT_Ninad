@@ -1,6 +1,12 @@
 # Practical_BscIT_MscIT_Ninad
 Practical of B.Sc. IT and M.Sc. IT
 
+![Python](https://img.shields.io/badge/python-v3.8.8%2B-blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/NinadKarlekar/Practical_BscIT_MscIT_Ninad?logo=github)
+![issues-closed](https://img.shields.io/github/issues-closed/NinadKarlekar/Practical_BscIT_MscIT_Ninad)
+[![HitCount](http://hits.dwyl.com/NinadKarlekar/Practical_BscIT_MscIT_Ninad.svg)](http://hits.dwyl.com/NinadKarlekar/Practical_BscIT_MscIT_Ninad)
+
+
 
 ## Index
 
