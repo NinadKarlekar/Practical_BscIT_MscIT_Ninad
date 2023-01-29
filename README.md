@@ -1,6 +1,8 @@
 # Practical_BscIT_MscIT_Ninad
 Practical of B.Sc. IT and M.Sc. IT
 
+![GitHub](https://img.shields.io/github/stars/NinadKarlekar/Practical_BscIT_MscIT_Ninad)
+![GitHub](https://img.shields.io/github/forks/NinadKarlekar/Practical_BscIT_MscIT_Ninad?label=Fork)
 ![GitHub last commit](https://img.shields.io/github/last-commit/NinadKarlekar/Practical_BscIT_MscIT_Ninad?logo=github)
 ![issues-closed](https://img.shields.io/github/issues-closed/NinadKarlekar/Practical_BscIT_MscIT_Ninad)
 [![HitCount](http://hits.dwyl.com/NinadKarlekar/Practical_BscIT_MscIT_Ninad.svg)](http://hits.dwyl.com/NinadKarlekar/Practical_BscIT_MscIT_Ninad)
