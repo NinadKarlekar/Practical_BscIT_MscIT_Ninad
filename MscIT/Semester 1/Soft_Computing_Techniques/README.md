@@ -31,7 +31,7 @@ PSIT1P4 Soft Computing Techniques
 
 <BR>
 
-## Prac1A-i
+## Prac1A-i [🔝](#soft-computing-techniques)
 
 - 1A-i. Design a simple linear neural network model.
 
@@ -61,7 +61,7 @@ print("Output", output)
 
 **************
 
-## Prac1A-ii
+## Prac1A-ii [🔝](#soft-computing-techniques)
 
 - 1A-ii. Calculate the output of neural net for given data.
 
@@ -94,7 +94,7 @@ print("Output: ", output)
 
 **************
 
-## Prac1B
+## Prac1B [🔝](#soft-computing-techniques)
 
 - 1B. Calculate the output of neural net using both binary and bipolar sigmoidal function.
 
@@ -126,7 +126,7 @@ print("Bipolar Sigmoidal = ", round(bipolar_sigmoidal, 3))
 
 **************
 
-## Prac2A
+## Prac2A [🔝](#soft-computing-techniques)
 
 - 2A. Generate AND/NOT function using McCulloch- Pitts neural net.
 
@@ -170,7 +170,7 @@ for i in range(0, 4):
 
 **************
 
-## Prac2B
+## Prac2B [🔝](#soft-computing-techniques)
 
 - 2B. Generate XOR function using McCulloch-Pitts neural net.
 
@@ -247,7 +247,7 @@ print("END")
 
 **************
 
-## Prac3A
+## Prac3A [🔝](#soft-computing-techniques)
 
 - 3A. Write a program to implement Hebb’s rule.
 
@@ -292,7 +292,7 @@ print("Bias value= ", b)
 
 **************
 
-## Prac3B
+## Prac3B [🔝](#soft-computing-techniques)
 
 - 3B. Write a program to implement of delta rule.
 
@@ -342,7 +342,7 @@ print("Desired ", desired)
 
 **************
 
-## Prac4A
+## Prac4A [🔝](#soft-computing-techniques)
 
 - 4A. Write a program for Back Propagation Algorithm.
 
@@ -387,7 +387,7 @@ print("expected output\n" + str(Y))
 
 **************
 
-## Prac4B
+## Prac4B [🔝](#soft-computing-techniques)
 
 - 4B. Write a program for error Backpropagation algorithm.
 
@@ -450,7 +450,7 @@ for i in range(2000):
 
 **************
 
-## Prac5A
+## Prac5A [🔝](#soft-computing-techniques)
 
 - 5A. Write a program for hopfield network.
 
@@ -493,7 +493,7 @@ print("is_stable : ", is_stable)
 
 **************
 
-## Prac5B
+## Prac5B [🔝](#soft-computing-techniques)
 
 - 5B. Write a program for radial basis function(R language).
 
@@ -526,7 +526,7 @@ for (i in 1:N) {
 
 **************
 
-## Prac6A
+## Prac6A [🔝](#soft-computing-techniques)
 
 - 6A. Kohonen self organizing map
 
@@ -587,7 +587,7 @@ plt.imshow(abs(som.get_weights()), interpolation="none")
 
 **************
 
-## Prac6B
+## Prac6B [🔝](#soft-computing-techniques)
 
 - 6B. Hopfield network.
 
@@ -644,7 +644,7 @@ plot_tools.plot_state_sequence_and_overlap(
 
 **************
 
-## Prac7A-i
+## Prac7A-i [🔝](#soft-computing-techniques)
 
 - 7A-i. Implement membership and identity operators *in*
 
@@ -678,7 +678,7 @@ else:
 
 **************
 
-## Prac7A-ii
+## Prac7A-ii [🔝](#soft-computing-techniques)
 
 - 7A-ii. Implement membership and identity operators *not in*
 
@@ -703,7 +703,7 @@ else:
 
 **************
 
-## Prac7B-i
+## Prac7B-i [🔝](#soft-computing-techniques)
 
 - 7B-i. Implement membership and identity operators *is*.
 
@@ -731,7 +731,7 @@ for i in details:
 
 **************
 
-## Prac7B-ii
+## Prac7B-ii [🔝](#soft-computing-techniques)
 
 - 7B-ii. Implement membership and identity operators *is not*.
 
@@ -760,7 +760,7 @@ for i in details:
 
 **************
 
-## Prac8A
+## Prac8A [🔝](#soft-computing-techniques)
 
 - 8A. Find ratios using fuzzy logic.
 
@@ -793,7 +793,7 @@ print("Best among the above list: ", process.extractOne(query, choices))
 
 **************
 
-## Prac8B
+## Prac8B [🔝](#soft-computing-techniques)
 
 - 8B. Solve tipping problem using fuzzy logic.
 

@@ -25,7 +25,7 @@ PSIT1P4 Cloud Computing
 
 <BR>
 
-## Prac1A
+## Prac1A [🔝](#cloud-computing)
 
 1A. A client server based program using TCP to find if the number entered is prime.<br>
 **( tcpserverprime, tcpclientprime )**
@@ -108,7 +108,7 @@ public class Tcpclientprime {
 
 **************
 
-## Prac1B
+## Prac1B[🔝](#cloud-computing)
 
 1B. A client server TCP based chatting application. <br>
 **( ChatServer, ChatClient )**
@@ -194,7 +194,7 @@ public class ChatClient {
 
 ***********
 
-## Prac1C
+## Prac1C[🔝](#cloud-computing)
 
 1C. A client server TCP based File Transfer application. <br>
 **( Tcpfileserver, Tcpfileclient )**
@@ -292,7 +292,7 @@ public class Tcpfileclient {
 
 ***********
 
-## Prac2A
+## Prac2A[🔝](#cloud-computing)
 
 2A. A client server based program using UDP to find if the number entered is even or odd. <br>
 **( UDPServerEO, UDPClientEO )**
@@ -372,7 +372,7 @@ public class UDPClientEO {
 
 ***********
 
-## Prac2B
+## Prac2B[🔝](#cloud-computing)
 
 2B. A client server based program using UDP to find the factorial of the entered number. <br>
 **( UDPserverFACT, UDPclientFACT )**
@@ -461,7 +461,7 @@ public class UDPclientFACT {
 
 ***********
 
-## Prac3A
+## Prac3A[🔝](#cloud-computing)
 
 3A. A program to implement simple calculator operations like addition, subtraction, multiplication and division using RPC. <br>
 **( RPCServer, RPCClient )**
@@ -587,7 +587,7 @@ public class RPCClient {
 
 ***********
 
-## Prac3B
+## Prac3B[🔝](#cloud-computing)
 
 3B. A program that finds the square, square root, cube and cube root of the entered number using RPC. <br>
 **( RPCNumOperationServer, RPCNumOperationClient )**
@@ -722,7 +722,8 @@ public class RPCNumOperationClient {
 ![MSCIT_CCprac3B](https://user-images.githubusercontent.com/88243315/214314734-8c23601d-27f7-4638-9e1c-c173a1c0aef2.png)
 
 ***********
-## Prac4
+
+## Prac4[🔝](#cloud-computing)
 
 4 . Implement Multicast Socket. <br>
 **( BroadcastServer, BroadcastClient )**
@@ -798,7 +799,7 @@ public class BroadcastClient {
 
 ***********
 
-## Prac5A
+## Prac5A[🔝](#cloud-computing)
 
 5A . A RMI based application program to display current date and time. OR Aim: Write a program to show the object communication to transfer system date using RMI. <br>
 **( ServerDate, ClientDate, InterDate )**

@@ -38,7 +38,7 @@ PSIT1P2 Data Science 2022-2023
 
 *******************
 
-## prac1A-i
+## prac1A-i [🔝](#data-science-practicals)
 
 - Assessing Data
 - Drop the columns where all element is missing values.
@@ -122,7 +122,7 @@ print('################################')
 
 *******************
 
-## prac1A-ii
+## prac1A-ii [🔝](#data-science-practicals)
 
 - Drop the columns where any of the element is missing.
 
@@ -201,7 +201,7 @@ print('################################')
 
 *******************
 
-## prac1A-iii
+## prac1A-iii [🔝](#data-science-practicals)
 
 - Keep only the rows that contain a maximum of two missing values.
 
@@ -280,7 +280,7 @@ print('################################')
 
 *******************
 
-## prac1B
+## prac1B [🔝](#data-science-practicals)
 
 - Create a network routing diagram from the given data on the routers. (Assess- Company, Customer and Node)
 
@@ -409,7 +409,7 @@ print('### Done!! #####################')
 
 *******************
 
-## prac2A
+## prac2A [🔝](#data-science-practicals)
 
 - Conversion different data format to HORUS format
 - a. Conversion from CSV to HORUS
@@ -456,7 +456,7 @@ print('CSV to HORUS - Done')
 
 *******************
 
-## prac2B
+## prac2B [🔝](#data-science-practicals)
 
 - b. Conversion from JSON to HORUS
 
@@ -507,7 +507,7 @@ print('JSON to HORUS - Done')
 
 *******************
 
-## prac3C
+## prac3C [🔝](#data-science-practicals)
 
 - c. Conversion from JPG/Images to HORUS
 
@@ -562,7 +562,7 @@ print('=====================================================')
 
 *******************
 
-## prac3D
+## prac3D [🔝](#data-science-practicals)
 
 - d1. Conversion from Audio to HORUS
 
@@ -724,7 +724,7 @@ for c in range(count):
 
 *******************
 
-## prac3E
+## prac3E [🔝](#data-science-practicals)
 
 - e. Conversion from XML to HORUS
 
@@ -810,7 +810,7 @@ print('=====================================================')
 
 *******************
 
-## prac4A
+## prac4A [🔝](#data-science-practicals)
 
 - Utilities and Auditing
     - a. Fixers utilities
@@ -863,7 +863,7 @@ print('Good Data : ',gooddata)
 
 *******************
 
-## prac4B
+## prac4B [🔝](#data-science-practicals)
 
 - b. Data Binning or Bucketing
 
@@ -911,7 +911,7 @@ plt.show()
 
 *******************
 
-## prac4C
+## prac4C [🔝](#data-science-practicals)
 
 - c. Averaging of data
 
@@ -949,7 +949,7 @@ print(MeanData)
 
 *******************
 
-## prac4D
+## prac4D [🔝](#data-science-practicals)
 
 - d. Outlier Detection
 
@@ -1005,7 +1005,7 @@ print(OutliersNot)
 
 *******************
 
-## prac4E
+## prac4E [🔝](#data-science-practicals)
 
 - e. Audit – Logging
 
@@ -1109,7 +1109,7 @@ for sCompany in sCompanies:
 
 *******************
 
-## prac5A
+## prac5A [🔝](#data-science-practicals)
 
 - Retrieving Data
 - a. Program to retrieve different types of attributes
@@ -1173,7 +1173,7 @@ print('### Done!! ############################################')
 
 *******************
 
-## prac5B
+## prac5B [🔝](#data-science-practicals)
 
 - b. Data Pattern
 
@@ -1219,7 +1219,7 @@ View(pattern_country)
 
 *******************
 
-## prac5C
+## prac5C [🔝](#data-science-practicals)
 
 - c. Loading IP_DATA_ALL
 
@@ -1283,11 +1283,11 @@ print('### Done!! ############################################')
 
 *******************
 
-## prac6
+## prac6 [🔝](#data-science-practicals)
 
 - Organizing Data (Organize- Horizontal style, Vertical style, Island style and Secure Vault style)
 
-1. <b>Horizontal style</b>
+1. <b>Horizontal style</b> [🔝](#data-science-practicals)
 ```python
 # C:\VKHCG\01-Vermeulen\05-Organise\ Organize-Horizontal.py
 import sys
@@ -1368,7 +1368,7 @@ print("################################")
 
 
 
-2. <b>Vertical style</b>
+2. <b>Vertical style</b> [🔝](#data-science-practicals)
 ```python
 # C:\VKHCG\01-Vermeulen\05-Organise\ Organize-Vertical.py
 import sys
@@ -1434,7 +1434,7 @@ print('################################')
 
 
 
-3. <b>Island style</b>
+3. <b>Island style</b> [🔝](#data-science-practicals)
 
 ```python
 # C:\VKHCG\01-Vermeulen\05-Organise\Organize-Island.py
@@ -1506,7 +1506,7 @@ print('################################')
 
 
 
-4. <b>Secure Vault style</b>
+4. <b>Secure Vault style</b> [🔝](#data-science-practicals)
 
 ```python
 # C:\VKHCG\01-Vermeulen\05-Organise\Organize-Secure-Vault.py
@@ -1588,7 +1588,7 @@ print('################################')
 
 *******************
 
-## prac8A
+## prac8A [🔝](#data-science-practicals)
 
 - Transforming Data
 - a. Building data warehouse
@@ -1743,7 +1743,7 @@ sTable.dtypes
 
 *******************
 
-## prac8B
+## prac8B [🔝](#data-science-practicals)
 
 - b. Simple Linear Regression
 
@@ -1884,7 +1884,7 @@ plt.plot()
 
 *******************
 
-## prac9A
+## prac9A [🔝](#data-science-practicals)
 
 - Generating Reports
 - a. Vermeulen PLC
@@ -1992,7 +1992,7 @@ print('################################')
 
 *******************
 
-## prac9B
+## prac9B [🔝](#data-science-practicals)
 
 - b. Krennwallner AG
 
@@ -2093,7 +2093,7 @@ print('### Done!! ############################################')
 
 *******************
 
-## prac10A
+## prac10A [🔝](#data-science-practicals)
 
 - Processing Data
 - a. Build the time Hub, Link and Satellite
@@ -2247,9 +2247,9 @@ print("### Done!! ############################################")
 
 *******************
 
-## prac10B
+## prac10B [🔝](#data-science-practicals)
 
-- b. Human-Environment Interaction
+- 10b. Human-Environment Interaction
 
 ```python
 ################################################################
@@ -2359,9 +2359,9 @@ print("### Done!! ############################################")
 
 *******************
 
-## prac10C
+## prac10C [🔝](#data-science-practicals)
 
-- c. Forecasting
+- 10c. Forecasting
 
 ```python
 ################################################################
