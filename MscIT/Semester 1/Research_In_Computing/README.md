@@ -32,7 +32,7 @@ PSIT1P1 Research In Computing
 
 ********************
 
-## Prac1A
+## Prac1A [🔝](#index)
 - Practical 1A: Write a python program on descriptive statistics analysis.
 ```python
 
@@ -67,7 +67,7 @@ print (df.std())
 *****************************
 
 
-## Prac1A(Excel)
+## Prac1A(Excel) [🔝](#index)
 - Practical 1A(Excel). Write a program for obtaining descriptive statistics of data.
 
 <details>
@@ -101,7 +101,7 @@ print (df.std())
 
 *****************
 
-## Prac1B-1
+## Prac1B-1 [🔝](#index)
 - Import data from different data sources (from Excel, csv, mysql, sql server, oracle to R/Python/Excel)
 - From csv
 ```python
@@ -141,7 +141,7 @@ print('### Done!! ############################################')
 
 *****************
 
-## Prac1B-1(Excel)
+## Prac1B-1(Excel) [🔝](#index)
 
 - To Import data from ***csv*** file.
 
@@ -169,7 +169,7 @@ print('### Done!! ############################################')
 
 *****************
 
-## Prac1B-2
+## Prac1B-2 [🔝](#index)
 - Import data from different data sources (from Excel, csv, mysql, sql server, oracle to R/Python/Excel)
 - From Excel
 ```python
@@ -205,7 +205,7 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 *****************
 
-## Prac1B-2(Excel)
+## Prac1B-2(Excel) [🔝](#index)
 
 - To Import data from ***Excel*** file.
 
@@ -231,7 +231,7 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 ****************************************
 
-## Prac2A(Google Form)
+## Prac2A(Google Form) [🔝](#index)
 
 - Design a survey form for a given case study, collect the **primary data** and **analyse it**.
 
@@ -258,7 +258,7 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 *******************************
 
-## Prac2B(Excel)
+## Prac2B(Excel) [🔝](#index)
 
 - Perform analysis of given secondary data.
 
@@ -311,7 +311,7 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 ****************************************
 
-## Prac3A
+## Prac3A [🔝](#index)
 - Perform testing of hypothesis using one sample t-test
 ```python
 #3A.Perform testing of hypothesis using one sample t-test.
@@ -343,7 +343,7 @@ else:
 
 *****************
 
-## Prac3B
+## Prac3B [🔝](#index)
 - Perform testing of hypothesis using two sample t-test
 ```python
 #3B-Perform testing of hypothesis using two sample t-test.
@@ -383,7 +383,7 @@ else:
 *****************
 
 
-## Prac3B(Excel)
+## Prac3B(Excel) [🔝](#index)
 
 - Write a program for t-test comparing two means for independent samples.
 
@@ -425,7 +425,7 @@ else:
 
 ****************************************
 
-## Prac3C
+## Prac3C [🔝](#index)
 - Perform testing of hypothesis using paired t-test.
 ```python
 #3C-Perform testing of hypothesis using paired t-test.
@@ -469,7 +469,7 @@ stats.ttest_rel(df['bp_before'], df['bp_after'])
 *****************
 
 
-## Prac4A(Excel)
+## Prac4A(Excel) [🔝](#index)
 
 - Perform testing of hypothesis using chi-squared goodness-of-fit test.
 
@@ -505,7 +505,7 @@ stats.ttest_rel(df['bp_before'], df['bp_after'])
 *****************
 
 
-## Prac4B(Excel)
+## Prac4B(Excel) [🔝](#index)
 
 - Perform testing of hypothesis using chi-squared test of independence.
 
@@ -546,7 +546,7 @@ Go to cell T7 and type
 
 *****************
 
-## Prac4B
+## Prac4B [🔝](#index)
 - Perform testing of hypothesis using chi-squared
 ```python
 # Google colab
@@ -591,7 +591,7 @@ else:
 
 *****************
 
-## Prac5A
+## Prac5A [🔝](#index)
 - Perform testing of hypothesis using Z-test.
 ```python
 # Google colab
@@ -623,7 +623,7 @@ else:
 
 *****************
 
-## Prac5B
+## Prac5B [🔝](#index)
 - Two-Sample Z test
 ```python
 # Google colab
@@ -659,7 +659,7 @@ else:
 *****************
 
 
-## Prac6A(Excel)
+## Prac6A(Excel) [🔝](#index)
 
 - Perform testing of hypothesis using one-way ANOVA
 
@@ -686,7 +686,7 @@ else:
 *****************
 
 
-## Prac6B(Excel)
+## Prac6B(Excel) [🔝](#index)
 
 - Perform testing of hypothesis using two-way ANOVA.
 
@@ -714,7 +714,7 @@ else:
 
 *****************
 
-## Prac6C
+## Prac6C [🔝](#index)
 - Perform testing of hypothesis using multivariate ANOVA (MANOVA)
 ```python
 # Google colab
@@ -746,7 +746,7 @@ print(maov.mv_test())
 *****************
 
 
-## Prac7A(Excel)
+## Prac7A(Excel) [🔝](#index)
 
 - Perform the Random sampling for the given data and analyse it.
 
@@ -769,7 +769,7 @@ print(maov.mv_test())
 
 *****************
 
-## Prac7B
+## Prac7B [🔝](#index)
 - Perform the Stratified sampling for the given data and analyse it.
 - We are to carry out a hypothetical housing quality survey across Lagos state,Nigeria. And we looking at a total of 5000 houses (hypothetically). We don’t just go to one local government and select 5000 houses, rather we ensure that the 5000 houses are a representative of the whole 20 local government areas Lagos state is comprised of. This is called stratified sampling. The population is divided into homogenous strata and the right number of instances is sampled from each stratum to guarantee that the test-set (which in this case is the 5000 houses) is a representative of the overall population. If we used random sampling, there would be a significant chance of having bias in the survey results.
 
@@ -817,7 +817,7 @@ plt.show()
 
 *****************
 
-## Prac8A
+## Prac8A [🔝](#index)
 - 8.Write a program for computing different correlation
 - A.	Positive Correlation:
 
@@ -850,7 +850,7 @@ plt.show()
 
 *****************
 
-## Prac8B
+## Prac8B [🔝](#index)
 - B.	Negative Correlation:
 ```python
 # Google colab
@@ -881,7 +881,7 @@ print("Practical 8-B")
 
 *****************
 
-## Prac8C
+## Prac8C [🔝](#index)
 - 8C.	No/Weak Correlation:
 ```python
 # Google colab
@@ -909,7 +909,7 @@ print("Practical 8-C")
 
 *****************
 
-## Prac9A
+## Prac9A [🔝](#index)
 - 9A.	Write a program to Perform linear regression for prediction.
 ```python
 # PRAC 9A #Jupyter
@@ -977,7 +977,7 @@ print("Practical 9-A")
 
 *****************
 
-## Prac9B
+## Prac9B [🔝](#index)
 - 9B Perform polynomial regression for prediction.
 
 ```python
@@ -1046,7 +1046,7 @@ print("Practical 9-B")
 *****************
 
 
-## Prac9B(Excel)
+## Prac9B(Excel) [🔝](#index)
 
 - Perform polynomial regression for prediction.
 
