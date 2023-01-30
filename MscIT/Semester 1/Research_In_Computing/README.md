@@ -152,7 +152,7 @@ print('### Done!! ############################################')
     
 2. Select From **file** -> Select From **Text/CSV**
     
-    ![excelRic1B_1](https://user-images.githubusercontent.com/88243315/215115182-a6c09c03-a0e4-4e2f-b611-e5ffb9dbe572.png)
+    <img src="https://user-images.githubusercontent.com/88243315/215115182-a6c09c03-a0e4-4e2f-b611-e5ffb9dbe572.png" alt="excelRic1B_1" width="300" >
     
 3. Select the **csv** file and Click on **Import**
 4. Preview window will open -> click on **Load**
