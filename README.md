@@ -1,5 +1,5 @@
 # Practical_BscIT_MscIT_Ninad
-Practical of B.Sc. IT and M.Sc. IT
+Practical of B.Sc. IT and M.Sc. IT (University Of Mumbai)
 
 ![GitHub](https://img.shields.io/github/stars/NinadKarlekar/Practical_BscIT_MscIT_Ninad?label=Stars)
 ![GitHub](https://img.shields.io/github/forks/NinadKarlekar/Practical_BscIT_MscIT_Ninad?label=Fork)
