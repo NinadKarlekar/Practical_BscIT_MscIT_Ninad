@@ -9,36 +9,38 @@ PSIT1P2 Data Science 2022-2023
 
 | Sr.No. | Name | Copy |
 | --- | --- | --- |
-| [Prac1A-i](/MscIT/Semester%201/Data_Science/Practical%201/) <br> [Prac1A-ii](/MscIT/Semester%201/Data_Science/Practical%201/) <br>  [Prac1A-iii](/MscIT/Semester%201/Data_Science/Practical%201/)| A.	Perform error management on the given data using pandas package. <br>  i.	Drop the Columns Where All Elements Are Missing Values <br> ii.	Drop the Columns Where Any of the Elements Is Missing Values <br> iii.	Keep Only the Rows That Contain a Maximum of Two Missing Values | [prac1A-I](#prac1a-i-🔝)<br> [prac1A-II](#prac1a-ii-🔝)<br> [prac1A-III](#prac1a-iii-🔝) |
+| [Prac1A-i](/MscIT/Semester%201/Data_Science/Practical%201/) <br> [Prac1A-ii](/MscIT/Semester%201/Data_Science/Practical%201/) <br>  [Prac1A-iii](/MscIT/Semester%201/Data_Science/Practical%201/)| A.	Perform error management on the given data using pandas package. <br>  i.	Drop the Columns Where All Elements Are Missing Values <br> ii.	Drop the Columns Where Any of the Elements Is Missing Values <br> iii.	Keep Only the Rows That Contain a Maximum of Two Missing Values | [prac1A-I](#prac1a-i)<br> [prac1A-II](#prac1a-ii)<br> [prac1A-III](#prac1a-iii) |
 | [Prac1B](/MscIT/Semester%201/Data_Science/Practical%201/)| B.	Write Python / R program to create the network routing diagram from the given data on routers. | [Prac1B](#prac1b) |
-| [Prac2A](/MscIT/Semester%201/Data_Science/Practical%202/)| A.	Text delimited CSV to HORUS format. | [Prac2A](#prac2a-🔝) |
-| [Prac2B](/MscIT/Semester%201/Data_Science/Practical%202/)| B. JSON to HORUS Format | [Prac2B](#prac2b-🔝) |
-| [Prac3C](/MscIT/Semester%201/Data_Science/Practical%203/)| C.	IMG to HORUS Format | [Prac3C](#prac3c-🔝) |
-| [Prac3D](/MscIT/Semester%201/Data_Science/Practical%203/)| D.	Conversion from Video/Audio to HORUS | [Prac3D](#prac3d-🔝) |
-| [Prac3E](/MscIT/Semester%201/Data_Science/Practical%203/)| E.	XML to HORUS Format | [Prac3E](#prac3e-🔝) |
-| [Prac4A](/MscIT/Semester%201/Data_Science/Practical%204/)|4.  Utilities and Auditing <br> A.	Fixers utilities | [Prac4A](#prac4a-🔝) |
-| [Prac4B](/MscIT/Semester%201/Data_Science/Practical%204/)| B.	Data Binning or Bucketing | [Prac4B](#prac4b-🔝) |
-| [Prac4C](/MscIT/Semester%201/Data_Science/Practical%204/)| C.	Averaging of data | [Prac4C](#prac4c-🔝) |
-| [Prac4D](/MscIT/Semester%201/Data_Science/Practical%204/)| D.	Outlier Detection | [Prac4D](#prac4d-🔝) |
-| [Prac4E](/MscIT/Semester%201/Data_Science/Practical%204/)| E.	Audit – Logging | [Prac4E](#prac4e-🔝) |
-| [Prac5A](/MscIT/Semester%201/Data_Science/Practical%205/)| A.	Program to retrieve different types of attributes | [Prac5A](#prac5a-🔝) |
-| [Prac5B](/MscIT/Semester%201/Data_Science/Practical%205/)| B.	Data Pattern | [Prac5B](#prac5b-🔝) |
-| [Prac5C](/MscIT/Semester%201/Data_Science/Practical%205/)| C.	Loading IP_DATA_ALL | [Prac5C](#prac5c-🔝) |
-| [Prac6](/MscIT/Semester%201/Data_Science/Practical%206/)| Organizing Data <br>(Organize- Horizontal style, Vertical style, Island style and Secure Vault style) | [Prac6](#prac6-🔝) |
+| [Prac2A](/MscIT/Semester%201/Data_Science/Practical%202/)| A.	Text delimited CSV to HORUS format. | [Prac2A](#prac2a) |
+| [Prac2B](/MscIT/Semester%201/Data_Science/Practical%202/)| B. JSON to HORUS Format | [Prac2B](#prac2b) |
+| [Prac3C](/MscIT/Semester%201/Data_Science/Practical%203/)| C.	IMG to HORUS Format | [Prac3C](#prac3c) |
+| [Prac3D](/MscIT/Semester%201/Data_Science/Practical%203/)| D.	Conversion from Video/Audio to HORUS | [Prac3D](#prac3d) |
+| [Prac3E](/MscIT/Semester%201/Data_Science/Practical%203/)| E.	XML to HORUS Format | [Prac3E](#prac3e) |
+| [Prac4A](/MscIT/Semester%201/Data_Science/Practical%204/)|4.  Utilities and Auditing <br> A.	Fixers utilities | [Prac4A](#prac4a) |
+| [Prac4B](/MscIT/Semester%201/Data_Science/Practical%204/)| B.	Data Binning or Bucketing | [Prac4B](#prac4b) |
+| [Prac4C](/MscIT/Semester%201/Data_Science/Practical%204/)| C.	Averaging of data | [Prac4C](#prac4c) |
+| [Prac4D](/MscIT/Semester%201/Data_Science/Practical%204/)| D.	Outlier Detection | [Prac4D](#prac4d) |
+| [Prac4E](/MscIT/Semester%201/Data_Science/Practical%204/)| E.	Audit – Logging | [Prac4E](#prac4e) |
+| [Prac5A](/MscIT/Semester%201/Data_Science/Practical%205/)| A.	Program to retrieve different types of attributes | [Prac5A](#prac5a) |
+| [Prac5B](/MscIT/Semester%201/Data_Science/Practical%205/)| B.	Data Pattern | [Prac5B](#prac5b) |
+| [Prac5C](/MscIT/Semester%201/Data_Science/Practical%205/)| C.	Loading IP_DATA_ALL | [Prac5C](#prac5c) |
+| [Prac6](/MscIT/Semester%201/Data_Science/Practical%206/)| Organizing Data <br>(Organize- Horizontal style, Vertical style, Island style and Secure Vault style) | [Prac6](#prac6) |
 | Prac7| Data Visualization with Power BI | |
-| [Prac8A](/MscIT/Semester%201/Data_Science/Practical%208/)| 8. Transforming Data <br> A.	Building data warehouse | [Prac8A](#prac8a-🔝) |
-| [Prac8B](/MscIT/Semester%201/Data_Science/Practical%208/)| B.	Simple Linear Regression | [Prac8B](#prac8b)-🔝 |
-| [Prac9A](/MscIT/Semester%201/Data_Science/Practical%209/)| 9. Generating Reports <br> A.	Vermeulen PLC | [Prac9A](#prac9a-🔝) |
+| [Prac8A](/MscIT/Semester%201/Data_Science/Practical%208/)| 8. Transforming Data <br> A.	Building data warehouse | [Prac8A](#prac8a) |
+| [Prac8B](/MscIT/Semester%201/Data_Science/Practical%208/)| B.	Simple Linear Regression | [Prac8B](#prac8b) |
+| [Prac9A](/MscIT/Semester%201/Data_Science/Practical%209/)| 9. Generating Reports <br> A.	Vermeulen PLC | [Prac9A](#prac9a) |
 | [Prac9B](/MscIT/Semester%201/Data_Science/Practical%209/)|  B.	Krennwallner AG | [Prac9B](#prac9b) |
-| [Prac10A](/MscIT/Semester%201/Data_Science/Practical%2010/)| 10. Processing Data <br> A.	Build the time Hub, Link and Satellite | [Prac10A](#prac10a-🔝) |
-| [Prac10B](/MscIT/Semester%201/Data_Science/Practical%2010/)| B.	Human-Environment Interaction | [Prac10B](#prac10b-🔝) |
-| [Prac10C](/MscIT/Semester%201/Data_Science/Practical%2010/)| C.	Forecasting | [prac10C](#prac10c-🔝) |
+| [Prac10A](/MscIT/Semester%201/Data_Science/Practical%2010/)| 10. Processing Data <br> A.	Build the time Hub, Link and Satellite | [Prac10A](#prac10a) |
+| [Prac10B](/MscIT/Semester%201/Data_Science/Practical%2010/)| B.	Human-Environment Interaction | [Prac10B](#prac10b) |
+| [Prac10C](/MscIT/Semester%201/Data_Science/Practical%2010/)| C.	Forecasting | [prac10C](#prac10c) |
 
 
 
-*******************
+[🔝](#index)
 
-## prac1A-i [🔝](#data-science-practicals)
+****************
+
+## prac1A-i 
 
 - Assessing Data
 - Drop the columns where all element is missing values.
@@ -120,9 +122,11 @@ print('################################')
 
 
 
-*******************
+[🔝](#index)
 
-## prac1A-ii [🔝](#data-science-practicals)
+**********
+
+## prac1A-ii 
 
 - Drop the columns where any of the element is missing.
 
@@ -199,9 +203,11 @@ print('################################')
 
 
 
-*******************
+[🔝](#index)
 
-## prac1A-iii [🔝](#data-science-practicals)
+***************
+
+## prac1A-iii 
 
 - Keep only the rows that contain a maximum of two missing values.
 
@@ -274,13 +280,15 @@ print('################################')
 ![MSCIT_DSprac1A_iii_1](https://user-images.githubusercontent.com/88243315/214920744-a5603df2-9845-4508-adea-ecbcffb46941.png)
 ![MSCIT_DSprac1A_iii_2](https://user-images.githubusercontent.com/88243315/214920751-ae90d126-d39c-47b1-a381-e0be174ba8aa.png)
 
-
 </details>
+
+[🔝](#index)
+
 
 
 *******************
 
-## prac1B [🔝](#data-science-practicals)
+## prac1B 
 
 - Create a network routing diagram from the given data on the routers. (Assess- Company, Customer and Node)
 
@@ -405,11 +413,14 @@ print('### Done!! #####################')
 
 </details>
 
+[🔝](#index)
+
+
 
 
 *******************
 
-## prac2A [🔝](#data-science-practicals)
+## prac2A 
 
 - Conversion different data format to HORUS format
 - a. Conversion from CSV to HORUS
@@ -453,10 +464,14 @@ print('CSV to HORUS - Done')
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac2B [🔝](#data-science-practicals)
+## prac2B 
 
 - b. Conversion from JSON to HORUS
 
@@ -504,10 +519,14 @@ print('JSON to HORUS - Done')
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac3C [🔝](#data-science-practicals)
+## prac3C 
 
 - c. Conversion from JPG/Images to HORUS
 
@@ -559,10 +578,14 @@ print('=====================================================')
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac3D [🔝](#data-science-practicals)
+## prac3D 
 
 - d1. Conversion from Audio to HORUS
 
@@ -672,6 +695,10 @@ OutputData.to_csv(sOutputFileName, index=False)
 </details>
 
 
+[🔝](#index)
+
+
+
 
 - d2. Conversion from Video to HORUS
 
@@ -721,10 +748,14 @@ for c in range(count):
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac3E [🔝](#data-science-practicals)
+## prac3E 
 
 - e. Conversion from XML to HORUS
 
@@ -807,10 +838,14 @@ print('=====================================================')
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac4A [🔝](#data-science-practicals)
+## prac4A 
 
 - Utilities and Auditing
     - a. Fixers utilities
@@ -860,10 +895,14 @@ print('Good Data : ',gooddata)
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac4B [🔝](#data-science-practicals)
+## prac4B 
 
 - b. Data Binning or Bucketing
 
@@ -908,10 +947,14 @@ plt.show()
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac4C [🔝](#data-science-practicals)
+## prac4C 
 
 - c. Averaging of data
 
@@ -946,10 +989,14 @@ print(MeanData)
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac4D [🔝](#data-science-practicals)
+## prac4D 
 
 - d. Outlier Detection
 
@@ -1002,10 +1049,14 @@ print(OutliersNot)
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac4E [🔝](#data-science-practicals)
+## prac4E 
 
 - e. Audit – Logging
 
@@ -1106,10 +1157,14 @@ for sCompany in sCompanies:
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac5A [🔝](#data-science-practicals)
+## prac5A 
 
 - Retrieving Data
 - a. Program to retrieve different types of attributes
@@ -1170,10 +1225,14 @@ print('### Done!! ############################################')
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac5B [🔝](#data-science-practicals)
+## prac5B 
 
 - b. Data Pattern
 
@@ -1216,10 +1275,14 @@ View(pattern_country)
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac5C [🔝](#data-science-practicals)
+## prac5C 
 
 - c. Loading IP_DATA_ALL
 
@@ -1280,14 +1343,18 @@ print('### Done!! ############################################')
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac6 [🔝](#data-science-practicals)
+## prac6 
 
 - Organizing Data (Organize- Horizontal style, Vertical style, Island style and Secure Vault style)
 
-1. <b>Horizontal style</b> [🔝](#data-science-practicals)
+1. <b>Horizontal style</b> 
 ```python
 # C:\VKHCG\01-Vermeulen\05-Organise\ Organize-Horizontal.py
 import sys
@@ -1366,9 +1433,13 @@ print("################################")
 </details>
 
 
+[🔝](#index)
 
 
-2. <b>Vertical style</b> [🔝](#data-science-practicals)
+
+
+
+2. <b>Vertical style</b> 
 ```python
 # C:\VKHCG\01-Vermeulen\05-Organise\ Organize-Vertical.py
 import sys
@@ -1433,8 +1504,12 @@ print('################################')
 </details>
 
 
+[🔝](#index)
 
-3. <b>Island style</b> [🔝](#data-science-practicals)
+
+
+
+3. <b>Island style</b> 
 
 ```python
 # C:\VKHCG\01-Vermeulen\05-Organise\Organize-Island.py
@@ -1505,8 +1580,12 @@ print('################################')
 </details>
 
 
+[🔝](#index)
 
-4. <b>Secure Vault style</b> [🔝](#data-science-practicals)
+
+
+
+4. <b>Secure Vault style</b> 
 
 ```python
 # C:\VKHCG\01-Vermeulen\05-Organise\Organize-Secure-Vault.py
@@ -1585,10 +1664,14 @@ print('################################')
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac8A [🔝](#data-science-practicals)
+## prac8A 
 
 - Transforming Data
 - a. Building data warehouse
@@ -1740,10 +1823,14 @@ sTable.dtypes
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac8B [🔝](#data-science-practicals)
+## prac8B 
 
 - b. Simple Linear Regression
 
@@ -1881,10 +1968,14 @@ plt.plot()
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac9A [🔝](#data-science-practicals)
+## prac9A 
 
 - Generating Reports
 - a. Vermeulen PLC
@@ -1989,10 +2080,14 @@ print('################################')
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac9B [🔝](#data-science-practicals)
+## prac9B 
 
 - b. Krennwallner AG
 
@@ -2090,10 +2185,14 @@ print('### Done!! ############################################')
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac10A [🔝](#data-science-practicals)
+## prac10A 
 
 - Processing Data
 - a. Build the time Hub, Link and Satellite
@@ -2244,10 +2343,14 @@ print("### Done!! ############################################")
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac10B [🔝](#data-science-practicals)
+## prac10B 
 
 - 10b. Human-Environment Interaction
 
@@ -2356,10 +2459,14 @@ print("### Done!! ############################################")
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *******************
 
-## prac10C [🔝](#data-science-practicals)
+## prac10C 
 
 - 10c. Forecasting
 
@@ -2498,6 +2605,10 @@ print('### Done!! ############################################')
 
 
 </details>
+
+
+[🔝](#index)
+
 
 
 

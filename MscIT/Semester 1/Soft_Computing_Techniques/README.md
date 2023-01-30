@@ -9,29 +9,29 @@ PSIT1P4 Soft Computing Techniques
 
 | Sr.No. | Name | ReadME |
 | --- | --- | --- |
-| [Prac1A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/) <br> [Prac1A-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/)| 1A-i. Design a **simple linear neural network** model. <br> 1A-ii. Calculate the **output** of **neural net** for given data. | [Prac1A-i](#prac1a-i-🔝) <br>  [Prac1A-ii](#prac1a-ii-🔝) | |
-| [Prac1B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/) | 1B. Calculate the output of neural net using both **binary** and **bipolar sigmoidal** function.| [Prac1B](#prac1b-🔝) |
-| [Prac2A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%202/) | 2A. Generate **AND/NOT** function using **McCulloch- Pitts** neural net.| [Prac2A](#prac2a-🔝) |
-| [Prac2B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%202/) | 2B. Generate **XOR** function using **McCulloch-Pitts** neural net.| [Prac2B](#prac2b-🔝) |
-| [Prac3A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%203/) | 3A. Write a program to implement **Hebb’s rule**.| [Prac3A](#prac3a-🔝) |
-| [Prac3B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%203/) | 3B. Write a program to implement of **delta rule**. | [Prac3B](#prac3b-🔝) |
-| [Prac4A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%204/) | 4A. Write a program for **Back Propagation Algorithm**.| [Prac4A](#prac4a-🔝) |
-| [Prac4B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%204/) | 4B. Write a program for **error Backpropagation algorithm**. | [Prac4B](#prac4b-🔝) |
-| [Prac5A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%205/) | 5A. Write a program for **hopfield network**.| [Prac5A](#prac5a-🔝) |
-| [Prac5B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%205/) | 5B. Write a program for **radial basis function**. | [Prac5B](#prac5b-🔝) |
-| [Prac6A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%206/) | 6A. **Kohonen self organizing map**.| [Prac6A](#prac6a-🔝) |
-| [Prac6B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%206/) | 6B. **Hopfield network**. | [Prac6B](#prac6b-🔝) |
-| [Prac7A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7A-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7A-i. Implement membership and identity operators - **in** <br> 7A-ii. Implement membership and identity operators- **not in**.| [Prac7A-i](#prac7a-i-🔝) <br> [Prac7A-ii](#prac7a-ii-🔝) |
-| [Prac7B-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7B-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7B-i. Implement membership and identity operators- **is**. <br> 7B-ii. Implement membership and identity operators- **is not**. | [Prac7B-i](#prac7b-i-🔝) <br> [Prac7B-ii](#prac7b-ii-🔝) |
-| [Prac8A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%208/) | 8A. Find **ratios** using **fuzzy logic**.| [Prac8A](#prac8a-🔝) |
-| [Prac8B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%208/) | 8B. Solve **tipping** problem using **fuzzy logic**. | [Prac8B](#prac8b-🔝) |
+| [Prac1A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/) <br> [Prac1A-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/)| 1A-i. Design a **simple linear neural network** model. <br> 1A-ii. Calculate the **output** of **neural net** for given data. | [Prac1A-i](#prac1a-i) <br>  [Prac1A-ii](#prac1a-ii) | |
+| [Prac1B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%201/) | 1B. Calculate the output of neural net using both **binary** and **bipolar sigmoidal** function.| [Prac1B](#prac1b) |
+| [Prac2A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%202/) | 2A. Generate **AND/NOT** function using **McCulloch- Pitts** neural net.| [Prac2A](#prac2a) |
+| [Prac2B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%202/) | 2B. Generate **XOR** function using **McCulloch-Pitts** neural net.| [Prac2B](#prac2b) |
+| [Prac3A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%203/) | 3A. Write a program to implement **Hebb’s rule**.| [Prac3A](#prac3a) |
+| [Prac3B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%203/) | 3B. Write a program to implement of **delta rule**. | [Prac3B](#prac3b) |
+| [Prac4A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%204/) | 4A. Write a program for **Back Propagation Algorithm**.| [Prac4A](#prac4a) |
+| [Prac4B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%204/) | 4B. Write a program for **error Backpropagation algorithm**. | [Prac4B](#prac4b) |
+| [Prac5A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%205/) | 5A. Write a program for **hopfield network**.| [Prac5A](#prac5a) |
+| [Prac5B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%205/) | 5B. Write a program for **radial basis function**. | [Prac5B](#prac5b) |
+| [Prac6A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%206/) | 6A. **Kohonen self organizing map**.| [Prac6A](#prac6a) |
+| [Prac6B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%206/) | 6B. **Hopfield network**. | [Prac6B](#prac6b) |
+| [Prac7A-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7A-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7A-i. Implement membership and identity operators - **in** <br> 7A-ii. Implement membership and identity operators- **not in**.| [Prac7A-i](#prac7a-i) <br> [Prac7A-ii](#prac7a-ii) |
+| [Prac7B-i](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) <br> [Prac7B-ii](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%207/) | 7B-i. Implement membership and identity operators- **is**. <br> 7B-ii. Implement membership and identity operators- **is not**. | [Prac7B-i](#prac7b-i) <br> [Prac7B-ii](#prac7b-ii) |
+| [Prac8A](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%208/) | 8A. Find **ratios** using **fuzzy logic**.| [Prac8A](#prac8a) |
+| [Prac8B](/MscIT/Semester%201/Soft_Computing_Techniques/Practical%208/) | 8B. Solve **tipping** problem using **fuzzy logic**. | [Prac8B](#prac8b) |
 
 *************************
 ***********************
 
 <BR>
 
-## Prac1A-i [🔝](#soft-computing-techniques)
+## Prac1A-i
 
 - 1A-i. Design a simple linear neural network model.
 
@@ -61,7 +61,7 @@ print("Output", output)
 
 **************
 
-## Prac1A-ii [🔝](#soft-computing-techniques)
+## Prac1A-ii
 
 - 1A-ii. Calculate the output of neural net for given data.
 
@@ -94,7 +94,7 @@ print("Output: ", output)
 
 **************
 
-## Prac1B [🔝](#soft-computing-techniques)
+## Prac1B
 
 - 1B. Calculate the output of neural net using both binary and bipolar sigmoidal function.
 
@@ -126,7 +126,7 @@ print("Bipolar Sigmoidal = ", round(bipolar_sigmoidal, 3))
 
 **************
 
-## Prac2A [🔝](#soft-computing-techniques)
+## Prac2A
 
 - 2A. Generate AND/NOT function using McCulloch- Pitts neural net.
 
@@ -170,7 +170,7 @@ for i in range(0, 4):
 
 **************
 
-## Prac2B [🔝](#soft-computing-techniques)
+## Prac2B
 
 - 2B. Generate XOR function using McCulloch-Pitts neural net.
 
@@ -247,7 +247,7 @@ print("END")
 
 **************
 
-## Prac3A [🔝](#soft-computing-techniques)
+## Prac3A
 
 - 3A. Write a program to implement Hebb’s rule.
 
@@ -292,7 +292,7 @@ print("Bias value= ", b)
 
 **************
 
-## Prac3B [🔝](#soft-computing-techniques)
+## Prac3B
 
 - 3B. Write a program to implement of delta rule.
 
@@ -342,7 +342,7 @@ print("Desired ", desired)
 
 **************
 
-## Prac4A [🔝](#soft-computing-techniques)
+## Prac4A
 
 - 4A. Write a program for Back Propagation Algorithm.
 
@@ -387,7 +387,7 @@ print("expected output\n" + str(Y))
 
 **************
 
-## Prac4B [🔝](#soft-computing-techniques)
+## Prac4B
 
 - 4B. Write a program for error Backpropagation algorithm.
 
@@ -450,7 +450,7 @@ for i in range(2000):
 
 **************
 
-## Prac5A [🔝](#soft-computing-techniques)
+## Prac5A
 
 - 5A. Write a program for hopfield network.
 
@@ -493,7 +493,7 @@ print("is_stable : ", is_stable)
 
 **************
 
-## Prac5B [🔝](#soft-computing-techniques)
+## Prac5B
 
 - 5B. Write a program for radial basis function(R language).
 
@@ -526,7 +526,7 @@ for (i in 1:N) {
 
 **************
 
-## Prac6A [🔝](#soft-computing-techniques)
+## Prac6A
 
 - 6A. Kohonen self organizing map
 
@@ -587,7 +587,7 @@ plt.imshow(abs(som.get_weights()), interpolation="none")
 
 **************
 
-## Prac6B [🔝](#soft-computing-techniques)
+## Prac6B
 
 - 6B. Hopfield network.
 
@@ -644,7 +644,7 @@ plot_tools.plot_state_sequence_and_overlap(
 
 **************
 
-## Prac7A-i [🔝](#soft-computing-techniques)
+## Prac7A-i
 
 - 7A-i. Implement membership and identity operators *in*
 
@@ -678,7 +678,7 @@ else:
 
 **************
 
-## Prac7A-ii [🔝](#soft-computing-techniques)
+## Prac7A-ii
 
 - 7A-ii. Implement membership and identity operators *not in*
 
@@ -703,7 +703,7 @@ else:
 
 **************
 
-## Prac7B-i [🔝](#soft-computing-techniques)
+## Prac7B-i
 
 - 7B-i. Implement membership and identity operators *is*.
 
@@ -731,7 +731,7 @@ for i in details:
 
 **************
 
-## Prac7B-ii [🔝](#soft-computing-techniques)
+## Prac7B-ii
 
 - 7B-ii. Implement membership and identity operators *is not*.
 
@@ -760,7 +760,7 @@ for i in details:
 
 **************
 
-## Prac8A [🔝](#soft-computing-techniques)
+## Prac8A
 
 - 8A. Find ratios using fuzzy logic.
 
@@ -793,7 +793,7 @@ print("Best among the above list: ", process.extractOne(query, choices))
 
 **************
 
-## Prac8B [🔝](#soft-computing-techniques)
+## Prac8B
 
 - 8B. Solve tipping problem using fuzzy logic.
 

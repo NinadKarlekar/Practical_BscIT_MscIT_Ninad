@@ -9,15 +9,15 @@ PSIT1P4 Cloud Computing
 
 | Sr.No. | Name | Copy |
 | --- | --- | --- |
-| [Prac1A](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1A. A client server based program using ***TCP*** to find if the number entered is ***prime***. | [Prac1A](#prac1a-🔝) |
-| [Prac1B](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1B. A client server ***TCP*** based **chatting application** | [Prac1B](#prac1b-🔝) |
-| [Prac1c](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1C. A client server ***TCP*** based ***File Transfer*** application. | [Prac1B](#prac1c-🔝) |
-| [Prac2A](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 2A. A client server based program using ***UDP*** to find if the number entered is ***even or odd***. | [Prac2A](#prac2a-🔝) |
-| [Prac2B](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 2B. A client server based program using ***UDP*** to find the ***factorial*** of the entered number. | [Prac2B](#prac2b-🔝) |
-| [Prac3A](/MscIT/Semester%201/Cloud_Computing/Practical%203/) | 3A. A program to implement ***simple calculator*** operations like ***addition, subtraction, multiplication and division*** using ***RPC***. | [Prac3A](#prac3a-🔝) |
-| [Prac3B](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 3B. A program that finds the ***square, square root, cube and cube root*** of the entered number using ***RPC***. | [Prac3B](#prac3b-🔝) |
-| [Prac4](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 4. Implement ***Multicast*** Socket. | [Prac4](#prac4-🔝) |
-| [Prac5A](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 5A. A ***RMI*** based application program to display ***current date and time***. ***OR*** Aim: Write a program to show the object communication to transfer system date using ***RMI***. | [Prac5A](#prac5a-🔝) |
+| [Prac1A](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1A. A client server based program using ***TCP*** to find if the number entered is ***prime***. | [Prac1A](#prac1a) |
+| [Prac1B](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1B. A client server ***TCP*** based **chatting application** | [Prac1B](#prac1b) |
+| [Prac1c](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 1C. A client server ***TCP*** based ***File Transfer*** application. | [Prac1B](#prac1c) |
+| [Prac2A](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 2A. A client server based program using ***UDP*** to find if the number entered is ***even or odd***. | [Prac2A](#prac2a) |
+| [Prac2B](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 2B. A client server based program using ***UDP*** to find the ***factorial*** of the entered number. | [Prac2B](#prac2b) |
+| [Prac3A](/MscIT/Semester%201/Cloud_Computing/Practical%203/) | 3A. A program to implement ***simple calculator*** operations like ***addition, subtraction, multiplication and division*** using ***RPC***. | [Prac3A](#prac3a) |
+| [Prac3B](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 3B. A program that finds the ***square, square root, cube and cube root*** of the entered number using ***RPC***. | [Prac3B](#prac3b) |
+| [Prac4](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 4. Implement ***Multicast*** Socket. | [Prac4](#prac4) |
+| [Prac5A](/MscIT/Semester%201/Cloud_Computing/Practical%201/) | 5A. A ***RMI*** based application program to display ***current date and time***. ***OR*** Aim: Write a program to show the object communication to transfer system date using ***RMI***. | [Prac5A](#prac5a) |
 
 
 *************************
@@ -25,7 +25,7 @@ PSIT1P4 Cloud Computing
 
 <BR>
 
-## Prac1A [🔝](#cloud-computing)
+## Prac1A
 
 1A. A client server based program using TCP to find if the number entered is prime.<br>
 **( tcpserverprime, tcpclientprime )**
@@ -108,7 +108,7 @@ public class Tcpclientprime {
 
 **************
 
-## Prac1B[🔝](#cloud-computing)
+## Prac1B
 
 1B. A client server TCP based chatting application. <br>
 **( ChatServer, ChatClient )**
@@ -194,7 +194,7 @@ public class ChatClient {
 
 ***********
 
-## Prac1C[🔝](#cloud-computing)
+## Prac1C
 
 1C. A client server TCP based File Transfer application. <br>
 **( Tcpfileserver, Tcpfileclient )**
@@ -292,7 +292,7 @@ public class Tcpfileclient {
 
 ***********
 
-## Prac2A[🔝](#cloud-computing)
+## Prac2A
 
 2A. A client server based program using UDP to find if the number entered is even or odd. <br>
 **( UDPServerEO, UDPClientEO )**
@@ -372,7 +372,7 @@ public class UDPClientEO {
 
 ***********
 
-## Prac2B[🔝](#cloud-computing)
+## Prac2B
 
 2B. A client server based program using UDP to find the factorial of the entered number. <br>
 **( UDPserverFACT, UDPclientFACT )**
@@ -461,7 +461,7 @@ public class UDPclientFACT {
 
 ***********
 
-## Prac3A[🔝](#cloud-computing)
+## Prac3A
 
 3A. A program to implement simple calculator operations like addition, subtraction, multiplication and division using RPC. <br>
 **( RPCServer, RPCClient )**
@@ -587,7 +587,7 @@ public class RPCClient {
 
 ***********
 
-## Prac3B[🔝](#cloud-computing)
+## Prac3B
 
 3B. A program that finds the square, square root, cube and cube root of the entered number using RPC. <br>
 **( RPCNumOperationServer, RPCNumOperationClient )**
@@ -723,7 +723,7 @@ public class RPCNumOperationClient {
 
 ***********
 
-## Prac4[🔝](#cloud-computing)
+## Prac4
 
 4 . Implement Multicast Socket. <br>
 **( BroadcastServer, BroadcastClient )**
@@ -799,7 +799,7 @@ public class BroadcastClient {
 
 ***********
 
-## Prac5A[🔝](#cloud-computing)
+## Prac5A
 
 5A . A RMI based application program to display current date and time. OR Aim: Write a program to show the object communication to transfer system date using RMI. <br>
 **( ServerDate, ClientDate, InterDate )**

@@ -9,30 +9,30 @@ PSIT1P1 Research In Computing
 
 | Sr.No. | Name | README |
 | --- | --- | --- |
-| [Prac1A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%201/) <br> [Prac1A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf)| 1 A.	Write a program for obtaining ***descriptive statistics*** of data. | [prac1a(Python)](#prac1a-🔝) <br> [prac1a(Excel)](#prac1aexcel-🔝) |
-| [Prac1B-1(From_CSV)(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%201/) <br> [Prac1B-1(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) | 1 B.	***Import data*** from different data sources (from **csv** to R/Python/Excel) | [prac1b-1(Python)](#prac1b-1-🔝) <br> [prac1b-1(excel)](#prac1b-1excel-🔝) |
-| [Prac1B-2(From_Excel)(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%201/) <Br> [Prac1B-2(From_Excel)(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) | 1 B.	***Import data*** from different data sources (from **Excel** to R/Python/Excel) | [prac1b-2(Python)](#prac1b-2-🔝) <br> [prac1b-2(excel)](#prac1b-2excel-🔝) |
-| [Prac2A(Google Form)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) |2 A. Design a ***survey form*** for a given case study, collect the primary data and analyse it | [prac2a](#prac2agoogle-form-🔝) |
-| [Prac2B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf)  |2 B. Perform analysis of given ***secondary data***. | [prac2b(Excel)](#prac2bexcel-🔝) |
-| [Prac3A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%203/)  |3 A.	Perform testing of hypothesis using ***one sample t-test***. | [prac3a](#prac3a-🔝) |
-| [Prac3B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%203/) <br> [Prac3B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf)|3 B.	Write a program for ***t-test comparing two means for independent samples***. | [prac3b](#prac3b-🔝-🔝) <br> [prac3b(excel)](#prac3bexcel-🔝) |
-| [Prac3C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%203/) |3 C.	Perform testing of hypothesis using ***paired t-test***. | [prac3c(Python)](#prac3c-🔝) |
-| [Prac4A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) |4 A.	Perform testing of hypothesis using ***chi-squared goodness-of-fit test***. | [prac4a(Excel)](#prac4aexcel-🔝) |
-| [Prac4B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%204/)<br> [Prac4B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) |B.	Perform testing of hypothesis using ***chi-squared Test of Independence***. | [prac4b](#prac4b-🔝) <br> [prac4b(excel)](#prac4bexcel-🔝) |
-| [Prac5A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%205/) |5 A.	Perform testing of hypothesis using ***Z-test***. | [prac5a(Python)](#prac5a-🔝) |
-| [Prac5B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%205/) |5 B.	***Two-Sample Z test*** | [prac5b(Python)](#prac5b-🔝) |
-| [Prac6A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) |6 A.	Perform testing of hypothesis using ***one-way ANOVA*** |  [prac6a(excel)](#prac6aexcel-🔝) |
-| [Prac6B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) |6 B.	Perform testing of hypothesis using ***two-way ANOVA***. |  [prac6b(excel)](#prac6bexcel-🔝) |
-| [Prac6C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%206/) |6 C.	Perform testing of hypothesis using ***multivariate ANOVA (MANOVA)*** | [prac6c(Python)](#prac6c-🔝) |
-| [Prac7A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf)|7 A.	Perform the ***Random sampling*** for the given data and analyse it. |  [prac7a(excel)](#prac7aexcel-🔝) |
-| [Prac7B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%207/) |7 B.	Perform the ***Stratified sampling*** for the given data and analyse it | [prac7b(Python)](#prac7b-🔝) |
-| [Prac8A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/) <br> [Prac8B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/) <br> [Prac8C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/)|Compute different types of correlation. <br> 8A.	***Positive*** Correlation: <br> 8B.	***Negative*** Correlation: <br> 8C.	***No/Weak*** Correlation:| [prac8a(Python)](#prac8a-🔝) <br> [prac8b(Python)](#prac8b-🔝) <br> [prac8c(Python)](#prac8c-🔝) |
-| [Prac9A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%209/) |9A.	Write a program to Perform ***linear regression*** for prediction. | [prac9a(Python)](#prac9a-🔝) |
-| [Prac9B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%209/) <br> [Prac9B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf)  |9B.	Perform ***polynomial regression*** for prediction. | [prac9b(Python)](#prac9b-🔝) <br> [prac9b(Excel)](#prac9bexcel-🔝) |
+| [Prac1A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%201/) <br> [Prac1A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf)| 1 A.	Write a program for obtaining ***descriptive statistics*** of data. | [prac1a(Python)](#prac1a) <br> [prac1a(Excel)](#prac1aexcel) |
+| [Prac1B-1(From_CSV)(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%201/) <br> [Prac1B-1(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) | 1 B.	***Import data*** from different data sources (from **csv** to R/Python/Excel) | [prac1b-1(Python)](#prac1b-1) <br> [prac1b-1(excel)](#prac1b-1excel) |
+| [Prac1B-2(From_Excel)(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%201/) <Br> [Prac1B-2(From_Excel)(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) | 1 B.	***Import data*** from different data sources (from **Excel** to R/Python/Excel) | [prac1b-2(Python)](#prac1b-2) <br> [prac1b-2(excel)](#prac1b-2excel) |
+| [Prac2A(Google Form)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) |2 A. Design a ***survey form*** for a given case study, collect the primary data and analyse it | [prac2a](#prac2agoogle-form) |
+| [Prac2B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf)  |2 B. Perform analysis of given ***secondary data***. | [prac2b(Excel)](#prac2bexcel) |
+| [Prac3A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%203/)  |3 A.	Perform testing of hypothesis using ***one sample t-test***. | [prac3a](#prac3a) |
+| [Prac3B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%203/) <br> [Prac3B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf)|3 B.	Write a program for ***t-test comparing two means for independent samples***. | [prac3b](#prac3b) <br> [prac3b(excel)](#prac3bexcel) |
+| [Prac3C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%203/) |3 C.	Perform testing of hypothesis using ***paired t-test***. | [prac3c(Python)](#prac3c) |
+| [Prac4A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) |4 A.	Perform testing of hypothesis using ***chi-squared goodness-of-fit test***. | [prac4a(Excel)](#prac4aexcel) |
+| [Prac4B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%204/)<br> [Prac4B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) |B.	Perform testing of hypothesis using ***chi-squared Test of Independence***. | [prac4b](#prac4b) <br> [prac4b(excel)](#prac4bexcel) |
+| [Prac5A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%205/) |5 A.	Perform testing of hypothesis using ***Z-test***. | [prac5a(Python)](#prac5a) |
+| [Prac5B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%205/) |5 B.	***Two-Sample Z test*** | [prac5b(Python)](#prac5b) |
+| [Prac6A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) |6 A.	Perform testing of hypothesis using ***one-way ANOVA*** |  [prac6a(excel)](#prac6aexcel) |
+| [Prac6B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf) |6 B.	Perform testing of hypothesis using ***two-way ANOVA***. |  [prac6b(excel)](#prac6bexcel) |
+| [Prac6C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%206/) |6 C.	Perform testing of hypothesis using ***multivariate ANOVA (MANOVA)*** | [prac6c(Python)](#prac6c) |
+| [Prac7A(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf)|7 A.	Perform the ***Random sampling*** for the given data and analyse it. |  [prac7a(excel)](#prac7aexcel) |
+| [Prac7B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%207/) |7 B.	Perform the ***Stratified sampling*** for the given data and analyse it | [prac7b(Python)](#prac7b) |
+| [Prac8A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/) <br> [Prac8B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/) <br> [Prac8C(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%208/)|Compute different types of correlation. <br> 8A.	***Positive*** Correlation: <br> 8B.	***Negative*** Correlation: <br> 8C.	***No/Weak*** Correlation:| [prac8a(Python)](#prac8a) <br> [prac8b(Python)](#prac8b) <br> [prac8c(Python)](#prac8c) |
+| [Prac9A(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%209/) |9A.	Write a program to Perform ***linear regression*** for prediction. | [prac9a(Python)](#prac9a) |
+| [Prac9B(Python)](/MscIT/Semester%201/Research_In_Computing/Practical%209/) <br> [Prac9B(Excel)](/MscIT/Semester%201/Research_In_Computing/RIC%20Excel.pdf)  |9B.	Perform ***polynomial regression*** for prediction. | [prac9b(Python)](#prac9b) <br> [prac9b(Excel)](#prac9bexcel) |
 
 ********************
 
-## Prac1A [🔝](#index)
+## Prac1A
 - Practical 1A: Write a python program on descriptive statistics analysis.
 ```python
 
@@ -64,10 +64,14 @@ print (df.std())
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************************
 
 
-## Prac1A(Excel) [🔝](#index)
+## Prac1A(Excel)
 - Practical 1A(Excel). Write a program for obtaining descriptive statistics of data.
 
 <details>
@@ -99,9 +103,13 @@ print (df.std())
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac1B-1 [🔝](#index)
+## Prac1B-1
 - Import data from different data sources (from Excel, csv, mysql, sql server, oracle to R/Python/Excel)
 - From csv
 ```python
@@ -139,9 +147,13 @@ print('### Done!! ############################################')
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac1B-1(Excel) [🔝](#index)
+## Prac1B-1(Excel)
 
 - To Import data from ***csv*** file.
 
@@ -167,9 +179,13 @@ print('### Done!! ############################################')
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac1B-2 [🔝](#index)
+## Prac1B-2
 - Import data from different data sources (from Excel, csv, mysql, sql server, oracle to R/Python/Excel)
 - From Excel
 ```python
@@ -203,9 +219,13 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac1B-2(Excel) [🔝](#index)
+## Prac1B-2(Excel)
 
 - To Import data from ***Excel*** file.
 
@@ -229,9 +249,13 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 </details>
 
+
+[🔝](#index)
+
+
 ****************************************
 
-## Prac2A(Google Form) [🔝](#index)
+## Prac2A(Google Form)
 
 - Design a survey form for a given case study, collect the **primary data** and **analyse it**.
 
@@ -256,9 +280,13 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 </details>
 
+
+[🔝](#index)
+
+
 *******************************
 
-## Prac2B(Excel) [🔝](#index)
+## Prac2B(Excel)
 
 - Perform analysis of given secondary data.
 
@@ -309,9 +337,13 @@ print('~~~~~~ Data from Excel Sheet Retrived Successfully ~~~~~~~ ')
 
 </details>
 
+
+[🔝](#index)
+
+
 ****************************************
 
-## Prac3A [🔝](#index)
+## Prac3A
 - Perform testing of hypothesis using one sample t-test
 ```python
 #3A.Perform testing of hypothesis using one sample t-test.
@@ -341,9 +373,13 @@ else:
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac3B [🔝](#index)
+## Prac3B
 - Perform testing of hypothesis using two sample t-test
 ```python
 #3B-Perform testing of hypothesis using two sample t-test.
@@ -380,10 +416,14 @@ else:
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
 
-## Prac3B(Excel) [🔝](#index)
+## Prac3B(Excel)
 
 - Write a program for t-test comparing two means for independent samples.
 
@@ -423,9 +463,13 @@ else:
 
 </details>
 
+
+[🔝](#index)
+
+
 ****************************************
 
-## Prac3C [🔝](#index)
+## Prac3C
 - Perform testing of hypothesis using paired t-test.
 ```python
 #3C-Perform testing of hypothesis using paired t-test.
@@ -466,10 +510,14 @@ stats.ttest_rel(df['bp_before'], df['bp_after'])
 </details>
 
 
+[🔝](#index)
+
+
+
 *****************
 
 
-## Prac4A(Excel) [🔝](#index)
+## Prac4A(Excel)
 
 - Perform testing of hypothesis using chi-squared goodness-of-fit test.
 
@@ -502,10 +550,14 @@ stats.ttest_rel(df['bp_before'], df['bp_after'])
 </details>
 
 
+[🔝](#index)
+
+
+
 *****************
 
 
-## Prac4B(Excel) [🔝](#index)
+## Prac4B(Excel)
 
 - Perform testing of hypothesis using chi-squared test of independence.
 
@@ -543,10 +595,14 @@ Go to cell T7 and type
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *****************
 
-## Prac4B [🔝](#index)
+## Prac4B
 - Perform testing of hypothesis using chi-squared
 ```python
 # Google colab
@@ -589,9 +645,13 @@ else:
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac5A [🔝](#index)
+## Prac5A
 - Perform testing of hypothesis using Z-test.
 ```python
 # Google colab
@@ -621,9 +681,13 @@ else:
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac5B [🔝](#index)
+## Prac5B
 - Two-Sample Z test
 ```python
 # Google colab
@@ -656,10 +720,14 @@ else:
 </details>
 
 
+[🔝](#index)
+
+
+
 *****************
 
 
-## Prac6A(Excel) [🔝](#index)
+## Prac6A(Excel)
 
 - Perform testing of hypothesis using one-way ANOVA
 
@@ -683,10 +751,14 @@ else:
 </details>
 
 
+[🔝](#index)
+
+
+
 *****************
 
 
-## Prac6B(Excel) [🔝](#index)
+## Prac6B(Excel)
 
 - Perform testing of hypothesis using two-way ANOVA.
 
@@ -711,10 +783,14 @@ else:
 </details>
 
 
+[🔝](#index)
+
+
+
 
 *****************
 
-## Prac6C [🔝](#index)
+## Prac6C
 - Perform testing of hypothesis using multivariate ANOVA (MANOVA)
 ```python
 # Google colab
@@ -743,10 +819,14 @@ print(maov.mv_test())
 </details>
 
 
+[🔝](#index)
+
+
+
 *****************
 
 
-## Prac7A(Excel) [🔝](#index)
+## Prac7A(Excel)
 
 - Perform the Random sampling for the given data and analyse it.
 
@@ -767,9 +847,13 @@ print(maov.mv_test())
 </details>
 
 
+[🔝](#index)
+
+
+
 *****************
 
-## Prac7B [🔝](#index)
+## Prac7B
 - Perform the Stratified sampling for the given data and analyse it.
 - We are to carry out a hypothetical housing quality survey across Lagos state,Nigeria. And we looking at a total of 5000 houses (hypothetically). We don’t just go to one local government and select 5000 houses, rather we ensure that the 5000 houses are a representative of the whole 20 local government areas Lagos state is comprised of. This is called stratified sampling. The population is divided into homogenous strata and the right number of instances is sampled from each stratum to guarantee that the test-set (which in this case is the 5000 houses) is a representative of the overall population. If we used random sampling, there would be a significant chance of having bias in the survey results.
 
@@ -815,9 +899,13 @@ plt.show()
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac8A [🔝](#index)
+## Prac8A
 - 8.Write a program for computing different correlation
 - A.	Positive Correlation:
 
@@ -848,9 +936,13 @@ plt.show()
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac8B [🔝](#index)
+## Prac8B
 - B.	Negative Correlation:
 ```python
 # Google colab
@@ -879,9 +971,13 @@ print("Practical 8-B")
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac8C [🔝](#index)
+## Prac8C
 - 8C.	No/Weak Correlation:
 ```python
 # Google colab
@@ -907,9 +1003,13 @@ print("Practical 8-C")
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac9A [🔝](#index)
+## Prac9A
 - 9A.	Write a program to Perform linear regression for prediction.
 ```python
 # PRAC 9A #Jupyter
@@ -975,9 +1075,13 @@ print("Practical 9-A")
 
 </details>
 
+
+[🔝](#index)
+
+
 *****************
 
-## Prac9B [🔝](#index)
+## Prac9B
 - 9B Perform polynomial regression for prediction.
 
 ```python
@@ -1043,10 +1147,14 @@ print("Practical 9-B")
 </details>
 
 
+[🔝](#index)
+
+
+
 *****************
 
 
-## Prac9B(Excel) [🔝](#index)
+## Prac9B(Excel)
 
 - Perform polynomial regression for prediction.
 
@@ -1087,6 +1195,10 @@ R square equals **0.962**, which is a very good fit. 6% of the variation in Quna
 Significance **F is 0.001464128** which is **less than 0.05** (good fit).
 
 </details>
+
+
+[🔝](#index)
+
 
 
 *****************************************************
