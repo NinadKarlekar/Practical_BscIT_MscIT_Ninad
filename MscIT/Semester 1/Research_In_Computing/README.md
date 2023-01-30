@@ -77,7 +77,7 @@ print (df.std())
 
 2. Go to File -> Options -> Add-ins -> Click on **Analysis Toolpack** -> click on **Go**
     
-    <img src="https://user-images.githubusercontent.com/88243315/215110912-4c25d982-d180-4cf4-aed1-9e6584e3dbf9.png" alt="excelRic1A_1" width="700" height="350">
+    ![excelRic1A_1](https://user-images.githubusercontent.com/88243315/215110912-4c25d982-d180-4cf4-aed1-9e6584e3dbf9.png)
 
 
 3. Tick mark **Analysis toolpack** -> click on **OK** -> The Data Analysis option will be added in Data tab
