@@ -20,7 +20,7 @@ Practical of B.Sc. IT and M.Sc. IT
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![NetBeans](https://img.shields.io/badge/apache%20netbeans-1B6AC6?style=for-the-badge&logo=apache%20netbeans%20IDE&logoColor=white)
 
-## Index
+# Index
 
 ## Msc IT
 
