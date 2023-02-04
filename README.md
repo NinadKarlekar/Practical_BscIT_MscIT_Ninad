@@ -45,7 +45,7 @@
 
 #### [Big Data Analytics](/MscIT/Semester%202/BigDataAnalytics/)
 #### [Morden Networking](/MscIT/Semester%202/MordenNetworking/)
-#### [Microservices Architecture](/MscIT/Semester%202/BigDataAnalytics/)
+#### [Microservices Architecture](/MscIT/Semester%202/MicroservicesArchitecture/)
 #### [Image Processing](/MscIT/Semester%202/ImageProcessing/)
 
 
