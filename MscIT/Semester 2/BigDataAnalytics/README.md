@@ -1,4 +1,4 @@
-# Soft Computing Techniques
+# Big Data Analytics
 
 M. Sc (Information Technology)
 PSIT2P1 Big Data Analytics
