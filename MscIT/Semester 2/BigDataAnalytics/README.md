@@ -3,7 +3,7 @@
 M. Sc (Information Technology)
 PSIT2P1 Big Data Analytics
 
-
+<!-- 
 
 ## Index
 
@@ -20,7 +20,6 @@ PSIT2P1 Big Data Analytics
 
 - 1A-i. Heading .
 
-[Visit](file:///F:/GitHub/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%203/3-2.nb.html)
 
 
 
@@ -39,7 +38,7 @@ PSIT2P1 Big Data Analytics
 
 </details>
 
-<!-- 
+
 [🔝](#index)
 
 **************
