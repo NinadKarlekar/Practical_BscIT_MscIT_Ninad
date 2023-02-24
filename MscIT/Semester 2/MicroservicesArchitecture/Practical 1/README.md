@@ -1,4 +1,3 @@
-**MSc (IT) Sem-II** <br>
 **Microservice Architecture** <br>
 **Practical #1** <br>
 **Building First Console App**
