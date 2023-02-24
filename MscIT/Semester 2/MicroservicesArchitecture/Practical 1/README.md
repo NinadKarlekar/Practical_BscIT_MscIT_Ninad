@@ -112,7 +112,6 @@ namespace myevenodd
 
 - OUTPUT
 
-![Alt text](../ImagesMSCITSem2MA/MA_prac1_4.png)
-![Alt text](../ImagesMSCITSem2MA/MA_prac1_5.png)
 
-<img src="../ImagesMSCITSem2MA/MA_prac1_4.png" width="70%">
+<img src="../ImagesMSCITSem2MA/MA_prac1_4.png" width="60%">
+<img src="../ImagesMSCITSem2MA/MA_prac1_5.png" width="60%">
