@@ -114,3 +114,5 @@ namespace myevenodd
 
 ![Alt text](../ImagesMSCITSem2MA/MA_prac1_4.png)
 ![Alt text](../ImagesMSCITSem2MA/MA_prac1_5.png)
+
+<img src="../ImagesMSCITSem2MA/MA_prac1_4.png" width="70%">
