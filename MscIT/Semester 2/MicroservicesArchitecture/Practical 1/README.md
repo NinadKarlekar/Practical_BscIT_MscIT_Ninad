@@ -11,44 +11,44 @@ https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install
 Steps:
 
 1. Download and install
-- To start building .NET apps you just need to download and install the .NET SDK (Software Development Kit).
+    - To start building .NET apps you just need to download and install the .NET SDK (Software Development Kit).
 
 2. Check everything installed correctly
-- Once you've installed, open a new command prompt and run the following command:
-    ```
-    dotnet
-    ```
+    - Once you've installed, open a new command prompt and run the following command:
+        ```
+        dotnet
+        ```
 
-- ![Alt text](../ImagesMSCITSem2MA/MA_prac1_1.png)
+    - <img src="../ImagesMSCITSem2MA/MA_prac1_1.png" width="60%">
 
 3. Create your app
-- In your command prompt, run the following commands:
-    ```
-    dotnet new console -o myApp
-    ```
-    ```
-    cd myApp
-    ```
+    - In your command prompt, run the following commands:
+        ```
+        dotnet new console -o myApp
+        ```
+        ```
+        cd myApp
+        ```
 
-- ![Alt text](../ImagesMSCITSem2MA/MA_prac1_2.png)
+    - <img src="../ImagesMSCITSem2MA/MA_prac1_2.png" width="60%">
 
-- The main file in the myApp folder is Program.cs. By default, it already contains the necessary code to write "Hello World!" to the Console.
+    - The main file in the myApp folder is Program.cs. By default, it already contains the necessary code to write "Hello World!" to the Console.
 
-- `Program.cs` Code
+    - `Program.cs` Code
 
-    ```cs
-    using System;
-    namespace myApp
-    {
-        class Program
+        ```cs
+        using System;
+        namespace myApp
         {
-            static void Main(string[] args)
+            class Program
             {
-                Console.WriteLine("Hello World!");
+                static void Main(string[] args)
+                {
+                    Console.WriteLine("Hello World!");
+                }
             }
         }
-    }
-    ```
+        ```
 
 4. Run your app
     - In your command prompt, run the following command:
