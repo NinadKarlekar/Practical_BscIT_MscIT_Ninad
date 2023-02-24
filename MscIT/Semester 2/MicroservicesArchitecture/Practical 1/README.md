@@ -51,11 +51,12 @@ Steps:
     ```
 
 4. Run your app
-- In your command prompt, run the following command:
-    ```
-    dotnet run
-    ```
-- ![Alt text](../ImagesMSCITSem2MA/MA_prac1_3.png)
+    - In your command prompt, run the following command:
+        ```
+        dotnet run
+        ```
+    
+    - <img src="../ImagesMSCITSem2MA/MA_prac1_3.png" width="60%">
 
 
 5. To Change Content/output of program open `Program.cs` and do necessary changes
