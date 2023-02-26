@@ -113,7 +113,11 @@ namespace myevenodd
 - OUTPUT
 
 
-![fff](/MscIT/Semester%202/MicroservicesArchitecture/ImagesMSCITSem2MA/MA_prac1_4.png)
+4. 
 
-<img src="/" width="60%">
-<img src="../ImagesMSCITSem2MA/MA_prac1_5.png" width="60%">
+
+5. 
+
+
+<!-- 
+<img src="" width="60%"> -->
