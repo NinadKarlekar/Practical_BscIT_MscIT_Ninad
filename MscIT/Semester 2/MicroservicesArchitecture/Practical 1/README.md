@@ -19,7 +19,7 @@ Steps:
         ```
 
 
-    - <img src="https://user-images.githubusercontent.com/88243315/221396880-b7c9e8a9-46c7-4c37-a8a8-57596a66cf5e.png" width="60%"   alt ="MA_prac1_1">
+    - <img src="https://user-images.githubusercontent.com/88243315/221396880-b7c9e8a9-46c7-4c37-a8a8-57596a66cf5e.png" width="600px"   alt ="MA_prac1_1">
 
 3. Create your app
     - In your command prompt, run the following commands:
@@ -30,7 +30,7 @@ Steps:
         cd myApp
         ```
 	
-    - <img src="https://user-images.githubusercontent.com/88243315/221396891-29cca43e-ecd5-4f0e-aa8e-c2df2cd083ed.png" width="60%"   alt ="MA_prac1_2">
+    - <img src="https://user-images.githubusercontent.com/88243315/221396891-29cca43e-ecd5-4f0e-aa8e-c2df2cd083ed.png" width="600px"   alt ="MA_prac1_2">
 
     - The main file in the myApp folder is Program.cs. By default, it already contains the necessary code to write "Hello World!" to the Console.
 
@@ -58,7 +58,7 @@ Steps:
 
 
     
-    - <img src="https://user-images.githubusercontent.com/88243315/221396899-642b64c2-dcb6-43ae-8967-8974e80093c8.png" width="60%"  alt ="MA_prac1_3">
+    - <img src="https://user-images.githubusercontent.com/88243315/221396899-642b64c2-dcb6-43ae-8967-8974e80093c8.png" width="600px"  alt ="MA_prac1_3">
 
 
 5. To Change Content/output of program open `Program.cs` and do necessary changes
@@ -115,8 +115,8 @@ namespace myevenodd
 
 - OUTPUT
 
-<img src="https://user-images.githubusercontent.com/88243315/221396904-9e2ca734-06bd-4be4-8f14-291d8c480e14.png" width="60%" alt ="MA_prac1_4"> 
-<img src="https://user-images.githubusercontent.com/88243315/221396909-cf2d7474-bda7-4a47-8ec8-c0ba0cc1e5d7.png" width="60%" alt ="MA_prac1_5"> 
+<img src="https://user-images.githubusercontent.com/88243315/221396904-9e2ca734-06bd-4be4-8f14-291d8c480e14.png" width="600px" alt ="MA_prac1_4"> 
+<img src="https://user-images.githubusercontent.com/88243315/221396909-cf2d7474-bda7-4a47-8ec8-c0ba0cc1e5d7.png" width="600px" alt ="MA_prac1_5"> 
 
 
 
@@ -124,4 +124,4 @@ namespace myevenodd
 
 
 <!-- 
-<img src="" width="60%"> -->
+<img src="" width="600px"> -->
