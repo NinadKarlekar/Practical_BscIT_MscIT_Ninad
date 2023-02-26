@@ -17,6 +17,7 @@ Steps:
         ```
         dotnet
         ```
+![MA_prac1_1](https://user-images.githubusercontent.com/88243315/221396880-b7c9e8a9-46c7-4c37-a8a8-57596a66cf5e.png)
 
     - <img src="../ImagesMSCITSem2MA/MA_prac1_1.png" width="60%">
 
@@ -28,6 +29,9 @@ Steps:
         ```
         cd myApp
         ```
+	
+![MA_prac1_2](https://user-images.githubusercontent.com/88243315/221396891-29cca43e-ecd5-4f0e-aa8e-c2df2cd083ed.png)
+
 
     - <img src="../ImagesMSCITSem2MA/MA_prac1_2.png" width="60%">
 
@@ -54,6 +58,8 @@ Steps:
         ```
         dotnet run
         ```
+    ![MA_prac1_3](https://user-images.githubusercontent.com/88243315/221396899-642b64c2-dcb6-43ae-8967-8974e80093c8.png)
+
     
     - <img src="../ImagesMSCITSem2MA/MA_prac1_3.png" width="60%">
 
@@ -113,10 +119,12 @@ namespace myevenodd
 - OUTPUT
 
 
-4. 
+4. ![MA_prac1_4](https://user-images.githubusercontent.com/88243315/221396904-9e2ca734-06bd-4be4-8f14-291d8c480e14.png)
 
 
-5. 
+
+5. ![MA_prac1_5](https://user-images.githubusercontent.com/88243315/221396909-cf2d7474-bda7-4a47-8ec8-c0ba0cc1e5d7.png)
+
 
 
 <!-- 
