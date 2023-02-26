@@ -7,9 +7,9 @@ PSIT2P1 Big Data Analytics
 
 ## Index
 
-| Sr.No. | Name | ReadME |
+| Sr.No. | Name | README |
 | --- | --- | --- |
-| [Prac1](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 1. K means clustering. | [Prac1A-i](#prac1a-i) |
+| [Prac1](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 1. K means clustering. | [Prac1](#prac1) |
 
 
 
