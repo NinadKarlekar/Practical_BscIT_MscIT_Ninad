@@ -75,6 +75,8 @@ grid.arrange(arrangeGrob(g1 + theme(legend.position="none"),g2 + theme(legend.po
 <summary>OUTPUT</summary>
 
 
+![BDA_prac1_1](https://user-images.githubusercontent.com/88243315/221430084-6842ec4f-3e93-423e-beaf-45010a8a8112.png)
+![BDA_prac1_2](https://user-images.githubusercontent.com/88243315/221430085-9a1d4975-1212-410e-8813-963041c0c887.png)
 
 
 
