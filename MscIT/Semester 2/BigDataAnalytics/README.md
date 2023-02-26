@@ -18,7 +18,7 @@ PSIT2P1 Big Data Analytics
 
 ## Prac1
 
-- 1. K means clustering .
+1. K means clustering .
 
 
 <details>
