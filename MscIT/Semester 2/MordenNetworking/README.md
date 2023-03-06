@@ -15,7 +15,7 @@ PSIT2P2 Morden Networking
 
 
 <details>
-<summary><b>Installation</b></summary>
+<summary><b>Installation </b> </summary>
 <br>
 
 ## Installation
