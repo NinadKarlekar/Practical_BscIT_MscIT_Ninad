@@ -14,6 +14,59 @@ PSIT2P2 Morden Networking
 ***********************
 
 
+
+
+
+
+
+
+# Index
+
+## Msc IT
+
+### [Semester 1](#semester-1-1)
+### [Semester 2](#semester-2-1)
+### [Semester 3](#semester-3-1)
+### [Semester 4](#semester-4-1)
+
+---------------------
+-----------------------
+
+### **Semester 1**
+
+#### [Research in Computing](/MscIT/Semester%201/Research_In_Computing/)
+#### [Data Science](/MscIT/Semester%201/Data_Science/)
+#### [Cloud Computing](/MscIT/Semester%201/Cloud_Computing/)
+#### [Soft Computing techniques](/MscIT/Semester%201/Soft_Computing_Techniques/)
+
+*************
+
+### **Semester 2**
+
+#### [Big Data Analytics](/MscIT/Semester%202/BigDataAnalytics/)
+#### [Morden Networking](/MscIT/Semester%202/MordenNetworking/)
+#### [Microservices Architecture](/MscIT/Semester%202/MicroservicesArchitecture/)
+#### [Image Processing](/MscIT/Semester%202/ImageProcessing/)
+
+
+******************
+
+### **Semester 3**
+
+*****************
+
+### **Semester 4**
+
+
+***********************
+*********************
+
+### [Go To Top](#practical_bscit_mscit_ninad)
+
+
+
+
+
 <details>
 <summary><b>Installation </b> </summary>
 <br>
