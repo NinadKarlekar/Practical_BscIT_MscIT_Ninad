@@ -8,7 +8,7 @@ PSIT2P2 Morden Networking
 | Sr.No. | Name | ReadME |
 | --- | --- | --- |
 | - | ***Installation Steps*** | [Installation](#installation) |
-| Prac 1 | Using the AS_PATH attribute ***(AutonomousSystem_path_attribute)*** of BGP(Border Gateway Protocol) | [Prac 1](/MscIT/Semester%202/MordenNetworking/README.md) |
+| Prac 1 | Using the AS_PATH attribute ***(AutonomousSystem_path_attribute)*** of BGP(Border Gateway Protocol) | [Prac 1](/MscIT/Semester%202/MordenNetworking/Practical%201/README.md) |
 
 
 *************************
