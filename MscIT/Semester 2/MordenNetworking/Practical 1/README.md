@@ -10,7 +10,7 @@
 3. Right click on router -> configure -> select router name -> slots -> Select slot 1 as ***`NM-4T`***
 
     <img src="https://user-images.githubusercontent.com/88243315/224759422-58cbb542-870d-4931-ac12-e249de5593ce.png" alt="2" width="350">
-    <img src="https://user-images.githubusercontent.com/88243315/224759426-b94601f2-497a-456c-ba04-770dd7e0beaf.png" alt="3" width="350">
+    <img src="https://user-images.githubusercontent.com/88243315/224759426-b94601f2-497a-456c-ba04-770dd7e0beaf.png" alt="3" width="450">
 
 4. Connect routers: 
 
@@ -261,7 +261,7 @@
 
         - OUTPUT
 
-            <img src="https://user-images.githubusercontent.com/88243315/224759411-aee574c5-a8d6-4850-8f4c-634cc6f7ddba.png" alt="19" width="550">
+            <img src="https://user-images.githubusercontent.com/88243315/224759411-aee574c5-a8d6-4850-8f4c-634cc6f7ddba.png" alt="19" width="650">
 
             <br>
 
@@ -273,4 +273,4 @@
 
         - OUTPUT
 
-            <img src="https://user-images.githubusercontent.com/88243315/224759415-0d722ead-89ff-49d8-8abc-a1e28d55278f.png" alt="20" width="550">
+            <img src="https://user-images.githubusercontent.com/88243315/224759415-0d722ead-89ff-49d8-8abc-a1e28d55278f.png" alt="20" width="650">
