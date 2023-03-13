@@ -28,7 +28,7 @@
 
 <br>
 
-5. Lable topology with given lables below and click on run
+5. label topology with given labels below and click on run
 
     <img src="https://user-images.githubusercontent.com/88243315/224759433-f9fc7039-0c3e-416f-82a8-4169256cc023.png" alt="5" width="550">
 
@@ -273,7 +273,7 @@
         do ping 10.3.3.3 source lo0
         ```
 
-        - OUTPUT
+        - ***OUTPUT***
 
             <img src="https://user-images.githubusercontent.com/88243315/224759411-aee574c5-a8d6-4850-8f4c-634cc6f7ddba.png" alt="19" width="650">
 
@@ -285,6 +285,6 @@
         do ping 10.2.2.2 source lo0
         ```
 
-        - OUTPUT
+        - ***OUTPUT***
 
             <img src="https://user-images.githubusercontent.com/88243315/224759415-0d722ead-89ff-49d8-8abc-a1e28d55278f.png" alt="20" width="650">
