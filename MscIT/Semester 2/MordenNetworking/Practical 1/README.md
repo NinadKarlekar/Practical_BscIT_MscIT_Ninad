@@ -5,12 +5,12 @@
 1. Open GNS3 and create a new project.
 2. Drag and drop 3 routers as R1, R2, R3
 
-    <img src="https://user-images.githubusercontent.com/88243315/224759418-33cba246-67a2-4579-8a04-c537fb51f886.png" alt="MN_prac1_1" width="550">
+    <img src="https://user-images.githubusercontent.com/88243315/224759418-33cba246-67a2-4579-8a04-c537fb51f886.png" alt="MN_prac1_1" width="350">
 
 3. Right click on router -> configure -> select router name -> slots -> Select slot 1 as ***`NM-4T`***
 
-    <img src="https://user-images.githubusercontent.com/88243315/224759422-58cbb542-870d-4931-ac12-e249de5593ce.png" alt="2" width="550">
-    <img src="https://user-images.githubusercontent.com/88243315/224759426-b94601f2-497a-456c-ba04-770dd7e0beaf.png" alt="3" width="550">
+    <img src="https://user-images.githubusercontent.com/88243315/224759422-58cbb542-870d-4931-ac12-e249de5593ce.png" alt="2" width="350">
+    <img src="https://user-images.githubusercontent.com/88243315/224759426-b94601f2-497a-456c-ba04-770dd7e0beaf.png" alt="3" width="350">
 
 4. Connect routers: 
 
@@ -25,7 +25,7 @@
 
 6. After clicking on run -> right click on router -> console
 
-    <img src="https://user-images.githubusercontent.com/88243315/224759436-2bff2be9-3048-4439-843d-2431f5de7d27.png" alt="6" width="550">
+    <img src="https://user-images.githubusercontent.com/88243315/224759436-2bff2be9-3048-4439-843d-2431f5de7d27.png" alt="6" width="300">
 
 7. On `Router console` type following commands one by one.
 
