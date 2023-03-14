@@ -136,11 +136,11 @@ table(test_reg$admit, predict_reg)
 
 <img src="https://user-images.githubusercontent.com/88243315/225115544-0029ab08-c562-41f4-83e7-ae0d4fef2cb2.png" width="600px"  alt ="BDA_prac2A_1">
 
-<img src="https://user-images.githubusercontent.com/88243315/225115555-4436bd5d-43ab-4ac7-90c6-035fd327eb6a.png" width="600px"  alt ="BDA_prac2A_2">
+<img src="https://user-images.githubusercontent.com/88243315/225115555-4436bd5d-43ab-4ac7-90c6-035fd327eb6a.png" width="420px"  alt ="BDA_prac2A_2">
 
-<img src="https://user-images.githubusercontent.com/88243315/225115557-869f0651-536f-42f6-961a-93ea918978dd.png" width="600px"  alt ="BDA_prac2A_3">
+<img src="https://user-images.githubusercontent.com/88243315/225115557-869f0651-536f-42f6-961a-93ea918978dd.png" width="420px"  alt ="BDA_prac2A_3">
 
-<img src="https://user-images.githubusercontent.com/88243315/225115560-0aa345a5-7d87-4de6-8d61-aaf5a2806691.png" width="600px"  alt ="BDA_prac2A_4">
+<img src="https://user-images.githubusercontent.com/88243315/225115560-0aa345a5-7d87-4de6-8d61-aaf5a2806691.png" width="420px"  alt ="BDA_prac2A_4">
 
 
 
