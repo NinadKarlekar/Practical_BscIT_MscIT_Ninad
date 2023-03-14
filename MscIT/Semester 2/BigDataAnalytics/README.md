@@ -194,13 +194,13 @@ table(test_reg$admit, predict_reg)
 <details>
 <summary>OUTPUT</summary>
 
-<img src="https://user-images.githubusercontent.com/88243315/225115562-3e4011d5-2b88-47bb-b5c4-2a5a312f2404.png" width="420px"  alt ="BDA_prac2B_1">
+<img src="https://user-images.githubusercontent.com/88243315/225115562-3e4011d5-2b88-47bb-b5c4-2a5a312f2404.png" width="600px"  alt ="BDA_prac2B_1">
 
 <img src="https://user-images.githubusercontent.com/88243315/225115563-3b6b3369-c434-4c71-81bd-32348cf886f8.png" width="420px"  alt ="BDA_prac2B_2">
 
-<img src="https://user-images.githubusercontent.com/88243315/225115567-d66c20f3-5973-4d2a-97b2-7ede8c098d13.png" width="600px"  alt ="BDA_prac2B_3">
+<img src="https://user-images.githubusercontent.com/88243315/225115567-d66c20f3-5973-4d2a-97b2-7ede8c098d13.png" width="420px"  alt ="BDA_prac2B_3">
 
-<img src="https://user-images.githubusercontent.com/88243315/225115569-2a57a16a-cb49-4eee-a8f2-4dc811506b44.png" width="600px"  alt ="BDA_prac2B_4">
+<img src="https://user-images.githubusercontent.com/88243315/225115569-2a57a16a-cb49-4eee-a8f2-4dc811506b44.png" width="420px"  alt ="BDA_prac2B_4">
 
 
 
