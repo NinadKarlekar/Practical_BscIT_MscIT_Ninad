@@ -10,7 +10,7 @@ PSIT2P1 Big Data Analytics
 | Sr.No. | Name | README |
 | --- | --- | --- |
 | [Prac1](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 1. K means clustering. | [Prac1](#prac1) |
-| [Prac2A](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) <br> [Prac2B](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) <br> [Prac2C](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 2A.	Logistic Regression. <br> 2B. MULTIPLE REGRESSION <br> 2C. Simple Linear Regression(TakeHomeTask) | [Prac2A](#prac2A) <br> [Prac2B](#Prac2B) <br> [Prac2C](#prac2C) |
+| [Prac2A](/MscIT/Semester%202/BigDataAnalytics/Practical%202/) <br> [Prac2B](/MscIT/Semester%202/BigDataAnalytics/Practical%202/) <br> [Prac2C](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 2A.	Logistic Regression. <br> 2B. MULTIPLE REGRESSION <br> 2C. Simple Linear Regression(TakeHomeTask) | [Prac2A](#prac2A) <br> [Prac2B](#Prac2B) <br> [Prac2C](#prac2C) |
 
 
 
