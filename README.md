@@ -24,13 +24,19 @@
 
 ## Msc IT
 
-### [Semester 1](#semester-1-1)
-### [Semester 2](#semester-2-1)
-### [Semester 3](#semester-3-1)
-### [Semester 4](#semester-4-1)
-
----------------------
 -----------------------
+
+<details>
+<summary><h2><b>Semester 1 </b></h2></summary>
+<br>
+
+#### [Research in Computing](/MscIT/Semester%201/Research_In_Computing/)
+#### [Data Science](/MscIT/Semester%201/Data_Science/)
+#### [Cloud Computing](/MscIT/Semester%201/Cloud_Computing/)
+#### [Soft Computing techniques](/MscIT/Semester%201/Soft_Computing_Techniques/)
+
+
+</details>
 
 ### **Semester 1**
 
