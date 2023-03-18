@@ -27,7 +27,7 @@
 -----------------------
 
 <details>
-<summary><h2><b>Semester 1 </b></h2></summary>
+<summary><h2><b>Semester 1</b></h2></summary>
 <br>
 
 #### [Research in Computing](/MscIT/Semester%201/Research_In_Computing/)
@@ -38,22 +38,20 @@
 
 </details>
 
-### **Semester 1**
-
-#### [Research in Computing](/MscIT/Semester%201/Research_In_Computing/)
-#### [Data Science](/MscIT/Semester%201/Data_Science/)
-#### [Cloud Computing](/MscIT/Semester%201/Cloud_Computing/)
-#### [Soft Computing techniques](/MscIT/Semester%201/Soft_Computing_Techniques/)
 
 *************
 
-### **Semester 2**
+<details open>
+<summary><h2><b>Semester 2</b></h2></summary>
+<br>
 
 #### [Big Data Analytics](/MscIT/Semester%202/BigDataAnalytics/)
 #### [Morden Networking](/MscIT/Semester%202/MordenNetworking/)
 #### [Microservices Architecture](/MscIT/Semester%202/MicroservicesArchitecture/)
 #### [Image Processing](/MscIT/Semester%202/ImageProcessing/)
 
+
+</details>
 
 ******************
 
