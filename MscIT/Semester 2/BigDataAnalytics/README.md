@@ -10,7 +10,7 @@ PSIT2P1 Big Data Analytics
 | Sr.No. | Name | README |
 | --- | --- | --- |
 | [Prac1](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 1. K means clustering. [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%201/K_meansclustering.R) | [Prac1](#prac1) |
-| [Prac2A](/MscIT/Semester%202/BigDataAnalytics/Practical%202/)  <br> [Prac2B](/MscIT/Semester%202/BigDataAnalytics/Practical%202/) <br> [Prac2C](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 2A.	Logistic Regression.  [Download]() <br> 2B. MULTIPLE REGRESSION [Download]() <br> 2C. Simple Linear Regression(TakeHomeTask) [Download]()  | [Prac2A](#prac2A) <br> [Prac2B](#Prac2B) <br> [Prac2C](#prac2C) |
+| [Prac2A](/MscIT/Semester%202/BigDataAnalytics/Practical%202/)  <br> [Prac2B](/MscIT/Semester%202/BigDataAnalytics/Practical%202/) <br> [Prac2C](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 2A.	Logistic Regression.  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%202/Prac_2A(Logistic%20Regression).R) <br> 2B. MULTIPLE REGRESSION [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%202/Prac_2B(Multiple%20Regression).R) <br> 2C. Simple Linear Regression(TakeHomeTask) [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%202/Prac_2C(TakeHomeTask).R)  | [Prac2A](#prac2A) <br> [Prac2B](#Prac2B) <br> [Prac2C](#prac2C) |
 
 
 
