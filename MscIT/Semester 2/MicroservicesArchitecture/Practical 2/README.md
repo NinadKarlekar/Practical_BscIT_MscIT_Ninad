@@ -1,6 +1,6 @@
 **Microservice Architecture** <br>
 **Practical #2** <br>
-**Building First Console App**
+**Building First ASP.NET MVC App**
 
 
 ***.Net SDK Download Link:***
@@ -130,6 +130,7 @@ Steps:- Building First ASP.NET Core App ***`(Symbol,Price)`*** <br>
 
 ------------------------------
 
+
 B. Building First ASP.NET Core App ***`(Name,RollNo)`*** (TakeHomeTask) <br>
 
 1. Install .Net Core Sdk <br> (Link: https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
@@ -142,13 +143,13 @@ B. Building First ASP.NET Core App ***`(Name,RollNo)`*** (TakeHomeTask) <br>
     dotnet new mvc --auth none
     ```
 
-    <img src="https://user-images.githubusercontent.com/88243315/227009189-31f3aef4-4c5b-49b6-bc9c-11f905d4b94c.png" width="600px"   alt ="MA_prac2_5">
+    <img src="https://user-images.githubusercontent.com/88243315/227023206-50902c51-f837-42b1-ab4d-ed1e0916d794.png" width="600px"   alt ="MA_prac2_5">
 
 4. Go to `models folder` and add new file ***`StockQuote.cs`*** to it with following content
 
     ```csharp
     using System;
-    namespace MyMVC.Models
+    namespace NameRollNoMVC.Models
     {
         public class StockQuote
         {
@@ -176,8 +177,8 @@ B. Building First ASP.NET Core App ***`(Name,RollNo)`*** (TakeHomeTask) <br>
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Logging;
-    using MyMVC.Models;
-    namespace MyMVC.Controllers
+    using NameRollNoMVC.Models;
+    namespace NameRollNoMVC.Controllers
     {
         public class HomeController: Controller
         {
@@ -185,7 +186,7 @@ B. Building First ASP.NET Core App ***`(Name,RollNo)`*** (TakeHomeTask) <br>
             {
                 var model = new StockQuote
                 {
-                    Name = "Ninad", RollNo = 1012
+                    Name = "Ninad", RollNo = "22306A1012"
                 };
                 return View(model);
             }
@@ -200,16 +201,16 @@ B. Building First ASP.NET Core App ***`(Name,RollNo)`*** (TakeHomeTask) <br>
     ViewData["Title"] = "Home Page";
     }
     <div>
-    Name: @Model.Name <br/>
-    RollNo: $@Model.RollNo <br/>
+        Name: @Model.Name <br/>
+        RollNo: @Model.RollNo <br/>
     </div>
     ```
 
 7. Now run the project using ***`dotnet run`***
 
-    <img src="https://user-images.githubusercontent.com/88243315/227009196-d67df093-1aad-4555-b40c-6ee873902d3c.png" width="500px"   alt ="MA_prac2_6">
+    <img src="https://user-images.githubusercontent.com/88243315/227023225-c39b3cfb-3de8-4e38-a3f8-ebe42ba044c2.png" width="500px"   alt ="MA_prac2_6">
 
 8. Now go back to browser and refresh to get modified view response
 
-    <img src="https://user-images.githubusercontent.com/88243315/227009201-0de65f69-065a-424c-bf28-3db93957a9c4.png" width="400px"   alt ="MA_prac2_7">
+    <img src="https://user-images.githubusercontent.com/88243315/227023233-28e0a01c-c4e2-47e6-972c-3f1bc92cc9b1.png" width="400px"   alt ="MA_prac2_7">
 
