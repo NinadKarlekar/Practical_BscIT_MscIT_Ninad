@@ -13,6 +13,7 @@ https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install
 A. Building First ASP.NET Core App ***`(Symbol,Price)`*** <br>
 B. Building First ASP.NET Core App ***`(Name,RollNo)`*** <br>
 
+------------------------------------
 
 Steps:- Building First ASP.NET Core App ***`(Symbol,Price)`*** <br>
 
@@ -54,7 +55,7 @@ Steps:- Building First ASP.NET Core App ***`(Symbol,Price)`*** <br>
 5. Run the project `dotnet run` and then go to browser and type ***`localhost:5192`***
 
     <img src="https://user-images.githubusercontent.com/88243315/227009174-565c7c2f-13de-455f-9a15-55ad9f073db7.png" width="500px"  alt ="MA_prac2_2">
-    <img src="https://user-images.githubusercontent.com/88243315/227009179-e7a86f5f-e5cb-4570-886a-a3203eebd8d7.png" width="200px"  alt ="MA_prac2_3">
+    <img src="https://user-images.githubusercontent.com/88243315/227009179-e7a86f5f-e5cb-4570-886a-a3203eebd8d7.png" width="300px"  alt ="MA_prac2_3">
 
 6. Now go back to command prompt and stop running project using `CTRL+C`
 
