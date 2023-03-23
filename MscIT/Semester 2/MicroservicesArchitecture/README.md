@@ -10,7 +10,7 @@ PSIT2P3 Microservices Architecture
 | Sr.No. | Name | README |
 | --- | --- | --- |
 | [Prac1](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 1. Building First Console App. <br> - Print even odd number from 1 to 30 `(TakeHomeTask)` | [Prac1](#prac1) <br> [Prac1(TakeHomeTask)](#print-even-odd-number-from-1-to-30-takehometask) |
-| [Prac2](/MscIT/Semester%202/BigDataAnalytics/Practical%202/) | 1. Building First ASP.NET MVC App.***`(Symbol,Price)`*** <br> - Building First ASP.NET Core App ***`(Name,RollNo)`*** `(TakeHomeTask)` | [Prac2](#prac2) <br> [Prac2(TakeHomeTask)](#print-even-odd-number-from-1-to-30-takehometask) |
+| [Prac2](/MscIT/Semester%202/BigDataAnalytics/Practical%202/) | 2. Building First ASP.NET MVC App.***`(Symbol,Price)`*** <br> - Building First ASP.NET Core App ***`(Name,RollNo)`*** `(TakeHomeTask)` | [Prac2](#prac2) <br> [Prac2(TakeHomeTask)](#building-first-aspnet-core-app-namerollno-takehometask) |
 
 
 
