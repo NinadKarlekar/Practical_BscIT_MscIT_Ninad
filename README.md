@@ -6,13 +6,18 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/NinadKarlekar/Practical_BscIT_MscIT_Ninad?logo=github)
 ![issues-closed](https://img.shields.io/github/issues-closed/NinadKarlekar/Practical_BscIT_MscIT_Ninad)
 [![HitCount](http://hits.dwyl.com/NinadKarlekar/Practical_BscIT_MscIT_Ninad.svg)](http://hits.dwyl.com/NinadKarlekar/Practical_BscIT_MscIT_Ninad)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
+![Maintainer](https://img.shields.io/badge/maintainer-NinadKarlekar-blue)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+![.net](https://img.shields.io/badge/.NET-512BD4.svg?style=for-the-badge&logo=dotnet&logoColor=white)
 
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
 ![RSTUDIO](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white)
 ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
 ![Spyder](https://img.shields.io/badge/Spyder%20Ide-FF0000?style=for-the-badge&logo=spyder%20ide&logoColor=white)
