@@ -17,8 +17,7 @@ test_set[-3] = scale(test_set[-3])
 # Fitting Decision Tree Classification to the Training set
 install.packages('rpart')
 library(rpart)
-classifier = rpart(formula = Purchased ~ .,
-                   data = training_set)
+classifier = rpart(formula = Purchased ~ .,data = training_set)
 # Predicting the Test set results
 y_pred = predict(classifier, newdata = test_set[-3], type = 'class')
 # Making the Confusion Matrix
