@@ -51,11 +51,11 @@ Steps:
 
 5. Now Login to docker hub and create repository
 
-    <img src="https://user-images.githubusercontent.com/88243315/232332338-b28c9693-0423-446a-b602-a7bd7acbc4db.png" width="600px" alt ="MA_prac3A_5">
+    <img src="https://user-images.githubusercontent.com/88243315/232333590-95e92151-9840-456d-83a8-a6cf19236775.png" width="600px" alt ="MA_prac3A_5">
 
 6. Click on Create button -> Now check repository created
 
-    <img src="https://user-images.githubusercontent.com/88243315/232332339-29bbd522-7c06-4adb-9283-b7dfa7041229.png" width="600px" alt ="MA_prac3A_6">
+    <img src="https://user-images.githubusercontent.com/88243315/232333591-ce5c2784-7df3-4fd1-94fd-3ebcbdf777a4.png" width="600px" alt ="MA_prac3A_6">
 
 7.	perform following in CMD
 - To login to your docker account
