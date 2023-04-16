@@ -101,6 +101,8 @@ Steps:
 
 [🔝](#index)
 
+</details>
+
 **************
 
 ## 3 b) **Method 2:** Build an image then push it to docker and run it
