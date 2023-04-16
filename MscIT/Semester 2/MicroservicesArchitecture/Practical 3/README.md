@@ -119,7 +119,6 @@ Steps:
 
 <br>
 
-[🔝](#index)
 
 </details>
 
