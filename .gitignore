@@ -37,3 +37,67 @@
 /MscIT/Semester 1/Cloud_Computing/Practical 5/5A/serverdate/dist/
 /MscIT/Semester 1/Cloud_Computing/Practical 6/6A/CalculatorWSApplication/nbproject/private/
 /MscIT/Semester 1/Cloud_Computing/Practical 6/6A/CalculatorWSApplication/build/
+
+# .NET Core & .NET CLI
+bin/
+obj/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio 2015/2017/2019
+*.suo
+*.user
+*.psess
+*.vsp
+*.vspx
+*.sln.docstates
+*.ide
+
+# Resharper cache/temporary files
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+*.Cache
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Oo]bj/
+[Bb]in/
+
+# From .NET Core 3.0 you can use the command: `dotnet new gitignore` to generate a customizable .gitignore file
+
+*.json
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
