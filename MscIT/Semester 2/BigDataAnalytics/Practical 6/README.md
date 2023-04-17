@@ -10,10 +10,10 @@
 5. [Create folder datanode and namenode under data directory](#5-create-folder-datanode-and-namenode-under-data-directory)
 6. [Change HDFS and YARN files](#6-change-hdfs-and-yarn-files)
 7. [Java Home environment in Hadoop environment](#7-java-home-environment-in-hadoop-environment)
-8. [Download “redistributable” package](#)
-9. [Hadoop Configurations]()
-10. [Format the NameNode]()
-11. [Complete Test by executing start-all.cmd]()
+8. [Download “redistributable” package](#8-download-redistributable-package)
+9. [Hadoop Configurations](#9-hadoop-configurations)
+10. [Format the NameNode](#10-format-the-namenode)
+11. [Complete Test by executing start-all.cmd](#11-testing)
 
 ------------------------------------
 
@@ -21,7 +21,7 @@
 
 ### 1.	Install Java
 
-- Java JDK Link to download (https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) | [Drive Link](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EldIHnqoojZAuQAXCkc9omABST-5MPkCY7gVZ00037d7vA?e=vURHYu)
+- Java JDK Link to download **`jdk-8u361-windows-x64`** | [Browser](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) | [Drive Link](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EldIHnqoojZAuQAXCkc9omABST-5MPkCY7gVZ00037d7vA?e=vURHYu)
 - Extract and install Java in C:\Java
 - open cmd and type -> 
 
@@ -35,7 +35,7 @@
 
 ### 2.	Download Hadoop
 
-- Download hadoop-3.3.0.tar.gz [Drive link](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EldIHnqoojZAuQAXCkc9omABST-5MPkCY7gVZ00037d7vA?e=vURHYu) |
+- Download **`hadoop-3.3.0.tar.gz`** [Drive link](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EldIHnqoojZAuQAXCkc9omABST-5MPkCY7gVZ00037d7vA?e=vURHYu) |
 https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.3.0/hadoop-3.3.0.tar.gz
 
 - right click .rar.gz file -> show more options -> 7-zip->and extract to **`C:\Hadoop-3.3.0\`**
@@ -200,9 +200,13 @@ https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.3.0/hadoop-3.3.0.ta
 
     <img src="https://user-images.githubusercontent.com/88243315/232517702-054c2c02-95ce-4eec-8c20-48eda4436293.png" alt="BDA_prac6_6" width="900px">
 
+<br>
+
 4. Type `JPS` command to `start-all.cmd` command prompt, you will get following output.
 
     <img src="https://user-images.githubusercontent.com/88243315/232517714-c0fa0f6a-9330-4da7-8565-b44e0d60852e.png" alt="BDA_prac6_7" width="400px">
+
+<br>
 
 5. Run http://localhost:9870/ from any browser
 
