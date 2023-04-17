@@ -1,5 +1,5 @@
 # Practical 6 : Hadoop Installation:  
-## Aim: Install, configure e4tr	`and run Hadoop and HDFS and explore HDFS on Windows
+## Aim: Install, run Hadoop and HDFS and explore HDFS on Windows
 
 - Steps to Install Hadoop
 
@@ -21,23 +21,24 @@
 
 ### 1.	Install Java
 
-- Java JDK Link to download (https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
+- Java JDK Link to download (https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) | [Drive Link](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EldIHnqoojZAuQAXCkc9omABST-5MPkCY7gVZ00037d7vA?e=vURHYu)
 - Extract and install Java in C:\Java
 - open cmd and type -> 
 
-    ```bash
+    ```console
     javac -version
     ```
 
-    <img src="https://user-images.githubusercontent.com/88243315/232517670-5c100186-bc1c-4a35-918c-0a520aafac78.png" alt="BDA_prac6_1" width="600px">
+    <img src="https://user-images.githubusercontent.com/88243315/232517670-5c100186-bc1c-4a35-918c-0a520aafac78.png" alt="BDA_prac6_1" width="300px">
 
 <br>
 
 ### 2.	Download Hadoop
 
+- Download hadoop-3.3.0.tar.gz [Drive link](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EldIHnqoojZAuQAXCkc9omABST-5MPkCY7gVZ00037d7vA?e=vURHYu) |
 https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.3.0/hadoop-3.3.0.tar.gz
 
-- •	right click .rar.gz file -> show more options -> 7-zip->and extract to **`C:\Hadoop-3.3.0\`**
+- right click .rar.gz file -> show more options -> 7-zip->and extract to **`C:\Hadoop-3.3.0\`**
 
     <img src="https://user-images.githubusercontent.com/88243315/232517681-ee55678e-9899-425f-8894-8ac6ef5914a1.png" alt="BDA_prac6_2" width="600px">
 
@@ -52,6 +53,9 @@ https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.3.0/hadoop-3.3.0.ta
 - Set the path **HADOOP_HOME** Environment variable
 
     <img src="https://user-images.githubusercontent.com/88243315/232517691-921837cb-cc37-4970-8389-2a0fecf56f24.png" alt="BDA_prac6_4" width="600px">
+
+- Add this variables to both **user variables** and **system variables**. -> Click on user variable -> path -> edit-> add path for Hadoop and java upto ‘bin’
+
 
 - Click **OK**.
 
@@ -155,24 +159,24 @@ https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.3.0/hadoop-3.3.0.ta
 ### 7. ***Java Home environment*** in Hadoop environment
 
 - Edit file ***`C:/Hadoop-3.3.0/etc/hadoop/hadoop-env.cmd`***
-    - Find **JAVA_HOME=%JAVA_HOME%** and replace it as 
-set **JAVA_HOME="C:\Java\jdk1.8.0_361"**
+    - Find **JAVA_HOME=%JAVA_HOME%** and replace it as
+    set **JAVA_HOME="C:\Java\jdk1.8.0_361"**
 
 
 <br>
 
-### 8. Download "redistributable" package
+### 8. Download **`"redistributable"`** package
 
-- Download and run VC_redist.x64.exe
-- Download:- [Drive Link]() | [Github link]()
+- Download and run **`VC_redist.x64.exe`**
+- Download:- [Drive Link](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EldIHnqoojZAuQAXCkc9omABST-5MPkCY7gVZ00037d7vA?e=vURHYu) | [Github link](https://github.com/s911415/apache-hadoop-3.1.0-winutils)
 
 <br>
 
 ### 9. Hadoop Configurations
 
-- Download bin folder from https://github.com/s911415/apache-hadoop-3.1.0-winutils | [If not working click here(drive)]()
+- Download **bin** folder from [Drive Link](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EldIHnqoojZAuQAXCkc9omABST-5MPkCY7gVZ00037d7vA?e=vURHYu) | [Github link](https://github.com/s911415/apache-hadoop-3.1.0-winutils)
 
-- Copy the bin folder to c:\hadoop-3.3.0. Replace the existing bin folder.
+- Copy the **bin** folder to c:\hadoop-3.3.0. Replace the existing **bin** folder.
 
 - Copy ***`"hadoop-yarn-server-timelineservice-3.0.3.jar"`*** from ***`~\hadoop-3.0.3\share\hadoop\yarn\timelineservice`*** to ***`~\hadoop-3.0.3\share\hadoop\yarn folder`***.  
 
@@ -205,3 +209,5 @@ set **JAVA_HOME="C:\Java\jdk1.8.0_361"**
     <img src="https://user-images.githubusercontent.com/88243315/232517717-67061cdb-5527-4705-af6c-258e7d58cc65.png" alt="BDA_prac6_7" width="800px">
 
     <img src="https://user-images.githubusercontent.com/88243315/232535827-379b77ab-c3b5-461f-b0ee-c2102b31cc93.png" alt="BDA_prac6_7" width="800px">
+
+--------------------
