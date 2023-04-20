@@ -26,7 +26,7 @@ Steps:
 
 - output:
 
-    <img src="https://user-images.githubusercontent.com/88243315/233443050-a6c22766-c954-4cf8-8810-102d8b038ea7.png" alt="MA_prac7_1" width="600">
+    <img src="https://user-images.githubusercontent.com/88243315/233443050-a6c22766-c954-4cf8-8810-102d8b038ea7.png" alt="MA_prac7_1" width="800">
 
 <br>
 
