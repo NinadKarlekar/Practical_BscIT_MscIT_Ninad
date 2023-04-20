@@ -10,8 +10,8 @@
 https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install
 
 - Old Versions:-
-    - **.Net SDK 1.1** :- [DriveLink]()
-    - **.Net SDK 3.1** :- [DriveLink]()
+    - **.Net SDK 1.1** :- [DriveLink](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EnUooqMLj91Bke5reTl6ui8BnxsQ4YDBTpifjMJLD_3Pwg?e=xVskIQ)
+    - **.Net SDK 3.1** :- [DriveLink](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EnUooqMLj91Bke5reTl6ui8BnxsQ4YDBTpifjMJLD_3Pwg?e=xVskIQ)
 
 
 Steps:
@@ -207,7 +207,7 @@ Steps:
 
 <br>
 
-5. Add **`MembersController.cs`** to **`"D:\TeamService\Controllers"`** folder and add following code.
+6. Add **`MembersController.cs`** to **`"D:\TeamService\Controllers"`** folder and add following code.
 
     <details>
     <summary>CODE(MembersController.cs)</summary>
@@ -348,11 +348,11 @@ Steps:
 
 <br>
 
-6. Create folder **`"D:\TeamService\Persistence"`**:
+7. Create folder **`"D:\TeamService\Persistence"`**:
 
 <br>
 
-7. Add **`ITeamReposiroty.cs`** to **`"D:\TeamService\Persistence"`** folder and add following code.
+8. Add **`ITeamReposiroty.cs`** to **`"D:\TeamService\Persistence"`** folder and add following code.
 
     <details>
     <summary>CODE(ITeamReposiroty.cs)</summary>
@@ -379,7 +379,7 @@ Steps:
 
 <br>
 
-8. Add **`MemoryTeamRepository.cs`** to **`"D:\TeamService\Persistence"`** folder and add following code.
+9. Add **`MemoryTeamRepository.cs`** to **`"D:\TeamService\Persistence"`** folder and add following code.
 
     <details>
     <summary>CODE(MemoryTeamRepository.cs)</summary>
@@ -456,7 +456,7 @@ Steps:
 
 <br>
 
-9. Add following line to [**`Startup.cs`**]() in **`public void ConfigureServices(IServiceCollection services)`**
+10. Add following line to [**`Startup.cs`**]() in **`public void ConfigureServices(IServiceCollection services)`**
 method.
     ```csharp
     services.AddScoped<ITeamRepository, MemoryTeamRepository>();
@@ -464,11 +464,11 @@ method.
 
 <br>
 
-10. Now open **two command prompts** to run this project
+11. Now open **two command prompts** to run this project
 
     <br>
 
-11. On **Command prompt 1**: (go inside folder **teamservice** first)
+12. On **Command prompt 1**: (go inside folder **teamservice** first)
 
 - Commands:
     ```console
@@ -481,7 +481,7 @@ method.
 
     <br>
 
-12. On command prompt 2
+13. On command prompt 2
     1. **To get all teams**
         - Commands: To get all teams
             ```console
