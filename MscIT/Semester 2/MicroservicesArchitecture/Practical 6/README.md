@@ -26,7 +26,11 @@ Steps:
 
     <img src="https://user-images.githubusercontent.com/88243315/233396627-13b3d7f6-b36f-4a88-8614-b4e3d946afb7.png" alt="" width="600">
 
+<br>
+
 2. Remove existing `weatherforecast` files both model and controller files.
+
+<br>
 
 3. Add **`Member.cs`** to **`"D:\TeamService\Models"`** folder and add following code.
 
@@ -346,6 +350,8 @@ Steps:
 
 6. Create folder **`"D:\TeamService\Persistence"`**:
 
+<br>
+
 7. Add **`ITeamReposiroty.cs`** to **`"D:\TeamService\Persistence"`** folder and add following code.
 
     <details>
@@ -456,7 +462,11 @@ method.
     services.AddScoped<ITeamRepository, MemoryTeamRepository>();
     ```
 
+<br>
+
 10. Now open **two command prompts** to run this project
+
+    <br>
 
 11. On **Command prompt 1**: (go inside folder **teamservice** first)
 
@@ -468,6 +478,8 @@ method.
 - Output:
     <img src="https://user-images.githubusercontent.com/88243315/233396639-fa60f809-755e-48b2-9ef0-43f99dd01b50.png" alt="" width="600">
 
+    <br>
+
 12. On command prompt 2
     1. **To get all teams**
         - Commands: To get all teams
@@ -478,6 +490,8 @@ method.
         - Output:
             <img src="https://user-images.githubusercontent.com/88243315/233396642-33e5ccf4-94ec-4273-a871-19f3b451466a.png" alt="" width="600">
 
+    <br>
+
     2. **To create new team**
         - Commands: To get all teams
             ```console
@@ -486,6 +500,8 @@ method.
 
         - Output:
             <img src="https://user-images.githubusercontent.com/88243315/233396645-bf1d181d-1ff7-4590-b700-ae14cb75e253.png" alt="" width="600">
+
+    <br>
 
     3. **To create one more new team**
         - Commands: To get all teams
@@ -496,6 +512,8 @@ method.
         - Output:
             <img src="https://user-images.githubusercontent.com/88243315/233396651-fcd5a0e4-9d6e-4891-8308-1d2f03214b1c.png" alt="" width="600">
 
+    <br>
+
     4. **To get all teams**
         - Commands: To get all teams
             ```console
@@ -504,6 +522,8 @@ method.
 
         - Output:
             <img src="https://user-images.githubusercontent.com/88243315/233396653-0a409b89-8248-4b86-a925-087c3d3de318.png" alt="" width="600">
+
+    <br>
 
     5. **to get single team with team-id as parameter**
         - Commands: To get all teams
@@ -514,6 +534,8 @@ method.
         - Output:
             <img src="https://user-images.githubusercontent.com/88243315/233396658-4bd0a864-0704-4f0d-9207-9b91b8f0ca20.png" alt="" width="600">
 
+    <br>
+
     6. **to update team details (change name of first team from "KC" to "KC IT DEPT")**
         - Commands: To get all teams
             ```console
@@ -522,6 +544,8 @@ method.
 
         - Output:
             <img src="https://user-images.githubusercontent.com/88243315/233396661-9e6346c8-e0d1-42bb-973e-cc0a43b9f2dd.png" alt="" width="600">
+
+    <br>
 
     7. **To delete team**
         - Commands: To get all teams
@@ -532,6 +556,8 @@ method.
         - Output:
             <img src="https://user-images.githubusercontent.com/88243315/233396668-81a3a0ca-b4f0-4f1d-8ec3-4d9deccd192d.png" alt="" width="600">
 
+    <br>
+
     8. **With get all teams now it shows only one team (first one is deleted)**
         - Commands: To get all teams
             ```console
@@ -541,5 +567,5 @@ method.
         - Output:
             <img src="https://user-images.githubusercontent.com/88243315/233396671-9ce1808d-195e-4121-a038-dac3a47a955a.png" alt="" width="600">
 
-
+----------------------------------
 
