@@ -495,7 +495,7 @@ method.
     <br>
 
     2. **To create new team**
-        - Commands: To get all teams
+        - Commands: 
             ```console
             curl --insecure -H "Content-Type:application/json" –X POST –d "{\"id\":\"e52baa63-d511-417e-9e54-7aab04286281\", \"name\":\"KC\"}" https://localhost:5001/teams
             ```
@@ -507,7 +507,7 @@ method.
     <br>
 
     3. **To create one more new team**
-        - Commands: To get all teams
+        - Commands: 
             ```console
             curl --insecure -H "Content-Type:application/json" –X POST –d "{\"id\":\"e12baa63-d511-417e-9e54-7aab04286281\", \"name\":\"MSC Part1\"}" https://localhost:5001/teams
             ```
@@ -531,7 +531,7 @@ method.
     <br>
 
     5. **to get single team with team-id as parameter**
-        - Commands: To get all teams
+        - Commands: 
             ```console
             curl --insecure https://localhost:5001/teams/e52baa63-d511-417e-9e54-7aab04286281
             ```
@@ -543,7 +543,7 @@ method.
     <br>
 
     6. **to update team details (change name of first team from "KC" to "KC IT DEPT")**
-        - Commands: To get all teams
+        - Commands: 
             ```console
             curl --insecure -H "Content-Type:application/json" –X PUT –d "{\"id\":\"e52baa63-d511-417e-9e54-7aab04286281\", \"name\":\"KC IT DEPT\"}" https://localhost:5001/teams/e52baa63-d511-417e-9e54-7aab04286281
             ```
@@ -555,7 +555,7 @@ method.
     <br>
 
     7. **To delete team**
-        - Commands: To get all teams
+        - Commands: 
             ```console
             curl --insecure -H "Content-Type:application/json" –X DELETE https://localhost:5001/teams/e52baa63-d511-417e-9e54-7aab04286281
             ```
