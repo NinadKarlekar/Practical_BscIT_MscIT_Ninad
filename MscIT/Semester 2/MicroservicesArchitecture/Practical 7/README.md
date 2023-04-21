@@ -24,7 +24,11 @@ https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install
 
 
 ## **Practical #7A** 
-[.Net SDK 3.1](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EnUooqMLj91Bke5reTl6ui8BnxsQ4YDBTpifjMJLD_3Pwg?e=xVskIQ)
+
+- [Download **StatlerWaldorfCorp.LocationService** and **StatlerWaldorfCorp.TeamService** Folder here](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EtDacDr2CEFAjYRSJywPmnsBTSncU7wHr0DGnJZcqgoJKA?e=gGSyd3)
+
+
+- [.Net SDK 3.1](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EnUooqMLj91Bke5reTl6ui8BnxsQ4YDBTpifjMJLD_3Pwg?e=xVskIQ)
 
 <br>
 
