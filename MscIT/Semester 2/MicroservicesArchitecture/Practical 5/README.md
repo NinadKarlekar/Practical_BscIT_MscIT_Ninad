@@ -20,7 +20,8 @@ https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install
 ## Create your web API
 ## Open two command prompts
 
-- <a href="https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/Et0OoRtikihKia6ug4YpcsMBcm2bWq7P3aeaWvNRzC2vKg?e=JEncMW" target="_blank">Download Glossary Folder here</a>
+- [Download Glossary Folder here](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/Et0OoRtikihKia6ug4YpcsMBcm2bWq7P3aeaWvNRzC2vKg?e=JEncMW){:target="_blank"}
+
 
 
 <br>
