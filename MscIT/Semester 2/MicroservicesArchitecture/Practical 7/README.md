@@ -1,7 +1,15 @@
 **Microservice Architecture** <br>
-**Practical #7A** <br>
+**Practical #7** <br>
 **Working with TeamService**
 
+| Name | README |
+| --- | --- |
+| Practical #7A. Running Location Service Locally using .Net core. | [Practical #7A](#practical-7a) |
+| Practical #7B. Running Location Service in Docker. | [Practical #7B](#practical-7b) |
+
+<br>
+
+---------------------------------
 
 ***.Net SDK Download Link:***
 <br>
