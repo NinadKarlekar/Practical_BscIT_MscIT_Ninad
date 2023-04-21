@@ -20,6 +20,8 @@ https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install
 ## Create your web API
 ## Open two command prompts
 
+- Download [StatlerWaldorfCorp.WebApp](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/tree/main/MscIT/Semester%202/MicroservicesArchitecture/Practical%205/Glossary) folder.
+
 Steps:
 
 1. Change code of **`ApiController.cs`** from **`".\StatlerWaldorfCorp.WebApp\Controllers"`** 
