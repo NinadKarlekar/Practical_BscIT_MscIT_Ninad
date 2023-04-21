@@ -81,7 +81,7 @@ https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install
             ```console
             Exit
 
-            Docker ps
+            docker ps
             ```
 
         - output:
