@@ -106,7 +106,7 @@ Steps:
 
 ## **Practical #7B** <br>
 
-[.Net SDK 3.1]((https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EnUooqMLj91Bke5reTl6ui8BnxsQ4YDBTpifjMJLD_3Pwg?e=xVskIQ))
+[.Net SDK 3.1](https://vsitedu-my.sharepoint.com/:f:/g/personal/ninad_karlekar_vsit_edu_in/EnUooqMLj91Bke5reTl6ui8BnxsQ4YDBTpifjMJLD_3Pwg?e=xVskIQ)
 
 ## Running Location Service in Docker
 Steps:
