@@ -274,6 +274,7 @@ Steps:
 
             <br>
             Checking
+
             <img src="https://user-images.githubusercontent.com/88243315/233608539-afd3717c-fbd1-4d05-a2f2-810bb42a5393.png" alt="MA_prac5_11" width="800">
 
     <br>
