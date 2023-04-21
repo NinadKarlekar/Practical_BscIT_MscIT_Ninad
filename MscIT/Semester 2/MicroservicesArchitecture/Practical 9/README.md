@@ -237,7 +237,7 @@ Steps:
 <br>
 
 
-7. Change code of **`Startup.cs`** from **`".\StatlerWaldorfCorp.WebApp"`** 
+7. Change code of **`StatlerWaldorfCorp.WebApp.csproj`** from **`".\StatlerWaldorfCorp.WebApp"`** 
 
     <details>
     <summary>CODE</summary>
