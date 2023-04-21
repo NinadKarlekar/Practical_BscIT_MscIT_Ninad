@@ -69,7 +69,7 @@ Steps:
 
     <br>
 
-    3. **Command to add new member to team**
+    3. **Command to add new location to member**
         - Commands: 
             ```console
             curl -H "Content-Type:application/json" -X POST -d "{\"id\":\"64c3e69f-1580-4b2f-a9ff-2c5f3b8f0e1f\",\"latitude\":12.0,\"longitude\":12.0,\"altitude\":10.0,\"timestamp\":0,\"memberId\":\"63e7acf8-8fae-42ce-9349-3c8593ac8292\"}" http://localhost:5001/locations/63e7acf8-8fae-42ce-9349-3c8593ac8292
