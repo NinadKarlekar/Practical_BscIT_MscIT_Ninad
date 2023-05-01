@@ -3,4 +3,4 @@ numpy
 matplotlib
 opencv-python
 opencv-python-headless
-
+scikit-image
