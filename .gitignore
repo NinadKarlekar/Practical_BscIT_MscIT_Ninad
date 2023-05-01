@@ -39,6 +39,7 @@
 /MscIT/Semester 1/Cloud_Computing/Practical 6/6A/CalculatorWSApplication/build/
 
 # Pracenv
+/pracenv
 __pycache__/
 .env
 *.log
