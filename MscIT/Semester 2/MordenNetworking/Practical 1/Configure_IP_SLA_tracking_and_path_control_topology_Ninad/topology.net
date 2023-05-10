@@ -1,0 +1,77 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7200]
+    workingdir = working
+    udp = 10001
+    [[3725]]
+        image = F:\MSC IT\Semester 2\Practical\Modern Networking\Software\c3725-adventerprisek9-mz124-15.image
+        ram = 128
+        idlepc = 0x60bf7530
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R1]]
+        model = 3725
+        console = 2101
+        aux = 2501
+        cnfg = configs\R1.cfg
+        slot1 = NM-4T
+        s1/0 = R2 s1/0
+        s1/1 = R3 s1/1
+        x = -231.0
+        y = 52.0
+        z = 1.0
+    [[ROUTER R2]]
+        model = 3725
+        console = 2102
+        aux = 2502
+        cnfg = configs\R2.cfg
+        slot1 = NM-4T
+        s1/0 = R1 s1/0
+        s1/2 = R3 s1/2
+        x = -470.0
+        y = -158.0
+        z = 1.0
+    [[ROUTER R3]]
+        model = 3725
+        console = 2103
+        aux = 2503
+        cnfg = configs\R3.cfg
+        slot1 = NM-4T
+        s1/1 = R1 s1/1
+        s1/2 = R2 s1/2
+        x = 47.0
+        y = -142.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    workdir = working
+    [[NOTE 1]]
+        text = "209.165.201.0/24"
+        x = -480.0
+        y = -20.5
+        color = "#0000ff"
+    [[NOTE 2]]
+        text = "ISP2(secondary)"
+        x = 126.0
+        y = -183.5
+        color = "#458a00"
+    [[NOTE 3]]
+        text = "ISP1(Primary)"
+        x = -590.0
+        y = -201.5
+        color = "#458a00"
+    [[NOTE 4]]
+        text = "Branch\nlo0: 192.168.1.0/24"
+        x = -266.0
+        y = 121.5
+        color = "#458a00"
+    [[NOTE 5]]
+        text = "209.165.200.0/24"
+        x = -265.0
+        y = -182.5
+        color = "#0000ff"
+    [[NOTE 6]]
+        text = "209.165.202.0/24"
+        x = -66.0
+        y = -19.5
+        color = "#0000ff"

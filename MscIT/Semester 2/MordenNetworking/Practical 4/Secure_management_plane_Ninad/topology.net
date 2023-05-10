@@ -1,0 +1,81 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7200]
+    workingdir = working
+    udp = 10001
+    [[3725]]
+        image = F:\MSC IT\Semester 2\Practical\Modern Networking\Software\c3725-adventerprisek9-mz124-15.image
+        ram = 128
+        idlepc = 0x60264f28
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R1]]
+        model = 3725
+        console = 2101
+        aux = 2501
+        cnfg = configs\R1.cfg
+        slot1 = NM-4T
+        s1/0 = R2 s1/0
+        x = -478.0
+        y = -5.0
+        z = 1.0
+    [[ROUTER R2]]
+        model = 3725
+        console = 2102
+        aux = 2502
+        cnfg = configs\R2.cfg
+        slot1 = NM-4T
+        s1/0 = R1 s1/0
+        s1/1 = R3 s1/1
+        x = -208.0
+        y = -227.0
+        z = 1.0
+    [[ROUTER R3]]
+        model = 3725
+        console = 2103
+        aux = 2503
+        cnfg = configs\R3.cfg
+        slot1 = NM-4T
+        s1/1 = R2 s1/1
+        x = 74.0
+        y = 1.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    workdir = working
+    [[NOTE 1]]
+        text = "22306A1012"
+        x = -287.0
+        y = -22.5
+    [[NOTE 2]]
+        text = ".3"
+        x = 87.0
+        y = 53.5
+    [[NOTE 3]]
+        text = ".1"
+        x = -477.0
+        y = 45.5
+    [[NOTE 4]]
+        text = ".2"
+        x = -203.0
+        y = -285.5
+    [[NOTE 5]]
+        text = "s1/1"
+        x = -1.44551608241
+        y = -51.3941977026
+        interface = R3 s1/1
+    [[NOTE 6]]
+        text = "s1/1"
+        x = 79.4455160824
+        y = 28.3941977026
+        interface = R2 s1/1
+    [[NOTE 7]]
+        text = "s1/0"
+        x = -61.3954365054
+        y = 28.1276300597
+        interface = R2 s1/0
+    [[NOTE 8]]
+        text = "s1/0"
+        x = 16.3954365054
+        y = -60.1276300597
+        interface = R1 s1/0

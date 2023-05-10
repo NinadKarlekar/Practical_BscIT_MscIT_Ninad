@@ -1,0 +1,107 @@
+
+R1#
+*Mar  1 00:11:05.271: %SYS-5-CONFIG_I: Configured from console by console
+R1#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#no logging console
+R1(config)#
+R1(config)#end
+
+R1#
+R1#
+R1#
+R1#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#int s1/0
+R1(config-if)#ip add 209.165.201.1 255.255.255.0
+R1(config-if)#no sh
+R1(config-if)#
+R1(config-if)#int s1/1
+R1(config-if)#ip add 209.165.202.1 255.255.255.0
+R1(config-if)#no sh
+R1(config-if)#
+R1(config-if)#int lo0
+R1(config-if)#ip add 192.168.1.1 255.255.255.0
+R1(config-if)#
+R1(config-if)#do sh ip int br | include up
+Serial1/0                  209.165.201.1   YES manual up                    down
+Serial1/1                  209.165.202.1   YES manual up                    down
+Loopback0                  192.168.1.1     YES manual up                    up
+R1(config-if)#
+R1(config-if)#
+R1#
+R1#
+R1#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#ip route 0.0.0.0 0.0.0.0 209.165.201.2
+R1(config)#
+R1(config)#
+R1(config)#do ping 209.165.200.3
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 209.165.200.3, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 36/55/64 ms
+R1(config)#
+R1(config)#
+R1(config)#
+R1(config)#hostname r1-branch
+r1-branch(config)#
+r1-branch(config)#ip sla 11
+r1-branch(config-ip-sla)#icmp-echo 209.165.201.2
+r1-branch(config-ip-sla-echo)#frequency 10
+r1-branch(config-ip-sla-echo)#exit
+r1-branch(config)#
+r1-branch(config)#ip sla schedule 11 life forever start-time now
+r1-branch(config)#
+r1-branch(config)#do sh ip sla configuration 11
+IP SLAs, Infrastructure Engine-II.
+Entry number: 11
+Owner:
+Tag:
+Type of operation to perform: icmp-echo
+Target address/Source address: 209.165.201.2/0.0.0.0
+Operation timeout (milliseconds): 5000
+Type Of Service parameters: 0x0
+Vrf Name:
+Request size (ARR data portion): 28
+Verify data: No
+Schedule:
+   Operation frequency (seconds): 10  (not considered if randomly scheduled)
+   Next Scheduled Start Time: Start Time already passed
+   Group Scheduled : FALSE
+   Randomly Scheduled : FALSE
+   Life (seconds): Forever
+   Entry Ageout (seconds): never
+   Recurring (Starting Everyday): FALSE
+   Status of entry (SNMP RowStatus): Active
+Threshold (milliseconds): 5000
+Distribution Statistics:
+   Number of statistic hours kept: 2
+   Number of statistic distribution buckets kept: 1
+   Statistic distribution interval (milliseconds): 4294967295
+History Statistics:
+   Number of history Lives kept: 0
+   Number of history Buckets kept: 15
+   History Filter Type: None
+Enhanced History:
+
+
+r1-branch(config)#
+r1-branch(config)#
+r1-branch(config)#do sh ip sla statistics
+
+Round Trip Time (RTT) for       Index 11
+        Latest RTT: 44 milliseconds
+Latest operation start time: *00:41:49.903 UTC Fri Mar 1 2002
+Latest operation return code: OK
+Number of successes: 6
+Number of failures: 0
+Operation time to live: Forever
+
+
+r1-branch(config)#
+r1-branch(config)#do wr
+Building configuration...
+[OK]
+r1-branch(config)#

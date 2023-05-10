@@ -1,0 +1,81 @@
+R2#
+R2#
+R2#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R2(config)#hostname r2
+r2(config)#
+r2(config)#int s1/0
+r2(config-if)#ip add 172.16.12.2 255.255.255.0
+r2(config-if)#bandwidth 128
+r2(config-if)#no sh
+r2(config-if)#
+r2(config-if)#
+*Mar  1 00:15:40.571: %LINK-3-UPDOWN: Interface Serial1/0, changed state to up
+r2(config-if)#
+*Mar  1 00:15:41.579: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/0, changed state to up
+r2(config-if)#
+r2(config-if)#int s1/2
+r2(config-if)#ip add 172.16.23.2 255.255.255.0
+r2(config-if)#bandwidth 128
+r2(config-if)#no sh
+r2(config-if)#
+r2(config-if)#
+*Mar  1 00:16:39.647: %LINK-3-UPDOWN: Interface Serial1/2, changed state to up
+r2(config-if)#
+*Mar  1 00:16:40.655: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/2, changed state to up
+r2(config-if)#
+r2(config-if)#int lo0
+r2(config-if)#
+*Mar  1 00:16:58.211: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback0, changed state to up
+r2(config-if)#ip add
+*Mar  1 00:17:02.759: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/2, changed state to down
+r2(config-if)#ip add 192.168.2.2 255.255.255.0
+r2(config-if)#
+r2(config-if)#do sh ip int br | include up
+Serial1/0                  172.16.12.2     YES manual up                    up
+Serial1/2                  172.16.23.2     YES manual up                    down
+Loopback0                  192.168.2.2     YES manual up                    up
+r2(config-if)#
+r2(config-if)#
+*Mar  1 00:26:42.747: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/2, changed state to up
+r2(config-if)#
+r2(config-if)#
+r2(config-if)#exit
+r2(config)#
+r2(config)#do ping 172.16.34.4
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.34.4, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+r2(config)#do ping 192.168.4.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.4.1, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+r2(config)#
+r2(config)#
+r2(config)#
+r2(config)#router eigrp 1
+r2(config-router)#network 172.16.12.0 0.0.0.255
+r2(config-router)#
+*Mar  1 00:44:06.927: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.12.1 (Serial1/0) is up: new adjacency
+r2(config-router)#network 172.16.23.0 0.0.0.255
+r2(config-router)#network 192.168.2.0
+r2(config-router)#no auto-summary
+r2(config-router)#
+r2(config-router)#
+*Mar  1 00:44:54.415: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.12.1 (Serial1/0) is resync: summary configured
+r2(config-router)#
+*Mar  1 00:46:18.415: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.23.3 (Serial1/2) is up: new adjacency
+r2(config-router)#
+*Mar  1 00:46:53.919: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.23.3 (Serial1/2) is resync: peer graceful-restart
+r2(config-router)#
+r2(config-router)#
+r2(config-router)#do sh ip int br | include up
+Serial1/0                  172.16.12.2     YES manual up                    up
+Serial1/2                  172.16.23.2     YES manual up                    up
+Loopback0                  192.168.2.2     YES manual up                    up
+r2(config-router)#
+r2(config-router)#

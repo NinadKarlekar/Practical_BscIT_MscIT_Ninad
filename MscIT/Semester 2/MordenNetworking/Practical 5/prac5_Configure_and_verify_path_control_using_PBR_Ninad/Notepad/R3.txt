@@ -1,0 +1,97 @@
+3#
+R3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#hostname r3
+r3(config)#
+r3(config)#int s1/1
+r3(config-if)#ip add 172.16.13.3 255.255.255.0
+r3(config-if)#bandwidth 64
+r3(config-if)#no sh
+r3(config-if)#
+r3(config-if)#
+*Mar  1 00:23:46.623: %LINK-3-UPDOWN: Interface Serial1/1, changed state to up
+r3(config-if)#
+*Mar  1 00:23:47.631: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/1, changed state to up
+r3(config-if)#
+r3(config-if)#
+r3(config-if)#int s1/2
+r3(config-if)#ip add 172.16.23.3 255.255.255.0
+r3(config-if)#bandwidth 128
+r3(config-if)#no sh
+r3(config-if)#
+r3(config-if)#
+*Mar  1 00:25:51.543: %LINK-3-UPDOWN: Interface Serial1/2, changed state to up
+r3(config-if)#
+*Mar  1 00:25:52.551: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/2, changed state to up
+r3(config-if)#
+r3(config-if)#int s1/3
+r3(config-if)#ip add 172.16.34.3 255.255.255.0
+r3(config-if)#bandwidth 64
+r3(config-if)#no sh
+r3(config-if)#
+r3(config-if)#
+*Mar  1 00:26:54.507: %LINK-3-UPDOWN: Interface Serial1/3, changed state to up
+r3(config-if)#
+*Mar  1 00:26:55.511: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/3, changed state to up
+r3(config-if)#
+r3(config-if)#
+*Mar  1 00:27:22.259: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/3, changed state to down
+r3(config-if)#int lo0
+r3(config-if)#ip a
+*Mar  1 00:27:31.031: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback0, changed state to up
+r3(config-if)#ip add 192.168.3.3 255.255.255.0
+r3(config-if)#
+r3(config-if)#do sh ip int br | include up
+Serial1/1                  172.16.13.3     YES manual up                    up
+Serial1/2                  172.16.23.3     YES manual up                    up
+Serial1/3                  172.16.34.3     YES manual up                    down
+Loopback0                  192.168.3.3     YES manual up                    up
+r3(config-if)#
+*Mar  1 00:33:22.263: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/3, changed state to up
+r3(config-if)#
+r3(config-if)#router eigrp 1
+r3(config-router)#network 172.16.13.0 0.0.0.255
+r3(config-router)#network 172.16.13.0 0.0.0.255
+*Mar  1 00:45:23.543: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.13.1 (Serial1/1) is up: new adjacency
+r3(config-router)#network 172.16.23.0 0.0.0.255
+r3(config-router)#
+*Mar  1 00:45:32.191: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.23.2 (Serial1/2) is up: new adjacency
+r3(config-router)#network 172.16.34.0 0.0.0.255
+r3(config-router)#network 192.168.3.0
+r3(config-router)#no auto-summary
+r3(config-router)#
+*Mar  1 00:46:07.631: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.13.1 (Serial1/1) is resync: summary configured
+*Mar  1 00:46:07.631: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.23.2 (Serial1/2) is resync: summary configured
+r3(config-router)#
+*Mar  1 00:47:24.207: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.34.4 (Serial1/3) is up: new adjacency
+r3(config-router)#
+*Mar  1 00:47:51.211: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.34.4 (Serial1/3) is resync: peer graceful-restart
+r3(config-router)#
+r3(config-router)#
+r3(config-router)#do sh ip int br | include up
+Serial1/1                  172.16.13.3     YES manual up                    up
+Serial1/2                  172.16.23.3     YES manual up                    up
+Serial1/3                  172.16.34.3     YES manual up                    up
+Loopback0                  192.168.3.3     YES manual up                    up
+r3(config-router)#
+r3(config-router)#
+r3(config-router)#
+r3(config-router)#exit
+r3(config)#
+r3(config)#ip access-list standard pbr-acl
+r3(config-std-nacl)#permit 192.168.5.0 0.0.0.255
+r3(config-std-nacl)#exit
+r3(config)#
+r3(config)#
+r3(config)#route-map r3-to-r1 permit
+r3(config-route-map)#match ip address pbr-acl
+r3(config-route-map)#
+r3(config-route-map)#set ip next-hop 172.16.13.1
+r3(config-route-map)#exit
+r3(config)#
+r3(config)#int s1/3
+r3(config-if)#ip policy route-map r3-to-r1
+r3(config-if)#end
+r3#
+*Mar  1 01:00:11.759: %SYS-5-CONFIG_I: Configured from console by console
+r3#

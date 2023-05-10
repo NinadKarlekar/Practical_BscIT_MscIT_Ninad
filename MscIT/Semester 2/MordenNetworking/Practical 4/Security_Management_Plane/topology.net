@@ -1,5 +1,0 @@
-autostart = False
-version = 0.8.6
-[GNS3-DATA]
-    configs = configs
-    workdir = working

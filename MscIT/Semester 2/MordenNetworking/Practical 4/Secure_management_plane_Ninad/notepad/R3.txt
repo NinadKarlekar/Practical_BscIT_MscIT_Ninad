@@ -1,0 +1,81 @@
+R3#conf
+Configuring from terminal, memory, or network [terminal]? t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#end
+R3#
+R3#
+R3#
+R3#
+*Mar  1 00:09:37.387: %SYS-5-CONFIG_I: Configured from console by console
+R3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#int s1/1
+R3(config-if)#ip add 10.2.2.3 255.255.255.0
+R3(config-if)#no sh
+R3(config-if)#
+R3(config-if)#
+*Mar  1 00:10:15.255: %LINK-3-UPDOWN: Interface Serial1/1, changed state
+R3(config-if)#
+*Mar  1 00:10:16.259: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ser                                                                             up
+R3(config-if)#int lo0
+R3(config-if)#
+*Mar  1 00:10:23.203: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loo                                                                             up
+R3(config-if)#ip add 192.168.3.3 255.255.255.0
+R3(config-if)#
+R3(config-if)#exit
+R3(config)#
+R3(config)#ip route 0.0.0.0 0.0.0.0 10.2.2.2
+R3(config)#
+R3(config)#do ping 192.168.1.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.1.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 20/50/80 ms
+R3(config)#
+R3(config)#
+R3(config)#hostname r3
+r3(config)#security password min-length 10
+r3(config)#enable secret class12345
+r3(config)#line console 0
+r3(config-line)#password ciscoconpass
+r3(config-line)#exec-timeout 5 0
+r3(config-line)#login
+r3(config-line)#logging synchronous
+r3(config-line)#exit
+r3(config)#line vty 0 4
+r3(config-line)#password ciscovtypass
+r3(config-line)#
+r3(config-line)#
+r3(config-line)#
+r3(config-line)#exec-timeout 5 0
+r3(config-line)#login
+r3(config-line)#exit
+r3(config)#
+r3(config)#
+r3(config)#line aux 0
+r3(config-line)#no exec
+r3(config-line)#end
+r3#
+r3#
+*Mar  1 00:16:45.031: %SYS-5-CONFIG_I: Configured from console by console
+r3#
+r3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+r3(config)#service password-encryption
+r3(config)#banner motd $Unauthorized access not allowed$
+r3(config)#exit
+r3#
+*Mar  1 00:17:10.567: %SYS-5-CONFIG_I: Configured from console by console
+r3#
+r3#
+r3#telnet 10.1.1.1
+Trying 10.1.1.1 ... Open
+Unauthorized access not allowed
+
+User Access Verification
+
+Password:
+r1>
+[Connection to 10.1.1.1 closed by foreign host]
+r3#

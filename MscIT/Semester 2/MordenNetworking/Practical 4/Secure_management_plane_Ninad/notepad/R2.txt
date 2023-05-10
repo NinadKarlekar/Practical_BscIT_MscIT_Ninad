@@ -1,0 +1,28 @@
+R2#
+R2#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R2(config)#int s1/0
+R2(config-if)#ip add 10.1.1.2 255.255.255.0
+R2(config-if)#no sh
+R2(config-if)#
+R2(config-if)#
+*Mar  1 00:03:41.095: %LINK-3-UPDOWN: Interface Serial1/0, changed state to up
+R2(config-if)#int
+*Mar  1 00:03:42.099: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/0, changed state to                                                     up
+R2(config-if)#int s1/1
+R2(config-if)#ip add 10.2.2.2 255.255.255.0
+R2(config-if)#no sh
+R2(config-if)#
+R2(config-if)#
+*Mar  1 00:04:02.511: %LINK-3-UPDOWN: Interface Serial1/1, changed state to up
+*Mar  1 00:04:03.523: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/1, changed state to                                                     up
+R2(config-if)#
+*Mar  1 00:04:32.387: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/1, changed state to                                                     down
+R2(config-if)#
+*Mar  1 00:10:52.387: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/1, changed state to                                                     up
+R2(config-if)#
+R2(config-if)#exit
+R2(config)#
+R2(config)#ip route 192.168.1.0 255.255.255.0 10.1.1.1
+R2(config)#ip route 192.168.3.0 255.255.255.0 10.2.2.3
+R2(config)#

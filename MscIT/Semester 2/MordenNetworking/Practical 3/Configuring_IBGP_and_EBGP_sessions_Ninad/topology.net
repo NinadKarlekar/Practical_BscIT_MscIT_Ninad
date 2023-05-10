@@ -1,0 +1,198 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7200]
+    workingdir = working
+    udp = 10001
+    [[3725]]
+        image = F:\MSC IT\Semester 2\Practical\Modern Networking\Software\c3725-adventerprisek9-mz124-15.image
+        ram = 128
+        idlepc = 0x60bf77a8
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R1]]
+        model = 3725
+        console = 2101
+        aux = 2501
+        cnfg = configs\R1.cfg
+        f0/1 = SW1 1
+        slot1 = NM-4T
+        s1/0 = R2 s1/0
+        s1/1 = R3 s1/1
+        x = -134.0
+        y = -298.0
+        z = 1.0
+        hx = 21.5
+        hy = 45.0
+    [[ROUTER R2]]
+        model = 3725
+        console = 2102
+        aux = 2502
+        cnfg = configs\R2.cfg
+        f0/0 = R3 f0/0
+        f0/1 = SW2 1
+        slot1 = NM-4T
+        s1/0 = R1 s1/0
+        x = -388.0
+        y = -94.0
+        z = 1.0
+    [[ROUTER R3]]
+        model = 3725
+        console = 2103
+        aux = 2503
+        cnfg = configs\R3.cfg
+        f0/0 = R2 f0/0
+        f0/1 = SW3 1
+        slot1 = NM-4T
+        s1/1 = R1 s1/1
+        x = 140.0
+        y = -93.0
+        z = 1.0
+    [[ETHSW SW1]]
+        1 = access 1 R1 f0/1
+        x = -138.5
+        y = -460.0
+        z = 1.0
+    [[ETHSW SW3]]
+        1 = access 1 R3 f0/1
+        x = 275.5
+        y = 37.0
+        z = 1.0
+    [[ETHSW SW2]]
+        1 = access 1 R2 f0/1
+        x = -535.5
+        y = 43.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    workdir = working
+    [[NOTE 1]]
+        text = "Ninad Karlekar\n22306A1012"
+        x = -178.0
+        y = 104.5
+        font = "MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0"
+        color = "#458a00"
+    [[NOTE 2]]
+        text = "cc"
+        x = 709.0
+        y = 511.5
+    [[NOTE 3]]
+        text = "AS65100"
+        x = -43.0
+        y = -450.5
+    [[NOTE 4]]
+        text = "AS65200"
+        x = -164.0
+        y = 16.5
+    [[NOTE 5]]
+        text = "10.10.10.0/24"
+        x = -166.0
+        y = -105.5
+    [[NOTE 6]]
+        text = "192.168.2.0/24"
+        x = -443.0
+        y = 1.5
+        color = "#0000ff"
+    [[NOTE 7]]
+        text = "192.168.3.0/24"
+        x = 119.0
+        y = 10.5
+        color = "#0000ff"
+    [[NOTE 8]]
+        text = "192.168.1.0/24"
+        x = -92.0
+        y = -373.5
+        color = "#0000ff"
+    [[NOTE 9]]
+        text = "172.16.5.0/24"
+        x = 64.0
+        y = -200.5
+    [[NOTE 10]]
+        text = "172.16.1.0/24"
+        x = -429.0
+        y = -193.5
+    [[NOTE 11]]
+        text = "EBGP"
+        x = -1.0
+        y = -156.5
+    [[NOTE 12]]
+        text = "EBGP"
+        x = -234.0
+        y = -164.5
+    [[NOTE 13]]
+        text = "IBGP"
+        x = -148.0
+        y = -43.5
+    [[NOTE 14]]
+        text = "1"
+        x = -24.4227064087
+        y = 23.5145396788
+        interface = SW3 1
+    [[NOTE 15]]
+        text = "1"
+        x = 75.469935831
+        y = 14.4494421445
+        interface = SW2 1
+    [[NOTE 16]]
+        text = "1"
+        x = 52.3728367046
+        y = 44.9433996589
+        interface = SW1 1
+    [[NOTE 17]]
+        text = "f0/1"
+        x = 93.9227064087
+        y = 41.4854603212
+        interface = R3 f0/1
+    [[NOTE 18]]
+        text = "f0/0"
+        x = -43.9769512293
+        y = 27.6422922224
+        interface = R3 f0/0
+    [[NOTE 19]]
+        text = "s1/1"
+        x = -8.57158888297
+        y = -48.2183461435
+        interface = R3 s1/1
+    [[NOTE 20]]
+        text = "f0/1"
+        x = -56.969935831
+        y = 30.5505578555
+        interface = R2 f0/1
+    [[NOTE 21]]
+        text = "f0/0"
+        x = 67.9769512293
+        y = 30.3577077776
+        interface = R2 f0/0
+    [[NOTE 22]]
+        text = "s1/0"
+        x = 33.5446536645
+        y = -52.9650410688
+        interface = R2 s1/0
+    [[NOTE 23]]
+        text = "f0/1"
+        x = -14.8728367046
+        y = -44.9433996589
+        interface = R1 f0/1
+    [[NOTE 24]]
+        text = "s1/1"
+        x = 78.571588883
+        y = 29.2183461435
+        interface = R1 s1/1
+    [[NOTE 25]]
+        text = "s1/0"
+        x = -60.5446536645
+        y = 28.9650410688
+        interface = R1 s1/0
+    [[SHAPE 1]]
+        type = ellipse
+        x = -429.0
+        y = -478.0
+        width = 648.0
+        height = 285.0
+        border_style = 2
+    [[SHAPE 2]]
+        type = ellipse
+        x = -573.0
+        y = -178.0
+        width = 972.0
+        height = 409.0
+        border_style = 2

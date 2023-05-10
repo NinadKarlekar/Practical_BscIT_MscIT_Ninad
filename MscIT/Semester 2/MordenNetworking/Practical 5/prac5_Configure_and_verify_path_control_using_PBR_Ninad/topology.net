@@ -1,0 +1,105 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7200]
+    workingdir = working
+    udp = 10001
+    [[3725]]
+        image = F:\MSC IT\Semester 2\Practical\Modern Networking\Software\c3725-adventerprisek9-mz124-15.image
+        ram = 128
+        idlepc = 0x60bf8ba0
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R4]]
+        model = 3725
+        console = 2104
+        aux = 2504
+        cnfg = configs\R4.cfg
+        slot1 = NM-4T
+        s1/3 = R3 s1/3
+        x = 155.0
+        y = -13.0
+        z = 1.0
+    [[ROUTER R1]]
+        model = 3725
+        console = 2101
+        aux = 2501
+        cnfg = configs\R1.cfg
+        slot1 = NM-4T
+        s1/0 = R2 s1/0
+        s1/1 = R3 s1/1
+        x = -513.0
+        y = -25.0
+        z = 1.0
+    [[ROUTER R2]]
+        model = 3725
+        console = 2102
+        aux = 2502
+        cnfg = configs\R2.cfg
+        slot1 = NM-4T
+        s1/0 = R1 s1/0
+        s1/2 = R3 s1/2
+        x = -342.0
+        y = -245.0
+        z = 1.0
+        hx = 25.5
+        hy = -29.0
+    [[ROUTER R3]]
+        model = 3725
+        console = 2103
+        aux = 2503
+        cnfg = configs\R3.cfg
+        slot1 = NM-4T
+        s1/1 = R1 s1/1
+        s1/2 = R2 s1/2
+        s1/3 = R4 s1/3
+        x = -145.0
+        y = -25.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    workdir = working
+    [[NOTE 1]]
+        text = "lo0: 192.168.4.0/24"
+        x = 131.0
+        y = -74.5
+        color = "#458a00"
+    [[NOTE 2]]
+        text = "lo0: 192.168.1.0/24"
+        x = -563.0
+        y = 58.5
+        color = "#458a00"
+    [[NOTE 3]]
+        text = "lo0: 192.168.3.0/24"
+        x = -169.0
+        y = 54.5
+        color = "#458a00"
+    [[NOTE 4]]
+        text = "lo0: 192.168.2.0/24"
+        x = -415.0
+        y = -302.5
+        color = "#458a00"
+    [[NOTE 5]]
+        text = "Bandwidth 128"
+        x = -249.0
+        y = -153.5
+        color = "#1300ea"
+    [[NOTE 6]]
+        text = "lo0: 192.168.5.0/24"
+        x = 121.0
+        y = 57.5
+        color = "#458a00"
+    [[NOTE 7]]
+        text = "Bandwidth 64"
+        x = -27.0
+        y = -41.5
+        color = "#1300ea"
+    [[NOTE 8]]
+        text = "Bandwidth 64"
+        x = -378.0
+        y = -47.5
+        color = "#1300ea"
+    [[NOTE 9]]
+        text = "Bandwidth 128"
+        x = -412.0
+        y = -155.5
+        color = "#1300ea"

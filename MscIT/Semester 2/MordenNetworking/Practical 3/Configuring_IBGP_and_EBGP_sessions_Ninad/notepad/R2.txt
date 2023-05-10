@@ -1,0 +1,78 @@
+Connected to Dynamips VM "R2" (ID 1, type c3725) - Console port
+Press ENTER to get the prompt.
+
+R2#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R2(config)#int f0/0
+R2(config-if)#ip add 10.10.10.2 255.255.255.0
+R2(config-if)#no sh
+R2(config-if)#
+R2(config-if)#
+R2(config-if)#
+*Mar  1 00:04:25.311: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Mar  1 00:04:26.311: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+R2(config-if)#int f0/1
+R2(config-if)#ip add 192.168.2.2 255.255.255.0
+R2(config-if)#no sh
+R2(config-if)#
+*Mar  1 00:04:39.655: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+*Mar  1 00:04:40.655: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+R2(config-if)#
+R2(config-if)#int s1/0
+R2(config-if)#ip add 172.16.1.2 255.255.255.0
+R2(config-if)#no sh
+R2(config-if)#
+*Mar  1 00:04:55.815: %LINK-3-UPDOWN: Interface Serial1/0, changed state to up
+R2(config-if)#
+*Mar  1 00:04:56.819: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/0, changed state to up
+R2(config-if)#
+R2(config-if)#do sh ip int br |include up
+sh ip int br |include up
+              ^
+% Invalid input detected at '^' marker.
+
+R2(config-if)#do sh ip int br | include up
+FastEthernet0/0            10.10.10.2      YES manual up
+FastEthernet0/1            192.168.2.2     YES manual up
+Serial1/0                  172.16.1.2      YES manual up
+R2(config-if)#
+R2(config-if)#
+R2(config-if)#
+R2(config-if)#
+R2(config-if)#
+R2(config-if)#
+R2(config-if)#
+R2(config-if)#router ospf 1
+R2(config-router)#network 10.10.10.0 0.0.0.255 area 0
+R2(config-router)#network 192.168.2.0 0.0.0.255 area 1
+R2(config-router)#
+*Mar  1 00:09:45.723: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.3.3 on FastEthernet0/0 from LOADING to FULL, Loading Done
+R2(config-router)#
+R2(config-router)#
+R2(config-router)#router bgp 65200
+R2(config-router)#redistribute ospf 1
+R2(config-router)#network 172.16.1.0 mask 255.255.255.0
+R2(config-router)#neighbor 172.16.1.1 remote-as 65100
+R2(config-router)#neighbor 10.10.10.3 remote-as 65200
+R2(config-router)#
+*Mar  1 01:32:53.123: %BGP-5-ADJCHANGE: neighbor 172.16.1.1 Up
+R2(config-router)#do sh ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     172.16.0.0/24 is subnetted, 1 subnets
+C       172.16.1.0 is directly connected, Serial1/0
+     10.0.0.0/24 is subnetted, 1 subnets
+C       10.10.10.0 is directly connected, FastEthernet0/0
+C    192.168.2.0/24 is directly connected, FastEthernet0/1
+O IA 192.168.3.0/24 [110/20] via 10.10.10.3, 01:23:07, FastEthernet0/0
+R2(config-router)#
+*Mar  1 01:33:50.131: %BGP-5-ADJCHANGE: neighbor 10.10.10.3 Up
+R2(config-router)#

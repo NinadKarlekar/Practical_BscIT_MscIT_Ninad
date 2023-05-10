@@ -1,0 +1,57 @@
+Connected to Dynamips VM "R3" (ID 2, type c3725) - Console port
+Press ENTER to get the prompt.
+
+R3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#no logging console
+R3(config)#
+R3(config)#end
+R3#
+R3#
+R3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#int s1/1
+R3(config-if)#ip add 209.165.202.3 255.255.255.0
+R3(config-if)#no sh
+R3(config-if)#
+R3(config-if)#int s1/2
+R3(config-if)#ip add 209.165.200.3 255.255.255.0
+R3(config-if)#no sh
+R3(config-if)#
+R3(config-if)#do sh ip int br | include up
+Serial1/1                  209.165.202.3   YES manual up                    up
+Serial1/2                  209.165.200.3   YES manual up                    up
+R3(config-if)#
+R3(config-if)#
+R3(config-if)#
+R3(config-if)#exit
+R3(config)#
+R3(config)#
+R3(config)#router eigrp 1
+R3(config-router)#network 209.165.200.0 0.0.0.255
+R3(config-router)#network 209.165.202.0 0.0.0.255
+R3(config-router)#no auto-summary
+R3(config-router)#
+R3(config-router)#exit
+R3(config)#ip route 192.168.1.0 255.255.255.0 209.165.202.1
+R3(config)#
+R3(config)#do ping 209.165.201.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 209.165.201.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 48/58/64 ms
+R3(config)#
+R3(config)#do ping 192.168.1.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.1.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 20/28/36 ms
+R3(config)#
+R3(config)#hostname r3-isp2
+r3-isp2(config)#
+r3-isp2(config)#do wr
+Building configuration...
+[OK]
+r3-isp2(config)#

@@ -1,0 +1,107 @@
+R4#
+R4#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R4(config)#hostname r4
+r4(config)#
+r4(config)#int s1/3
+r4(config-if)#ip add 172.16.34.4 255.255.255.0
+r4(config-if)#bandwidth 64
+r4(config-if)#no sh
+r4(config-if)#
+r4(config-if)#
+*Mar  1 00:30:16.427: %LINK-3-UPDOWN: Interface Serial1/3, changed state to up
+*Mar  1 00:30:17.427: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial1/3, changed state to up
+r4(config-if)#
+r4(config-if)#int lo0
+r4(config-if)#ip add
+*Mar  1 00:31:06.559: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback0, changed state to up
+r4(config-if)#ip add 192.168.4.1 255.255.255.0
+r4(config-if)#
+r4(config-if)#int lo1
+r4(config-if)#ip add 192.168.4.1 255.255.255.0
+*Mar  1 00:31:38.855: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback1, changed state to up
+r4(config-if)#ip add 192.168.5.1 255.255.255.0
+r4(config-if)#
+r4(config-if)#do sh ip int br | include up
+Serial1/3                  172.16.34.4     YES manual up                    up
+Loopback0                  192.168.4.1     YES manual up                    up
+Loopback1                  192.168.5.1     YES manual up                    up
+r4(config-if)#
+r4(config-if)#exit
+r4(config)#
+r4(config)#router eigrp 1
+r4(config-router)#network 172.16.34.0 0.0.0.255
+r4(config-router)#
+*Mar  1 00:44:34.247: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.34.3 (Serial1/3) is up: new adjacency
+r4(config-router)#network 192.168.4.0
+r4(config-router)#network 192.168.5.0
+r4(config-router)#no auto-summary
+r4(config-router)#
+*Mar  1 00:45:01.203: %DUAL-5-NBRCHANGE: IP-EIGRP(0) 1: Neighbor 172.16.34.3 (Serial1/3) is resync: summary configured
+r4(config-router)#
+r4(config-router)#
+r4(config-router)#do sh ip int br | include up
+Serial1/3                  172.16.34.4     YES manual up                    up
+Loopback0                  192.168.4.1     YES manual up                    up
+Loopback1                  192.168.5.1     YES manual up                    up
+r4(config-router)#
+r4(config-router)#
+r4(config-router)#exir
+                     ^
+% Invalid input detected at '^' marker.
+
+r4(config-router)#exit
+r4(config)#
+r4(config)#
+r4(config)#do ping 192.168.1.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.1.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 44/66/96 ms
+r4(config)#
+r4(config)#
+r4(config)#do traceroute 192.168.1.1 source 192.168.4.1
+
+Type escape sequence to abort.
+Tracing the route to 192.168.1.1
+
+  1 172.16.34.3 32 msec 28 msec 28 msec
+  2 172.16.23.2 60 msec 60 msec 64 msec
+  3 172.16.12.1 72 msec 88 msec 80 msec
+r4(config)#
+r4(config)#do traceroute 192.168.1.1 source 192.168.5.1
+
+Type escape sequence to abort.
+Tracing the route to 192.168.1.1
+
+  1 172.16.34.3 12 msec 48 msec 24 msec
+  2 172.16.23.2 68 msec 52 msec 68 msec
+  3 172.16.12.1 56 msec 88 msec 68 msec
+r4(config)#
+r4(config)#
+r4(config)#
+r4(config)#do traceroute 192.168.1.1 source 192.168.4.1
+
+Type escape sequence to abort.
+Tracing the route to 192.168.1.1
+
+  1 172.16.34.3 36 msec 44 msec 28 msec
+  2 172.16.23.2 28 msec 44 msec 48 msec
+  3 172.16.12.1 84 msec 64 msec 92 msec
+r4(config)#
+r4(config)#do traceroute 192.168.1.1 source 192.168.5.1
+
+Type escape sequence to abort.
+Tracing the route to 192.168.1.1
+
+  1 172.16.34.3 20 msec 28 msec 32 msec
+  2 172.16.13.1 32 msec 60 msec 64 msec
+r4(config)#
+r4(config)#
+r4(config)#Ninad Karlekar 22306A1012
+            ^
+% Invalid input detected at '^' marker.
+
+r4(config)#
+r4(config)#
