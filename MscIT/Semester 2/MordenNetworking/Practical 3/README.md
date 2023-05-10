@@ -34,16 +34,43 @@
 
 ```console
 conf t
+```
+
+```console
 int f0/1
+```
+
+```console
 ip add 192.168.1.1 255.255.255.0
+```
+
+```console
 no sh
+```
+
+```console
 
 int s1/0
+```
+
+```console
 ip add 172.16.1.1 255.255.255.0
+```
+
+```console
 no sh
+```
+
+```console
 
 int s1/1
+```
+
+```console
 ip add 172.16.5.1 255.255.255.0
+```
+
+```console
 no sh
 
 ```
@@ -60,16 +87,42 @@ no sh
 
 ```console
 conf t
-int f0/0
-ip add 10.10.10.2 255.255.255.0
-no sh
+```
 
-int f0/1
-ip add 192.168.2.2 255.255.255.0
+```console
+int f0/0
+```
+
+```console
+ip add 10.10.10.2 255.255.255.0
+```
+
+```console
 no sh
+```
+
+```console
+int f0/1
+```
+
+```console
+ip add 192.168.2.2 255.255.255.0
+```
+
+```console
+no sh
+```
+
+```console
 
 int s1/0
+```
+
+```console
 ip add 172.16.1.2 255.255.255.0
+```
+
+```console
 no sh
 
 ```
@@ -87,17 +140,42 @@ no sh
 
 ```console
 conf t
+```
+
+```console
 int f0/0
+```
+
+```console
 ip add 10.10.10.3 255.255.255.0
+```
+
+```console
 no sh
+```
+
+```console
 int f0/1
+```
+
+```console
 ip add 192.168.3.3 255.255.255.0
-no sh
+```
 
+```console
+no sh
+```
+
+```console
 int s1/1
-ip add 172.16.5.3 255.255.255.0
-no sh
+```
 
+```console
+ip add 172.16.5.3 255.255.255.0
+```
+
+```console
+no sh
 ```
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/8063cc93-f768-4d7d-b93f-44665ee7e1c9" alt="MN_prac3_5" width="550">
@@ -113,7 +191,6 @@ no sh
 
 ```console
 do sh ip int br | include up
-
 ```
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/2de03085-3d40-463f-b2b1-424cc81f3145" alt="MN_prac3_6" width="550">
@@ -134,9 +211,14 @@ do sh ip int br | include up
 
 ```console
 router ospf 1
-network 10.10.10.0 0.0.0.255 area 0
-network 192.168.2.0 0.0.0.255 area 1
+```
 
+```console
+network 10.10.10.0 0.0.0.255 area 0
+```
+
+```console
+network 192.168.2.0 0.0.0.255 area 1
 ```
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/81031ea9-0907-42cb-bf58-e5b8851049ee" alt="MN_prac3_9" width="550">
@@ -225,10 +307,25 @@ neighbor 10.10.10.3 remote-as 65200
 
 ```console
 router bgp 65200
+```
+
+```console
 redistribute ospf 1
+```
+
+```console
 network 172.16.5.0 mask 255.255.255.0
+```
+
+```console
 neighbor 172.16.5.1 remote-as 65100
+```
+
+```console
 neighbor 10.10.10.2 remote-as 65200
+```
+
+```console
 do sh ip route
 
 ```
@@ -247,7 +344,9 @@ do sh ip route
 
 ```console
 do ping 192.168.3.3
+```
 
+```console
 do ping 192.168.2.2
 ```
 
