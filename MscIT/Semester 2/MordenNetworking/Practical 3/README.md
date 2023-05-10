@@ -267,11 +267,29 @@ do ping 192.168.2.2
 
 ```console
 router bgp 65100
+```
+
+```console
 network 192.168.1.0
+```
+
+```console
 network 172.16.1.0 mask 255.255.255.0
+```
+
+```console
 network 172.16.5.0 mask 255.255.255.0
+```
+
+```console
 neighbor 172.16.1.2 remote-as 65200
+```
+
+```console
 neighbor 172.16.5.3 remote-as 65200
+```
+
+```console
 do sh ip route
 
 
@@ -289,9 +307,21 @@ do sh ip route
 
 ```console
 router bgp 65200
+```
+
+```console
 redistribute ospf 1
+```
+
+```console
 network 172.16.1.0 mask 255.255.255.0
+```
+
+```console
 neighbor 172.16.1.1 remote-as 65100
+```
+
+```console
 neighbor 10.10.10.3 remote-as 65200
 ```
 
