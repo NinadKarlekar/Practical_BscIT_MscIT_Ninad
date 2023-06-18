@@ -478,6 +478,8 @@ pylab.show()
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/dff31b49-617a-4e85-839c-06618c1ffc06" width="600px"  alt ="DIP_prac4B_1">
 
+<br>
+
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/d56f5c24-395c-47f6-b512-ed3a42c576d9" width="600px"  alt ="DIP_prac4B_2">
 
 
@@ -672,6 +674,8 @@ pylab.show()
 <summary>OUTPUT</summary>
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/17b6e6b1-7584-41b8-a46f-4d31ccbfb8cf" width="600px"  alt ="DIP_prac5_1">
+
+<br>
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/acab5f97-16b6-4871-9498-563c41a7c817" width="600px"  alt ="DIP_prac5_2">
 
@@ -876,7 +880,11 @@ plt.show()
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/67f15e6b-2ad2-4736-8150-a71aaf0f3520" width="600px"  alt ="DIP_prac7_1">
 
+<br>
+
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/b241b5e8-73d2-46f6-9e66-8bab252c4f3b" width="600px"  alt ="DIP_prac7_2">
+
+<br>
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/3184f134-e572-4208-9aad-701796bce436" width="600px"  alt ="DIP_prac7_3">
 
@@ -979,9 +987,11 @@ pylab.show()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/a527c438-68a2-48a3-a97e-2b801b67631a" width="600px"  alt ="DIP_prac8_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/a527c438-68a2-48a3-a97e-2b801b67631a" width="450px"  alt ="DIP_prac8_1">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/ec29b2c8-a4db-4992-8f48-e75b5d151b48" width="600px"  alt ="DIP_prac8_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/ec29b2c8-a4db-4992-8f48-e75b5d151b48" width="450px"  alt ="DIP_prac8_2">
+
+<br>
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/23aa626e-ede4-42d2-8d45-90175cc7268e" width="600px"  alt ="DIP_prac8_3">
 
@@ -1082,13 +1092,17 @@ plt.show()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/cb87a2d5-4b62-4953-8c75-90d568de7233" width="600px"  alt ="DIP_prac9_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/cb87a2d5-4b62-4953-8c75-90d568de7233" width="450px"  alt ="DIP_prac9_1">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/09c45a55-9395-4091-bfa1-bfc7e56ddfbc" width="600px"  alt ="DIP_prac9_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/09c45a55-9395-4091-bfa1-bfc7e56ddfbc" width="450px"  alt ="DIP_prac9_2">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/1cc9f584-8e4c-4c64-ad72-c0b7364cb9af" width="600px"  alt ="DIP_prac9_3">
+<br>
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/8cd098bf-e249-4dc2-81bd-c20a02c10ca8" width="600px"  alt ="DIP_prac9_4">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/1cc9f584-8e4c-4c64-ad72-c0b7364cb9af" width="450px"  alt ="DIP_prac9_3">
+
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/8cd098bf-e249-4dc2-81bd-c20a02c10ca8" width="450px"  alt ="DIP_prac9_4">
+
+<br>
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/98a5d366-e1a9-4b96-a917-dbc618b0cd58" width="600px"  alt ="DIP_prac9_5">
 
