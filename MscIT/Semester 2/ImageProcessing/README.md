@@ -104,9 +104,11 @@ plt.imshow(img3, cmap="gray")
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac1A_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/e091006b-da31-4b50-a876-47b35522faf3" width="600px"  alt ="DIP_prac1A_1">
 
 <img src="" width="600px"  alt ="DIP_prac1A_2">
+
+<img src="" width="600px"  alt ="DIP_prac1A_3">
 
 
 </details>
