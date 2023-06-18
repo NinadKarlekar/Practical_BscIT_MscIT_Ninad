@@ -385,21 +385,21 @@ for gamma in [0.1, 0.5, 1.2, 2.2,5]:
 <details>
 <summary>OUTPUT</summary>
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/50e0bfd1-b04d-45f3-b6f3-ad1124bbdcfc" width="300px"  alt ="DIP_prac4A_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/50e0bfd1-b04d-45f3-b6f3-ad1124bbdcfc" width="450px"  alt ="DIP_prac4A_1">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/a22adcbe-1222-417c-9b72-d475378a3e26" width="300px"  alt ="DIP_prac4A_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/a22adcbe-1222-417c-9b72-d475378a3e26" width="450px"  alt ="DIP_prac4A_2">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/b3f52dee-90c1-4f60-93ff-4d6c9b6f83cc" width="300px"  alt ="DIP_prac4A_3">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/b3f52dee-90c1-4f60-93ff-4d6c9b6f83cc" width="450px"  alt ="DIP_prac4A_3">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/1330874b-8c21-45d0-867d-2884472a831a" width="300px"  alt ="DIP_prac4A_4">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/1330874b-8c21-45d0-867d-2884472a831a" width="450px"  alt ="DIP_prac4A_4">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/ac290902-7762-4426-ad30-1f3382ec4182" width="300px"  alt ="DIP_prac4A_5">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/ac290902-7762-4426-ad30-1f3382ec4182" width="450px"  alt ="DIP_prac4A_5">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/25698af8-f0b0-488c-bed1-99339e3bcd48" width="300px"  alt ="DIP_prac4A_6">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/25698af8-f0b0-488c-bed1-99339e3bcd48" width="450px"  alt ="DIP_prac4A_6">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/4ba08f1b-2ec9-4a87-851e-5c5e9873a0be" width="300px"  alt ="DIP_prac4A_7">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/4ba08f1b-2ec9-4a87-851e-5c5e9873a0be" width="450px"  alt ="DIP_prac4A_7">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/a6d301b9-183c-4c88-adc4-80bc73c79c7a" width="300px"  alt ="DIP_prac4A_8">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/a6d301b9-183c-4c88-adc4-80bc73c79c7a" width="450px"  alt ="DIP_prac4A_8">
 
 
 </details>
