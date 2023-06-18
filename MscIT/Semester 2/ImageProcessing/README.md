@@ -104,11 +104,11 @@ plt.imshow(img3, cmap="gray")
 <details>
 <summary>OUTPUT</summary>
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/e091006b-da31-4b50-a876-47b35522faf3" width="300px"  alt ="DIP_prac1A_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/e091006b-da31-4b50-a876-47b35522faf3" width="400px"  alt ="DIP_prac1A_1">
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/409e6978-39f3-424f-89d5-b22451734957" width="400px"  alt ="DIP_prac1A_2">
 
-<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/2cedeb09-766b-4bc2-972b-9cf5c6b55ad6" width="300px"  alt ="DIP_prac1A_3">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/2cedeb09-766b-4bc2-972b-9cf5c6b55ad6" width="400px"  alt ="DIP_prac1A_3">
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/fdbd751b-41d3-46b5-aa78-fac723631b32" width="400px"  alt ="DIP_prac1A_4">
 
