@@ -106,9 +106,11 @@ plt.imshow(img3, cmap="gray")
 
 <img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/e091006b-da31-4b50-a876-47b35522faf3" width="600px"  alt ="DIP_prac1A_1">
 
-<img src="" width="600px"  alt ="DIP_prac1A_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/409e6978-39f3-424f-89d5-b22451734957" width="600px"  alt ="DIP_prac1A_2">
 
-<img src="" width="600px"  alt ="DIP_prac1A_3">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/2cedeb09-766b-4bc2-972b-9cf5c6b55ad6" width="600px"  alt ="DIP_prac1A_3">
+
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/fdbd751b-41d3-46b5-aa78-fac723631b32" width="600px"  alt ="DIP_prac1A_4">
 
 
 </details>
@@ -171,7 +173,7 @@ plt.show()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac1B_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/2a6b831f-212e-44c1-a0e6-b22cf5d56047" width="600px"  alt ="DIP_prac1B_1">
 
 
 
@@ -228,11 +230,11 @@ ax[1].imshow(img)
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac2_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/8fd2643f-9df2-4ce0-833e-f758900cc1b6" width="600px"  alt ="DIP_prac2_1">
 
-<img src="" width="600px"  alt ="DIP_prac2_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/2b019fb5-a0bf-4f92-b66e-063452c476ce" width="600px"  alt ="DIP_prac2_2">
 
-<img src="" width="600px"  alt ="DIP_prac2_3">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/8fd2643f-9df2-4ce0-833e-f758900cc1b6" width="600px"  alt ="DIP_prac2_3">
 
 
 </details>
@@ -309,7 +311,7 @@ cv2.destroyAllWindows()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac3_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/9cd931f0-f6e0-410a-9378-084d058763f3" width="600px"  alt ="DIP_prac3_1">
 
 
 
@@ -383,21 +385,21 @@ for gamma in [0.1, 0.5, 1.2, 2.2,5]:
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="300px"  alt ="DIP_prac4A_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/50e0bfd1-b04d-45f3-b6f3-ad1124bbdcfc" width="300px"  alt ="DIP_prac4A_1">
 
-<img src="" width="300px"  alt ="DIP_prac4A_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/a22adcbe-1222-417c-9b72-d475378a3e26" width="300px"  alt ="DIP_prac4A_2">
 
-<img src="" width="300px"  alt ="DIP_prac4A_3">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/b3f52dee-90c1-4f60-93ff-4d6c9b6f83cc" width="300px"  alt ="DIP_prac4A_3">
 
-<img src="" width="300px"  alt ="DIP_prac4A_4">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/1330874b-8c21-45d0-867d-2884472a831a" width="300px"  alt ="DIP_prac4A_4">
 
-<img src="" width="300px"  alt ="DIP_prac4A_5">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/ac290902-7762-4426-ad30-1f3382ec4182" width="300px"  alt ="DIP_prac4A_5">
 
-<img src="" width="300px"  alt ="DIP_prac4A_6">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/25698af8-f0b0-488c-bed1-99339e3bcd48" width="300px"  alt ="DIP_prac4A_6">
 
-<img src="" width="300px"  alt ="DIP_prac4A_7">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/4ba08f1b-2ec9-4a87-851e-5c5e9873a0be" width="300px"  alt ="DIP_prac4A_7">
 
-<img src="" width="300px"  alt ="DIP_prac4A_8">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/a6d301b9-183c-4c88-adc4-80bc73c79c7a" width="300px"  alt ="DIP_prac4A_8">
 
 
 </details>
@@ -474,9 +476,9 @@ pylab.show()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac4B_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/dff31b49-617a-4e85-839c-06618c1ffc06" width="600px"  alt ="DIP_prac4B_1">
 
-<img src="" width="600px"  alt ="DIP_prac4B_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/d56f5c24-395c-47f6-b512-ed3a42c576d9" width="600px"  alt ="DIP_prac4B_2">
 
 
 </details>
@@ -525,7 +527,7 @@ plt.xlim([0,256])
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac4C_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/934c0ac1-a761-47df-8e76-13ae0731168f" width="600px"  alt ="DIP_prac4C_1">
 
 
 
@@ -566,9 +568,7 @@ for i in range(6):
 plt.show()
 ```
 
-```python
 
-```
 
 </details>
 
@@ -577,9 +577,9 @@ plt.show()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac1A_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/1a7c14ef-0c99-442c-a0c4-55e19a367fbf" width="600px"  alt ="DIP_prac4D_1">
 
-<img src="" width="600px"  alt ="DIP_prac1A_2">
+
 
 
 </details>
@@ -671,9 +671,9 @@ pylab.show()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac5_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/17b6e6b1-7584-41b8-a46f-4d31ccbfb8cf" width="600px"  alt ="DIP_prac5_1">
 
-<img src="" width="600px"  alt ="DIP_prac5_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/acab5f97-16b6-4871-9498-563c41a7c817" width="600px"  alt ="DIP_prac5_2">
 
 
 </details>
@@ -736,7 +736,7 @@ pylab.show()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac6_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/3c35b047-8b53-4819-87ac-9213fedc74d9" width="600px"  alt ="DIP_prac6_1">
 
 
 </details>
@@ -874,11 +874,11 @@ plt.show()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac7_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/67f15e6b-2ad2-4736-8150-a71aaf0f3520" width="600px"  alt ="DIP_prac7_1">
 
-<img src="" width="600px"  alt ="DIP_prac7_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/b241b5e8-73d2-46f6-9e66-8bab252c4f3b" width="600px"  alt ="DIP_prac7_2">
 
-<img src="" width="600px"  alt ="DIP_prac7_3">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/3184f134-e572-4208-9aad-701796bce436" width="600px"  alt ="DIP_prac7_3">
 
 
 </details>
@@ -979,13 +979,13 @@ pylab.show()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac8_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/a527c438-68a2-48a3-a97e-2b801b67631a" width="600px"  alt ="DIP_prac8_1">
 
-<img src="" width="600px"  alt ="DIP_prac8_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/ec29b2c8-a4db-4992-8f48-e75b5d151b48" width="600px"  alt ="DIP_prac8_2">
 
-<img src="" width="600px"  alt ="DIP_prac8_3">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/23aa626e-ede4-42d2-8d45-90175cc7268e" width="600px"  alt ="DIP_prac8_3">
 
-<img src="" width="600px"  alt ="DIP_prac8_4">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/35ea21f2-d715-49e0-9d79-d248ed6064f6" width="600px"  alt ="DIP_prac8_4">
 
 
 </details>
@@ -1082,20 +1082,18 @@ plt.show()
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="DIP_prac1A_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/cb87a2d5-4b62-4953-8c75-90d568de7233" width="600px"  alt ="DIP_prac9_1">
 
-<img src="" width="600px"  alt ="DIP_prac1A_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/09c45a55-9395-4091-bfa1-bfc7e56ddfbc" width="600px"  alt ="DIP_prac9_2">
 
-<img src="" width="600px"  alt ="DIP_prac1A_3">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/1cc9f584-8e4c-4c64-ad72-c0b7364cb9af" width="600px"  alt ="DIP_prac9_3">
 
-<img src="" width="600px"  alt ="DIP_prac1A_4">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/8cd098bf-e249-4dc2-81bd-c20a02c10ca8" width="600px"  alt ="DIP_prac9_4">
 
-<img src="" width="600px"  alt ="DIP_prac1A_5">
-
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/98a5d366-e1a9-4b96-a917-dbc618b0cd58" width="600px"  alt ="DIP_prac9_5">
 
 
 </details>
-
 
 [🔝](#index)
 
