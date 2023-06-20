@@ -11,8 +11,12 @@ PSIT2P1 Big Data Analytics
 | --- | --- | --- | --- |
 | [Prac1](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 1. K means clustering. | [Prac1](#prac1) |  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%201/K_meansclustering.R) |
 | [Prac2A](/MscIT/Semester%202/BigDataAnalytics/Practical%202/)  <br> [Prac2B](/MscIT/Semester%202/BigDataAnalytics/Practical%202/) <br> [Prac2C](/MscIT/Semester%202/BigDataAnalytics/Practical%201/) | 2A.	Logistic Regression.   <br> 2B. MULTIPLE REGRESSION  <br> 2C. Simple Linear Regression(TakeHomeTask)   | [Prac2A](#prac2A) <br> [Prac2B](#Prac2B) <br> [Prac2C](#prac2C) | [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%202/Prac_2A(Logistic%20Regression).R) <br> [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%202/Prac_2B(Multiple%20Regression).R) <br> [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%202/Prac_2C(TakeHomeTask).R)  |
-
-
+| [Prac3A](/MscIT/Semester%202/BigDataAnalytics/Practical%203/)  <br> [Prac3B](/MscIT/Semester%202/BigDataAnalytics/Practical%203/)  | 3A.	Logistic Regression.   <br> 3B. MULTIPLE REGRESSION   | [Prac3A](#prac3A) <br> [Prac3B](#Prac3B) | [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%203/Prac3A.R) <br> [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%203/Prac3B.R)  |
+| [Prac4A](/MscIT/Semester%202/BigDataAnalytics/Practical%204/)  <br> [Prac3B](/MscIT/Semester%202/BigDataAnalytics/Practical%204/)  | 4A.	Logistic Regression.   <br> 4B. MULTIPLE REGRESSION   | [Prac4A](#prac4A) <br> [Prac4B](#Prac4B) | [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%204/NaiveBayes.R) <br> [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%204/TextAnalysis.R) |
+| [Prac5](/MscIT/Semester%202/BigDataAnalytics/Practical%205/) | 5. **Comparative Study** of various machine learning models.**`(Decision Tree, K-Nearest Neighbour and Support Vector Machine)`** | [Prac5](#prac5) |  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%205/ComparativeStudy.R) |
+| [Prac6](/MscIT/Semester%202/BigDataAnalytics/Practical%206/) | 6. Install, configure and run **Hadoop and HDFS** and explore HDFS on Windows. | [Prac6](/MscIT/Semester%202/BigDataAnalytics/Practical%206/) |  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%206/BDA%20Practcial%20_%206%20worksheet.pdf) |
+| [Prac7](/MscIT/Semester%202/BigDataAnalytics/Practical%207/) | 7. Implement **word count / frequency** programs using **MapReduce**. | [Prac7](/MscIT/Semester%202/BigDataAnalytics/Practical%207/) |  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%207/BDA%20Practcial%20_%207%20worksheet.pdf) |
+| [Prac8](/MscIT/Semester%202/BigDataAnalytics/Practical%208/) | 8. Implement an application that stores big data in **`Hbase / MongoDB`** and manipulate it using R / Python. | [Prac8](/MscIT/Semester%202/BigDataAnalytics/Practical%208/) |  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%202/BigDataAnalytics/Practical%208/BDA%20Practcial%20_%208%20worksheet.pdf) |
 
 
 ******************
@@ -630,6 +634,124 @@ print(cm)
 
 **************
 
+## Prac5
+
+5.  Comparative Study of various machine learning
+models (Newly added)
+
+
+<details>
+<summary>CODE</summary>
+
+
+```python
+
+# Install required packages
+install.packages('rpart')
+install.packages('rpart.plot')
+install.packages('gmodels')
+install.packages('e1071')
+
+# Load required libraries
+library(rpart)
+library(rpart.plot)
+library(gmodels)
+library(e1071)
+
+# Load iris dataset
+data(iris)
+summary(iris)
+
+# Normalize the continuous variables before performing any analysis on the dataset
+temp <- as.data.frame(scale(iris[, 1:4]))
+temp$Species <- iris$Species  # levels: setosa versicolor virginica
+summary(temp)
+
+# Split the dataset into the Training set and Test set
+install.packages('caTools')
+library(caTools)
+set.seed(123)
+split <- sample.split(temp$Species, SplitRatio = 0.75)
+train <- subset(temp, split == TRUE)
+test <- subset(temp, split == FALSE)
+nrow(train)
+nrow(test)
+
+# 1. Decision Trees
+dt_classifier <- rpart(formula = Species ~ ., data = train)
+
+# Predict the Test set results for Decision Trees
+dt_y_pred <- predict(dt_classifier, newdata = test, type = 'class')
+print(dt_y_pred)
+
+# Make the Confusion Matrix for Decision Tree
+cm <- table(test$Species, dt_y_pred)
+print(cm)
+
+# Calculate the accuracy of DT model
+DTaccu <- ((12+9+11)/nrow(test))*100  # true positive numbers of 3*3 confusion matrix
+DTaccu
+
+# 2. k-Nearest Neighbours
+install.packages('class')
+library(class)
+
+cl <- train$Species
+set.seed(1234)
+knn_y_pred <- knn(train[, 1:4], test[, 1:4], cl, k = 5)
+
+# Make the Confusion Matrix for k-Nearest Neighbours
+cm <- table(test$Species, knn_y_pred)
+print(cm)
+
+# Calculate the accuracy of KNN model
+KNNaccu <- ((12+11+11)/nrow(test))*100  # true positive numbers of 3*3 confusion matrix
+KNNaccu
+
+# 3. Support Vector Machine(SVM)
+svmclassifier <- svm(Species ~ ., data = train)
+svm_y_pred <- predict(svmclassifier, newdata = test) 
+
+cm <- table(test$Species, svm_y_pred) 
+print(cm) 
+
+# Calculate the accuracy of SVM model 
+SVMaccu <- ((12+11+11)/nrow(test))*100 
+SVMaccu
+
+# Comparison of the accuracy of different models on testing dataset
+which(dt_y_pred != knn_y_pred) 
+which(dt_y_pred != svm_y_pred) 
+
+# Compare SVM vs kNN
+which(svm_y_pred != knn_y_pred) # both are equal 
+
+# Create a dataframe of accuracy percentages for each model
+models <- data.frame(Technique = c("Decision Tree", "KNN", "SVM"), 
+                     Accuracy_Percentage = c(DTaccu, KNNaccu, SVMaccu))
+models 
+    
+print("Hence KNN and SVM are better than decision tree")
+
+
+```
+
+</details>
+
+<details>
+<summary>OUTPUT</summary>
+
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/e610f657-4355-4a15-9356-e68cdbe81869" width="600px"  alt ="BDA_prac5-1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/cffd6340-00d6-433f-9d90-d259763d5993" width="600px"  alt ="BDA_prac5-2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/cd0f021d-bdd9-457e-af4b-9f2704b838a3" width="600px"  alt ="BDA_prac5-3">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/5021a45b-242c-4dbc-bad4-3afc4d202cce" width="600px"  alt ="BDA_prac5-4">
+
+</details>
+
+
+[🔝](#index)
+
+**************
 
 
 
