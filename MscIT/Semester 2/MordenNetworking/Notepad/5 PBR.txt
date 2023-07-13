@@ -1,0 +1,184 @@
+Practical No: 5 
+Aim: Configure and verify path control using PBR (Policy Based Routing).
+
+---------------------------------------------------------
+allconnected
+
+   R2
+R1    R3    R4
+
+R1 -> R2 = (s1/0) bandwidth 128 (172.16.12.0/24)
+R2 -> R3 = (s1/2) bandwidth 128 (172.16.23.0/24)
+R1 -> R3 = (s1/1) bandwidth  64 (172.16.13.0/24)
+R3 -> R4 = (s1/3) bandwidth  64 (172.16.34.0/24)
+
+
+lo0- R1 (192.168.1.0/24) R2 (192.168.2.0/24)  R3 (192.168.3.0/24) R4 (192.168.4.0/24) (192.168.5.0/24)
+
+---------------------------------------------------------
+
+STEP 1: Perform IP configuration
+On router 1 console
+R1 # conf t
+R1(config) # hostname r1
+r1(config) # int s1/0
+r1(config-if) # ip add 172.16.12.1 255.255.255.0
+r1(config-if) # bandwidth 128
+r1(config-if) # no sh
+
+r1(config-if) # int s1/1
+r1(config-if) # ip add 172.16.13.1 255.255.255.0
+r1(config-if) # bandwidth 64
+r1(config-if) # no sh
+
+r1(config-if) # int lo0
+r1(config-if) # ip add 192.168.1.1 255.255.255.0
+r1(config-if) # do sh ip int br | include up
+
+---------------------------------------------------------
+
+On router 2 console
+R2 # conf t
+R2(config) # hostname r2
+
+r2(config) # int s1/0
+r2(config-if) # ip add 172.16.12.2 255.255.255.0
+r2(config-if) # bandwidth 128
+r2(config-if) # no sh
+
+r2(config-if) # int s1/2
+r2(config-if) # ip add 172.16.23.2 255.255.255.0
+r2(config-if) # bandwidth 128
+r2(config-if) # no sh
+
+r2(config-if) # int lo0
+r2(config-if) # ip add 192.168.2.2 255.255.255.0
+
+r2(config-if) # do sh ip int br | include up
+
+---------------------------------------------------------
+
+On router 3 console
+R3 # conf t
+R3(config) # hostname r3
+
+r3(config) # int s1/1
+r3(config-if) # ip add 172.16.13.3 255.255.255.0
+r3(config-if) # bandwidth 64
+r3(config-if) # no sh
+
+r3(config-if) # int s1/2
+r3(config-if) # ip add 172.16.23.3 255.255.255.0
+r3(config-if) # bandwidth 128
+r3(config-if) # no sh
+
+r3(config-if) # int s1/3
+r3(config-if) # ip add 172.16.34.3 255.255.255.0
+r3(config-if) # bandwidth 64
+r3(config-if) # no sh
+
+r3(config-if) # int lo0
+r3(config-if) # ip add 192.168.3.3 255.255.255.0
+
+r3(config-if) # do sh ip int br | include up
+
+---------------------------------------------------------
+
+On router 4 console
+R4 # conf t
+Enter configuration commands, one per line. End with CNTL/Z.
+R4(config) # hostname r4
+r4(config) #
+r4(config) # int s1/3
+r4(config-if) # ip add 172.16.34.4 255.255.255.0
+r4(config-if) # bandwidth 64
+r4(config-if) # no sh
+
+r4(config-if) # int lo0
+r4(config-if) # ip add 192.168.4.1 255.255.255.0
+
+r4(config-if) # int lo1
+r4(config-if) # ip add 192.168.4.1 255.255.255.0
+r4(config-if) # ip add 192.168.5.1 255.255.255.0
+
+r4(config-if) # do sh ip int br | include up
+
+---------------------------------------------------------
+
+STEP 2 : Configure eigrp on all routers
+On router 1 console
+r1(config) # router eigrp 1
+r1(config-router) # network 172.16.12.0 0.0.0.255
+r1(config-router) # network 172.16.13.0 0.0.0.255
+r1(config-router) # network 192.168.1.0
+r1(config-router) # no auto-summary
+
+---------------------------------------------------------
+
+On router 2 console
+r2(config) # router eigrp 1
+r2(config-router) # network 172.16.12.0 0.0.0.255
+
+r2(config-router) # network 172.16.23.0 0.0.0.255
+r2(config-router) # network 192.168.2.0
+r2(config-router) # no auto-summary
+
+---------------------------------------------------------
+
+On router 3 console
+r3(config-if) # router eigrp 1
+r3(config-router) # network 172.16.13.0 0.0.0.255
+r3(config-router) # network 172.16.13.0 0.0.0.255
+r3(config-router) # network 172.16.23.0 0.0.0.255
+r3(config-router) # network 172.16.34.0 0.0.0.255
+r3(config-router) # network 192.168.3.0
+r3(config-router) # no auto-summary
+
+---------------------------------------------------------
+
+On router 4 console
+r4(config) # router eigrp 1
+r4(config-router) # network 172.16.34.0 0.0.0.255
+
+r4(config-router) # network 192.168.4.0
+r4(config-router) # network 192.168.5.0
+r4(config-router) # no auto-summary
+
+---------------------------------------------------------
+
+STEP 3: Command on all routers
+do sh ip route
+r4(config) # do ping 192.168.1.1
+
+r1(config) # do ping 192.168.4.1
+
+---------------------------------------------------------
+
+R4
+r4(config) # do traceroute 192.168.1.1 source 192.168.4.1
+
+r4(config) # do traceroute 192.168.1.1 source 192.168.5.1
+
+---------------------------------------------------------
+
+On router 3 console
+r3(config) # ip access-list standard pbr-acl
+r3(config-std-nacl) # permit 192.168.5.0 0.0.0.255
+r3(config-std-nacl) # exit
+
+r3(config) # route-map r3-to-r1 permit
+
+r3(config-route-map) # match ip address pbr-acl
+r3(config-route-map) #
+r3(config-route-map) # set ip next-hop 172.16.13.1
+r3(config-route-map) # exit
+
+r3(config) # int s1/3
+r3(config-if) # ip policy route-map r3-to-r1
+r3(config-if) # end
+
+---------------------------------------------------------
+
+On router 4 console
+r4(config) # do traceroute 192.168.1.1 source 192.168.4.1
+r4(config) # do traceroute 192.168.1.1 source 192.168.5.1

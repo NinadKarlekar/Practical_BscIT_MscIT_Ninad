@@ -1,0 +1,130 @@
+Practical No: 1   Aim: Configure IP SLA tracking and path control topology.  
+
+---------------------------------------------------------------------------
+R2    R3
+   R1
+all 3 connected
+
+R2isp1 (s1/0) R1branch (s1/1) R3isp2 (s1/2) R2
+
+lo0- R1 (192.168.1.1/24)
+
+R1 (172.16.12.0/24) R2 (172.16.23.0/24) R3 (172.16.13.0/24) R1 
+
+----------------------------------------------------------
+configure -> slots -> NM-4T
+
+---------------------------------------------------------------------------
+
+Step1: Configure routers and connect serial links.
+
+router R1>
+conf t
+int s1/0
+ip add 172.16.12.1 255.255.255.0
+no sh
+
+int s1/1
+ip add 172.16.13.1 255.255.255.0
+no sh
+
+int lo0
+ip add 192.168.1.1 255.255.255.0
+
+do sh ip int br | include up
+
+---------------------------------------------------------------------------
+
+router R2>
+conf t
+int s1/0
+ip add 172.16.12.2 255.255.255.0
+no sh
+
+int s1/2
+ip add 172.16.23.2 255.255.255.0
+no sh
+
+do sh ip int br | include up
+
+---------------------------------------------------------------------------
+
+router R3>
+conf t
+int s1/1
+ip add 172.16.13.3 255.255.255.0
+no sh
+
+int s1/2
+ip add 172.16.23.3 255.255.255.0
+no sh
+
+do sh ip int br | include up
+
+---------------------------------------------------------------------------
+
+Step 2: Configure static routing in branch router and dynamic routing using EIGRP (Enhanced Interior Gateway Routing Protocol) on ISP1 & ISP2 router.
+(To not sum common IP address headers, use no auto-summary)  
+
+-----------------------------------------------------
+
+router R1(config)>
+
+ip route 0.0.0.0 0.0.0.0 172.16.12.2
+
+-----------------------------------------------------
+
+router R2(config)>
+
+router eigrp 1
+network 172.16.12.0 0.0.0.255
+network 172.16.23.0 0.0.0.255
+no auto-summary
+-----------------------------------------------------
+
+router R3(config)>
+
+router eigrp 1
+network 172.16.13.0 0.0.0.255
+network 172.16.23.0 0.0.0.255
+no auto-summary
+-----------------------------------------------------
+
+router R2(config)>
+
+ip route 192.168.1.0 255.255.255.0 172.16.12.1
+-----------------------------------------------------
+
+router R3(config)>
+
+ip route 192.168.1.0 255.255.255.0 172.16.13.1
+-----------------------------------------------------
+
+router R1(config)>
+do ping 172.16.23.3
+
+------------------------------------
+
+router R3(config)>
+do ping 172.16.12.1
+------------------------------------
+
+router R2(config)> do ping 192.168.1.1
+router R3(config)> do ping 192.168.1.1
+
+---------------------------------------------
+Task3: Configure IP SLA probes at branch routers.
+
+router R1(config)>
+ip sla 11
+icmp-echo 172.16.12.2
+frequency 10
+exit
+
+ip sla schedule 11 life forever start-time network
+
+do sh ip sla configuration 11
+
+do sh ip sla statistics
+
+---------------------------------------------

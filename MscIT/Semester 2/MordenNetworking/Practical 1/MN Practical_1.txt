@@ -1,0 +1,111 @@
+Aim: Configure IP SLA tracking and path control topology.
+
+-----------------------------------------------------------
+Take 3 routers -> Configure -> slots -> NM-4T
+
+-----------------------------------------------------------
+Task 1: Configure IP SLA using GNS3
+On router 1 console
+R1 #
+R1 # conf t
+R1(config) # int s1/0
+R1(config-if) # ip add 172.16.12.1 255.255.255.0
+R1(config-if) # no sh
+R1(config-if) #
+R1(config-if) # int s1/1
+R1(config-if) # ip add 172.16.13.1 255.255.255.0
+R1(config-if) # no sh
+R1(config-if) #
+R1(config-if) # int lo0
+R1(config-if) # ip add 192.168.1.1 255.255.255.0
+R1(config-if) #
+R1(config-if) # do sh ip int br | include up
+
+-----------------------------------------------------------
+On router 2 console
+R2 # conf t
+R2(config) # int s1/0
+R2(config-if) # ip add 172.16.12.2 255.255.255.0
+R2(config-if) # no sh
+R2(config-if) #
+R2(config-if) # int s1/2
+R2(config-if) # ip add 172.16.23.2 255.255.255.0
+R2(config-if) # no sh
+R2(config-if) #
+R2(config-if) # do sh ip int br | include up
+
+-------------------------------------------------------
+On router 3 console
+R3 # conf t
+R3(config) # int s1/1
+R3(config-if) # ip add 172.16.13.3 255.255.255.0
+R3(config-if) # no sh
+R3(config-if) #
+R3(config-if) # int s1/2
+R3(config-if) # ip add 172.16.23.3 255.255.255.0
+R3(config-if) # no sh
+R3(config-if) #
+R3(config-if) # do sh ip int br | include up
+-------------------------------------------------------
+
+Task 2: Configure static routing on branch router and dynamic routing using eigrp
+On router 1 console
+
+R1 # conf t
+R1(config) # ip route 0.0.0.0 0.0.0.0 172.16.12.2
+
+-------------------------------------------------------
+On router 2 console
+R2(config) # router eigrp 1
+R2(config-router) # network 172.16.23.0 0.0.0.255
+R2(config-router) # network 172.16.12.0 0.0.0.255
+R2(config-router) # no auto-summary
+
+-------------------------------------------------------
+On router 3 console
+R3(config) # router eigrp 1
+R3(config-router) # network 172.16.23.0 0.0.0.255
+R3(config-router) # network 172.16.13.0 0.0.0.255
+R3(config-router) # no auto-summary
+
+-------------------------------------------------------
+On router 2 console
+R2(config-router) # exit
+R2(config) # ip route 192.168.1.0 255.255.255.0 172.16.12.1
+
+-------------------------------------------------------
+On router 3 console
+R3(config-router) # exit
+R3(config) # ip route 192.168.1.0 255.255.255.0 172.16.13.1
+
+-------------------------------------------------------
+Ping other routers
+R1(config) # do ping 172.16.23.3
+
+R3(config) # do ping 172.16.12.1
+
+-------------------------------------------------------
+Ping other routers
+R2(config) # do ping 192.168.1.1
+
+R3(config) # do ping 192.168.1.1
+
+-------------------------------------------------------
+Give hostname
+R1(config) # hostname r1-branch
+R2(config) # hostname r2-isp1
+R3(config) # hostname r3-isp2
+
+-------------------------------------------------------
+Task 3: Configure IP SLA probes at branch router
+On router 1 console
+r1-branch(config) # ip sla 11
+r1-branch(config-ip-sla) # icmp-echo 172.16.12.2
+r1-branch(config-ip-sla-echo) # frequency 10
+r1-branch(config-ip-sla-echo) # exit
+r1-branch(config) #
+r1-branch(config) # ip sla schedule 11 life forever start-time now
+r1-branch(config) #
+r1-branch(config) # do sh ip sla configuration 11
+
+-------------------------------------------------------

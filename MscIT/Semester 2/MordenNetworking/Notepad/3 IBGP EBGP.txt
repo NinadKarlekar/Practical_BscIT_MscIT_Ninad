@@ -1,0 +1,129 @@
+Practical No: 3 
+Aim: Configure IP SLA tracking and path control topology.
+----------------------------------------------------------------
+
+    Sw1
+
+    R1
+R2      R3
+
+sw2     sw3
+------------------------------------------------------------------
+
+R1 -> R2 = EBGP (s1/0) (172.16.1.0/24)
+R1 -> R3 = EBGP (s1/1)(172.16.5.0/24)
+
+R2 -> R3 = IBGP (f0/0) (10.10.10.0/24)
+
+R1 -> sw1 = f0/1 (192.168.1.0/24)
+R2 -> sw2 = f0/1 (192.168.2.0/24)
+R3 -> sw3 = f0/1 (192.168.3.0/24)
+------------------------------------------------------------------
+R2 (s1/0) R1 (s1/1) R3 (f0/0) R2
+
+------------------------------------------------------------------
+------------------------------------------------------------------
+Step 1: Configure IP addresses on the given routers
+R1:
+R1# conf t
+R1(config)# int f0/1
+R1(config-if)# ip add 192.168.1.1 255.255.255.0
+R1(config-if)# no sh
+
+R1(config-if)# int s1/0
+R1(config-if)# ip add 172.16.1.1 255.255.255.0
+R1(config-if)# no sh
+
+R1(config-if)# int s1/1
+R1(config-if)# ip add 172.16.5.1 255.255.255.0
+R1(config-if)# no sh
+
+------------------------------------------------------------------
+
+R2:
+R2# conf t
+R2(config)# int f0/0
+R2(config-if)# ip add 10.10.10.2 255.255.255.0
+R2(config-if)# no sh
+
+R2(config-if)# int f0/1
+R2(config-if)# ip add 192.168.2.2 255.255.255.0
+R2(config-if)# no sh
+
+R2(config-if)# int s1/0
+R2(config-if)# ip add 172.16.1.2 255.255.255.0
+R2(config-if)# no sh
+
+------------------------------------------------------------------
+
+R3:
+R3# conf t
+
+R3(config)# int f0/0
+R3(config-if)# ip add 10.10.10.3 255.255.255.0
+R3(config-if)# no sh
+
+R3(config-if)# int f0/1
+R3(config-if)# ip add 192.168.3.3 255.255.255.0
+R3(config-if)# no sh
+
+R3(config-if)# int s1/1
+R3(config-if)# ip add 172.16.5.3 255.255.255.0
+R3(config-if)# no sh
+
+----------------------------------------------------------------
+
+On all routers:
+do sh ip int br | include up
+
+----------------------------------------------------------------
+
+Step 2: Configure IRP in autonomous system 65200
+R2:
+R2(config-if)# router ospf 1
+R2(config-router)# network 10.10.10.0 0.0.0.255 area 0
+R2(config-router)# network 192.168.2.0 0.0.0.255 area 1
+
+---------------------------------------------------------------
+
+R3:
+R3(config-if)# router ospf 1
+R3(config-router)# network 10.10.10.0 0.0.0.255 area 0
+R3(config-router)# network 192.168.3.0 0.0.0.255 area 2
+do ping 192.168.2.2
+----------------------------------------------------------------
+
+Step 3: IBGP & EBGP configuration
+R1:
+R1(config)# router bgp 65100
+R1(config-router)# network 192.168.1.0
+R1(config-router)# network 172.16.1.0 mask 255.255.255.0
+R1(config-router)# network 172.16.5.0 mask 255.255.255.0
+R1(config-router)# neighbor 172.16.1.2 remote-as 65200
+R1(config-router)# neighbor 172.16.5.3 remote-as 65200
+R1(config-router)# do sh ip route
+
+----------------------------------------------------------------
+
+R2:
+R2(config-router)# router bgp 65200
+R2(config-router)# redistribute ospf 1
+R2(config-router)# network 172.16.1.0 mask 255.255.255.0
+R2(config-router)# neighbor 172.16.1.1 remote-as 65100
+R2(config-router)# neighbor 10.10.10.3 remote-as 65200
+
+R3:
+R3(config-router)# 
+R3(config-router)# router bgp 65200
+R3(config-router)# redistribute ospf 1
+R3(config-router)# network 172.16.5.0 mask 255.255.255.0
+R3(config-router)# neighbor 172.16.5.1 remote-as 65100
+R3(config-router)# neighbor 10.10.10.2 remote-as 65200
+
+R3(config-router)# do sh ip route
+
+----------------------------------------------------------------
+
+R1:
+do ping 192.168.3.3
+do ping 192.168.2.2

@@ -1,0 +1,143 @@
+Aim: Secure management plane.
+
+-----------------------------------------------------------
+Take 3 routers -> Configure -> slots -> NM-4T
+
+-----------------------------------------------------------
+
+R1 Console
+
+R1 #
+R1 # conf t
+
+R1(config) # int s1/0
+R1(config-if) # ip add 172.16.12.1 255.255.255.0
+R1(config-if) # no sh
+
+R1(config-if) # int lo0
+R1(config-if) # ip add 192.168.1.1 255.255.255.0
+
+-----------------------------------------------------------
+
+R2 Console
+
+R2 # conf t
+R2(config) # int s1/0
+R2(config-if) # ip add 172.16.12.2 255.255.255.0
+R2(config-if) # no sh
+
+R2(config-if) # int s1/1
+R2(config-if) # ip add 172.16.23.2 255.255.255.0
+R2(config-if) # no sh
+R2(config-if) #
+
+-----------------------------------------------------------
+
+R3 Console
+R3 # conf t
+R3(config) # int s1/1
+R3(config-if) # ip add 172.16.23.3 255.255.255.0
+R3(config-if) # no sh
+R3(config-if) #
+R3(config-if) # int lo0
+R3(config-if) # ip add 192.168.3.3 255.255.255.0
+
+-----------------------------------------------------------
+
+Part 2 : Routing
+R1 Console
+
+R1(config-if) # exit
+R1(config) #
+R1(config) # ip route 0.0.0.0 0.0.0.0 172.16.12.2
+
+-----------------------------------------------------------
+R2 Console
+R2(config-if) # exit
+R2(config) #
+R2(config) # ip route 192.168.1.0 255.255.255.0 172.16.12.1
+R2(config) # ip route 192.168.3.0 255.255.255.0 172.16.23.3
+R2(config) #
+
+-----------------------------------------------------------
+
+R3 Console
+R3(config-if) # exit
+R3(config) #
+R3(config) # ip route 0.0.0.0 0.0.0.0 172.16.23.2
+
+-----------------------------------------------------------
+
+Ping
+R1 Console
+R1(config) # do ping 192.168.3.3
+
+R3 Console
+R3(config) # do ping 192.168.1.1
+
+-----------------------------------------------------------
+
+Part 3: Security Management Access
+R1 Console
+
+r1(config) # hostname r1
+r1(config) # security password min-length 10
+r1(config) # enable secret class12345
+r1(config) #
+r1(config) # line console 0
+r1(config-line) # password ciscoconpass
+r1(config-line) # exec-timeout 5 0
+r1(config-line) # login
+r1(config-line) # logging synchronous
+r1(config-line) # exit
+r1(config) #
+r1(config) # line vty 0 4
+r1(config-line) # password ciscovtypass
+r1(config-line) # exec-timeout 5 0
+r1(config-line) # login
+r1(config-line) # exit
+r1(config) #
+r1(config) # line aux 0
+r1(config-line) # no exec
+r1(config-line) # end
+r1 # conf t
+r1(config) # service password-encryption
+r1(config) # banner motd $Unauthorized access not allowed$
+r1(config) # exit
+
+-----------------------------------------------------------
+
+R3 Console ( Same as R1)
+
+R3(config) # hostname r3
+r3(config) # security password min-length 10
+r3(config) # enable secret class12345
+r3(config) # line console 0
+r3(config-line) # password ciscoconpass
+r3(config-line) # exec-timeout 5 0
+r3(config-line) # login
+r3(config-line) # logging synchronous
+r3(config-line) # exit
+r3(config) # line vty 0 4
+r3(config-line) # password ciscovtypass
+r3(config-line) #
+r3(config-line) # exec-timeout 5 0
+r3(config-line) # login
+r3(config-line) # exit
+r3(config) #
+r3(config) # line aux 0
+r3(config-line) # no exec
+r3(config-line) # end
+r3 #
+r3 # conf t
+r3(config) # service password-encryption
+r3(config) # banner motd $Unauthorized access not allowed$
+r3(config) # exit
+
+-----------------------------------------------------------
+
+R3 Console
+r3 # telnet 172.16.12.1
+(password-> ciscovtypass)
+
+-----------------------------------------------------------
