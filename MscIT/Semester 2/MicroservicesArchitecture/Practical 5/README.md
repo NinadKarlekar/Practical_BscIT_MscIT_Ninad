@@ -58,7 +58,7 @@ https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install
 2. On **`Command prompt 2`**
     - Command :
         ```console
-        curl --insecure http://localhost:5160/weatherforecast
+        curl --insecure https://localhost:5001/weatherforecast
         ```
 
     - Output:
@@ -236,7 +236,7 @@ https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install
     1. **Getting a list of items:**
         - Commands: 
             ```console
-            curl --insecure https://localhost:5160/api/glossary
+            curl --insecure https://localhost:5001/api/glossary
             ```
 
         - Output:
