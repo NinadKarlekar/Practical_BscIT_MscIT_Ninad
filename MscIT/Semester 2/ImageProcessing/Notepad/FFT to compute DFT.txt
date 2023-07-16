@@ -1,0 +1,31 @@
+# FFT to compute DFT
+
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Read the image
+image = cv2.imread("C://banana.jpg", 0)
+
+# Compute the FFT
+fft_result = np.fft.fft2(image)
+
+# Shift the zero frequency component to the center of the spectrum
+fft_shifted = np.fft.fftshift(fft_result)
+
+# Compute the magnitude spectrum
+magnitude_spectrum = np.abs(fft_shifted)
+
+# Display the original image
+plt.subplot(121)
+plt.imshow(image, cmap="gray")
+plt.title('Original Image')
+
+# Display the magnitude spectrum
+plt.subplot(122)
+plt.imshow(np.log(1 + magnitude_spectrum), cmap="gray")
+plt.title('DFT Magnitude Spectrum')
+plt.colorbar()
+
+plt.tight_layout()
+plt.show()

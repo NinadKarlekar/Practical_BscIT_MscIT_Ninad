@@ -1,0 +1,41 @@
+#downsampling
+
+import cv2
+import matplotlib.pyplot as plt
+
+img1 = cv2.imread("C://banana.jpg", 0)
+img2 = img1[::24, ::24]
+
+print('Original Image Shape:', img1.shape)
+print('Down Sampled Image Shape:', img2.shape)
+
+plt.subplot(121), plt.imshow(img1, cmap="gray")
+plt.title('Original Image')
+
+plt.subplot(122), plt.imshow(img2, cmap="gray")
+plt.title('Down Sampled Image')
+
+plt.show()
+
+
+#upsampling
+
+import cv2
+import matplotlib.pyplot as plt
+import numpy as np
+
+img1 = cv2.imread("F:/nativeplace.jpg", 0)  # Read the image
+factor = 4  # Upsampling factor
+
+img2 = img1.repeat(factor, axis=0).repeat(factor, axis=1)
+
+print('Original Image Shape:', img1.shape)
+print('UP Sampled Image Shape:', img2.shape)
+
+plt.subplot(121), plt.imshow(img1, cmap="gray")
+plt.title('Original Image')
+
+plt.subplot(122), plt.imshow(img2, cmap="gray")
+plt.title('Upsampled Image')
+
+plt.show()

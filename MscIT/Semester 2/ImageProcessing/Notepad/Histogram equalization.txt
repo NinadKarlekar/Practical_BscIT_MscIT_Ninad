@@ -1,0 +1,17 @@
+# Histogram equalization
+
+import cv2
+from matplotlib import pyplot as plt
+
+img = cv2.imread('F:/sample.jpg', 0)
+eq = cv2.equalizeHist(img)
+
+hist = cv2.calcHist([img], [0], None, [256], [0, 256])
+histeq = cv2.calcHist([eq], [0], None, [256], [0, 256])
+
+plt.subplot(221), plt.imshow(img, 'gray')
+plt.subplot(222), plt.plot(hist)
+plt.subplot(223), plt.imshow(eq, 'gray')
+plt.subplot(224), plt.plot(histeq)
+plt.xlim([0, 256])
+plt.show()

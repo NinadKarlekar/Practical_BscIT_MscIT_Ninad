@@ -1,0 +1,51 @@
+#erosion
+
+import cv2
+import matplotlib.pyplot as plt
+
+# Read the image
+image = cv2.imread("C://banana.jpg", 0)
+
+# Define the kernel for erosion
+kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (24, 24))
+
+# Apply erosion
+eroded_image = cv2.erode(image, kernel, iterations=1)
+
+# Display the original and eroded images
+plt.subplot(121)
+plt.imshow(image, cmap='gray')
+plt.title('Original Image')
+
+plt.subplot(122)
+plt.imshow(eroded_image, cmap='gray')
+plt.title('Eroded Image')
+
+plt.tight_layout()
+plt.show()
+
+------------------------------------------------------------------------------------
+
+#dialation
+
+import cv2
+import matplotlib.pyplot as plt
+
+# Read the image
+image = cv2.imread("C:\banana.jpg", 0)
+
+# Define the kernel for dilation
+kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (24, 24))
+
+# Apply dilation
+dilated_image = cv2.dilate(image, kernel, iterations=1)
+
+# Display the original and dilated images
+plt.subplot(121)
+plt.imshow(image, cmap='gray')
+plt.title('Original Image')
+
+plt.subplot(122)
+plt.imshow(dilated_image, cmap='gray')
+plt.title('Dilated Image')
+plt.show()

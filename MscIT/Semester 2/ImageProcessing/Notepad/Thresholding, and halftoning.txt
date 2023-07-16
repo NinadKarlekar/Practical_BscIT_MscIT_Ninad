@@ -1,0 +1,35 @@
+#4D. Thresholding, and halftoning operations 
+import cv2 as cv
+import numpy as np
+from matplotlib import pyplot as plt
+img = cv.imread('F:/sunflower.jpg',0)
+ret,thresh1 = cv.threshold(img,127,255,cv.THRESH_BINARY)
+ret,thresh2 = cv.threshold(img,127,255,cv.THRESH_BINARY_INV)
+ret,thresh3 = cv.threshold(img,127,255,cv.THRESH_TRUNC)
+ret,thresh4 = cv.threshold(img,127,255,cv.THRESH_TOZERO)
+ret,thresh5 = cv.threshold(img,127,255,cv.THRESH_TOZERO_INV)
+
+plt.subplot(2, 3, 1)
+plt.imshow(img, cmap="gray")
+plt.title("Original Image")
+
+plt.subplot(2, 3, 2)
+plt.imshow(thresh1, cmap="gray")
+plt.title("BINARY Image")
+
+plt.subplot(2, 3, 3)
+plt.imshow(thresh2, cmap="gray")
+plt.title("BINARY_INV")
+
+plt.subplot(2, 3, 4)
+plt.imshow(thresh3, cmap="gray")
+plt.title("TRUNC")
+
+plt.subplot(2, 3, 5)
+plt.imshow(thresh4, cmap="gray")
+plt.title("TOZERO")
+
+plt.subplot(2, 3, 6)
+plt.imshow(thresh5, cmap="gray")
+plt.title("TOZERO_INV")
+plt.show()

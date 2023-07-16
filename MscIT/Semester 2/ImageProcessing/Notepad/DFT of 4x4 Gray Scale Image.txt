@@ -1,0 +1,34 @@
+# DFT of 4x4 Gray Scale Image
+
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Read the image as grayscale
+image = cv2.imread("F:/nativeplace.jpg", 0)
+
+# Resize the image to a 4x4 size
+image = cv2.resize(image, (4, 4))
+
+# Compute the DFT using np.fft.fft2()
+dft_result = np.fft.fft2(image)
+
+# Shift the zero frequency component to the center of the spectrum
+dft_shifted = np.fft.fftshift(dft_result)
+
+# Compute the magnitude spectrum
+magnitude_spectrum = np.abs(dft_shifted)
+
+# Display the original image
+plt.subplot(121)
+plt.imshow(image, cmap="gray")
+plt.title('Original Image')
+
+# Display the magnitude spectrum
+plt.subplot(122)
+plt.imshow(np.log(1 + magnitude_spectrum), cmap="gray")
+plt.title('DFT Magnitude Spectrum')
+plt.colorbar()
+
+plt.tight_layout()
+plt.show()

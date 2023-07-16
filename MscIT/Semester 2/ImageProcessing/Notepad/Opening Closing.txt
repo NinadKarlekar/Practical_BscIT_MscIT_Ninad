@@ -1,0 +1,53 @@
+#opening
+
+import cv2
+import matplotlib.pyplot as plt
+
+# Read the image
+image = cv2.imread("path_to_image.jpg", 0)
+
+# Define the kernel for opening
+kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
+
+# Apply opening
+opened_image = cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)
+
+# Display the original and opened images
+plt.subplot(121)
+plt.imshow(image, cmap='gray')
+plt.title('Original Image')
+
+plt.subplot(122)
+plt.imshow(opened_image, cmap='gray')
+plt.title('Opened Image')
+
+plt.tight_layout()
+plt.show()
+
+
+#closing
+
+import cv2
+import matplotlib.pyplot as plt
+
+# Read the image
+image = cv2.imread("path_to_image.jpg", 0)
+
+# Define the kernel for closing
+kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
+
+# Apply closing
+closed_image = cv2.morphologyEx(image, cv2.MORPH_CLOSE, kernel)
+
+# Display the original and closed images
+plt.subplot(121)
+plt.imshow(image, cmap='gray')
+plt.title('Original Image')
+
+plt.subplot(122)
+plt.imshow(closed_image, cmap='gray')
+plt.title('Closed Image')
+
+plt.tight_layout()
+plt.show()
+

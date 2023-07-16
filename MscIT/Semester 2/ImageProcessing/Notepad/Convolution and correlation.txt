@@ -1,0 +1,45 @@
+# Convolution and correlation
+
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Load and convert the image
+image = cv2.imread('F:/sunflower.jpg')
+image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
+# Adjust the spacing between subplots
+plt.subplots_adjust(hspace=0.5)
+
+# Create the first row of subplots
+plt.subplot(2, 2, 1)
+plt.imshow(image, cmap="gray")
+plt.title("Original")
+
+# Apply image blur
+kernel = np.ones((3, 3), np.float32) / 9
+blurred_img = cv2.filter2D(image, -1, kernel)
+
+# Plot the blurred image in the first row
+plt.subplot(2, 2, 2)
+plt.imshow(blurred_img, cmap="gray")
+plt.title("Blurred")
+
+# Create the second row of subplots
+plt.subplot(2, 2, 3)
+plt.imshow(image, cmap="gray")
+plt.title("Original")
+
+# Apply image sharpening
+kernel = np.array([[0, -1, 0],
+                   [-1, 5, -1],
+                   [0, -1, 0]])
+sharpened_img = cv2.filter2D(image, -1, kernel)
+
+# Plot the sharpened image in the second row
+plt.subplot(2, 2, 4)
+plt.imshow(sharpened_img, cmap="gray")
+plt.title("Sharpened")
+
+# Show the plot
+plt.show()

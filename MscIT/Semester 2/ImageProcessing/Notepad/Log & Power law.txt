@@ -1,0 +1,70 @@
+# log transform
+
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Open the image.
+img = cv2.imread('F:/sample.jpg')
+
+# Apply log transform.
+c = 255 / (np.log(1 + np.max(img)))
+log_transformed = c * np.log(1 + img)
+
+# Specify the data type.
+log_transformed = np.array(log_transformed, dtype=np.uint8)
+
+# Display the original image.
+plt.subplot(1, 2, 1)
+plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+plt.title('Original Image')
+plt.axis('off')
+
+# Display the transformed image.
+plt.subplot(1, 2, 2)
+plt.imshow(cv2.cvtColor(log_transformed, cv2.COLOR_BGR2RGB))
+plt.title('Log Transformed Image')
+plt.axis('off')
+
+# Show the plot.
+plt.tight_layout()
+plt.show()
+
+
+-------------------------------------------------------------------------------------------------------
+
+# Power-law transformations
+
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+  
+# Open the image.
+img = cv2.imread('F:/sample.jpg')
+
+# Display the original image.
+plt.subplot(3, 2, 1)
+plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+plt.title('Original Image')
+plt.axis('off')
+
+# Trying 4 gamma values.
+gamma_values = [0.1, 0.5, 1.2, 2.2, 5]
+for i, gamma in enumerate(gamma_values, start=2):
+    # Apply gamma correction.
+    gamma_corrected = np.array(255 * (img / 255) ** gamma, dtype='uint8')
+
+    # Display the transformed image.
+    plt.subplot(3, 2, i)
+    plt.imshow(cv2.cvtColor(gamma_corrected, cv2.COLOR_BGR2RGB))
+    plt.title('Gamma=' + str(gamma))
+    plt.axis('off')
+
+# Adjust the spacing between subplots.
+plt.tight_layout()
+
+# Show the plot.
+plt.show()
+
+------------------------------------------------------------------------------
+
