@@ -499,7 +499,9 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 <details>
 <summary>OUTPUT</summary>
 
-<img src="" width="600px"  alt ="BDA_prac3_2">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/d541b410-83b2-49e5-8ca4-7408d2826771" width="600px"  alt ="BDA_prac3B_1">
+
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/8fc9a758-174f-4782-a763-19247181e2c1" width="600px"  alt ="BDA_prac3B_2">
 
 </details>
 
