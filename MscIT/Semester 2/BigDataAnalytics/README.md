@@ -407,7 +407,12 @@ text(classifier)
 <details>
 <summary>OUTPUT</summary>
 
-<img src="https://user-images.githubusercontent.com/88243315/231261698-45c2b0cd-581c-4d89-ac08-1dfbee2e71c6.png" width="600px"  alt ="BDA_prac3_1">
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/14c95e63-53e7-4e31-bb37-8d47d9c7757d" width="600px"  alt ="BDA_prac3A_1">
+
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/e5c24caa-7ac4-4301-8ba4-2bec2838d3d3" width="600px"  alt ="BDA_prac3A_2">
+
+<img src="https://github.com/NinadKarlekar/TestRepoNK/assets/88243315/d3030b3b-4e80-4ef1-b5ef-dd6b85d75fcf" width="600px"  alt ="BDA_prac3A_3">
+
 
 </details>
 
@@ -494,7 +499,7 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 <details>
 <summary>OUTPUT</summary>
 
-<img src="https://user-images.githubusercontent.com/88243315/231261690-d4a46d60-47ba-43c3-93b1-52ca701dffde.png" width="600px"  alt ="BDA_prac3_2">
+<img src="" width="600px"  alt ="BDA_prac3_2">
 
 </details>
 
