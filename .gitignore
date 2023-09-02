@@ -46,6 +46,10 @@ __pycache__/
 *.pyc
 *.pyo
 
+
+.cache/
+
+
 # .NET Core & .NET CLI
 bin/
 obj/
