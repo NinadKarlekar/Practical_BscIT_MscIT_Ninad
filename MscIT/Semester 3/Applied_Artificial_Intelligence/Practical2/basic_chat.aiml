@@ -1,0 +1,33 @@
+
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            Well, Hello Ninad!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, and I'm silly!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT DO YOU DO</pattern>
+        <template>
+            I'm here to motivate you!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO AM I</pattern>
+        <template>
+            You are a Professional Footballer....
+        </template>
+    </category>
+
+</aiml>
