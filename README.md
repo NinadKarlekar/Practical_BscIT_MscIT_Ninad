@@ -46,7 +46,7 @@
 
 *************
 
-<details open>
+<details close>
 <summary><h2><b>Semester 2</b></h2></summary>
 <br>
 
