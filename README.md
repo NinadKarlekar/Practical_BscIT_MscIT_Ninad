@@ -60,7 +60,16 @@
 
 ******************
 
-### **Semester 3**
+<details open>
+<summary><h2><b>Semester 3</b></h2></summary>
+<br>
+
+#### [Applied Artificial Intelligence](/MscIT/Semester%203/Applied_Artificial_Intelligence/)
+#### [Machine Learning](/MscIT/Semester%203/Machine_Learning/)
+#### [Robotic Process Automation](/MscIT/Semester%203/Robotic_Process_Automation/)
+
+
+</details>
 
 *****************
 
