@@ -98,7 +98,7 @@ obj/
 
 
 
-
+*.pyc
 
 # .NET Core & .NET CLI
 bin/
