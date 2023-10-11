@@ -1,0 +1,52 @@
+https://swish.swi-prolog.org/
+
+
+male(vijay).
+male(mahadev).
+male(gaurihar).
+male(omkar).
+male(bajrang).
+male(chaitanya).
+
+female(vasanti).
+female(indubai).
+female(ashwini).
+female(gayatri).
+female(sangita).
+
+parent(vijay,chaitanya).
+parent(vasanti,chaitanya).
+parent(vijay,gaurihar).
+parent(vasanti,gaurihar).
+parent(vijay,ashwini).
+parent(vasanti,ashwini).
+parent(mahadev,vijay).
+parent(indubai,vijay).
+
+mother(X,Y):-parent(X,Y),female(X).
+father(X,Y):- parent(X,Y), male(X).
+
+grandmother(GM,X):- mother(GM,Y) ,parent(Y,X).
+grandfather(GF,X):- father(GF,Y) ,parent(Y,X).
+
+greatgrandmother(GGM,X):- mother(GGM,GM) ,parent(GM,F),parent(F,Y),parent(Y,X).
+greatgrandfather(GGF,X):- father(GGF,GF) ,parent(GF,F),parent(F,Y),parent(Y,X).
+
+sibling(X,Y):-mother(M,X), mother(M,Y),X\=Y, father(F,X), father(F,Y).
+brother(X,Y):-sibling(X,Y), male(X).
+sister(X,Y):-sibling(X,Y), female(X).
+
+uncle(U,X):- parent(Y,X), brother(U,Y).
+aunt(A,X):- parent(Y,X), sister(A,Y).
+nephew(N,X):- sibling(S,X),parent(S,N),male(N).
+niece(N,X):-sibling(S,X), parent(S,N), female(N).
+cousin(X,Y):-parent(P,Y),sibling(S,P),parent(S,X).
+
+
+
+
+-----------------------------------------------------
+
+Query
+father(X,Y).
+mother(X,Y).
