@@ -1,4 +1,4 @@
-https://swish.swi-prolog.org/
+/* https://swish.swi-prolog.org/ */
 
 
 male(vijay).

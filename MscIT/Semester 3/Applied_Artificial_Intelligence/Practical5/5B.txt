@@ -1,3 +1,6 @@
+
+/* https://swish.swi-prolog.org/ */
+
 /* Facts */
 male(jack).
 male(oliver).
@@ -45,3 +48,9 @@ uncle_of(X, Y):- parent_of(Z, Y), brother_of(Z, X).
 ancestor_of(X, Y):- parent_of(X, Y).
 
 ancestor_of(X, Y):- parent_of(X, Z), ancestor_of(Z, Y).
+
+------------------------------------------------------------
+
+Query
+father_of(X,Y).
+mother_of(X,Y).

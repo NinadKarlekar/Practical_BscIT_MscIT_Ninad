@@ -1,1 +1,19 @@
-| [Prac6A](/MscIT/Semester%206/Applied_Artificial_Intelligence/Practical6/) <br> [Prac6B](/MscIT/Semester%206/Applied_Artificial_Intelligence/Practical6/) | 6A. Implement Bayes Theorem using Python. <br> 6B. Bayes Theorem. | [Prac6A](#prac6A) <br> [Prac6B](#prac6B) |  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Applied_Artificial_Intelligence/Practical6/6_A.py) <br> [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Applied_Artificial_Intelligence/Practical6/6_B.py) |
+## Prac3B
+
+Implement Bayes Theorem using Python.
+
+
+<details>
+<summary>CODE</summary>
+
+
+```python
+
+
+
+
+```
+
+</details>
+
+*************************************************************
