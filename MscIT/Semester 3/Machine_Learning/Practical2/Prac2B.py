@@ -1,6 +1,9 @@
 import csv
 
+
 a = []
+
+
 with open("book2.csv", "r") as csvfile:
     next(csvfile)
     for row in csv.reader(csvfile):
