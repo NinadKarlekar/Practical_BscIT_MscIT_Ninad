@@ -1,3 +1,5 @@
+#10B: AIM: Implement the classification model using K-means clustering with Prediction, Test score and Confusion Matrix.
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
