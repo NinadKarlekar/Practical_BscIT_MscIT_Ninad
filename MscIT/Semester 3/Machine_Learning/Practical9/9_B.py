@@ -5,7 +5,11 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load the dataset
-dataset = pd.read_csv('Restaurant_Reviews.tsv', delimiter='\t', quoting=3)
+
+# csv_file = 'Restaurant_Reviews.tsv'
+csv_file = 'https://raw.githubusercontent.com/SarthakRana/Restaurant-Reviews-using-NLP-/master/Restaurant_Reviews.tsv'
+
+dataset = pd.read_csv(csv_file, delimiter='\t', quoting=3)
 
 # Text preprocessing using Natural Language Toolkit (nltk)
 import re

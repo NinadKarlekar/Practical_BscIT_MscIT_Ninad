@@ -137,6 +137,17 @@ with open("Book1.csv", "r") as csvfile:
             print(row)
             count += 1
 
+
+# # URL of the CSV file
+# csv_url = 'https://raw.githubusercontent.com/misbahulard/Machine-Learning/master/enjoysport.csv'
+
+# # Read the CSV file into a pandas DataFrame
+# df = pd.read_csv(csv_url)
+
+# # Display the given training dataset
+# print("\nThe Given Training Dataset \n")
+# print(df)
+
 print("\n The initial value of hypothesis: ")
 hypothesis = ["0"] * num_attributes
 print(hypothesis)
@@ -379,8 +390,19 @@ import pandas as pd
 data = pd.DataFrame(data=pd.read_csv('enjoysport.csv'))
 print(data)
 
+# # URL of the CSV file
+# csv_url = 'https://raw.githubusercontent.com/misbahulard/Machine-Learning/master/enjoysport.csv'
+
+# # Read the CSV file into a pandas DataFrame
+# data = pd.read_csv(csv_url)
+
+# # Display the given training dataset
+# print("\nThe Given Training Dataset \n")
+# print(df)
+
 ###########################################
 #Separating concept features from Target
+
 concepts = np.array(data.iloc[:,0:6])
 print(concepts)
 
@@ -515,6 +537,11 @@ from sklearn.metrics import classification_report, accuracy_score, confusion_mat
 ###############################
 df = pd.read_csv("WA_Fn-UseC_-HR-Employee-Attrition.csv")
 df.head() 
+
+
+# df = pd.read_csv('https://raw.githubusercontent.com/nelson-wu/employee-attrition-ml/master/WA_Fn-UseC_-HR-Employee-Attrition.csv')
+
+
 ###############################
 
 # Exploratory Data Analysis
@@ -871,7 +898,11 @@ print('Accuracy:', accuracy_score(y_test, y_pred))
     import pandas as pd
 
     # Load the dataset
-    dataset = pd.read_csv('Restaurant_Reviews.tsv', delimiter='\t', quoting=3)
+
+    csv_file = 'Restaurant_Reviews.tsv'
+    #csv_file = 'https://raw.githubusercontent.com/SarthakRana/Restaurant-Reviews-using-NLP-/master/Restaurant_Reviews.tsv'
+
+    dataset = pd.read_csv(csv_file, delimiter='\t', quoting=3)
 
     # Text preprocessing using Natural Language Toolkit (nltk)
     import re
@@ -947,7 +978,11 @@ print('Accuracy:', accuracy_score(y_test, y_pred))
     from sklearn.metrics import accuracy_score
 
     #Load the dataset
-    df = pd.read_csv("Iris.csv")
+
+    # csv_file = 'iris.csv'
+    csv_file = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv'
+
+    df = pd.read_csv(csv_file)
 
     #quick look into the data
     print(df.head(5))
@@ -1010,7 +1045,6 @@ print('Accuracy:', accuracy_score(y_test, y_pred))
     print("\n") 
 
 
-
     ```
 
     </details>
@@ -1033,7 +1067,12 @@ print('Accuracy:', accuracy_score(y_test, y_pred))
     import sklearn
 
     #Import the dataset and slice the important features
-    dataset = pd.read_csv('Mall_Customers.csv')
+
+    # csv_file = 'Mall_Customers.csv'
+    csv_file = 'https://raw.githubusercontent.com/tirthajyoti/Machine-Learning-with-Python/master/Datasets/Mall_Customers.csv'
+
+    dataset = pd.read_csv(csv_file)
+    
     X = dataset.iloc[:, [3,4]].values
 
     #Find the optimal k value for clustering the data.

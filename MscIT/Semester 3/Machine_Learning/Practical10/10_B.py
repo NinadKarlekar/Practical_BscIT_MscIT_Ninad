@@ -6,7 +6,11 @@ import pandas as pd
 import sklearn
 
 #Import the dataset and slice the important features
-dataset = pd.read_csv('Mall_Customers.csv')
+
+# csv_file = 'Mall_Customers.csv'
+csv_file = 'https://raw.githubusercontent.com/tirthajyoti/Machine-Learning-with-Python/master/Datasets/Mall_Customers.csv'
+
+dataset = pd.read_csv(csv_file)
 X = dataset.iloc[:, [3,4]].values
 
 #Find the optimal k value for clustering the data.

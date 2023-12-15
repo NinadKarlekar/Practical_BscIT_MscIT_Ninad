@@ -7,7 +7,11 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
 #Load the dataset
-df = pd.read_csv("Iris.csv")
+
+# csv_file = 'iris.csv'
+csv_file = 'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv'
+
+df = pd.read_csv(csv_file)
 
 #quick look into the data
 print(df.head(5))
