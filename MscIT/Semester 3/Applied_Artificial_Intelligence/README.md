@@ -901,6 +901,9 @@ titanic_final.head()
 ### Step 11: Now we will define dependent and independent variables
 X=titanic_final.drop(['Survived'],axis=1)
 Y= titanic_final['Survived']
+
+# Step 12: Now we will be taking 80% of the data as our training set, and remaining 20% as our test set.
+
 X_train = np.array(X[0:int(0.80*len(X))])
 Y_train = np.array(Y[0:int(0.80*len(Y))])
 X_test = np.array(X[int(0.80*len(X)):])
