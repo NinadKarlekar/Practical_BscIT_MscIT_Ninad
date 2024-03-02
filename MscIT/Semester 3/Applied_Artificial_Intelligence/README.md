@@ -964,3 +964,182 @@ print("Random Forests is %f percent accurate" % (accuracy_score(RF_pred, Y_test)
 
 *************************************************************
 
+## Prac10
+
+Design an Artificial Intelligence application to implement intelligent agents.
+
+
+<details>
+<summary>CODE</summary>
+
+
+```python
+
+#10A-Design an Artificial Intelligence application to implement intelligent agents.
+
+class ClothesAgent:
+    def __init__(self):
+        self.weather = None
+
+    def get_weather(self):
+        # Simulating weather conditions (you can modify this as needed)
+        self.weather = input("Enter the weather (sunny, rainy, windy, snowy): ").lower()
+
+    def suggest_clothes(self):
+        if self.weather == "sunny":
+            print(
+                "It's sunny outside. You should wear light clothes, sunglasses, and sunscreen."
+            )
+        elif self.weather == "rainy":
+            print(
+                "It's rainy outside. Don't forget an umbrella, raincoat, and waterproof shoes."
+            )
+        elif self.weather == "windy":
+            print("It's windy outside. Wear layers and a jacket to stay warm.")
+        elif self.weather == "snowy":
+            print(
+                "It's snowy outside. Dress warmly with a heavy coat, gloves, and boots."
+            )
+        else:
+            print(
+                "Sorry, I don't understand the weather condition. Please enter sunny, rainy, windy, or snowy."
+            )
+
+
+def main():
+    agent = ClothesAgent()
+    agent.get_weather()
+    agent.suggest_clothes()
+
+
+if __name__ == "__main__":
+    main()
+
+
+```
+
+</details>
+
+*************************************************************
+
+
+## Prac11
+
+Design an application to simulate language parser.
+
+
+<details>
+<summary>CODE</summary>
+
+
+```python
+
+#10B-Design an application to simulate language parser.
+
+def sentenceSegment(text):
+    sentences = []
+    start = 0
+
+    for i in range(len(text)):
+        if text[i] == "." or text[i] == "!" or text[i] == "?":
+            sentences.append(text[start : i + 1].strip())
+            start = i + 1
+
+    return sentences
+
+
+text = "Hello, NLP world!! In this example, we are going to do the basics of Text processing which will be used later."
+
+print(sentenceSegment(text))
+#%pip install nltk
+import nltk
+
+nltk.download("punkt")
+
+text = "Hello, NLP world!! In this example, we are going to do the basics of Text processing which will be used later."
+
+sentences = nltk.sent_tokenize(text)
+
+print(sentences)
+import string
+
+
+def remove_punctuation(input_string):
+    # Define a string of punctuation marks and symbols
+    punctuations = string.punctuation
+
+    # Remove the punctuation marks and symbols from the input string
+    output_string = "".join(char for char in input_string if char not in punctuations)
+
+    return output_string
+
+
+text = "Hello, NLP world!! In this example, we are going to do the basics of Text processing which will be used later."
+sentences = sentenceSegment(text)
+puncRemovedText = remove_punctuation(text)
+print(puncRemovedText)
+def convertToLower(s):
+    return s.lower()
+
+
+text = "Hello, NLP world!! In this example, we are going to do the basics of Text processing which will be used later."
+puncRemovedText = remove_punctuation(text)
+
+lowerText = convertToLower(puncRemovedText)
+print(lowerText)
+# in this code, we are not using any libraries
+# tokenize without using any function from string or any other function.
+# only using loops and if/else
+
+
+def tokenize(s):
+    words = []  # token words should be stored here
+    i = 0
+    word = ""
+    while i < len(s):
+        if s[i] != " ":
+            word = word + s[i]
+        else:
+            words.append(word)
+            word = ""
+
+        i = i + 1
+    words.append(word)
+    return words
+
+
+text = "Hello, NLP world!! In this example, we are going to do the basics of Text processing which will be used later."
+puncRemovedText = remove_punctuation(text)
+lowerText = convertToLower(puncRemovedText)
+
+tokenizedText = tokenize(lowerText)
+print(tokenizedText)
+import nltk
+
+# Define input text
+text = "Hello, NLP world!! In this example, we are going to do the basics of Text processing which will be used later."
+
+# sentence segmentation - removal of punctuations and converting to lowercase
+sentences = nltk.sent_tokenize(text)
+puncRemovedText = remove_punctuation(text)
+lowerText = convertToLower(puncRemovedText)
+
+# Tokenize the text
+tokens = nltk.word_tokenize(lowerText)
+
+# Print the tokens
+print(tokens)
+import nltk
+
+sentence = "We're going to John's house today."
+tokens = nltk.word_tokenize(sentence)
+
+print(tokens)
+
+
+```
+
+</details>
+
+*************************************************************
+
