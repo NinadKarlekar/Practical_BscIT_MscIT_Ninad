@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ElementTriggeringEvents" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="844,902.4" sap2010:WorkflowViewState.IdRef="ElementTriggeringEvents_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ElementTriggeringEvents" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="700,900" sap2010:WorkflowViewState.IdRef="ElementTriggeringEvents_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -64,25 +64,25 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ElementTriggeringEvents" sap:VirtualizedContainerService.HintSize="563.2,837.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ElementTriggeringEvents" sap:VirtualizedContainerService.HintSize="529.6,835.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:TriggerScope DisplayName="Trigger Scope" sap:VirtualizedContainerService.HintSize="500.8,725.6" sap2010:WorkflowViewState.IdRef="TriggerScope_1" SchedulingMode="Sequential">
+    <ui:TriggerScope DisplayName="Trigger Scope" sap:VirtualizedContainerService.HintSize="467.2,746.4" sap2010:WorkflowViewState.IdRef="TriggerScope_1" SchedulingMode="Sequential">
       <ui:TriggerScope.Action>
         <ActivityAction x:TypeArguments="ui:EventInfoTriggerArgs">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:EventInfoTriggerArgs" Name="args" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="449.6,268" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence sap:VirtualizedContainerService.HintSize="416,265.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'RichEditD2DPT'" sap:VirtualizedContainerService.HintSize="387.2,156" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="RPA mouse click">
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'RichEditD2DPT'" sap:VirtualizedContainerService.HintSize="353.6,179.2" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="RPA mouse click">
               <ui:TypeInto.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e77f4f49-c896-4267-920b-c1715991f768" InformativeScreenshot="3122c4580510b59174c271e87c77b87e" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='Untitled - Notepad' /&gt;&lt;wnd aaname='Text Editor' cls='Edit' /&gt;&lt;ctrl name='Text Editor' role='editable text' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -99,7 +99,7 @@
       </ui:TriggerScope.Action>
       <ui:TriggerScope.Triggers>
         <scg:List x:TypeArguments="Activity" Capacity="4">
-          <ui:ClickTriggerV2 ClippingRegion="{x:Null}" BlockEvent="False" DisplayName="Click Trigger 'RichEditD2DPT'" Enabled="True" sap:VirtualizedContainerService.HintSize="465.6,227.2" sap2010:WorkflowViewState.IdRef="ClickTriggerV2_1" IncludeChildren="True" InformativeScreenshot="eb3814a0eb2d98b7c4efc6a19d3b3243" KeyModifiers="None" MouseButton="BTN_LEFT" SchedulingMode="Sequential" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='Untitled - Notepad' /&gt;&lt;wnd aaname='Text Editor' cls='Edit' /&gt;&lt;ctrl name='Text Editor' role='editable text' /&gt;" TriggerId="4c96364e-2563-46b7-9777-16edeff5cbd6" TriggerMode="TriggerDown" />
+          <ui:ClickTriggerV2 ClippingRegion="{x:Null}" BlockEvent="False" DisplayName="Click Trigger 'RichEditD2DPT'" Enabled="True" sap:VirtualizedContainerService.HintSize="432,250.4" sap2010:WorkflowViewState.IdRef="ClickTriggerV2_1" IncludeChildren="True" InformativeScreenshot="eb3814a0eb2d98b7c4efc6a19d3b3243" KeyModifiers="None" MouseButton="BTN_LEFT" SchedulingMode="Sequential" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='Untitled - Notepad' /&gt;&lt;wnd aaname='Text Editor' cls='Edit' /&gt;&lt;ctrl name='Text Editor' role='editable text' /&gt;" TriggerId="4c96364e-2563-46b7-9777-16edeff5cbd6" TriggerMode="TriggerDown" />
         </scg:List>
       </ui:TriggerScope.Triggers>
     </ui:TriggerScope>

@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,1056" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,1032" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -72,7 +72,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="649.6,991.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="688,967.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:String[]" Name="Names" />
       <Variable x:TypeArguments="x:Int32" Name="CountA" />
@@ -82,7 +82,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="587.2,81.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap:VirtualizedContainerService.HintSize="625.6,121.6" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="s:String[]">[Names]</OutArgument>
       </Assign.To>
@@ -90,21 +90,21 @@
         <InArgument x:TypeArguments="s:String[]">[{"Ninad", "Ajay", "Ali", "Vighnesh", "Shubham"}]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="587.2,632" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Names]">
+    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="625.6,671.2" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Names]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="x:String">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:String" Name="currentItem" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="553.6,444" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="592,465.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <If Condition="[currentItem.ToLower().StartsWith(&quot;a&quot;)]" sap:VirtualizedContainerService.HintSize="510.4,354.4" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[currentItem.ToLower().StartsWith(&quot;a&quot;)]" sap:VirtualizedContainerService.HintSize="529.6,379.2" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
-                <Sequence sap:VirtualizedContainerService.HintSize="476.8,171.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,168" sap2010:WorkflowViewState.IdRef="Sequence_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -121,7 +121,7 @@
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_3" />
+                <Sequence DisplayName="Else" sap2010:WorkflowViewState.IdRef="Sequence_3" />
               </If.Else>
             </If>
           </Sequence>
