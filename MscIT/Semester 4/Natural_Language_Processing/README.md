@@ -1,7 +1,7 @@
-# Machine Learning
+# Natural Language Processing
 
 M. Sc (Information Technology)
-Machine Learning
+Natural Language Processing
 
 
 

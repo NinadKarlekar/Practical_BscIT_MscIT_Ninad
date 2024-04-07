@@ -60,7 +60,7 @@
 
 ******************
 
-<details open>
+<details close>
 <summary><h2><b>Semester 3</b></h2></summary>
 <br>
 
@@ -71,12 +71,20 @@
 
 </details>
 
+******************
+
+<details open>
+<summary><h2><b>Semester 4</b></h2></summary>
+<br>
+
+#### [Natural Language Processing](/MscIT/Semester%204/Natural_Language_Processing/)
+#### [Deep Learning](/MscIT/Semester%204/Deep_Learning/)
+#### [Blockchain](/MscIT/Semester%204/Blockchain/)
+
+
+</details>
+
 *****************
-
-### **Semester 4**
-
-
-***********************
 *********************
 
 ### [Go To Top](#practical_bscit_mscit_ninad)
