@@ -38,6 +38,9 @@
 /MscIT/Semester 1/Cloud_Computing/Practical 6/6A/CalculatorWSApplication/nbproject/private/
 /MscIT/Semester 1/Cloud_Computing/Practical 6/6A/CalculatorWSApplication/build/
 
+
+.venv/
+
 # Pracenv
 /pracenv
 __pycache__/
