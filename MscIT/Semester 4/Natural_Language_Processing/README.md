@@ -87,6 +87,10 @@ with sr.AudioFile(filename) as source:
 
 ## Prac2
 
+https://github.com/NinadKarlekar/Practical_BscIT_MscIT_Ninad/blob/bca6bf5313a218ec4847bf3b97f519e1c5f8a67e/MscIT/Semester%204/Natural_Language_Processing/Practical01/NLP_1A_TTS.py
 
+
+
+https://github.com/NinadKarlekar/Practical_BscIT_MscIT_Ninad/blob/bca6bf5313a218ec4847bf3b97f519e1c5f8a67e/MscIT/Semester%204/Natural_Language_Processing/Practical01/NLP_1A_TTS.py
 
 ******************************************************
