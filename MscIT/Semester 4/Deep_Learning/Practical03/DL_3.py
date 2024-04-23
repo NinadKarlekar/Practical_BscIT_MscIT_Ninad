@@ -1,3 +1,4 @@
+# Aim: Implementing deep neural network for performing binary classification task.
 # pip install keras
 from keras.models import Sequential
 from keras.layers import Dense
