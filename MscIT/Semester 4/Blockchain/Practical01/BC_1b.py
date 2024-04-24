@@ -1,15 +1,13 @@
-#pip install cryptodome  OR
-#pip install pycryptodome
-
-#1A.- A simple client class that generates the private and public keys by using the built-in Python RSA algorithm and test it.
-
+#1B.- A transaction class to send and receive money and test it.
 import Crypto
 import binascii
 
+import datetime
+import collections
+
 from Crypto.PublicKey import RSA
-from Crypto import Random
-from Crypto.Hash import SHA
 from Crypto.Signature import PKCS1_v1_5
+from Crypto.Hash import SHA
 
 class Client:
     def __init__(self):
@@ -23,24 +21,8 @@ class Client:
     @property
     def identity(self):
         return binascii.hexlify(self._public_key.exportKey(format='DER')).decode('ascii')
-        
-Demo = Client()
-print(Demo.identity)
+    
 
-
-
-
-###########################
-
-#1B.- A transaction class to send and receive money and test it.
-
-import datetime
-import collections
-import binascii
-
-from Crypto.PublicKey import RSA
-from Crypto.Signature import PKCS1_v1_5
-from Crypto.Hash import SHA
 
 class Transaction:
     def __init__(self, sender, receiver, value):
