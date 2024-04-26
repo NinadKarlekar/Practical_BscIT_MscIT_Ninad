@@ -12,8 +12,8 @@ pattern = r'\s+'
 tokens = re.split(pattern, text)
 
 # Printing the tokens
-print("-"*30)
+print("="*60)
 print("4b. Tokenization using Regular Expressions (RegEx)")
 print("-"*10)
 print("Tokens:", tokens)
-print("-"*30)
+print("="*60)

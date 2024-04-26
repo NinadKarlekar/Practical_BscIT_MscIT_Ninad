@@ -15,8 +15,8 @@ doc = nlp(text)
 tokens = [token.text for token in doc]
 
 # Print tokens
-print("-"*30)
+print("="*60)
 print("4d. Tokenization using the spaCy library")
 print("-"*10)
 print("Tokens:", tokens)
-print("-"*30)
+print("="*60)

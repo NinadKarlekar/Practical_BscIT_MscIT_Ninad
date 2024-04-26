@@ -12,8 +12,8 @@ text = "Hello ! My name is Ninad Karlekar I live in mumbai"
 tokens = word_tokenize(text)
 
 # Printing the tokens
-print("-"*30)
+print("="*60)
 print("4c. Tokenization using NLTK")
 print("-"*10)
 print("Tokens:", tokens)
-print("-"*30)
+print("="*60)
