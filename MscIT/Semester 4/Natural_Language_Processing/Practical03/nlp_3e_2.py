@@ -1,3 +1,4 @@
+# NLP 3E_b: Using Gensim, add or remove stop words in Default Gensim stop words List.
 #pip install scipy==1.12
 
 import gensim

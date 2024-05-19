@@ -1,3 +1,5 @@
+# NLP 3E_c: Using SpaCy, add or remove Stop Words in Default SpaCy stop words List.
+
 #python -m spacy download en_core_web_sm
 
 import spacy
