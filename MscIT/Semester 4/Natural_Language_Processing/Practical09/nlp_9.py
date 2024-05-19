@@ -1,6 +1,4 @@
-
 # 9. Implement Naive Bayes classifier
-
 
 # pip install pandas
 # pip install sklearn
@@ -19,7 +17,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 nltk.download('stopwords')
 
 # Read the SMS data
-sms_data = pd.read_csv("/content/spam.csv", encoding='latin-1')
+sms_data = pd.read_csv("MscIT\\Semester 4\\Natural_Language_Processing\\Practical09\\spam.csv", encoding='latin-1')
 
 # Initialize the Porter Stemmer
 stemming = PorterStemmer()

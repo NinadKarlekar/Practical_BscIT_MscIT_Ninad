@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-#NLP_8
+
 
 # PorterStemmer
 import nltk
