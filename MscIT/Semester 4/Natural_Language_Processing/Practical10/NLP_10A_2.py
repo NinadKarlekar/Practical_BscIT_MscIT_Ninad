@@ -1,4 +1,4 @@
-## b. speech tagging using nktl
+## 10A_2. speech tagging using nktl
 
 import nltk
 nltk.download('state_union')

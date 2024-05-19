@@ -1,3 +1,5 @@
+# 6C: Named Entity recognition with diagram using NLTK corpus - treebank
+
 import nltk
 nltk.download('treebank')
 from nltk.corpus import treebank_chunk
