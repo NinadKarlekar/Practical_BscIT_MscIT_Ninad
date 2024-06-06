@@ -1,4 +1,3 @@
-
 from matplotlib import pyplot
 from sklearn.datasets import make_moons
 from keras.models import Sequential
