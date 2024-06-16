@@ -1,19 +1,24 @@
-# 5B. Generate similar sentences from a given Hindi text input
+## 5B. Generate similar sentences from a given Hindi text input.
 
-# Install required packages
-# !pip install torch==1.3.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
-# !pip install inltk
-# !pip install tornado==4.5.3
-
-# Setup for Hindi language
-from inltk.inltk import setup
-setup('hi')
-
-# Import get_similar_sentences from inltk
-from inltk.inltk import get_similar_sentences
-
-# Get similar sentences to the one given in Hindi
-output = get_similar_sentences('मैं आज बहुत खुश हूं', 5, 'hi')
-
-# Print the similar sentences
-print(output)
+synonyms = {
+    "खुश": ["प्रसन्न", "आनंदित", "खुशी"],
+    "बहुत": ["अधिक", "बहुत ज्यादा", "काफी"]
+}
+ 
+# Function to generate similar sentences by replacing some words with synonyms
+def generate_similar_sentences(input_sentence, num_sentences=5):
+    similar_sentences = []
+ 
+    # Replace some words with synonyms 
+    for word, word_synonyms in synonyms.items():
+        for synonym in word_synonyms:
+            modified_sentence = input_sentence.replace(word, synonym)
+            similar_sentences.append(modified_sentence)
+    return similar_sentences[:num_sentences]
+ 
+input_sentence = "मैं आज बहुत खुश हूँ।"
+similar_sentences = generate_similar_sentences(input_sentence)
+print("Original sentence:", input_sentence)
+print("Similar sentences:")
+for sentence in similar_sentences:
+    print("-", sentence)

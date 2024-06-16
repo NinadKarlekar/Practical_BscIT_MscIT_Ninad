@@ -1,22 +1,38 @@
-# 5A. Word tokenization in Hindi
+## 5A. Word tokenization in Hindi
 
-# Install required packages
-# !pip install torch==1.3.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
-# !pip install inltk
-# !pip install tornado==4.5.3
+# cd "e:/GitHub/Practical_BscIT_MscIT_Ninad/MscIT/Semester 4/Natural_Language_Processing/Practical05/" for VSCODE terminal
 
-# Setup for Hindi language
-from inltk.inltk import setup
-setup('hi')
+# Clone the Indic NLP Library and Resources
 
-# Import tokenize from inltk
-from inltk.inltk import tokenize
+# !git clone https://github.com/anoopkunchukuttan/indic_nlp_library.git
+# !git clone https://github.com/anoopkunchukuttan/indic_nlp_resources.git
 
-# Hindi text to be tokenized
-hindi_text = """प्राकृतिक भाषा सीखना बहुत दिलचस्प है।"""
+import sys
+import os
 
-# Tokenize the input text in Hindi
-tokens = tokenize(hindi_text, "hi")
+#!pip install indic
+# !pip install indic-nlp-library
 
-# Print the tokens
-print(tokens)
+# The path to the local git repo for Indic NLP library
+INDIC_NLP_LIB_HOME = 'indic_nlp_library'
+
+# The path to the local git repo for Indic NLP Resources
+INDIC_NLP_RESOURCES = 'indic_nlp_resources'
+
+# Add library to Python path
+sys.path.append(os.path.join(INDIC_NLP_LIB_HOME, 'src'))
+
+# Verify if the path was added correctly
+print(sys.path)
+
+# Set environment variable for resources folder
+from indicnlp import common
+common.set_resources_path(INDIC_NLP_RESOURCES)
+
+from indicnlp.tokenize import indic_tokenize
+
+indic_string = 'सुनो, कुछ आवाज़ आ रही है। फोन?'
+print('Input String: {}'.format(indic_string))
+print('Tokens: ')
+for t in indic_tokenize.trivial_tokenize(indic_string):
+    print(t)

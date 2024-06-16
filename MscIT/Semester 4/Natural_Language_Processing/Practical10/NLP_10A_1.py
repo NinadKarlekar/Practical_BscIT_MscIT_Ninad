@@ -36,3 +36,4 @@ from spacy import displacy
 sen = sp(u"I like to play Table tennis. I hated it in my childhood though")
 displacy.serve(sen, style='dep', options={'distance': 120}, port=8000)
 
+# Visit http://127.0.0.1:8000/

@@ -1,20 +1,17 @@
-# Install required packages
-# !pip install torch==1.3.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
-# !pip install inltk
-# !pip install tornado==4.5.3
+## 5C. Identify the Indian language from the given text.
 
-# Setup for Gujarati language
-from inltk.inltk import setup
-setup('gu')
+#pip install langid
 
-# Import identify_language from inltk
-from inltk.inltk import identify_language
-
-# Identify the language of the given text
-# output = identify_language('બીના કાપડિયા')
-output = identify_language('निनाद कार्लेकर')
-
-
-
-# Print the identified language
-print(output)
+import nltk
+import langid
+ 
+# Download necessary NLTK data
+nltk.download('punkt')
+ 
+def identify_language(text):
+    lang, _ = langid.classify(text)
+    return lang
+ 
+# Identify the Indian Language from the given text
+language = identify_language("नमस्ते, आप कैसे हैं?")
+print("Identified language:", language)

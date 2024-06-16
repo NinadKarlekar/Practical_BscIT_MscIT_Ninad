@@ -41,9 +41,10 @@ import sklearn  # pip install sklearn
 from sklearn.cluster import AgglomerativeClustering
 
 texts = [
-    'Reliance supermarket', 'Reliance hypermarket', 'Reliance', 'Reliance', 'Reliance downtown', 'Relianc market',
-    'Mumbai', 'Mumbai Hyper', 'Mumbai dxb', 'mumbai airport',
-    'k.m trading', 'KM Trading', 'KM trade', 'K.M. Trading', 'KM.Trading'
+    'Reliance supermarket', 'Reliance hypermarket', 'Reliance', 'Reliance', 
+    'Reliance downtown', 'Reliance market', 'Mumbai', 'Mumbai Hyper', 
+    'Mumbai dxb', 'mumbai airport', 'k.m trading', 'KM Trading', 
+    'KM trade', 'K.M. Trading', 'KM.Trading'
 ]
 
 def normalize(text):
@@ -61,11 +62,19 @@ def group_texts(texts, threshold=0.4):
         distance_threshold=threshold,  # this parameter needs to be tuned carefully
         affinity="precomputed", linkage="complete", n_clusters=None
     ).fit(distances)
+
+    # clustering = AgglomerativeClustering(
+    #     distance_threshold=threshold,  # this parameter needs to be tuned carefully
+    #     metric="precomputed", linkage="complete", n_clusters=None
+    # ).fit(distances)   ## Use this if above line is not working
+    
     centers = dict()
     for cluster_id in set(clustering.labels_):
         index = clustering.labels_ == cluster_id
         centrality = distances[:, index][index].sum(axis=1)
         centers[cluster_id] = normalized_texts[index][centrality.argmin()]
+    
     return [centers[i] for i in clustering.labels_]
 
 print(group_texts(texts))
+
