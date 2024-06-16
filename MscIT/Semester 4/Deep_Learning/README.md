@@ -7,9 +7,12 @@ Deep Learning
 
 ## Index
 
+
+
+
 | Sr.No. | Name | README | DOWNLOAD |
 | --- | --- | --- | --- |
-| [Prac1](/MscIT/Semester%204/Deep_Learning/Practical01/) | 1A. Convert file Text to Speech. | [Prac1](#prac1) |  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%204/Deep_Learning/Practical01/DL_1.py) |
+| [Prac1](/MscIT/Semester%204/Deep_Learning/Practical01/) | 1. Performing matrix multiplication and finding eigen vectors and eigen values using TensorFlow.. | [Prac1](#prac1) |  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%204/Deep_Learning/Practical01/DL_1.py) |
 
 
 ******************
@@ -56,3 +59,6 @@ print(
 
 ******************************************************
 
+<!-- | Sr.No. | Name | README | DOWNLOAD |
+| --- | --- | --- | --- |
+| [Prac1](/MscIT/Semester%204/Deep_Learning/Practical01/) | 1. Performing matrix multiplication and finding eigen vectors and eigen values using TensorFlow.. | [Prac1](#prac1) |  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%204/Deep_Learning/Practical01/DL_1.py) | -->
