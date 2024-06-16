@@ -7,9 +7,43 @@ Natural Language Processing
 
 ## Index
 
-| Sr.No. | Name | README | DOWNLOAD |
-| --- | --- | --- | --- |
-| [Prac1A](/MscIT/Semester%204/Natural_Language_Processing/Practical01/) <br> [Prac1B](/MscIT/Semester%204/Natural_Language_Processing/Practical01/) | 1A. Convert file Text to Speech. <br> 1B. Convert file Speech to Text. | [Prac1A](#prac1) <br> [Prac1B](#prac1) |  [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%204/Natural_Language_Processing/Practical01/NLP_1A_TTS.py) <br> [Download](https://NinadKarlekar.github.io/Practical_BscIT_MscIT_Ninad/MscIT/Semester%204/Natural_Language_Processing/Practical01/NLP_1B_STT.py) |
+| Sr.No. | Name | README |
+| --- | --- | --- |
+| [Prac1A](/MscIT/Semester%204/Natural_Language_Processing/Practical01/) <br> [Prac1B](/MscIT/Semester%204/Natural_Language_Processing/Practical01/) | 1A. Convert file Text to Speech. <br> 1B. Convert file Speech to Text. | [Prac1A](#prac1) <br> [Prac1B](#prac1) |
+| [Prac2A](/MscIT/Semester%204/Natural_Language_Processing/Practical02/) <br> [Prac2B](/MscIT/Semester%204/Natural_Language_Processing/Practical02/) <br> [Prac2C](/MscIT/Semester%204/Natural_Language_Processing/Practical02/) <br> [Prac2D](/MscIT/Semester%204/Natural_Language_Processing/Practical02/) <br> [Prac2E](/MscIT/Semester%204/Natural_Language_Processing/Practical02/) <br> [Prac2F](/MscIT/Semester%204/Natural_Language_Processing/Practical02/) <br> [Prac2G](/MscIT/Semester%204/Natural_Language_Processing/Practical02/) <br> [Prac2H](/MscIT/Semester%204/Natural_Language_Processing/Practical02/) | a. Study of various corpus – Brown, Inaugural, Reuters, udhr with various methods like fields, raw, words, sents, categories. <br> b. Create and use your own corpora (plaintext, categorical). <br> c. Study conditional frequency distribution. <br> d. Study of tagged corpora with methods like tagged_sents, tagged_words. <br> e. Write a program to find the most frequent noun tags. <br> f. Map words to the properties using Python Dictionaries. <br> g. Study i) DefaultTagger, ii) Regular expression tagger, iii) UnigramTagger <br> h. Find different words from a given plaintext without any spaces by comparing this text with a given corpus of words. Also find the score of words. | [Prac2A](#prac2) <br> [Prac2B](#prac2) <br> [Prac2C](#prac2) <br> [Prac2D](#prac2) <br> [Prac2E](#prac2) <br> [Prac2F](#prac2) <br> [Prac2G](#prac2) <br> [Prac2H](#prac2) |
+| [Prac3A](/MscIT/Semester%204/Natural_Language_Processing/Practical03/) <br> [Prac3B](/MscIT/Semester%204/Natural_Language_Processing/Practical03/) <br> [Prac3C](/MscIT/Semester%204/Natural_Language_Processing/Practical03/) <br> [Prac3D](/MscIT/Semester%204/Natural_Language_Processing/Practical03/) <br> [Prac3E](/MscIT/Semester%204/Natural_Language_Processing/Practical03/) | a. Study of Wordnet Dictionary with methods as synsets, definitions, examples, antonyms. <br> b. Study lemmas, hyponyms, hypernyms, entailments. <br> c. Write a program using python to find synonym and antonym of word "active" using Wordnet. <br> d. Compare two nouns. <br> e. Handling stopword: <br> i. Using nltk, add or remove stop words in NLTK's Default stop word list <br> ii. Using Gensim, add or remove stop words in Default Gensim stop words List. <br> iii. Using SpaCy, add or remove Stop Words in Default SpaCy stop words List. | [Prac3A](#prac3) <br> [Prac3B](#prac3) <br> [Prac3C](#prac3) <br> [Prac3D](#prac3) <br> [Prac3E](#prac3) |
+| [Prac4A](/MscIT/Semester%204/Natural_Language_Processing/Practical04/) <br> [Prac4B](/MscIT/Semester%204/Natural_Language_Processing/Practical04/) <br> [Prac4C](/MscIT/Semester%204/Natural_Language_Processing/Practical04/) <br> [Prac4D](/MscIT/Semester%204/Natural_Language_Processing/Practical04/) <br> [Prac4E](/MscIT/Semester%204/Natural_Language_Processing/Practical04/) <br> [Prac4F](/MscIT/Semester%204/Natural_Language_Processing/Practical04/) | Text Tokenization: <br> a. Tokenization using Python’s split() function. <br> b. Tokenization using Regular Expression (RegEx). <br> c. Tokenization using NLTK. <br> d. Tokenization using spaCy library. <br> e. Tokenization using Keras. <br> f. Tokenization using Gensim. | [Prac4A](#prac4) <br> [Prac4B](#prac4) <br> [Prac4C](#prac4) <br> [Prac4D](#prac4) <br> [Prac4E](#prac4) <br> [Prac4F](#prac4) |
+| [Prac5A](/MscIT/Semester%204/Natural_Language_Processing/Practical05/) <br> [Prac5B](/MscIT/Semester%204/Natural_Language_Processing/Practical05/) <br> [Prac5C](/MscIT/Semester%204/Natural_Language_Processing/Practical05/) | Study the important libraries for Indian language and perform the following: <br> a. Word tokenization in Hindi <br> b. Generate similar sentences from a given Hindi text input <br> c. Identify the Indian language from the given text. | [Prac5A](#prac5) <br> [Prac5B](#prac5) <br> [Prac5C](#prac5) |
+| [Prac6A](/MscIT/Semester%204/Natural_Language_Processing/Practical06/) <br> [Prac6B](/MscIT/Semester%204/Natural_Language_Processing/Practical06/) <br> [Prac6C](/MscIT/Semester%204/Natural_Language_Processing/Practical06/) | Illustrate Part-of-Speech: <br> a. Part of speech Tagging and chunking of user defined text. <br> b. Named Entity recognition of user defined text. <br> c. Named Entity recognition with diagram using NLTK corpus - treebank. | [Prac6A](#prac6) <br> [Prac6B](#prac6) <br> [Prac6C](#prac6) |
+| [Prac7A](/MscIT/Semester%204/Natural_Language_Processing/Practical07/) <br> [Prac7B](/MscIT/Semester%204/Natural_Language_Processing/Practical07/) <br> [Prac7C](/MscIT/Semester%204/Natural_Language_Processing/Practical07/) <br> [Prac7D](/MscIT/Semester%204/Natural_Language_Processing/Practical07/) | a. Define grammar using nltk. Analyse a sentence using the same. <br> b. Accept the input string with Regular expression of FA: 101+ <br> c. Accept the input string with Regular expression of FA: (a+b)*bba <br> d. Implementation of Deductive Chart Parsing using context free grammar and a given sentence. | [Prac7A](#prac7) <br> [Prac7B](#prac7) <br> [Prac7C](#prac7) <br> [Prac7D](#prac7) |
+| [Prac8A](/MscIT/Semester%204/Natural_Language_Processing/Practical08/) <br> [Prac8B](/MscIT/Semester%204/Natural_Language_Processing/Practical08/) | a. Study PorterStemmer, LancasterStemmer, RegexpStemmer, SnowballStemmer <br> b. Study WordNet Lemmatizer | [Prac8A](#prac8) <br> [Prac8B](#prac8) |
+| [Prac9A](/MscIT/Semester%204/Natural_Language_Processing/Practical09/) | Implement Naive Bayes classifier | [Prac9A](#prac9) |
+| [Prac10A](/MscIT/Semester%204/Natural_Language_Processing/Practical10/) <br> [Prac10B](/MscIT/Semester%204/Natural_Language_Processing/Practical10/) <br> [Prac10C](/MscIT/Semester%204/Natural_Language_Processing/Practical10/) <br> [Prac10D](/MscIT/Semester%204/Natural_Language_Processing/Practical10/) <br> [Prac10E](/MscIT/Semester%204/Natural_Language_Processing/Practical10/) | a. Speech Tagging: <br> i. Speech tagging using spacy. <br> ii. Speech tagging using NLTK. <br> b. Statistical parsing: <br> i. Usage of Give and Gave in the Penn Treebank sample. <br> ii. Probabilistic parser <br> c. Malt parsing: <br> i. Parse a sentence and draw a tree using malt parsing | [Prac10A](#prac10) <br> [Prac10B](#prac10) <br> [Prac10C](#prac10) <br> [Prac10D](#prac10) <br> [Prac10E](#prac10) |
+| [Prac11A](/MscIT/Semester%204/Natural_Language_Processing/Practical11/) <br> [Prac11B](/MscIT/Semester%204/Natural_Language_Processing/Practical11/) <br> [Prac11C](/MscIT/Semester%204/Natural_Language_Processing/Practical11/) | a. Multiword Expressions in NLP <br> b. Normalized Web Distance and Word Similarity <br> c. Word Sense Disambiguation | [Prac11A](#prac11) <br> [Prac11B](#prac11) <br> [Prac11C](#prac11) |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ******************
@@ -1397,15 +1431,70 @@ for tree in parser.parse(all_tokens):
 
 ## Prac8
 
-8A. Convert file Text to Speech.
-
+8a. Study PorterStemmer, LancasterStemmer, RegexpStemmer, SnowballStemmer
 
 <details>
 <summary>CODE</summary>
 
 ```python
+# PorterStemmer
+import nltk
+from nltk.stem import PorterStemmer
+word_stemmer = PorterStemmer()
+print("Output of PorterStemmer:-")
+print(word_stemmer.stem('Ninad is running'))
+print("*"*50)
 
+# LancasterStemmer
+import nltk
+from nltk.stem import LancasterStemmer
+Lanc_stemmer = LancasterStemmer()
+print("Output of LancasterStemmer:-")
+print(Lanc_stemmer.stem('jumping'))
+print("*"*50)
 
+#RegexpStemmer
+import nltk
+from nltk.stem import RegexpStemmer
+Reg_stemmer = RegexpStemmer('ing$|s$|e$|able$', min=4)
+print("Output of RegexpStemmer:-")
+print(Reg_stemmer.stem('writing'))
+print("*"*50)
+
+# SnowballStemmer
+import nltk
+from nltk.stem import SnowballStemmer
+english_stemmer = SnowballStemmer('english')
+print("Output of SnowballStemmer:-")
+print(english_stemmer.stem ('writing'))
+print("*"*50)
+```
+
+</details>
+
+<br>
+
+8b. Study WordNet Lemmatizer
+
+<details>
+<summary>CODE</summary>
+
+```python
+# WordNetLemmatizer
+print("Output of WordNetLemmatizer:-")
+import nltk
+nltk.download('wordnet')
+
+from nltk.stem import WordNetLemmatizer
+
+lemmatizer = WordNetLemmatizer()
+print("word :\tlemma")
+print("rocks :", lemmatizer.lemmatize("books"))
+print("corpora :", lemmatizer.lemmatize("corpora"))
+
+# a denotes adjective in "pos"
+print("worse :", lemmatizer.lemmatize("worse", pos ="a"))
+print("*"*50)
 ```
 
 </details>
@@ -1416,14 +1505,70 @@ for tree in parser.parse(all_tokens):
 
 ## Prac9
 
-9A. Convert file Text to Speech.
+9. Implement Naive Bayes classifier
 
 
 <details>
 <summary>CODE</summary>
 
 ```python
+# 9. Implement Naive Bayes classifier
 
+# pip install pandas
+# pip install sklearn
+import pandas as pd
+import numpy as np
+import re
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem.porter import PorterStemmer
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+
+# Download NLTK stopwords
+nltk.download('stopwords')
+
+# Read the SMS data
+sms_data = pd.read_csv("MscIT\\Semester 4\\Natural_Language_Processing\\Practical09\\spam.csv", encoding='latin-1')
+
+# Initialize the Porter Stemmer
+stemming = PorterStemmer()
+corpus = []
+
+# Create the corpus with stemmed words
+for i in range(len(sms_data)):
+    s1 = re.sub('[^a-zA-Z]', ' ', sms_data['v2'][i])
+    s1 = s1.lower()
+    s1 = s1.split()
+    s1 = [stemming.stem(word) for word in s1 if word not in set(stopwords.words('english'))]
+    s1 = ' '.join(s1)
+    corpus.append(s1)
+
+# Convert the corpus into a matrix of token counts
+countvectorizer = CountVectorizer()
+x = countvectorizer.fit_transform(corpus).toarray()
+print(x)
+
+# Extract the target variable
+y = sms_data['v1'].values
+print(y)
+
+# Split the data into training and testing sets
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, stratify=y, random_state=2)
+
+# Initialize the Multinomial Naïve Bayes model
+multinomialnb = MultinomialNB()
+multinomialnb.fit(x_train, y_train)
+
+# Predicting on test data
+y_pred = multinomialnb.predict(x_test)
+print(y_pred)
+
+# Results of our models
+print(classification_report(y_test, y_pred))
+print("accuracy_score: ", accuracy_score(y_test, y_pred))
 
 ```
 
@@ -1435,15 +1580,197 @@ for tree in parser.parse(all_tokens):
 
 ## Prac10
 
-10A. Convert file Text to Speech.
+10a. Speech Tagging:
 
+10a_i. Speech tagging using spacy.
 
 <details>
 <summary>CODE</summary>
 
 ```python
+# 10. Speech Tagging
+## a_1. Speech tagging using spacy
 
+import spacy
 
+sp = spacy.load('en_core_web_sm')
+sen = sp(u"I like to play Table tennis. I hated it in my childhood though")
+
+print(sen.text)
+print(sen[7].pos_)
+print(sen[7].tag_)
+print(spacy.explain(sen[7].tag_))
+
+for word in sen:
+    print(f'{word.text:{12}} {word.pos_:{10}} {word.tag_:{8}} {spacy.explain(word.tag_)}')
+
+sen = sp(u'Can you google it?')
+word = sen[2]
+print(f'{word.text:{12}} {word.pos_:{10}} {word.tag_:{8}} {spacy.explain(word.tag_)}')
+
+sen = sp(u'Can you search it on google?')
+word = sen[5]
+print(f'{word.text:{12}} {word.pos_:{10}} {word.tag_:{8}} {spacy.explain(word.tag_)}')
+
+# Finding the Number of POS Tags
+sen = sp(u"I like to play Table tennis. I hated it in my childhood though")
+num_pos = sen.count_by(spacy.attrs.POS)
+num_pos
+
+for k,v in sorted(num_pos.items()):
+    print(f'{k}. {sen.vocab[k].text:{8}}: {v}')
+
+# Visualizing Parts of Speech Tags
+from spacy import displacy
+
+sen = sp(u"I like to play Table tennis. I hated it in my childhood though")
+displacy.serve(sen, style='dep', options={'distance': 120}, port=8000)
+
+# Visit http://127.0.0.1:8000/
+```
+
+</details>
+
+<br>
+
+10a_ii. Speech tagging using NLTK.
+
+<details>
+<summary>CODE</summary>
+
+```python
+## 10A_2. speech tagging using nktl
+
+import nltk
+nltk.download('state_union')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+
+from nltk.corpus import state_union
+from nltk.tokenize import PunktSentenceTokenizer
+
+# Create our training and testing data:
+train_text = state_union.raw("E:\\GitHub\\Practical_BscIT_MscIT_Ninad\\MscIT\\Semester 4\\Natural_Language_Processing\\Practical10\\2005-GWBush.txt")
+sample_text = state_union.raw("E:\\GitHub\\Practical_BscIT_MscIT_Ninad\\MscIT\\Semester 4\\Natural_Language_Processing\\Practical10\\2006-GWBush.txt")
+
+# Train the Punkt tokenizer:
+custom_sent_tokenizer = PunktSentenceTokenizer(train_text)
+
+# Tokenize:
+tokenized = custom_sent_tokenizer.tokenize(sample_text)
+
+def process_content():
+    try:
+        for i in tokenized[:2]:
+            words = nltk.word_tokenize(i)
+            tagged = nltk.pos_tag(words)
+            print(tagged)
+    except Exception as e:
+        print(str(e))
+
+process_content()
+```
+
+</details>
+
+<br>
+
+10b. Statistical parsing:
+
+10b_i. Usage of Give and Gave in the Penn Treebank sample.
+
+<details>
+<summary>CODE</summary>
+
+```python
+# 10 b. Statistical parsing:
+# 1. Usage of Give and Gave in the Penn Treebank sample.
+
+import nltk
+import nltk.parse.viterbi
+import nltk.parse.pchart
+
+def give(t):
+    return (t.label() == 'VP' and len(t) > 2 and t[1].label() == 'NP' and 
+            (t[2].label() == 'PP-DTV' or t[2].label() == 'NP') and 
+            ('give' in t[0].leaves() or 'gave' in t[0].leaves()))
+
+def sent(t):
+    return ' '.join(token for token in t.leaves() if token[0] not in '*-0')
+
+def print_node(t, width):
+    output = "%s %s: %s / %s: %s" % (
+        sent(t[0]), t[1].label(), sent(t[1]), t[2].label(), sent(t[2]))
+    if len(output) > width:
+        output = output[:width] + "..."
+    print(output)
+
+for tree in nltk.corpus.treebank.parsed_sents():
+    for t in tree.subtrees(give):
+        print_node(t, 72)
+```
+
+</details>
+
+<br>
+
+10b_ii. Probabilistic parser
+
+<details>
+<summary>CODE</summary>
+
+```python
+# 10 b. Statistical parsing:
+# 2. probabilistic parser
+
+import nltk
+from nltk import PCFG
+
+grammar = PCFG.fromstring('''
+    NP -> NNS [0.5] | JJ NNS [0.3] | NP CC NP [0.2]
+    NNS -> "men" [0.1] | "women" [0.2] | "children" [0.3] | NNS CC NNS [0.4]
+    JJ -> "old" [0.4] | "young" [0.6]
+    CC -> "and" [0.9] | "or" [0.1]
+''')
+
+print(grammar)
+
+viterbi_parser = nltk.ViterbiParser(grammar)
+token = "old men and women".split()
+obj = viterbi_parser.parse(token)
+
+print("Output:")
+for x in obj:
+    print(x)
+```
+
+</details>
+
+<br>
+
+10c. Malt parsing:
+
+10c_i. Parse a sentence and draw a tree using malt parsing
+
+<details>
+<summary>CODE</summary>
+
+```python
+# c. Malt parsing: i. Parse a sentence and draw a tree using malt parsing
+
+# Copy maltparser-1.7.2 (unzipped version) and engmalt.linear-1.7.mco files to
+# C:\Users\Beena Kapadia\AppData\Local\Programs\Python\Python39 folder
+# Java should be installed
+# Environment variables should be set:
+# MALT_PARSER - C:\Users\Beena Kapadia\AppData\Local\Programs\Python\Python39\maltparser-1.7.2
+# MALT_MODEL - C:\Users\Beena Kapadia\AppData\Local\Programs\Python\Python39\engmalt.linear-1.7.mco
+
+from nltk.parse import malt
+
+mp = malt.MaltParser('maltparser-1.7.2', 'engmalt.linear-1.7.mco')
+t = mp.parse_one('I saw a bird from my window.'.split()).tree()
+print(t)
+t.draw()
 ```
 
 </details>
@@ -1454,20 +1781,121 @@ for tree in parser.parse(all_tokens):
 
 ## Prac11
 
-11A. Convert file Text to Speech.
-
+11a. Multiword Expressions in NLP
 
 <details>
 <summary>CODE</summary>
 
 ```python
+# 11 a. Multiword Expressions in NLP
 
+# Multiword Expressions in NLP
+from nltk.tokenize import MWETokenizer
+from nltk import sent_tokenize, word_tokenize
 
+s = '''Good cake cost Rs.1500\kg in Mumbai. Please buy me one of them.\n\nThanks.'''
+mwe = MWETokenizer([('New', 'York'), ('Hong', 'Kong')], separator='_')
+
+for sent in sent_tokenize(s):
+    print(mwe.tokenize(word_tokenize(sent)))
 ```
 
 </details>
 
 <br>
+
+11b. Normalized Web Distance and Word Similarity
+
+<details>
+<summary>CODE</summary>
+
+```python
+# 11 B. Normalized Web Distance and Word Similarity
+
+# Convert # Reliance supermarket # Reliance hypermarket # Reliance # Reliance # Reliance downtown # Relianc market # Mumbai # Mumbai Hyper # Mumbai dxb # mumbai airport
+# k.m trading # KM Trading # KM trade # K.M. Trading # KM.Trading # into # Reliance # Reliance # Reliance # Reliance # Reliance # Reliance # Mumbai # Mumbai # Mumbai
+# Mumbai # KM Trading # KM Trading # KM Trading # KM Trading # KM Trading
+
+import numpy as np
+import re
+import textdistance  # pip install textdistance
+# we will need scikit-learn>=0.21
+import sklearn  # pip install sklearn
+from sklearn.cluster import AgglomerativeClustering
+
+texts = [
+    'Reliance supermarket', 'Reliance hypermarket', 'Reliance', 'Reliance', 
+    'Reliance downtown', 'Reliance market', 'Mumbai', 'Mumbai Hyper', 
+    'Mumbai dxb', 'mumbai airport', 'k.m trading', 'KM Trading', 
+    'KM trade', 'K.M. Trading', 'KM.Trading'
+]
+
+def normalize(text):
+    """ Keep only lower-cased text and numbers"""
+    return re.sub('[^a-z0-9]+', ' ', text.lower())
+
+def group_texts(texts, threshold=0.4):
+    """ Replace each text with the representative of its cluster"""
+    normalized_texts = np.array([normalize(text) for text in texts])
+    distances = 1 - np.array([
+        [textdistance.jaro_winkler(one, another) for one in normalized_texts]
+        for another in normalized_texts
+    ])
+    clustering = AgglomerativeClustering(
+        distance_threshold=threshold,  # this parameter needs to be tuned carefully
+        affinity="precomputed", linkage="complete", n_clusters=None
+    ).fit(distances)
+
+    # clustering = AgglomerativeClustering(
+    #     distance_threshold=threshold,  # this parameter needs to be tuned carefully
+    #     metric="precomputed", linkage="complete", n_clusters=None
+    # ).fit(distances)   ## Use this if above line is not working
+    
+    centers = dict()
+    for cluster_id in set(clustering.labels_):
+        index = clustering.labels_ == cluster_id
+        centrality = distances[:, index][index].sum(axis=1)
+        centers[cluster_id] = normalized_texts[index][centrality.argmin()]
+    
+    return [centers[i] for i in clustering.labels_]
+
+print(group_texts(texts))
+```
+
+</details>
+
+<br>
+
+11c. Word Sense Disambiguation
+
+<details>
+<summary>CODE</summary>
+
+```python
+# 11C. Word Sense Disambiguation
+from nltk.corpus import wordnet as wn
+
+def get_first_sense(word, pos=None):
+    if pos:
+        synsets = wn.synsets(word, pos)
+    else:
+        synsets = wn.synsets(word)
+    return synsets[0]
+
+best_synset = get_first_sense('bank')
+print('%s: %s' % (best_synset.name(), best_synset.definition()))
+
+best_synset = get_first_sense('set', 'n')
+print('%s: %s' % (best_synset.name(), best_synset.definition()))
+
+best_synset = get_first_sense('set', 'v')
+print('%s: %s' % (best_synset.name(), best_synset.definition()))
+
+```
+
+</details>
+
+<br> 
 
 ******************************************************
 
