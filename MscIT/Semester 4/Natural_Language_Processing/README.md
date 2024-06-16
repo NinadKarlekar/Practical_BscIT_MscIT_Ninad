@@ -356,8 +356,58 @@ print(type(thisdict))
 <summary>CODE</summary>
 
 ```python
-# Code for studying DefaultTagger, Regular expression tagger, UnigramTagger
-# Insert your code here
+# i) DefaultTagger
+import nltk
+from nltk.tag import DefaultTagger
+from nltk.corpus import treebank
+
+# Create a default tagger that tags everything as 'NN'
+exptagger = DefaultTagger('NN')
+
+# Get test sentences from the treebank corpus
+testsentences = treebank.tagged_sents()[1000:]
+
+# Evaluate the tagger on the test sentences
+print(exptagger.evaluate(testsentences))
+
+## Tagging a list of sentences
+print(exptagger.tag_sents([['Hi', ','], ['How', 'are', 'you', '?']]))
+
+
+####
+
+# ii) Regular expression tagger, 
+
+from nltk.corpus import brown 
+from nltk.tag import RegexpTagger 
+test_sent = brown.sents(categories='news')[0] 
+regexp_tagger = RegexpTagger( 
+[(r'^-?[0-9]+(.[0-9]+)?$', 'CD'),   # cardinal numbers 
+(r'(The|the|A|a|An|an)$', 'AT'),   # articles 
+(r'.*able$', 'JJ'),                # adjectives 
+(r'.*ness$', 'NN'),   # nouns formed from adjectives      
+(r'.*ly$', 'RB'),     # adverbs        
+(r'.*s$', 'NNS'),         # plural nouns   
+(r'.*ing$', 'VBG'),   # gerunds              
+(r'.*ed$', 'VBD'),  # past tense verbs 
+(r'.*', 'NN')    # nouns (default)                    
+]) 
+print(regexp_tagger) 
+print(regexp_tagger.tag(test_sent))
+
+####
+
+# iii) UnigramTagger
+
+from nltk.tag import UnigramTagger
+from nltk.corpus import treebank
+train_sents = treebank.tagged_sents()[:10]
+tagger = UnigramTagger(train_sents) # Initializing 
+print(treebank.sents()[0])
+print('\n',tagger.tag(treebank.sents()[0]))
+tagger.tag(treebank.sents()[0])
+tagger = UnigramTagger(model ={'Pierre': 'NN'}) #Overriding the context model print('\n',tagger.tag(treebank.sents()[0]))
+
 ```
 
 </details>
