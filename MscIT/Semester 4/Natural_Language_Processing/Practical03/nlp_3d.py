@@ -1,4 +1,4 @@
-#d. Write a program using python to find synonym and antonym of word "active" using Wordnet.
+#d. Compare two nouns.
 
 from nltk.corpus import wordnet as wn
 

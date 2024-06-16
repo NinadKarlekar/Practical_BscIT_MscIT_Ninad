@@ -512,15 +512,186 @@ print("Score", score)
 
 ## Prac3
 
-3A. Convert file Text to Speech.
-
+3a. Study of Wordnet Dictionary with methods as synsets, definitions, examples, antonyms.
 
 <details>
 <summary>CODE</summary>
 
 ```python
+# NLP 3A. Study of Wordnet Dictionary with methods as synsets, definitions, examples, antonyms
+# Import necessary libraries
+import nltk
+from nltk.corpus import wordnet
+
+# Download WordNet (if not already downloaded)
+nltk.download('wordnet')
+
+# Get synsets (collection of synonyms) for "phone"
+synsets = wordnet.synsets("phone")
+
+# Print information about "phone"
+print("**Word:** phone")
+print("  * Synsets:")
+
+# Loop through each synset and print its definition and examples
+for synset in synsets:
+    # Get the first word from the synset (considered the most representative)
+    word = synset.lemmas()[0].name()
+    print(f"      - Word: {word}")
+    print(f"        - Definition: {synset.definition()}")
+    print(f"          - Examples: {synset.examples()}")
 
 
+print("-"*40)
+# Get antonyms for "buy" (verb)
+antonyms = wordnet.lemma('buy.v.01.buy').antonyms()
+
+# Print antonyms for "buy"
+print("\n**Antonyms for 'buy':")
+for antonym in antonyms:
+    print(f"  - {antonym.name()}")
+```
+
+</details>
+
+<br>
+
+3b. Study lemmas, hyponyms, hypernyms, entailments.
+
+<details>
+<summary>CODE</summary>
+
+```python
+# NLP 3B Study lemmas, hyponyms, hypernyms.
+
+# Import necessary libraries
+import nltk
+from nltk.corpus import wordnet
+
+# Download WordNet (if not already downloaded)
+nltk.download('wordnet')
+
+# Exploring Lemmas
+print("\n**Lemmas**")
+synsets = wordnet.synsets("computer")
+print("  * Synsets and Lemmas:")
+for synset in synsets:
+    lemma_names = [lemma.name() for lemma in synset.lemmas()]
+    print(f"      - Synset: {synset} --> Lemmas: {lemma_names}")
+
+# Exploring Hyponyms
+print("\n**Hyponyms**")
+computer_synset = wordnet.synset("computer.n.01")
+hyponyms = computer_synset.hyponyms()
+print("  * Hyponyms of 'computer.n.01':")
+for synset in hyponyms:
+    lemma_names = [lemma.name() for lemma in synset.lemmas()]
+    print(f"      - Synset: {synset} --> Lemmas: {lemma_names}")
+
+# Exploring Hypernyms
+print("\n**Hypernyms**")
+vehicle_synset = wordnet.synset("vehicle.n.01")
+car_synset = wordnet.synset("car.n.01")
+lowest_common_hypernym = car_synset.lowest_common_hypernyms(vehicle_synset)
+print(f"  * Lowest common hypernym of 'vehicle' and 'car': {lowest_common_hypernym[0]}")
+```
+
+</details>
+
+<br>
+
+3c. Write a program using python to find synonym and antonym of word "active" using Wordnet.
+
+<details>
+<summary>CODE</summary>
+
+```python
+# NLP 3C. Write a program using python to find synonym and antonym of word "active" using Wordnet.
+
+import nltk
+from nltk.corpus import wordnet
+nltk.download('omw-1.4')
+
+def get_synonyms_antonyms(word):
+    synonyms = []
+    antonyms = []
+
+    for syn in wordnet.synsets(word):
+        for lemma in syn.lemmas():
+            synonyms.append(lemma.name())
+            if lemma.antonyms():
+                antonyms.append(lemma.antonyms()[0].name())
+
+    return set(synonyms), set(antonyms)
+
+def main():
+    word = input("Enter the word:-")
+    synonyms, antonyms = get_synonyms_antonyms(word)
+    
+    print("Synonyms of", word + ":", synonyms)
+    print("Antonyms of", word + ":", antonyms)
+
+if __name__ == "__main__":
+    nltk.download('wordnet')
+    main()
+```
+
+</details>
+
+<br>
+
+3d. Compare two nouns.
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Code for comparing two nouns
+# Insert your code here
+```
+
+</details>
+
+<br>
+
+3e. Handling stopword
+
+3e_i. Using nltk, add or remove stop words in NLTK's Default stop word list
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Code for handling stopwords using NLTK
+# Insert your code here
+```
+
+</details>
+
+<br>
+
+3e_ii. Using Gensim, add or remove stop words in Default Gensim stop words List.
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Code for handling stopwords using Gensim
+# Insert your code here
+```
+
+</details>
+
+<br>
+
+3e_iii. Using SpaCy, add or remove Stop Words in Default SpaCy stop words List.
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Code for handling stopwords using SpaCy
+# Insert your code here
 ```
 
 </details>
