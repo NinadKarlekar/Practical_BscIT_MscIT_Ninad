@@ -646,8 +646,43 @@ if __name__ == "__main__":
 <summary>CODE</summary>
 
 ```python
-# Code for comparing two nouns
-# Insert your code here
+#d. Compare two nouns.
+
+from nltk.corpus import wordnet as wn
+
+def compare_nouns(noun1, noun2):
+    # Get synsets for each noun
+    synsets1 = wn.synsets(noun1, pos=wn.NOUN)
+    synsets2 = wn.synsets(noun2, pos=wn.NOUN)
+    
+    if not synsets1 or not synsets2:
+        return "Unable to compare. Make sure both nouns are valid." 
+    
+    max_wup_similarity = 0
+    max_path_similarity = 0
+    
+    for synset1 in synsets1:
+        for synset2 in synsets2:
+            # Calculate Wu-Palmer Similarity
+            wup_similarity = synset1.wup_similarity(synset2)
+            if wup_similarity is not None and wup_similarity > max_wup_similarity:
+                max_wup_similarity = wup_similarity
+            
+            # Calculate Path Similarity
+            path_similarity = synset1.path_similarity(synset2)
+            if path_similarity is not None and path_similarity > max_path_similarity:
+                max_path_similarity = path_similarity
+    
+    return max_wup_similarity, max_path_similarity
+
+if __name__ == "__main__":
+    noun1 = input("Enter the first noun: ")
+    noun2 = input("Enter the second noun: ") 
+    
+    wup_similarity_score, path_similarity_score = compare_nouns(noun1, noun2)
+    
+    print(f"The Wu-Palmer Similarity between '{noun1}' and '{noun2}' is: {wup_similarity_score}")
+    print(f"The Path Similarity between '{noun1}' and '{noun2}' is: {path_similarity_score}")
 ```
 
 </details>
@@ -662,8 +697,31 @@ if __name__ == "__main__":
 <summary>CODE</summary>
 
 ```python
-# Code for handling stopwords using NLTK
-# Insert your code here
+# NLP 3E_a: Using nltk, add or remove stop words in NLTK's Default stop word list
+# Import necessary libraries
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+
+# Download stopwords (if not already downloaded)
+nltk.download('punkt')
+nltk.download('stopwords')
+
+print("-"*40)
+
+# Sample text
+text = "Ninad likes to play Chess, however he is not too good with the football."
+print("Given Text:- ",text)
+# Remove stop words from text
+text_tokens = word_tokenize(text)
+stop_words = stopwords.words('english')
+tokens_without_sw = [word for word in text_tokens if word not in stop_words]
+print("Tokens without stop words:", tokens_without_sw)
+
+# Add custom stop word ('not')
+custom_stop_words = stop_words + ['not']
+tokens_without_sw = [word for word in text_tokens if word not in custom_stop_words]
+print("\nTokens without 'not' (custom stop word):", tokens_without_sw)
 ```
 
 </details>
@@ -676,8 +734,38 @@ if __name__ == "__main__":
 <summary>CODE</summary>
 
 ```python
-# Code for handling stopwords using Gensim
-# Insert your code here
+# NLP 3E_b: Using Gensim, add or remove stop words in Default Gensim stop words List.
+#pip install scipy==1.12
+
+import gensim
+from gensim.parsing.preprocessing import remove_stopwords, STOPWORDS
+
+text = "Ninad likes to play Chess, however he is not too good with the football."
+
+# Removing Stop Words
+filtered_sentence = remove_stopwords(text)
+print("-"*30)
+print("Original sentence:", text)
+print("-"*30)
+print("Stop words removed:", filtered_sentence)
+print("-"*30)
+
+# Adding Stop Words
+all_stopwords = STOPWORDS.union(set(['likes', 'play']))
+text_tokens = text.split()
+tokens_without_sw = [word for word in text_tokens if word not in all_stopwords]
+print("Original sentence (tokens):", text_tokens)
+print("-"*30)
+print("Stop words 'likes' and 'play' added:", tokens_without_sw)
+print("-"*30)
+
+# Removing Specific Stop Word
+all_stopwords = STOPWORDS.difference({"not"})
+tokens_without_sw = [word for word in text.split() if word not in all_stopwords]
+print("Original sentence (tokens):", text.split())
+print("-"*30)
+print("Stop word 'not' removed:", tokens_without_sw)
+print("-"*30)
 ```
 
 </details>
@@ -690,8 +778,38 @@ if __name__ == "__main__":
 <summary>CODE</summary>
 
 ```python
-# Code for handling stopwords using SpaCy
-# Insert your code here
+# NLP 3E_c: Using SpaCy, add or remove Stop Words in Default SpaCy stop words List.
+
+#python -m spacy download en_core_web_sm
+
+import spacy
+import nltk
+from nltk.tokenize import word_tokenize
+print("NLP 3E 3 Using Spacy Adding and Removing Stop Words in Default Spacy Stop Words List")
+# Load spaCy model (assuming en_core_web_sm is already downloaded)
+sp = spacy.load("en_core_web_sm")
+
+# Get default stop words from spaCy
+all_stopwords = sp.Defaults.stop_words
+
+# Adding Stop Words
+
+text = "Ninad likes to play Chess, however he is not too good with the football."
+text_tokens = word_tokenize(text)
+
+# Add "play" to stop words
+all_stopwords.add("play")
+tokens_without_sw = [word for word in text_tokens if word not in all_stopwords]
+print("Original sentence (tokens):", text_tokens)
+print("Stop word 'play' added:", tokens_without_sw)
+
+# Removing Specific Stop Word
+
+# Remove "not" from stop words (modify with caution)
+all_stopwords.remove("not")
+tokens_without_sw = [word for word in text_tokens if word not in all_stopwords]
+print("Original sentence (tokens):", text_tokens)
+print("Stop word 'not' removed:", tokens_without_sw)
 ```
 
 </details>
@@ -702,15 +820,184 @@ if __name__ == "__main__":
 
 ## Prac4
 
-4A. Convert file Text to Speech.
-
+4a. Tokenization using Python’s split() function.
 
 <details>
 <summary>CODE</summary>
 
 ```python
+# 4A. Tokenization using Python’s split() function
 
+# Sample text to tokenize
+text = "Hello ! My name is Ninad Karlekar I live in mumbai"
 
+# Tokenizing the text using split()
+tokens = text.split()
+
+# Printing the tokens
+print("="*60)
+print("4A. Tokenization using Python’s split() function")
+print("-"*10)
+print("Tokens:", tokens)
+print("="*60)
+```
+
+</details>
+
+<br>
+
+4b. Tokenization using Regular Expression (RegEx).
+
+<details>
+<summary>CODE</summary>
+
+```python
+# 4b. Tokenization using Regular Expressions (RegEx)
+
+import re
+
+# Sample text to tokenize
+text = "Hello ! My name is Ninad Karlekar I live in mumbai"
+
+# Define the regex pattern for tokenization (splitting by whitespace)
+pattern = r'\s+'
+
+# Tokenizing the text using re.split()
+tokens = re.split(pattern, text)
+
+# Printing the tokens
+print("="*60)
+print("4b. Tokenization using Regular Expressions (RegEx)")
+print("-"*10)
+print("Tokens:", tokens)
+print("="*60)
+```
+
+</details>
+
+<br>
+
+4c. Tokenization using NLTK.
+
+<details>
+<summary>CODE</summary>
+
+```python
+#4c. Tokenization using NLTK
+
+import nltk
+from nltk.tokenize import word_tokenize
+
+nltk.download('punkt')
+
+# Sample text to tokenize
+text = "Hello ! My name is Ninad Karlekar I live in mumbai"
+
+# Tokenizing the text using NLTK's word_tokenize()
+tokens = word_tokenize(text)
+
+# Printing the tokens
+print("="*60)
+print("4c. Tokenization using NLTK")
+print("-"*10)
+print("Tokens:", tokens)
+print("="*60)
+```
+
+</details>
+
+<br>
+
+4d. Tokenization using spaCy library.
+
+<details>
+<summary>CODE</summary>
+
+```python
+#4d. Tokenization using the spaCy library
+
+import spacy
+
+# Load the English language model
+nlp = spacy.blank("en")
+
+# Text to be tokenized
+text = "Hello ! My name is Ninad Karlekar I live in mumbai"
+
+# Process the text with SpaCy
+doc = nlp(text)
+
+# Extract tokens
+tokens = [token.text for token in doc]
+
+# Print tokens
+print("="*60)
+print("4d. Tokenization using the spaCy library")
+print("-"*10)
+print("Tokens:", tokens)
+print("="*60)
+```
+
+</details>
+
+<br>
+
+4e. Tokenization using Keras.
+
+<details>
+<summary>CODE</summary>
+
+```python
+#4e. Tokenization using Keras [COLAB]
+
+import keras
+
+from tensorflow.keras.preprocessing.text import text_to_word_sequence #works on colab
+
+# Create a string input
+str = "Hello ! My name is Ninad Karlekar I live in mumbai"
+
+# tokenizing the text
+tokens = text_to_word_sequence(str)
+print("="*60)
+print("4e. Tokenization using Keras")
+print("-"*10)
+print("Tokens:", tokens)
+print("="*60)
+
+####
+# to run on local IDE(jupyter) use tenserflow version 2.13.0
+# pip uninstall tensorflow     ## to uninstall latest version if installed
+# pip install tensorflow==2.13.0
+####
+
+```
+
+</details>
+
+<br>
+
+4f. Tokenization using Gensim.
+
+<details>
+<summary>CODE</summary>
+
+```python
+# 4f. Tokenization using Gensim
+#pip install gensim
+from gensim.utils import tokenize
+# Create a string input
+str = "Hello ! My name is Ninad Karlekar I live in mumbai"
+# tokenizing the text
+# Tokenizing the text
+tokenized_words = list(tokenize(str))
+
+# Printing each tokenized word separately
+print("="*60)
+print("4f. Tokenization using Gensim")
+print("-"*10)
+print("Tokens:", tokenized_words)
+print("="*60)
 ```
 
 </details>
@@ -721,15 +1008,115 @@ if __name__ == "__main__":
 
 ## Prac5
 
-5A. Convert file Text to Speech.
-
+5a. Word tokenization in Hindi
 
 <details>
 <summary>CODE</summary>
 
 ```python
+## 5A. Word tokenization in Hindi
 
+# cd "e:/GitHub/Practical_BscIT_MscIT_Ninad/MscIT/Semester 4/Natural_Language_Processing/Practical05/" for VSCODE terminal
 
+# Clone the Indic NLP Library and Resources
+
+# !git clone https://github.com/anoopkunchukuttan/indic_nlp_library.git
+# !git clone https://github.com/anoopkunchukuttan/indic_nlp_resources.git
+
+import sys
+import os
+
+#!pip install indic
+# !pip install indic-nlp-library
+
+# The path to the local git repo for Indic NLP library
+INDIC_NLP_LIB_HOME = 'indic_nlp_library'
+
+# The path to the local git repo for Indic NLP Resources
+INDIC_NLP_RESOURCES = 'indic_nlp_resources'
+
+# Add library to Python path
+sys.path.append(os.path.join(INDIC_NLP_LIB_HOME, 'src'))
+
+# Verify if the path was added correctly
+print(sys.path)
+
+# Set environment variable for resources folder
+from indicnlp import common
+common.set_resources_path(INDIC_NLP_RESOURCES)
+
+from indicnlp.tokenize import indic_tokenize
+
+indic_string = 'सुनो, कुछ आवाज़ आ रही है। फोन?'
+print('Input String: {}'.format(indic_string))
+print('Tokens: ')
+for t in indic_tokenize.trivial_tokenize(indic_string):
+    print(t)
+```
+
+</details>
+
+<br>
+
+5b. Generate similar sentences from a given Hindi text input
+
+<details>
+<summary>CODE</summary>
+
+```python
+## 5B. Generate similar sentences from a given Hindi text input.
+
+synonyms = {
+    "खुश": ["प्रसन्न", "आनंदित", "खुशी"],
+    "बहुत": ["अधिक", "बहुत ज्यादा", "काफी"]
+}
+ 
+# Function to generate similar sentences by replacing some words with synonyms
+def generate_similar_sentences(input_sentence, num_sentences=5):
+    similar_sentences = []
+ 
+    # Replace some words with synonyms 
+    for word, word_synonyms in synonyms.items():
+        for synonym in word_synonyms:
+            modified_sentence = input_sentence.replace(word, synonym)
+            similar_sentences.append(modified_sentence)
+    return similar_sentences[:num_sentences]
+ 
+input_sentence = "मैं आज बहुत खुश हूँ।"
+similar_sentences = generate_similar_sentences(input_sentence)
+print("Original sentence:", input_sentence)
+print("Similar sentences:")
+for sentence in similar_sentences:
+    print("-", sentence)
+```
+
+</details>
+
+<br>
+
+5c. Identify the Indian language from the given text.
+
+<details>
+<summary>CODE</summary>
+
+```python
+## 5C. Identify the Indian language from the given text.
+
+#pip install langid
+
+import nltk
+import langid
+ 
+# Download necessary NLTK data
+nltk.download('punkt')
+ 
+def identify_language(text):
+    lang, _ = langid.classify(text)
+    return lang
+ 
+# Identify the Indian Language from the given text
+language = identify_language("नमस्ते, आप कैसे हैं?")
+print("Identified language:", language)
 ```
 
 </details>
@@ -740,15 +1127,42 @@ if __name__ == "__main__":
 
 ## Prac6
 
-6A. Convert file Text to Speech.
-
+6a. Part of speech Tagging and chunking of user defined text.
 
 <details>
 <summary>CODE</summary>
 
 ```python
+# Code for Part of speech Tagging and chunking of user defined text
+# Insert your code here
+```
 
+</details>
 
+<br>
+
+6b. Named Entity recognition of user defined text.
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Code for Named Entity recognition of user defined text
+# Insert your code here
+```
+
+</details>
+
+<br>
+
+6c. Named Entity recognition with diagram using NLTK corpus - treebank
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Code for Named Entity recognition with diagram using NLTK corpus - treebank
+# Insert your code here
 ```
 
 </details>

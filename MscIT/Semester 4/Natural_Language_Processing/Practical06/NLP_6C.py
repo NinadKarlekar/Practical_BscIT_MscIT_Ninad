@@ -8,4 +8,4 @@ treebank_chunk.chunked_sents()[0]
 treebank_chunk.chunked_sents()[0].draw()
 
 
-# Note: It runs on Python IDLE, VScode
+# Note: It runs on Python IDLE, VScode#
