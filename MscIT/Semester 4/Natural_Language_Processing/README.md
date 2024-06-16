@@ -87,6 +87,551 @@ with sr.AudioFile(filename) as source:
 
 ## Prac2
 
+2a. Study of various corpus – Brown, Inaugural, Reuters, udhr with various methods like fields, raw, words, sents, categories.
+
+<details>
+<summary>CODE</summary>
+
+```python
+"""## 2A. Study of various corpus – Brown, Inaugural, Reuters, udhr with various methods like fields, raw, words, sents, categories."""
+
+import nltk
+from nltk.corpus import brown
+
+nltk.download('brown')
+
+# Display file ids of brown corpus
+print('File ids of brown corpus\n', brown.fileids())
+
+# Pick out the first of these texts — Emma by Jane Austen — and give it a short name, ca01
+ca01 = brown.words('ca01')
+# Display first few words
+print('\nca01 has the following words:\n', ca01[:20])
+# Total number of words in ca01
+print('\nca01 has', len(ca01), 'words')
+
+# Categories or files in brown corpus
+print('\n\nCategories or files in brown corpus:\n')
+print(brown.categories())
+
+# Display other information about each text by looping over all the values of fileid
+# and then computing statistics for each text.
+print('\n\nStatistics for each text:\n')
+print('AvgWordLen\tAvgSentenceLen\tNo. of Times Each Word Appears On Avg\tFileName')
+
+for fileid in brown.fileids():
+    num_chars = len(brown.raw(fileid))
+    num_words = len(brown.words(fileid))
+    num_sents = len(brown.sents(fileid))
+    num_vocab = len(set(w.lower() for w in brown.words(fileid)))
+
+    print(f"{int(num_chars / num_words)}\t\t\t"
+          f"{int(num_words / num_sents)}\t\t\t"
+          f"{int(num_words / num_vocab)}\t\t\t"
+          f"{fileid}")
+
+```
+
+</details>
+
+<br>
+
+2b. Create and use your own corpora (plaintext, categorical).
+
+<details>
+<summary>CODE</summary>
+
+```python
+## 2B. Create and use your own corpora (plaintext, categorical).
+
+import os
+import nltk
+nltk.download('punkt')
+from nltk.corpus import PlaintextCorpusReader
+
+# Set the path to your corpus
+corpus_root = '/content/uni' #path of files
+filelist = PlaintextCorpusReader(corpus_root, '.*')
+
+# Display file list
+print('\nFile list:\n')
+print(filelist.fileids())
+print(filelist.root)
+
+# Display other information about each text by looping over all the values of fileid
+# and then computing statistics for each text.
+print('\n\nStatistics for each text:\n')
+print('AvgWordLen\tAvgSentenceLen\tNo. of Times Each Word Appears On Avg\tFileName')
+
+for fileid in filelist.fileids():
+    num_chars = len(filelist.raw(fileid))
+    num_words = len(filelist.words(fileid))
+    num_sents = len(filelist.sents(fileid))
+    num_vocab = len(set(w.lower() for w in filelist.words(fileid)))
+
+    print(f"{int(num_chars / num_words)}\t\t\t"
+          f"{int(num_words / num_sents)}\t\t\t"
+          f"{int(num_words / num_vocab)}\t\t"
+          f"{fileid}")
+```
+
+</details>
+
+<br>
+
+2c. Study conditional frequency distribution.
+
+<details>
+<summary>CODE</summary>
+
+```python
+## 2c. Study Conditional frequency distributions
+
+# Process a sequence of pairs
+text = ['The', 'Fulton', 'County', 'Grand', 'Jury', 'said', ...]
+pairs = [('news', 'The'), ('news', 'Fulton'), ('news', 'County'), ...]
+
+import nltk
+from nltk.corpus import brown
+nltk.download('inaugural')
+nltk.download('udhr')
+
+fd = nltk.ConditionalFreqDist(
+    (genre, word)
+    for genre in brown.categories()
+    for word in brown.words(categories=genre)
+)
+
+genre_word = [
+    (genre, word)
+    for genre in ['news', 'romance']
+    for word in brown.words(categories=genre)
+]
+
+print(len(genre_word))
+print(genre_word[:4])
+print(genre_word[-4:])
+
+cfd = nltk.ConditionalFreqDist(genre_word)
+
+print(cfd)
+print(cfd.conditions())
+print(cfd['news'])
+print(cfd['romance'])
+print(list(cfd['romance']))
+
+from nltk.corpus import inaugural
+
+cfd = nltk.ConditionalFreqDist(
+    (target, fileid[:4])
+    for fileid in inaugural.fileids()
+    for w in inaugural.words(fileid)
+    for target in ['america', 'citizen']
+    if w.lower().startswith(target)
+)
+
+from nltk.corpus import udhr
+
+languages = [
+    'Chickasaw', 'English', 'German_Deutsch',
+    'Greenlandic_Inuktikut', 'Hungarian_Magyar', 'Ibibio_Efik'
+]
+
+cfd = nltk.ConditionalFreqDist(
+    (lang, len(word))
+    for lang in languages
+    for word in udhr.words(lang + '-Latin1')
+)
+
+cfd.tabulate(conditions=['English', 'German_Deutsch'], samples=range(10), cumulative=True)
+```
+
+</details>
+
+<br>
+
+2d. Study of tagged corpora with methods like tagged_sents, tagged_words.
+
+<details>
+<summary>CODE</summary>
+
+```python
+## 2d. Study of tagged corpora with methods like tagged_sents, tagged_words.
+import nltk
+from nltk import tokenize
+
+nltk.download('punkt')
+nltk.download('words')
+
+para = "Hello! My name is Ninad Karlekar. Today you'll be learning NLTK."
+sents = tokenize.sent_tokenize(para)
+
+print("\nSentence tokenization\n===================\n", sents)
+
+# Word tokenization
+print("\nWord tokenization\n===================\n")
+for index in range(len(sents)):
+    words = tokenize.word_tokenize(sents[index])
+    print(words)
+```
+
+</details>
+
+<br>
+
+2e. Write a program to find the most frequent noun tags.
+
+<details>
+<summary>CODE</summary>
+
+```python
+## 2e. Write a program to find the most frequent noun tags.
+import nltk
+from collections import defaultdict
+
+nltk.download('averaged_perceptron_tagger')
+
+text = nltk.word_tokenize("Ninad likes to play football. Ninad does not like to play cricket.")
+tagged = nltk.pos_tag(text)
+print(tagged)
+
+# Checking if it is a noun or not
+addNounWords = []
+count = 0
+
+for words in tagged:
+    val = tagged[count][1]
+    if val in ('NN', 'NNS', 'NNPS', 'NNP'):
+        addNounWords.append(tagged[count][0])
+    count += 1
+
+print(addNounWords)
+
+temp = defaultdict(int)
+
+# Memoizing count
+for sub in addNounWords:
+    for wrd in sub.split():
+        temp[wrd] += 1
+
+# Getting max frequency
+res = max(temp, key=temp.get)
+
+# Printing result
+print("Word with maximum frequency : " + str(res))
+```
+
+</details>
+
+<br>
+
+2f. Map words to the properties using Python Dictionaries.
+
+<details>
+<summary>CODE</summary>
+
+```python
+## 2f. Map Words to Properties Using Python Dictionaries
+
+# Creating and printing a dictionary by mapping word with its properties
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+
+print(thisdict)
+print(thisdict["brand"])
+print(len(thisdict))
+print(type(thisdict))
+```
+
+</details>
+
+<br>
+
+2g. Study i) DefaultTagger, ii) Regular expression tagger, iii) UnigramTagger
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Code for studying DefaultTagger, Regular expression tagger, UnigramTagger
+# Insert your code here
+```
+
+</details>
+
+<br>
+
+2h. Find different words from a given plaintext without any spaces by comparing this text with a given corpus of words. Also find the score of words.
+
+<details>
+<summary>CODE</summary>
+
+```python
+## 2h. Find different words from a given plain text without any space by comparing this text with a given corpus of words. Also find the score of words.
+
+from __future__ import with_statement  # with statement for reading file
+import re  # Regular expression
+
+words = []  # corpus file words
+testword = []  # test words
+ans = []  # words matches with corpus
+
+print("MENU")
+print("-----------")
+print(" 1. Hash tag segmentation")
+print(" 2. URL segmentation")
+print("Enter the input choice for performing word segmentation:")
+choice = int(input())
+
+if choice == 1:
+    text = "#whatismyname"  # hash tag test data to segment
+    print("Input with HashTag:", text)
+    pattern = re.compile("[^\w']")
+    a = pattern.sub('', text)
+elif choice == 2:
+    text = "www.whatismyname.com"  # URL test data to segment
+    print("Input with URL:", text)
+    a = re.split('\s|(?<!\d)[,.](?!\d)', text)
+    splitwords = ["www", "com", "in"]  # remove the words which is containing in the list
+    a = "".join([each for each in a if each not in splitwords])
+else:
+    print("Wrong choice...try again")
+    exit()
+
+print(a)
+
+for each in a:
+    testword.append(each)  # test word
+test_lenth = len(testword)  # length of the test data
+
+# Reading the corpus
+with open('words.txt', 'r') as f:
+    lines = f.readlines()
+    words = [e.strip() for e in lines]
+
+def Seg(a, lenth):
+    ans = []
+    for k in range(0, lenth + 1):  # this loop checks char by char in the corpus
+        if a[0:k] in words:
+            print(a[0:k], "- appears in the corpus")
+            ans.append(a[0:k])
+            break
+    if ans != []:
+        g = max(ans, key=len)
+        return g
+    return ""
+
+test_tot_itr = 0  # each iteration value
+answer = []  # Store each word that contains the corpus
+Score = 0  # initial value for score
+N = 37  # total number of corpus
+M = 0
+C = 0
+
+while test_tot_itr < test_lenth:
+    ans_words = Seg(a, test_lenth)
+    if ans_words != "":
+        test_itr = len(ans_words)
+        answer.append(ans_words)
+        a = a[test_itr:test_lenth]
+        test_tot_itr += test_itr
+
+Aft_Seg = " ".join([each for each in answer])
+# print segmented words in the list
+print("Output")
+print("---------")
+print(Aft_Seg)  # print after segmentation the input
+
+# Calculating Score
+C = len(answer)
+score = C * N / N  # Calculate the score
+print("Score", score)
+```
+
+</details>
+
+<br>
+
+
 
 
 ******************************************************
+
+## Prac3
+
+3A. Convert file Text to Speech.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac4
+
+4A. Convert file Text to Speech.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac5
+
+5A. Convert file Text to Speech.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac6
+
+6A. Convert file Text to Speech.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac7
+
+7A. Convert file Text to Speech.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac8
+
+8A. Convert file Text to Speech.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac9
+
+9A. Convert file Text to Speech.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac10
+
+10A. Convert file Text to Speech.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac11
+
+11A. Convert file Text to Speech.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+
+
+
+
