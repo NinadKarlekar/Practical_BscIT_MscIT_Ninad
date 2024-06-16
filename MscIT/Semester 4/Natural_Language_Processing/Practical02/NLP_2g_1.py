@@ -11,5 +11,5 @@ testsentences = treebank.tagged_sents()[1000:]
 # Evaluate the tagger on the test sentences
 print(exptagger.evaluate(testsentences))
 
-# Tagging a list of sentences
+## Tagging a list of sentences
 print(exptagger.tag_sents([['Hi', ','], ['How', 'are', 'you', '?']]))
