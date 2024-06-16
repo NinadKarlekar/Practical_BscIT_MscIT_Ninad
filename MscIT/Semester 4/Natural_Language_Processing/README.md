@@ -1133,8 +1133,44 @@ print("Identified language:", language)
 <summary>CODE</summary>
 
 ```python
-# Code for Part of speech Tagging and chunking of user defined text
-# Insert your code here
+# 6. Illustrate part of speech tagging.
+## a) sentence tokenization, word tokenization, Part of speech Tagging and chunking of user defined text.
+
+import nltk
+from nltk import tokenize
+from nltk import tag
+from nltk import chunk
+
+# Download necessary NLTK data
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('maxent_ne_chunker')
+nltk.download('words')
+
+# Paragraph to be tokenized
+para = "Hello! My name is Ninad Karlekar. Today you'll be learning NLTK."
+
+# Sentence tokenization
+sents = tokenize.sent_tokenize(para)
+print("\nsentence tokenization\n===================\n", sents)
+
+# Word tokenization
+print("\nword tokenization\n===================\n")
+for index in range(len(sents)):
+    words = tokenize.word_tokenize(sents[index])
+    print(words)
+
+# POS Tagging
+tagged_words = []
+for index in range(len(sents)):
+    tagged_words.append(tag.pos_tag(words))
+print("\nPOS Tagging\n===========\n", tagged_words)
+
+# Chunking
+tree = []
+for index in range(len(sents)):
+    tree.append(chunk.ne_chunk(tagged_words[index]))
+print("\nchunking\n========\n", tree)
 ```
 
 </details>
@@ -1147,8 +1183,34 @@ print("Identified language:", language)
 <summary>CODE</summary>
 
 ```python
-# Code for Named Entity recognition of user defined text
-# Insert your code here
+# 6. Illustrate part of speech tagging.
+
+## b) Named Entity recognition using user defined text.
+
+
+# Install and download spaCy model
+# !pip install -U spacy
+# !python -m spacy download en_core_web_sm
+
+import spacy
+
+# Load English tokenizer, tagger, parser, and NER
+nlp = spacy.load("en_core_web_sm")
+
+# Process whole documents
+text = (
+    "When Sebastian Thrun started working on self-driving cars at "
+    "Google in 2007, few people outside of the company took him "
+    "seriously. “I can tell you very senior CEOs of major American "
+    "car companies would shake my hand and turn away because I wasn’t "
+    "worth talking to,” said Thrun, in an interview with Recode earlier "
+    "this week."
+)
+doc = nlp(text)
+
+# Analyse syntax
+print("Noun phrases:", [chunk.text for chunk in doc.noun_chunks])
+print("Verbs:", [token.lemma_ for token in doc if token.pos_ == "VERB"])
 ```
 
 </details>
@@ -1161,8 +1223,17 @@ print("Identified language:", language)
 <summary>CODE</summary>
 
 ```python
-# Code for Named Entity recognition with diagram using NLTK corpus - treebank
-# Insert your code here
+# 6C: Named Entity recognition with diagram using NLTK corpus - treebank
+
+import nltk
+nltk.download('treebank')
+from nltk.corpus import treebank_chunk
+treebank_chunk.tagged_sents()[0]
+treebank_chunk.chunked_sents()[0]
+treebank_chunk.chunked_sents()[0].draw()
+
+
+# Note: It runs on Python IDLE, VScode#
 ```
 
 </details>
@@ -1173,15 +1244,149 @@ print("Identified language:", language)
 
 ## Prac7
 
-7A. Convert file Text to Speech.
-
+7a. Define grammar using nltk. Analyse a sentence using the same.
 
 <details>
 <summary>CODE</summary>
 
 ```python
+# 7a. Define grammar using nltk. Analyse a sentence using the same.
 
+import nltk
+from nltk import tokenize
 
+grammar1 = nltk.CFG.fromstring("""
+    S -> VP
+    VP -> VP NP
+    NP -> Det NP
+    Det -> 'that'
+    NP -> singular Noun
+    NP -> 'flight'
+    VP -> 'Book'
+""")
+
+sentence = "Book that flight"
+all_tokens = tokenize.word_tokenize(sentence)
+print(all_tokens)
+
+parser = nltk.ChartParser(grammar1)
+for tree in parser.parse(all_tokens):
+    print(tree)
+    tree.draw()
+```
+
+</details>
+
+<br>
+
+7b. Accept the input string with Regular expression of FA: 101+
+
+<details>
+<summary>CODE</summary>
+
+```python
+# 7B. Accept the input string with Regular expression of FA: 101+
+
+def FA(s):
+    # If the length is less than 3, then it can't be accepted. Therefore, end the process.
+    if len(s) < 3:
+        return "Rejected"
+    # The first three characters are fixed. Therefore, checking them using index.
+    if s[0] == '1':
+        if s[1] == '0':
+            if s[2] == '1':
+                # After index 2, only "1" can appear. Therefore, break the process if any other character is detected.
+                for i in range(3, len(s)):
+                    if s[i] != '1':
+                        return "Rejected"
+                return "Accepted"  # if all conditions are true
+            return "Rejected"  # else of 3rd if
+        return "Rejected"  # else of 2nd if
+    return "Rejected"  # else of 1st if
+
+inputs = ['1', '10101', '101', '10111', '01010', '100', '', '10111101', '1011111']
+for i in inputs:
+    print(FA(i))
+```
+
+</details>
+
+<br>
+
+7c. Accept the input string with Regular expression of FA: (a+b)*bba
+
+<details>
+<summary>CODE</summary>
+
+```python
+# 7C. Accept the input string with Regular expression of FA: (a+b)*bba
+
+def FA(s):
+    size = 0
+    # Scan complete string and make sure that it contains only 'a' & 'b'
+    for i in s:
+        if i == 'a' or i == 'b':
+            size += 1
+        else:
+            return "Rejected"
+    # After checking that it contains only 'a' & 'b'
+    # Check its length, it should be at least 3
+    if size >= 3:
+        # Check the last 3 elements
+        if s[size - 3] == 'b':
+            if s[size - 2] == 'b':
+                if s[size - 1] == 'a':
+                    return "Accepted"  # if all 4 if true
+                return "Rejected"  # else of 4th if
+            return "Rejected"  # else of 3rd if
+        return "Rejected"  # else of 2nd if
+    return "Rejected"  # else of 1st if
+
+inputs = ['bba', 'ababbba', 'abba', 'abb', 'baba', 'bbb', '']
+for i in inputs:
+    print(FA(i))
+```
+
+</details>
+
+<br>
+
+7d. Implementation of Deductive Chart Parsing using context free grammar and a given sentence.
+
+<details>
+<summary>CODE</summary>
+
+```python
+# 7D. Implementation of Deductive Chart Parsing using context free grammar and a given sentence.
+
+import nltk
+from nltk import tokenize
+
+# Define the context-free grammar (CFG)
+grammar1 = nltk.CFG.fromstring("""
+    S -> NP VP
+    PP -> P NP
+    NP -> Det N | Det N PP | 'I'
+    VP -> V NP | VP PP
+    Det -> 'a' | 'my'
+    N -> 'bird' | 'balcony'
+    V -> 'saw'
+    P -> 'in'
+""")
+
+# Sentence to be tokenized and parsed
+sentence = "I saw a bird in my balcony"
+all_tokens = tokenize.word_tokenize(sentence)
+print(all_tokens)
+# all_tokens = ['I', 'saw', 'a', 'bird', 'in', 'my', 'balcony']
+
+# Create a parser using the defined grammar
+parser = nltk.ChartParser(grammar1)
+
+# Parse the tokenized sentence and print the parse trees
+for tree in parser.parse(all_tokens):
+    print(tree)
+    tree.draw()
 ```
 
 </details>
