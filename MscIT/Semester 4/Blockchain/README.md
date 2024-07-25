@@ -26,10 +26,29 @@ BlockChain
 ******************
 ---------------------
 
+
+
+# Blockchain Practicals
+
 ## Prac1
 
-1. Performing .
+1a. A simple client class that generates the private and public keys using the built-in Python RSA algorithm and test it.
 
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+1b. A transaction class to send and receive money and test it.
 
 
 <details>
@@ -37,12 +56,539 @@ BlockChain
 
 ```python
 
-
+# Paste your code here
 
 ```
 
 </details>
 
+<br>
+
+
+
+1c. Create multiple transactions and display them.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+1d. Create a blockchain, a genesis block and execute it.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+1e. Create a mining function and test it.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+1f. Add blocks to the miner and dump the blockchain.
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+## Prac2
+2a. Variable and Operators
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+2b. Loops
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+2c. Decision Making
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+2d. Arrays
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+2e. Enums
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+2f. Structs
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+
+2g. Mappings
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+
+2h. Conversions, Ether Units, Special Variables
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+
+2i. Strings
+
+
+<details>
+<summary>CODE</summary>
+
+```python
+
+# Paste your code here
+
+```
+
+</details>
+
+<br>
+
+***********
+
+
+## Prac3
+
+3a. Functions
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for functions
+```
+
+</details>
+
+<br>
+
+3b. Fallback Function
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for the fallback function
+```
+
+</details>
+
+<br>
+
+3c. Mathematical functions
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for mathematical functions
+```
+
+</details>
+
+<br>
+
+3d. Cryptographic functions
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for cryptographic functions
+```
+
+</details>
+
+<br>
+
+3e. Function Modifiers
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for function modifiers
+```
+
+</details>
+
+<br>
+
+3f. View and Pure Functions
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for view and pure functions
+```
+
+</details>
+
+<br>
+
+3g. Function Overloading
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for function overloading
+```
+
+</details>
+
+<br>
 
 ******************************************************
+
+## Prac4
+
+4a. Withdrawal Pattern
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for the withdrawal pattern
+```
+
+</details>
+
+<br>
+
+4b. Restricted Access
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for restricted access
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac5
+
+5a. Contracts and Inheritance
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for contracts and inheritance
+```
+
+</details>
+
+<br>
+
+5b. Constructors
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for constructors
+```
+
+</details>
+
+<br>
+
+5c. Abstract Contracts
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for abstract contracts
+```
+
+</details>
+
+<br>
+
+5d. Interfaces
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for interfaces
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac6
+
+6a. Libraries (Pending)
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for libraries
+```
+
+</details>
+
+<br>
+
+6b. Assembly (Pending)
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for assembly
+```
+
+</details>
+
+<br>
+
+6c. Error handling (Pending)
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for error handling
+```
+
+</details>
+
+<br>
+
+6d. Events
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for events
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac7
+
+7. Install Hyperledger Fabric
+
+<details>
+<summary>CODE</summary>
+
+```shell
+# Paste your code here for installing Hyperledger Fabric
+```
+
+</details>
+
+<br>
+
+----
+
+
+## Prac8
+
+8. Demonstrate the running of the blockchain node (create node using Solidity and run)
+
+<details>
+<summary>CODE</summary>
+
+```solidity
+// Paste your Solidity code here for creating and running a blockchain node
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac9
+
+9. Demonstrate the use of Bitcoin Core API
+
+<details>
+<summary>CODE</summary>
+
+```python
+# Paste your code here for using the Bitcoin Core API
+```
+
+</details>
+
+<br>
+
+******************************************************
+
+## Prac10
+
+10. Build Dapps with Angular
+
+<details>
+<summary>CODE</summary>
+
+```typescript
+// Paste your Angular code here for building Dapps
+```
+
+</details>
+
+<br>
+
+******************************************************
+
 
