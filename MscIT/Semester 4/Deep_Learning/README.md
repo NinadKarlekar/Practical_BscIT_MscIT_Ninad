@@ -451,7 +451,7 @@ pyplot.show()
 
 <br>
 
-6b. Implement 12 regularization with alpha=0.001.
+6b. Implement l2 regularization with alpha=0.001.
 
 <details>
 <summary>CODE</summary>
@@ -489,7 +489,7 @@ pyplot.show()
 
 <br>
 
-6c. Replace 12 regularization with l2 regularization.
+6c. Replace l2 regularization with l2 regularization.
 
 <details>
 <summary>CODE</summary>
