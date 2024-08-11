@@ -766,7 +766,20 @@ contract Loop {
 
 ```solidity
 
-# Paste your code here
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract decision{
+
+    function even(uint n) public pure returns(bool){
+        if(n%2==0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
 
 ```
 
@@ -782,7 +795,20 @@ contract Loop {
 
 ```solidity
 
-# Paste your code here
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract Arrays {
+
+    // Declaring an array
+    uint[] public array1 = [1, 2, 3, 4, 5];
+    
+    function fetch(uint index) public view returns (uint) {
+        require(index < array1.length, "Index out of bounds");
+        return array1[index];
+    }
+}
+
 
 ```
 
@@ -798,7 +824,28 @@ contract Loop {
 
 ```solidity
 
-# Paste your code here
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract Enums {
+
+    // Define an enumeration called 'week_days' to represent the days of the week
+    enum week_days {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}
+    
+    // Declare a state variable 'choice' of type 'week_days'
+    week_days choice;
+
+    // A function to set the value of 'choice' to 'Friday'
+    function set_value() public {
+        choice = week_days.Friday;
+    }
+
+    // A function to return the current value of 'choice'
+    function get_choice() public view returns (week_days) {
+        return choice;
+    }
+}
+
 
 ```
 
@@ -814,7 +861,45 @@ contract Loop {
 
 ```solidity
 
-# Paste your code here
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract Structs {
+
+    // Declaring a struct named 'Book' to represent book details
+    struct Book {
+        string name;       // The name of the book
+        string writer;     // The writer/author of the book
+        uint price;        // The price of the book
+        bool available;    // Availability status of the book (true if available)
+    }
+
+    // Declaring a state variable 'book1' of type 'Book'
+    Book book1;
+
+    // Initializing a Book struct with details for 'book2'
+    Book book2 = Book("Harry Potter", "J.K.Rowling", 300, true);
+
+    // A function to set details for 'book1'
+    function set_book_detail() public {
+        // Setting the details of 'book1'
+        book1 = Book("Introducing Ethereum and Solidity", "Chris Dannen", 250, true);
+    }
+
+    // A function to get the details of 'book2'
+    function book1_info() public view returns (string memory, string memory, uint, bool) { 
+        // Returning the details of 'book2'
+        return(book2.name, book2.writer, book2.price, book2.available); 
+    }
+
+    // A function to get the details of 'book1'
+    function book2_info() public view returns (string memory, string memory, uint, bool) {
+        // Returning the details of 'book1'
+        return (book1.name, book1.writer, book1.price, book1.available);
+    }
+
+}
+
 
 ```
 
@@ -831,7 +916,22 @@ contract Loop {
 
 ```solidity
 
-# Paste your code here
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract maps {
+
+    // Declaring a public mapping from uint (keys) to string (values)
+    mapping (uint => string) public roll_no;
+
+    // A function to set a value in the mapping
+    // @param keys: The key (uint) for the mapping
+    // @param value: The value (string) to be set for the provided key
+    function set(uint keys, string memory value) public {
+        roll_no[keys] = value; // Set the value in the mapping for the given key
+    }
+}
+
 
 ```
 
@@ -849,7 +949,23 @@ contract Loop {
 
 ```solidity
 
-# Paste your code here
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract conversion {
+
+    // Declaring state variables of different unsigned integer types
+    uint   a = 5;    // Default unsigned integer type
+    uint8  b = 10;   // 8-bit unsigned integer
+    uint16 c = 15;   // 16-bit unsigned integer
+
+    // A function to convert and add the values of a, b, and c
+    function convert() public view returns (uint) {
+        uint result = a + uint(b) + uint(c); // Convert b and c to uint and add them to a
+        return result; // Return the result
+    }
+}
+
 
 ```
 
@@ -866,7 +982,35 @@ contract Loop {
 
 ```solidity
 
-# Paste your code here
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract StringExample {
+    // State variable to store a string
+    string public greeting = "Hello, ";
+
+    // Function to concatenate strings
+    // @param _name: The string to concatenate with the greeting
+    // @return: The concatenated result
+    function concatenate(string memory _name) public view returns (string memory) {
+        return string(abi.encodePacked(greeting, _name)); // Concatenate 'greeting' with '_name'
+    }
+
+    // Function to compare two strings
+    // @param _a: The first string for comparison
+    // @param _b: The second string for comparison
+    // @return: True if the strings are equal, false otherwise
+    function compareStrings(string memory _a, string memory _b) public pure returns (bool) {
+        return keccak256(abi.encodePacked(_a)) == keccak256(abi.encodePacked(_b)); // Compare hashes of the strings
+    }
+
+    // Function to update the greeting
+    // @param _newGreeting: The new greeting string to set
+    function updateGreeting(string memory _newGreeting) public {
+        greeting = _newGreeting; // Update the 'greeting' state variable
+    }
+}
+
 
 ```
 
@@ -885,7 +1029,28 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for functions
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract Addition {
+
+    int public input1;
+    int public input2;
+    
+    function setInputs(int _input1, int _input2) public {
+        input1 = _input1;
+        input2 = _input2;
+    }
+
+    function additions() public view returns(int) {
+        return input1 + input2;
+    }
+
+    function subtract() public view returns(int) {
+        return input1 - input2;
+    }
+}
+
 ```
 
 </details>
@@ -898,7 +1063,27 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for the fallback function
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract fallbackfn {
+
+    // Event to log details when fallback or receive function is called
+    event Log(string func, address sender, uint value, bytes data);
+
+    // Fallback function to handle calls to the contract with data or no matching function
+    fallback() external payable {
+        emit Log("fallback", msg.sender, msg.value, msg.data); // Emit log with details
+    }
+
+    // Receive function to handle plain ether transfers
+    receive() external payable {
+        emit Log("receive", msg.sender, msg.value, ""); // Emit log with details (msg.data is empty)
+        //msg.data is empty hence no need to specify it and mark it as empty string
+
+    }
+}
+
 ```
 
 </details>
@@ -911,7 +1096,25 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for mathematical functions
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract MathOperations {
+    // addMod computes (x + y) % k
+    // mulMod computes (x * y) % k
+
+    // Function to compute modular addition and multiplication
+    // @return addModResult: Result of (x + y) % k
+    // @return mulModResult: Result of (x * y) % k
+    function computeMod() public pure returns (uint addModResult, uint mulModResult) {
+        uint x = 3;
+        uint y = 2;
+        uint k = 6;
+        addModResult = addmod(x, y, k); // Compute (x + y) % k
+        mulModResult = mulmod(x, y, k); // Compute (x * y) % k
+    }
+}
+
 ```
 
 </details>
@@ -924,7 +1127,32 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for cryptographic functions
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract Crypto {
+    function hash(string memory _text,uint _num,address _addr) public pure returns (bytes32) {
+            return keccak256(abi.encodePacked(_text, _num, _addr));
+            }
+
+    function collision(string memory _text, string memory _anotherText)public pure returns (bytes32){
+                return keccak256(abi.encodePacked(_text, _anotherText));
+            }
+}
+        
+ //hash is same for collision
+ //0x5f38993891425af42a69bd3cbabdc916f093d4f444455134d4371f4ddd17bd08 - shlok shivkar
+ //0x5f38993891425af42a69bd3cbabdc916f093d4f444455134d4371f4ddd17bd08 - shl okshivkar
+
+contract GuessTheWord {
+    bytes32 public answer = 0x5f38993891425af42a69bd3cbabdc916f093d4f444455134d4371f4ddd17bd08;
+    
+    function guess(string memory _word) public view returns (bool) {
+     return keccak256(abi.encodePacked(_word)) == answer;
+    }
+}
+
+
 ```
 
 </details>
@@ -937,7 +1165,52 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for function modifiers
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.13;
+
+contract FunctionModifier {
+    address public owner;
+    uint256 public x = 100;
+    bool public locked;
+
+    constructor() {
+        // Set the transaction sender as the owner of the contract.
+        owner = msg.sender;
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Not owner");
+        _;
+    }
+
+    modifier validAddress(address _addr) {
+        require(_addr != address(0), "Not valid address");
+        _;
+    }
+
+    function changeOwner(address _newOwner)
+        public
+        onlyOwner
+        validAddress(_newOwner)
+    {
+        owner = _newOwner;
+    }
+
+    modifier noReentrancy() {
+        require(!locked, "No reentrancy");
+        locked = true;
+        _;
+        locked = false;
+    }
+
+    function decrement(uint256 i) public noReentrancy {
+        x -= i;
+        if (i > 1) {
+            decrement(i - 1);
+        }
+    }
+}
+
 ```
 
 </details>
@@ -950,7 +1223,22 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for view and pure functions
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.3;
+
+contract ViewAndPure {
+    uint public x = 1;
+
+    // Promise not to modify the state.
+    function addToX(uint y) public view returns (uint) {
+        return x + y;
+    }
+
+    // Promise not to modify or read from the state.
+    function add(uint i, uint j) public pure returns (uint) {
+        return i + j;
+    }
+}
 ```
 
 </details>
@@ -963,7 +1251,35 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for function overloading
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract FunctionOverloading {
+    // Function with one parameter
+    function sum(uint a) public pure returns (uint) {
+        return a + 10;
+    }
+
+    // Overloaded function with two parameters
+    function sum(uint a, uint b) public pure returns (uint) {
+        return a + b;
+    }
+
+    // Overloaded function with three parameters
+    function sum(uint a, uint b, uint c) public pure returns (uint) {
+        return a + b + c;
+    }
+
+    // Examples of calling overloaded functions
+    function exampleUsage() public pure returns (uint, uint, uint) {
+        uint result1 = sum(5);            // Calls the first sum function
+        uint result2 = sum(5, 10);        // Calls the second sum function
+        uint result3 = sum(5, 10, 15);    // Calls the third sum function
+
+        return (result1, result2, result3);
+    }
+}
+
 ```
 
 </details>
@@ -980,7 +1296,35 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for the withdrawal pattern
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.13;
+
+contract withdrawalPattern{
+    address public richest;
+    uint public mostSent;
+
+    mapping (address=>uint) pendingWithdrawals;
+    error NotEnoughEther();
+
+    constructor() payable{
+        richest = msg.sender;
+        mostSent = msg.value;
+    }
+
+    function becomeRichest() public payable{
+        if (msg.value <= mostSent) revert NotEnoughEther();
+        pendingWithdrawals[richest] += msg.value;
+        richest = msg.sender;
+        mostSent = msg.value;
+    }
+
+    function withdraw() public {
+        uint amount = pendingWithdrawals[msg.sender];
+        pendingWithdrawals[msg.sender] = 0;
+        payable (msg.sender).transfer(amount);
+    }
+
+}
 ```
 
 </details>
@@ -993,7 +1337,53 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for restricted access
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+contract AccessRestriction {
+
+    address public owner = msg.sender;
+    uint public creationTime = block.timestamp;
+    
+    error Unauthorized();
+    error TooEarly();
+    error NotEnoughEther();
+    
+    modifier onlyBy(address account){
+        if (msg.sender != account)
+        revert Unauthorized();
+        _;
+    }
+
+    modifier costs(uint amount) {
+        if (msg.value < amount)
+            revert NotEnoughEther();
+            _;
+        if (msg.value > amount)
+            payable(msg.sender).transfer(msg.value - amount);
+    }
+
+    modifier onlyAfter(uint time) {
+        if (block.timestamp < time)
+            revert TooEarly();
+            _;
+    }
+
+    function changeOwner(address newOwner)public onlyBy(owner){
+        owner = newOwner;
+    }
+
+    function disown()public onlyBy(owner) onlyAfter(creationTime + 6 weeks){
+        delete owner;
+    }
+
+    function forceOwnerChange(address newOwner)public payable costs(200 ether){
+        owner = newOwner;
+        // just some example condition
+        if (uint160(owner) & 0 == 1)
+            return;
+    }
+}
+
 ```
 
 </details>
@@ -1010,7 +1400,67 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for contracts and inheritance
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract C{
+
+    uint private data;
+    uint public info;
+
+
+    constructor()  {
+        info = 10;
+        }
+
+        function increment(uint a) private pure returns(uint){ 
+            return a + 1; 
+        }
+        
+        function updateData(uint a) public {
+            data = a;
+        }
+
+        function getData() public view returns(uint) {
+            return data;
+        }
+        function compute(uint a, uint b) internal pure returns (uint) {
+            return a + b;
+        }
+}
+        
+
+        
+contract D {
+
+    function readData() public returns(uint) {
+        C c = new C();
+        c.updateData(7);
+        return c.getData();
+    }
+}
+                
+
+contract E is C {
+
+    uint private result;
+    C private c;
+    
+    constructor()  {
+        c = new C();
+    }
+
+    function getComputedResult() public {
+        result = compute(3, 6);
+    }
+
+    function getResult() public view returns(uint) {
+        return result; 
+    }
+}
+
+
+
 ```
 
 </details>
@@ -1023,7 +1473,25 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for constructors
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract constructors{
+
+    string str;
+    uint amount;
+
+    constructor(){
+        str  = "Shlok is learning Solidity";
+        amount = 10;
+    }
+
+    function const()public view returns(string memory,uint){
+        return (str,amount);
+ 
+    }
+
+}
 ```
 
 </details>
@@ -1036,7 +1504,21 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for abstract contracts
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+abstract contract Main {
+    // Define an abstract function that can be overridden
+    function add(uint a, uint b) public virtual pure returns (uint);
+}
+
+contract Adder is Main {
+    // Override the add function from the Main contract
+    function add(uint a, uint b) public override pure returns (uint) {
+        return a + b;
+    }
+}
+
 ```
 
 </details>
@@ -1049,7 +1531,19 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for interfaces
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+interface adder{
+    function add(uint a, uint b)external pure returns(uint);
+}
+
+contract adderContract is adder{
+    function add(uint a, uint b)external pure returns(uint){
+        return a+b;
+    }
+}
+
 ```
 
 </details>
@@ -1066,7 +1560,55 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for libraries
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+library Search {
+   function indexOf(uint[] storage self, uint value) internal view returns (uint) {
+      for (uint i = 0; i < self.length; i++) {
+         if (self[i] == value) {
+            return i;
+         }
+      }
+      return type(uint).max;
+
+   }
+}
+
+contract Test {
+   uint[] data;
+
+   constructor() {
+      data.push(1);
+      data.push(2);
+      data.push(3);
+      data.push(4);
+      data.push(5);
+   }
+
+   function isValuePresent() external view returns (uint) {
+      uint value = 4;
+      
+      // Search if value is present in the array using Library function
+      uint index = Search.indexOf(data, value);
+      return index;
+   }
+}
+
+library MathLibrary {
+   function square(uint num) internal pure returns (uint) {
+      return num * num;
+   }
+}
+
+contract SquareContract {
+   using MathLibrary for uint;
+
+   function calculateSquare(uint num) external pure returns (uint) {
+      return num.square();
+   }
+}
+
 ```
 
 </details>
@@ -1079,7 +1621,40 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for assembly
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+library Sum {
+   function sumUsingInlineAssembly(uint[] memory _data) public pure returns (uint sum) {
+      for (uint i = 0; i < _data.length; ++i) {
+         assembly {
+            // Load the value from memory at the current index
+            let value := mload(add(add(_data, 0x20), mul(i, 0x20)))
+            // Add the value to the sum
+            sum := add(sum, value)
+         }
+      }
+      // Return the calculated sum
+      return sum;
+   }
+}
+
+contract Test {
+   uint[] data;
+
+   constructor() {
+      data.push(1);
+      data.push(2);
+      data.push(3);
+      data.push(4);
+      data.push(5);
+   }
+
+   function sum() external view returns (uint) {
+      return Sum.sumUsingInlineAssembly(data);
+   }
+}
+
 ```
 
 </details>
@@ -1092,7 +1667,41 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for error handling
+pragma solidity ^0.8.17;
+
+contract ErrorHandlingExample {
+    constructor() payable {
+        // Allow the contract to receive Ether during deployment
+    }
+
+    function divide(uint256 numerator, uint256 denominator) external pure returns (uint256) {
+        require(denominator != 0, "Division by zero is not allowed");
+        return numerator / denominator;
+    }
+
+    function withdraw(uint256 amount) external {
+        require(amount <= address(this).balance, "Insufficient balance");
+
+        payable(msg.sender).transfer(amount);
+    }
+
+    function assertExample() external pure {
+        uint256 x = 5;
+        uint256 y = 10;
+        assert(x < y);
+    }
+
+    function tryCatchExample() external view returns (bool) {
+        try this.divide(10, 5) returns (uint256 result) {
+            // Handle successful division
+            return true;
+        } catch Error(string memory errorMessage) {
+            // Handle division error
+            return false;
+        }
+    }
+}
+
 ```
 
 </details>
@@ -1105,7 +1714,44 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-# Paste your code here for events
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract EventExample {
+
+    // Define an event
+    event Deposit(address indexed from, uint256 amount);
+    event Withdraw(address indexed to, uint256 amount);
+
+    // Mapping to keep track of user balances
+    mapping(address => uint256) public balances;
+
+    // Function to deposit ether into the contract
+    function deposit() public payable {
+        require(msg.value > 0, "Must deposit more than 0 ether");
+
+        // Update the balance
+        balances[msg.sender] += msg.value;
+
+        // Emit the Deposit event
+        emit Deposit(msg.sender, msg.value);
+    }
+
+    // Function to withdraw ether from the contract
+    function withdraw(uint256 amount) public {
+        require(balances[msg.sender] >= amount, "Insufficient balance");
+
+        // Update the balance
+        balances[msg.sender] -= amount;
+
+        // Transfer the ether
+        payable(msg.sender).transfer(amount);
+
+        // Emit the Withdraw event
+        emit Withdraw(msg.sender, amount);
+    }
+}
+
 ```
 
 </details>
@@ -1122,7 +1768,7 @@ contract Loop {
 <summary>CODE</summary>
 
 ```shell
-# Paste your code here for installing Hyperledger Fabric
+# Refer word file
 ```
 
 </details>
@@ -1140,7 +1786,7 @@ contract Loop {
 <summary>CODE</summary>
 
 ```solidity
-// Paste your Solidity code here for creating and running a blockchain node
+// Refer word file
 ```
 
 </details>
@@ -1156,8 +1802,35 @@ contract Loop {
 <details>
 <summary>CODE</summary>
 
-```solidity
-// # Paste your code here for using the Bitcoin Core API
+```python
+import requests
+
+# Task 1: Get information regarding the current block
+def get_current_block_info():
+    response = requests.get("https://blockchain.info/latestblock")
+    block_info = response.json()
+    print("Current block information:")
+    print("Block height:", block_info['height'])
+    print("Block hash:", block_info['hash'])
+    print("Block index:", block_info['block_index'])
+    print("Timestamp:", block_info['time'])
+
+
+# Task 3: Get balance of an address
+def get_address_balance(address):
+    response = requests.get(f"https://blockchain.info/q/addressbalance/{address}")
+    balance = float(response.text) / 10**8
+    print("Balance of address", address, ":", balance, "BTC")
+
+# Example usage
+if __name__ == "__main__":
+    # Task 1: Get information regarding the current block
+    get_current_block_info()
+    
+    # Task 3: Get balance of an address
+    address = "3Dh2ft6UsqjbTNzs5zrp7uK17Gqg1Pg5u5"
+    get_address_balance(address)
+
 ```
 
 </details>
@@ -1165,22 +1838,3 @@ contract Loop {
 <br>
 
 ******************************************************
-
-## Prac10
-
-10. Build Dapps with Angular
-
-<details>
-<summary>CODE</summary>
-
-```typescript
-// Paste your Angular code here for building Dapps
-```
-
-</details>
-
-<br>
-
-******************************************************
-
-
