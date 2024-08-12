@@ -874,7 +874,26 @@ plt.show()
 ******************************************************
 
 
+### To find out which environment a Jupyter Notebook is using, you can run the following Python code in a cell
 
+
+```python
+import sys
+import os
+
+# Get the Python executable path
+python_executable = sys.executable
+
+# Get the environment path and name
+env_path = os.path.dirname(python_executable)
+env_name = os.path.basename(env_path)
+
+# Display the environment path, name, and Python version
+print(f"Environment Path: {env_path}")
+print(f"Environment Name: {env_name}")
+print(f"Python Version: {sys.version}")
+
+```
 
 <!-- | Sr.No. | Name | README | DOWNLOAD |
 | --- | --- | --- | --- |
