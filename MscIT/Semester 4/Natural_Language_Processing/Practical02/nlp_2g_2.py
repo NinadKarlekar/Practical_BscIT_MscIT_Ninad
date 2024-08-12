@@ -1,3 +1,5 @@
+#g. Study i) DefaultTagger, ii) Regular expression tagger, iii) UnigramTagger
+
 from nltk.corpus import brown 
 from nltk.tag import RegexpTagger 
 test_sent = brown.sents(categories='news')[0] 

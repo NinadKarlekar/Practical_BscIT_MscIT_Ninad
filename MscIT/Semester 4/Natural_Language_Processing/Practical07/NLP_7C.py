@@ -24,3 +24,36 @@ def FA(s):
 inputs = ['bba', 'ababbba', 'abba', 'abb', 'baba', 'bbb', '']
 for i in inputs:
     print(FA(i))
+
+
+########################## OR  ######################
+
+'''
+
+# Accept the input string with Regular expression of FA a b bba.txt
+import re
+
+def validate_string(input_string):
+    # Define the regular expression pattern
+    pattern = r'^(a|b)*bba$'
+
+    # Check if the input string matches the pattern
+    if re.match(pattern, input_string):
+        return True
+    else:
+        return False
+
+# Accept user input
+input_string = input("Enter a string: ")
+
+# Validate the input string
+if validate_string(input_string):
+    print("The input string is valid and matches the pattern (a+b)*bba.")
+else:
+    print("The input string is invalid and does not match the pattern (a+b)*bba.")
+
+'''
+
+# Example inputs:
+# Valid: "bba", "abbbba", "abbba", "aaaaabbbba", etc.
+# Invalid: "ba", "abbb", "ababba", "bbbbaa", etc.

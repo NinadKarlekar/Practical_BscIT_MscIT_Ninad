@@ -26,3 +26,13 @@ def main():
 if __name__ == "__main__":
     nltk.download('wordnet')
     main()
+
+
+#######################################
+
+# import nltk
+# nltk.download('wordnet')
+# nltk.download('omw-1.4')
+# from nltk.corpus import wordnet
+# print( wordnet.synsets("active"))
+# print(wordnet.lemma('active.a.01.active').antonyms())

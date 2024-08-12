@@ -1,3 +1,5 @@
+#g. Study i) DefaultTagger, ii) Regular expression tagger, iii) UnigramTagger
+
 from nltk.tag import UnigramTagger
 from nltk.corpus import treebank
 train_sents = treebank.tagged_sents()[:10]

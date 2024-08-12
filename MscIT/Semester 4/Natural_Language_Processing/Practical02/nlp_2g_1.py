@@ -1,3 +1,5 @@
+#g. Study i) DefaultTagger, ii) Regular expression tagger, iii) UnigramTagger
+
 import nltk
 from nltk.tag import DefaultTagger
 from nltk.corpus import treebank

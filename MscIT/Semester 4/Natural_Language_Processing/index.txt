@@ -1,0 +1,72 @@
+Prac1A: Convert file Text to Speech
+Prac1B: Convert file Speech to Text
+
+-------------------------------------
+
+Prac2A: Study of various corpus – Brown, Inaugural, Reuters, udhr with various methods like fields, raw, words, sents, categories
+Prac2B: Create and use your own corpora (plaintext, categorical)
+Prac2C: Study conditional frequency distribution
+Prac2D: Study of tagged corpora with methods like tagged_sents, tagged_words
+Prac2E: Write a program to find the most frequent noun tags
+Prac2F: Map words to the properties using Python Dictionaries
+Prac2G: Study i) DefaultTagger, ii) Regular expression tagger, iii) UnigramTagger
+Prac2H: Find different words from a given plaintext without any spaces by comparing this text with a given corpus of words. Also find the score of words
+
+-------------------------------------
+
+Prac3A: Study of Wordnet Dictionary with methods as synsets, definitions, examples, antonyms
+Prac3B: Study lemmas, hyponyms, hypernyms, entailments
+Prac3C: Write a program using Python to find synonym and antonym of the word "active" using Wordnet
+Prac3D: Compare two nouns
+Prac3E: Handling stopword: i) Using nltk, add or remove stop words in NLTK's Default stop word list; ii) Using Gensim, add or remove stop words in Default Gensim stop words List; iii) Using SpaCy, add or remove Stop Words in Default SpaCy stop words List
+
+-------------------------------------
+
+Prac4A: Tokenization using Python’s split() function
+Prac4B: Tokenization using Regular Expression (RegEx)
+Prac4C: Tokenization using NLTK
+Prac4D: Tokenization using spaCy library
+Prac4E: Tokenization using Keras
+Prac4F: Tokenization using Gensim
+
+-------------------------------------
+
+Prac5A: Word tokenization in Hindi
+Prac5B: Generate similar sentences from a given Hindi text input
+Prac5C: Identify the Indian language from the given text
+
+-------------------------------------
+
+Prac6A: Part of speech Tagging and chunking of user-defined text
+Prac6B: Named Entity recognition of user-defined text
+Prac6C: Named Entity recognition with diagram using NLTK corpus - treebank
+
+-------------------------------------
+
+Prac7A: Define grammar using nltk. Analyze a sentence using the same
+Prac7B: Accept the input string with Regular expression of FA: 101+
+Prac7C: Accept the input string with Regular expression of FA: (a+b)*bba
+Prac7D: Implementation of Deductive Chart Parsing using context-free grammar and a given sentence
+
+-------------------------------------
+
+Prac8A: Study PorterStemmer, LancasterStemmer, RegexpStemmer, SnowballStemmer
+Prac8B: Study WordNet Lemmatizer
+
+-------------------------------------
+
+Prac9A: Implement Naive Bayes classifier
+
+-------------------------------------
+
+Prac10A: Speech tagging using spacy
+Prac10B: Speech tagging using NLTK
+Prac10C: Usage of Give and Gave in the Penn Treebank sample
+Prac10D: Probabilistic parser
+Prac10E: Parse a sentence and draw a tree using malt parsing
+
+-------------------------------------
+
+Prac11A: Multiword Expressions in NLP
+Prac11B: Normalized Web Distance and Word Similarity
+Prac11C: Word Sense Disambiguation

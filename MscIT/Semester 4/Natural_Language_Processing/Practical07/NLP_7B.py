@@ -20,3 +20,38 @@ def FA(s):
 inputs = ['1', '10101', '101', '10111', '01010', '100', '', '10111101', '1011111']
 for i in inputs:
     print(FA(i))
+
+
+
+############# Another method ##############
+'''
+
+################################
+
+# Accept the input string with Regular expression of FA 101.txt
+import re
+
+def validate_string(input_string):
+    # Define the regular expression pattern
+    pattern = r'^101+$'
+
+    # Check if the input string matches the pattern
+    if re.match(pattern, input_string):
+        return True
+    else:
+        return False
+
+# Accept user input
+input_string = input("Enter a string: ")
+
+# Validate the input string
+if validate_string(input_string):
+    print("The input string is valid and matches the pattern 101+.")
+else:
+    print("The input string is invalid and does not match the pattern 101+.")
+
+# Example inputs:
+# Valid: "101", "10101", "1010101", etc.
+# Invalid: "1001", "111", "1010", etc.
+
+'''
